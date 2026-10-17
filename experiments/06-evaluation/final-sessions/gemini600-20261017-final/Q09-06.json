@@ -1,0 +1,1953 @@
+{
+  "scenario": 9,
+  "turn": 6,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+  "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+  "message_id": "e3200541-45b4-4d5d-b870-4c2e26b4af86",
+  "question": "Of all the wells we've talked about today, which one would you deal with first, and why?",
+  "started_at": "2026-10-17T12:10:26.496463+00:00",
+  "status": "partial",
+  "file": "Q09-06.json",
+  "answer_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+  "error": null,
+  "panels": [
+    "table",
+    "status",
+    "table",
+    "table"
+  ],
+  "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+    "thread_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 3,
+    "reference_date": "2027-01-15",
+    "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+    "blocks": [
+      {
+        "id": "23533b45-9434-430f-9fc5-84c9222d2f5f:verified:0",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_6fb5367b99b74026a16a13e7fc900392",
+        "evidence_ids": [
+          "ev_630cef1e4aa799df8e2fccad",
+          "ev_7d2c23506c4235f10b0ad4dc",
+          "ev_10f81cb7ad845d11b36df907",
+          "ev_4371b543bf6ff84ae3f16af0",
+          "ev_8e52e8571479c9093bda4011",
+          "ev_ac144f6fdc32e94f6e3d0156",
+          "ev_33f55a968e2d40fc727ca6db",
+          "ev_fab0de95336e9201c10980e6"
+        ],
+        "encoding": {},
+        "span": 2
+      },
+      {
+        "id": "23533b45-9434-430f-9fc5-84c9222d2f5f:verified:1",
+        "type": "status",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_b5066442b71b4ab49ed3872e6f8ab56d",
+        "evidence_ids": [
+          "ev_fab0de95336e9201c10980e6",
+          "result_b5066442b71b4ab49ed3872e6f8ab56d",
+          "ev_630cef1e4aa799df8e2fccad",
+          "ev_ba79b09a608a7421c875adcd",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c"
+        ],
+        "encoding": {
+          "label": "asset_id",
+          "value": "delta_c",
+          "status": "producing"
+        },
+        "span": 2
+      },
+      {
+        "id": "23533b45-9434-430f-9fc5-84c9222d2f5f:verified:2",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_aae7926df37145cc9b092822cc258f5e",
+        "evidence_ids": [
+          "ev_a1612e0f1d7e31483dbfc633",
+          "ev_5f3bd23741050b0cca19e675",
+          "src_db16880a486fec53f9546f4a",
+          "src_853c7f7623412e1b78b5e791",
+          "ev_6783450ed0e97a9354a9adcd",
+          "ev_7abfc9900f22a11b1636e89d",
+          "ev_356b3b677a5873825286ba11",
+          "result_aae7926df37145cc9b092822cc258f5e"
+        ],
+        "encoding": {},
+        "span": 2
+      },
+      {
+        "id": "23533b45-9434-430f-9fc5-84c9222d2f5f:verified:3",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_9c6f88819933413189595c22368487c9",
+        "evidence_ids": [
+          "ev_630cef1e4aa799df8e2fccad",
+          "result_9c6f88819933413189595c22368487c9",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c"
+        ],
+        "encoding": {},
+        "span": 2
+      }
+    ],
+    "results": {
+      "result_6fb5367b99b74026a16a13e7fc900392": {
+        "result_set_id": "result_6fb5367b99b74026a16a13e7fc900392",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 3,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "latest_note_at",
+            "label": "Latest Note At"
+          },
+          {
+            "key": "latest_note_quote",
+            "label": "Latest Note Quote"
+          },
+          {
+            "key": "other_warning_signs",
+            "label": "Other Warning Signs"
+          },
+          {
+            "key": "recent_readings",
+            "label": "Recent Readings"
+          },
+          {
+            "key": "thermal_warning",
+            "label": "Thermal Warning"
+          },
+          {
+            "key": "operator_notes",
+            "label": "Operator Notes"
+          },
+          {
+            "key": "warning_note_count",
+            "label": "Warning Note Count"
+          },
+          {
+            "key": "last_repair_id",
+            "label": "Last Repair Id"
+          },
+          {
+            "key": "last_repair_at",
+            "label": "Last Repair At"
+          },
+          {
+            "key": "producing",
+            "label": "Producing"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          },
+          {
+            "key": "priority_score",
+            "label": "Priority Score"
+          },
+          {
+            "key": "ranking_basis",
+            "label": "Ranking Basis"
+          },
+          {
+            "key": "rank",
+            "label": "Rank"
+          }
+        ],
+        "rows": [
+          {
+            "warning_note_count": 2,
+            "asset_id": "WELL-0332",
+            "latest_note_quote": "Pumper reports rattling at WELL-0332 pump jack, keep an eye on it.",
+            "operator_notes": "[{\"note_id\": \"CTX-0332-005\", \"date\": \"2026-12-31T19:40:00Z\", \"quote\": \"Rod squeal at WELL-0332 stuffing box, greased the polished rod.\"}, {\"note_id\": \"CTX-0332-006\", \"date\": \"2027-01-03T13:15:00Z\", \"quote\": \"Pumper reports rattling at WELL-0332 pump jack, keep an eye on it.\"}]",
+            "rank": 1,
+            "producing": false,
+            "priority_score": 4,
+            "thermal_warning": null,
+            "last_repair_id": "MNT-0332-027",
+            "last_repair_at": "2026-02-14T08:00:00Z",
+            "latest_note_at": "2027-01-03T13:15:00Z",
+            "area_name": "Northwest Block 12",
+            "area_id": "NW-12",
+            "other_warning_signs": "Currently not producing",
+            "ranking_basis": "Unrepaired symptom-note count +2 if currently not producing +3 for an unreconciled supplied ESP four-reading declining-delta warning in the note window; heuristic, not a calibrated 90-day forecast",
+            "assessment": "candidate",
+            "recent_readings": "[{\"inspection_id\": \"INS-0332-0214\", \"inspected_at\": \"2026-12-17T14:15:00Z\", \"well_type\": \"T200\", \"delta_c\": 22.9, \"delta_milli\": 22900, \"producing\": true}, {\"inspection_id\": \"INS-0332-0215\", \"inspected_at\": \"2026-12-24T09:30:00Z\", \"well_type\": \"T200\", \"delta_c\": 29.3, \"delta_milli\": 29300, \"producing\": true}, {\"inspection_id\": \"INS-0332-0216\", \"inspected_at\": \"2027-01-07T08:00:00Z\", \"well_type\": \"T200\", \"delta_c\": 29.1, \"delta_milli\": 29100, \"producing\": true}, {\"inspection_id\": \"INS-0332-0217\", \"inspected_at\": \"2027-01-14T14:45:00Z\", \"well_type\": \"T200\", \"delta_c\": 0.5, \"delta_milli\": 500, \"producing\": false}]"
+          }
+        ],
+        "evidence_ids": [
+          "ev_630cef1e4aa799df8e2fccad",
+          "ev_7d2c23506c4235f10b0ad4dc",
+          "ev_10f81cb7ad845d11b36df907",
+          "ev_4371b543bf6ff84ae3f16af0",
+          "ev_8e52e8571479c9093bda4011",
+          "ev_ac144f6fdc32e94f6e3d0156",
+          "ev_33f55a968e2d40fc727ca6db",
+          "ev_fab0de95336e9201c10980e6",
+          "result_6fb5367b99b74026a16a13e7fc900392"
+        ],
+        "provider_coverage": {
+          "unit": "repair_candidates",
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 1,
+          "output_rows": 1,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_d5de65ef2e2443a4a2d32a104bdcf7a7",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented."
+        ],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "maintenance",
+          "metric": "repair_candidates"
+        },
+        "coverage": {
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0
+        }
+      },
+      "result_b5066442b71b4ab49ed3872e6f8ab56d": {
+        "result_set_id": "result_b5066442b71b4ab49ed3872e6f8ab56d",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 3,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "well_type",
+            "label": "Well Type"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "recorded_status",
+            "label": "Recorded Status"
+          },
+          {
+            "key": "lat",
+            "label": "Lat"
+          },
+          {
+            "key": "lon",
+            "label": "Lon"
+          },
+          {
+            "key": "inspection_id",
+            "label": "Inspection Id"
+          },
+          {
+            "key": "inspected_at",
+            "label": "Inspected At"
+          },
+          {
+            "key": "inspector_name",
+            "label": "Inspector Name"
+          },
+          {
+            "key": "method",
+            "label": "Method"
+          },
+          {
+            "key": "ambient_temp_c",
+            "label": "Ambient Temp C",
+            "unit": "C"
+          },
+          {
+            "key": "wellhead_temp_c",
+            "label": "Wellhead Temp C",
+            "unit": "C"
+          },
+          {
+            "key": "delta_c",
+            "label": "Delta C",
+            "unit": "C"
+          },
+          {
+            "key": "threshold_c",
+            "label": "Threshold C",
+            "unit": "C"
+          },
+          {
+            "key": "inspection_producing",
+            "label": "Inspection Producing"
+          },
+          {
+            "key": "producing",
+            "label": "Producing"
+          },
+          {
+            "key": "spill_detected",
+            "label": "Spill Detected"
+          },
+          {
+            "key": "spill_est_volume_bbl",
+            "label": "Spill Est Volume Bbl",
+            "unit": "bbl"
+          },
+          {
+            "key": "notes",
+            "label": "Notes"
+          },
+          {
+            "key": "unknown_count",
+            "label": "Unknown Count"
+          },
+          {
+            "key": "inspection_well_type",
+            "label": "Inspection Well Type"
+          },
+          {
+            "key": "recorded_at",
+            "label": "Recorded At"
+          },
+          {
+            "key": "team_id",
+            "label": "Team Id"
+          },
+          {
+            "key": "team_name",
+            "label": "Team Name"
+          },
+          {
+            "key": "status_confirmed",
+            "label": "Status Confirmed"
+          },
+          {
+            "key": "status_source",
+            "label": "Status Source"
+          },
+          {
+            "key": "latest_status_note_id",
+            "label": "Latest Status Note Id"
+          },
+          {
+            "key": "latest_status_note_at",
+            "label": "Latest Status Note At"
+          },
+          {
+            "key": "latest_status_note_text",
+            "label": "Latest Status Note Text"
+          },
+          {
+            "key": "latest_status_note_author_user_id",
+            "label": "Latest Status Note Author User Id"
+          },
+          {
+            "key": "status_note_disagrees",
+            "label": "Status Note Disagrees"
+          },
+          {
+            "key": "status_now",
+            "label": "Status Now"
+          },
+          {
+            "key": "decommissioned_on",
+            "label": "Decommissioned On"
+          }
+        ],
+        "rows": [
+          {
+            "delta_c": 0.5,
+            "asset_id": "WELL-0332",
+            "well_type": "T200",
+            "latest_status_note_text": "Restarted WELL-0332 after the crew cleared the lockout.",
+            "producing": false,
+            "lon": -102.61928,
+            "method": "drone",
+            "latest_status_note_at": "2026-11-20T20:00:00Z",
+            "team_name": "Northwest Production",
+            "threshold_c": 15.0,
+            "lat": 32.2338,
+            "team_id": "TEAM-NW",
+            "recorded_status": "active",
+            "spill_est_volume_bbl": null,
+            "status_source": "inspection",
+            "latest_status_note_id": "CTX-0332-003",
+            "status_note_disagrees": true,
+            "wellhead_temp_c": 10.9,
+            "notes": "",
+            "decommissioned_on": null,
+            "area_name": "Northwest Block 12",
+            "inspected_at": "2027-01-14T14:45:00Z",
+            "spill_detected": false,
+            "status_confirmed": true,
+            "inspector_name": "Caleb Whitaker",
+            "inspection_well_type": "T200",
+            "latest_status_note_author_user_id": "U-602",
+            "recorded_at": null,
+            "ambient_temp_c": 10.4,
+            "inspection_id": "INS-0332-0217",
+            "status_now": "Not producing oil",
+            "inspection_producing": false,
+            "area_id": "NW-12",
+            "unknown_count": 0
+          }
+        ],
+        "evidence_ids": [
+          "ev_fab0de95336e9201c10980e6",
+          "result_b5066442b71b4ab49ed3872e6f8ab56d",
+          "ev_630cef1e4aa799df8e2fccad",
+          "ev_ba79b09a608a7421c875adcd",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c"
+        ],
+        "provider_coverage": {
+          "unit": "matching_source_record",
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "output_rows": 1,
+          "displayed_rows": 1,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_5f507ebfc6b44d01abe9fcd78c412713",
+        "warnings": [],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "assets",
+          "metric": "status"
+        },
+        "coverage": {
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0
+        }
+      },
+      "result_aae7926df37145cc9b092822cc258f5e": {
+        "result_set_id": "result_aae7926df37145cc9b092822cc258f5e",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 3,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "serial",
+            "label": "Serial"
+          },
+          {
+            "key": "lot",
+            "label": "Lot"
+          },
+          {
+            "key": "parts_installed",
+            "label": "Parts Installed"
+          },
+          {
+            "key": "installation_job",
+            "label": "Installation Job"
+          },
+          {
+            "key": "installed_at",
+            "label": "Installed At"
+          },
+          {
+            "key": "installation_cost_usd",
+            "label": "Installation Cost Usd",
+            "unit": "USD"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          },
+          {
+            "key": "documented_in_ground",
+            "label": "Documented In Ground"
+          },
+          {
+            "key": "included_in_operational_recall_list",
+            "label": "Included In Operational Recall List"
+          },
+          {
+            "key": "work_order_verified",
+            "label": "Work Order Verified"
+          },
+          {
+            "key": "replacement_claims",
+            "label": "Replacement Claims"
+          },
+          {
+            "key": "producing",
+            "label": "Producing"
+          },
+          {
+            "key": "status_now",
+            "label": "Status Now"
+          },
+          {
+            "key": "status_confirmed",
+            "label": "Status Confirmed"
+          },
+          {
+            "key": "last_repair_id",
+            "label": "Last Repair Id"
+          },
+          {
+            "key": "last_repair_at",
+            "label": "Last Repair At"
+          },
+          {
+            "key": "last_repair_equipment",
+            "label": "Last Repair Equipment"
+          }
+        ],
+        "rows": [
+          {
+            "asset_id": "WELL-0333",
+            "replacement_claims": "[{\"id\": \"memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765\", \"author\": \"U-601\", \"statement\": \"The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on.\", \"valid_from\": \"2027-01-15\", \"valid_to\": null, \"status\": \"unconfirmed\", \"conflicts\": [\"memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca\"], \"qualifier\": null}, {\"id\": \"memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca\", \"author\": \"U-601\", \"statement\": \"A pump replacement was performed on 2027-01-14, pending system documentation.\", \"valid_from\": null, \"valid_to\": null, \"status\": \"attributed\", \"conflicts\": [], \"qualifier\": null}]",
+            "producing": true,
+            "included_in_operational_recall_list": true,
+            "lot": "LOT-2409-A",
+            "last_repair_id": "MNT-0333-026",
+            "last_repair_at": "2026-06-06T08:00:00Z",
+            "area_name": "Northwest Block 12",
+            "work_order_verified": false,
+            "assessment": "replacement_claim_unconfirmed",
+            "serial": "SN-507591",
+            "status_confirmed": true,
+            "last_repair_equipment": "flowline",
+            "installation_cost_usd": 15440,
+            "parts_installed": "Highline RP-175 pump, serial SN-507591, lot LOT-2409-A",
+            "documented_in_ground": true,
+            "installation_job": "MNT-0333-024",
+            "status_now": "Producing oil",
+            "installed_at": "2026-05-26T19:00:00Z",
+            "area_id": "NW-12"
+          }
+        ],
+        "evidence_ids": [
+          "ev_a1612e0f1d7e31483dbfc633",
+          "ev_5f3bd23741050b0cca19e675",
+          "src_db16880a486fec53f9546f4a",
+          "src_853c7f7623412e1b78b5e791",
+          "ev_6783450ed0e97a9354a9adcd",
+          "ev_7abfc9900f22a11b1636e89d",
+          "ev_356b3b677a5873825286ba11",
+          "result_aae7926df37145cc9b092822cc258f5e"
+        ],
+        "provider_coverage": {
+          "unit": "recall_inventory",
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 1,
+          "output_rows": 1,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_663dc2e304684f3cb418eab15d13509d",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Physical inventory and operational count are separate: explicit direct attributed replacement instruction changes operational count with unverified-work-order flag; hearsay does not. No claim becomes inspected physical evidence.",
+          "Installation cost is recorded total job cost, not pump-only price or paid expenditure."
+        ],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "maintenance",
+          "metric": "recall_inventory"
+        },
+        "coverage": {
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0
+        }
+      },
+      "result_9c6f88819933413189595c22368487c9": {
+        "result_set_id": "result_9c6f88819933413189595c22368487c9",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 3,
+        "columns": [
+          {
+            "key": "note_id",
+            "label": "Note Id"
+          },
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "author_user_id",
+            "label": "Author User Id"
+          },
+          {
+            "key": "created_at",
+            "label": "Created At"
+          },
+          {
+            "key": "note_type",
+            "label": "Note Type"
+          },
+          {
+            "key": "inspection_id",
+            "label": "Inspection Id"
+          },
+          {
+            "key": "text",
+            "label": "Text"
+          },
+          {
+            "key": "valid_from",
+            "label": "Valid From"
+          },
+          {
+            "key": "valid_to",
+            "label": "Valid To"
+          }
+        ],
+        "rows": [
+          {
+            "valid_from": "2024-08-15",
+            "asset_id": "WELL-0332",
+            "created_at": "2024-08-15T18:00:00Z",
+            "note_id": "CTX-0332-001",
+            "inspection_id": null,
+            "valid_to": "2024-09-05",
+            "author_user_id": "U-601",
+            "text": "Workover rig delayed by weather; restart pushed back about a week.",
+            "note_type": "operator_note"
+          },
+          {
+            "valid_from": "2026-11-20",
+            "asset_id": "WELL-0332",
+            "created_at": "2026-11-20T06:30:00Z",
+            "note_id": "CTX-0332-002",
+            "inspection_id": null,
+            "valid_to": null,
+            "author_user_id": "U-606",
+            "text": "Shut-in WELL-0332 so the maintenance crew can start work.",
+            "note_type": "operator_note"
+          },
+          {
+            "valid_from": "2026-11-20",
+            "asset_id": "WELL-0332",
+            "created_at": "2026-11-20T20:00:00Z",
+            "note_id": "CTX-0332-003",
+            "inspection_id": null,
+            "valid_to": null,
+            "author_user_id": "U-602",
+            "text": "Restarted WELL-0332 after the crew cleared the lockout.",
+            "note_type": "operator_note"
+          },
+          {
+            "valid_from": "2026-12-03",
+            "asset_id": "WELL-0332",
+            "created_at": "2026-12-03T12:10:00Z",
+            "note_id": "CTX-0332-004",
+            "inspection_id": null,
+            "valid_to": null,
+            "author_user_id": "U-602",
+            "text": "Gas odor reported by the pumper near WELL-0332 wellhead, area flagged off.",
+            "note_type": "operator_note"
+          },
+          {
+            "valid_from": "2026-12-31",
+            "asset_id": "WELL-0332",
+            "created_at": "2026-12-31T19:40:00Z",
+            "note_id": "CTX-0332-005",
+            "inspection_id": null,
+            "valid_to": null,
+            "author_user_id": "U-604",
+            "text": "Rod squeal at WELL-0332 stuffing box, greased the polished rod.",
+            "note_type": "operator_note"
+          },
+          {
+            "valid_from": "2027-01-03",
+            "asset_id": "WELL-0332",
+            "created_at": "2027-01-03T13:15:00Z",
+            "note_id": "CTX-0332-006",
+            "inspection_id": null,
+            "valid_to": null,
+            "author_user_id": "U-606",
+            "text": "Pumper reports rattling at WELL-0332 pump jack, keep an eye on it.",
+            "note_type": "operator_note"
+          }
+        ],
+        "evidence_ids": [
+          "ev_630cef1e4aa799df8e2fccad",
+          "result_9c6f88819933413189595c22368487c9",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c"
+        ],
+        "provider_coverage": {
+          "unit": "matching_source_record",
+          "matching": 6,
+          "evaluated": 6,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "output_rows": 6,
+          "displayed_rows": 6,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_66b401bd8ef745ecad561601042411b8",
+        "warnings": [],
+        "bounds": {
+          "start": null,
+          "end": "2027-01-15",
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "context_notes",
+          "metric": "records"
+        },
+        "coverage": {
+          "matching": 6,
+          "evaluated": 6,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_630cef1e4aa799df8e2fccad": {
+        "id": "ev_630cef1e4aa799df8e2fccad",
+        "title": "WELL-0332",
+        "source_kind": "metadata",
+        "source_id": "src_1dde2aac8f318474821aa0ca",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0332\", \"equipment\": [{\"equipment_id\": \"WELL-0332-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0332-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0332-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0332-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0332-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0332-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2017-08-26\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:45:00Z\", \"inspection_id\": \"INS-0332-0217\", \"inspector_user_id\": \"U-603\"}, \"location\": {\"lat\": 32.2338, \"lon\": -102.61928}, \"name\": \"NW-12 Well 332\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0332/metadata.json"
+      },
+      "ev_7d2c23506c4235f10b0ad4dc": {
+        "id": "ev_7d2c23506c4235f10b0ad4dc",
+        "title": "CTX-0332-005",
+        "source_kind": "context",
+        "source_id": "src_e0e3eaab7de9d4dd04af1edb",
+        "excerpt": "{\"asset_id\": \"WELL-0332\", \"author_user_id\": \"U-604\", \"created_at\": \"2026-12-31T19:40:00Z\", \"note_id\": \"CTX-0332-005\", \"note_type\": \"operator_note\", \"text\": \"Rod squeal at WELL-0332 stuffing box, greased the polished rod.\", \"valid_from\": \"2026-12-31\", \"valid_to\": null}",
+        "path": "assets/WELL-0332/context.jsonl"
+      },
+      "ev_10f81cb7ad845d11b36df907": {
+        "id": "ev_10f81cb7ad845d11b36df907",
+        "title": "CTX-0332-006",
+        "source_kind": "context",
+        "source_id": "src_e0e3eaab7de9d4dd04af1edb",
+        "excerpt": "{\"asset_id\": \"WELL-0332\", \"author_user_id\": \"U-606\", \"created_at\": \"2027-01-03T13:15:00Z\", \"note_id\": \"CTX-0332-006\", \"note_type\": \"operator_note\", \"text\": \"Pumper reports rattling at WELL-0332 pump jack, keep an eye on it.\", \"valid_from\": \"2027-01-03\", \"valid_to\": null}",
+        "path": "assets/WELL-0332/context.jsonl"
+      },
+      "ev_4371b543bf6ff84ae3f16af0": {
+        "id": "ev_4371b543bf6ff84ae3f16af0",
+        "title": "MNT-0332-027",
+        "source_kind": "maintenance",
+        "source_id": "src_3d9cec0051458ebc99f765f2",
+        "excerpt": "{\"action_taken\": \"Cut out and replaced the corroded flowline section\", \"asset_id\": \"WELL-0332\", \"completed_at\": \"2026-02-25T04:00:00Z\", \"contractor\": \"Tumbleweed Flowline Co.\", \"cost_usd\": {\"labor\": 1920, \"parts\": 2445, \"total\": 4365}, \"downtime_hours\": 260, \"equipment_kind\": \"flowline\", \"issue\": \"Flowline corrosion pinhole leak\", \"maintenance_id\": \"MNT-0332-027\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0332-027.md\", \"started_at\": \"2026-02-14T08:00:00Z\", \"technician_user_id\": \"U-302\", \"triggered_by_inspection_id\": \"INS-0332-0172\"}",
+        "path": "assets/WELL-0332/maintenance.jsonl"
+      },
+      "ev_8e52e8571479c9093bda4011": {
+        "id": "ev_8e52e8571479c9093bda4011",
+        "title": "INS-0332-0214",
+        "source_kind": "inspections",
+        "source_id": "src_69cc9bd85277097f9cf6b326",
+        "excerpt": "{\"ambient_temp_c\": 6.3, \"asset_id\": \"WELL-0332\", \"evidence_images\": [\"evidence/WELL-0332/2026-12-17_rgb.jpg\", \"evidence/WELL-0332/2026-12-17_thermal.jpg\"], \"inspected_at\": \"2026-12-17T14:15:00Z\", \"inspection_id\": \"INS-0332-0214\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 29.2}",
+        "path": "assets/WELL-0332/inspections.jsonl"
+      },
+      "ev_ac144f6fdc32e94f6e3d0156": {
+        "id": "ev_ac144f6fdc32e94f6e3d0156",
+        "title": "INS-0332-0215",
+        "source_kind": "inspections",
+        "source_id": "src_69cc9bd85277097f9cf6b326",
+        "excerpt": "{\"ambient_temp_c\": 9.7, \"asset_id\": \"WELL-0332\", \"evidence_images\": [\"evidence/WELL-0332/2026-12-24_rgb.jpg\", \"evidence/WELL-0332/2026-12-24_thermal.jpg\"], \"inspected_at\": \"2026-12-24T09:30:00Z\", \"inspection_id\": \"INS-0332-0215\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 39.0}",
+        "path": "assets/WELL-0332/inspections.jsonl"
+      },
+      "ev_33f55a968e2d40fc727ca6db": {
+        "id": "ev_33f55a968e2d40fc727ca6db",
+        "title": "INS-0332-0216",
+        "source_kind": "inspections",
+        "source_id": "src_69cc9bd85277097f9cf6b326",
+        "excerpt": "{\"ambient_temp_c\": 9.6, \"asset_id\": \"WELL-0332\", \"evidence_images\": [\"evidence/WELL-0332/2027-01-07_rgb.jpg\", \"evidence/WELL-0332/2027-01-07_thermal.jpg\"], \"inspected_at\": \"2027-01-07T08:00:00Z\", \"inspection_id\": \"INS-0332-0216\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 38.7}",
+        "path": "assets/WELL-0332/inspections.jsonl"
+      },
+      "ev_fab0de95336e9201c10980e6": {
+        "id": "ev_fab0de95336e9201c10980e6",
+        "title": "INS-0332-0217",
+        "source_kind": "inspections",
+        "source_id": "src_69cc9bd85277097f9cf6b326",
+        "excerpt": "{\"ambient_temp_c\": 10.4, \"asset_id\": \"WELL-0332\", \"evidence_images\": [\"evidence/WELL-0332/2027-01-14_rgb.jpg\", \"evidence/WELL-0332/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T14:45:00Z\", \"inspection_id\": \"INS-0332-0217\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 10.9}",
+        "path": "assets/WELL-0332/inspections.jsonl"
+      },
+      "result_6fb5367b99b74026a16a13e7fc900392": {
+        "id": "result_6fb5367b99b74026a16a13e7fc900392",
+        "title": "result_6fb5367b99b74026a16a13e7fc900392",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_6fb5367b99b74026a16a13e7fc900392"
+      },
+      "result_b5066442b71b4ab49ed3872e6f8ab56d": {
+        "id": "result_b5066442b71b4ab49ed3872e6f8ab56d",
+        "title": "result_b5066442b71b4ab49ed3872e6f8ab56d",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_b5066442b71b4ab49ed3872e6f8ab56d"
+      },
+      "ev_ba79b09a608a7421c875adcd": {
+        "id": "ev_ba79b09a608a7421c875adcd",
+        "title": "CTX-0332-003",
+        "source_kind": "context",
+        "source_id": "src_e0e3eaab7de9d4dd04af1edb",
+        "excerpt": "{\"asset_id\": \"WELL-0332\", \"author_user_id\": \"U-602\", \"created_at\": \"2026-11-20T20:00:00Z\", \"note_id\": \"CTX-0332-003\", \"note_type\": \"operator_note\", \"text\": \"Restarted WELL-0332 after the crew cleared the lockout.\", \"valid_from\": \"2026-11-20\", \"valid_to\": null}",
+        "path": "assets/WELL-0332/context.jsonl"
+      },
+      "src_215c78036f52b5303b330fe0": {
+        "id": "src_215c78036f52b5303b330fe0",
+        "title": "fleet/well-types/T200.md",
+        "source_kind": "manual",
+        "source_id": "src_215c78036f52b5303b330fe0",
+        "excerpt": "# T200 Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> sucker-rod (beam pump) well practice. Not for real-world operational use.\n\nDocument ID: OM-T200 · Revision 4 · Applies to all wells with `well_type = \"T200\"`\n\n## 1. Scope\n\nThis manual covers the T200 class of onshore rod-lift (beam pump) oil wells: a\nconventional wellhead, a surface pump jack (walking-beam pumping unit), a sucker\nrod string, an insert downhole pump and a 3-inch carbon-steel flowline to the\narea gathering line. Some T200 pads also carry a two-phase vertical separator.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-3000 | Seals the well, holds the stuffing box and production valves |\n| Pump jack | PJ-228 | Converts motor rotation to reciprocating rod motion |\n| Rod string | API Grade D 7/8 in | Transmits motion from the pump jack to the downhole pump |\n| Downhole pump | Insert rod pump 1.75 in | Lifts fluid from the reservoir |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\n## 3. Normal operation\n\nA producing T200 well cycles continuously at 6–9 strokes per minute. Produced\nfluid leaves the reservoir warmer than the surface air, so a producing wellhead\nruns noticeably warmer than ambient. When the pump stops, the\nwellhead cools to near ambient within a few hours.\n\nOperators should expect daily and seasonal variation. On hot summer afternoons\nthe steel of an idle wellhead can read well above 45 °C from solar heating alone.\n**Never judge production from absolute wellhead temperature.**\n\n## 4. Start-up and shut-in\n\n1. Confirm the flowline valve is open and the separator (if fitted) is at operating level.\n2. Release the pump jack brake and start the prime mover.\n3. Confirm stroke rate within 6–9 spm and check the stuffing box for leaks.\n4. For a planned shut-in, stop the prime mover at the bottom of the stroke, set the brake,\n   close the wing valve and record the shut-in in the maintenance system before work starts.\n\n## 5. Routine inspection checklist\n\n- Visual check of pad, cellar and flowline route for staining or pooled fluid.\n- Thermal reading of the wellhead (drone or handheld).\n- Stuffing box leakage, belt condition and gearbox oil level.\n- Separator level and dump valve operation (if fitted).\n\n## 6. Lubrication schedule\n\n| Item | Interval |\n|---|---|\n| Saddle and tail bearings | 90 days |\n| Gearbox oil level check | 30 days |\n| Gearbox oil change | 12 months |\n| Belt tension | 60 days |\n\n## 7. Common failure modes\n\n| Symptom | Likely cause | First action |\n|---|---|---|\n| Unit running, wellhead cold | Rod parted or pump stuck | Shut in, call rod/pump crew |\n| Unit stopped, motor hot | Prime mover overload | Reset overload, check cooling |\n| Oil on gearbox base | Seal failure | Replace seals |\n| Staining along flowline | Corrosion pinhole or coupling failure | Shut in, contain, report per SOP SR |\n| Stuffing box weeping | Worn packing | Replace packing |\n\n## 8. Spill response on the pad\n\nAny crude release must be handled under the company Spill Response SOP\n(`sops/spill-response-sop.md`). In short: stop the source, contain, estimate the\nvolume, and report within the deadline set by the SOP.\n\n## 9. Engineering limits\n\n### 9.1 Pressure\nMaximum allowable wellhead working pressure: 3,000 psi.\n\n### 9.2 Stroke\nMaximum stroke rate: 10 spm. Maximum polished-rod load: 22,800 lb.\n\n### 9.3 Production temperature rule\nA T200 well is considered **producing (active)** when its wellhead temperature is\nat least **15 °C above ambient** air temperature at the time of the reading. A\ndifference below 15 °C means the well is **not producing** for that reading,\nwhatever the absolute temperature.\n\n### 9.4 Temperature alarm\nThe wellhead must stay **at or below 85 °C**. Any reading above 85 °C requires the\noperator to shut in and inspect the stuffing box and rod string within 24 hours.\n\n### 9.5 Spill-related shut-in\nIf a spill covers **more than 5 % of the pad area**, shut in the well immediately and\nkeep it shut in until the source is repaired.\n\n## 10. Maintenance escalation\n\n- Three or more **corrective** maintenance events on the same equipment kind in the\n  12 months before the current date require a root-cause analysis (RCA) before the next repair is closed.\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n\n## 11. Records\n\nEvery inspection, maintenance job and shut-in must be recorded. Human notes that\nexplain an abnormal reading (for example a planned shut-in) are valid context and\nshould be considered alongside the sensor data.\n",
+        "path": "fleet/well-types/T200.md"
+      },
+      "src_0b27ec48fd9b0f16a6cd84c6": {
+        "id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "title": "fleet/well-types/T350.md",
+        "source_kind": "manual",
+        "source_id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "excerpt": "# T350 Deep Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Not for real-world use.\n\nDocument ID: OM-T350 · Revision 2 · Applies to all wells with `well_type = \"T350\"`\n\n## 1. Scope\n\nThe T350 is a deeper, higher-rate version of the T200 rod-lift well. It uses a\nWH-5000 wellhead, a PJ-456 pump jack and the same rod, pump and\nflowline families as the T200. Procedures not listed here follow the T200 manual.\n\n## 2. Differences from T200\n\n| Item | T200 | T350 |\n|---|---|---|\n| Wellhead rating | 3,000 psi | 5,000 psi |\n| Pump jack | PJ-228 | PJ-456 |\n| Normal stroke rate | 6–9 spm | 5–8 spm |\n| Max polished-rod load | 22,800 lb | 45,600 lb |\n\n## 3. Production temperature rule\n\nBecause T350 fluid comes from a deeper, hotter zone, a T350 well is considered\n**producing (active)** only when its wellhead temperature is at least **20 °C above\nambient** air temperature at the time of the reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and inspect within 24 hours.\n\n## 5. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 6. Maintenance escalation\n\nSame as T200 section 10 (RCA after three corrective events on the same equipment\nkind within 12 months; report downtime over 14 consecutive days).\n",
+        "path": "fleet/well-types/T350.md"
+      },
+      "src_330aa8bd8455ae32332cb94c": {
+        "id": "src_330aa8bd8455ae32332cb94c",
+        "title": "fleet/well-types/T500.md",
+        "source_kind": "manual",
+        "source_id": "src_330aa8bd8455ae32332cb94c",
+        "excerpt": "# T500 Electric Submersible Pump Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> electric submersible pump (ESP) well practice. Not for real-world operational use.\n\nDocument ID: OM-T500 · Revision 1 · Applies to all wells with `well_type = \"T500\"`\n\n## 1. Scope\n\nThe T500 is a high-rate well lifted by an **electric submersible pump (ESP)** instead of a\npump jack and rod string. There is no surface pumping unit: a variable-speed drive on the\npad powers a motor and multistage pump hung on the tubing deep in the well. The wellhead,\nflowline and optional separator are the same families as on rod-lift wells.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-5000 | Seals the well, carries the power cable penetrator and production valves |\n| ESP (`esp_pump`) | ESP-400 | Downhole motor, seal section and multistage pump, with its surface drive and power cable |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\nA T500 pad has **no pump jack, rod string or rod pump**. There is no visible stroke, so a\ndrone cannot tell from movement alone whether the well is running.\n\n## 3. Production temperature rule\n\nESP wells move more fluid, and the motor adds heat. A T500 well is considered\n**producing (active)** only when its wellhead temperature is at least **25 °C above\nambient** air temperature at the time of the reading. Below 25 °C the well is **not\nproducing** for that reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and check the drive\nand motor within 24 hours.\n\n## 5. Early warning signs\n\nAn ESP runs at a steady speed, so a healthy T500 wellhead stays within a degree or two of\nits usual difference above air. ESP motors usually fail after running hot with too little\nfluid over the pump. In the weeks before a failure, the wellhead-to-air difference typically\n**falls steadily** while the well is still producing.\n\n- If the wellhead-to-air difference is **lower than at the inspection before, three\n  inspections in a row** (four readings, each lower than the last) **and has fallen by\n  3 °C or more in total** over those four readings, schedule an ESP drive and insulation\n  check within **14 days** of the third drop.\n- A ground fault or repeated trips on the drive must be treated as a failure, not reset.\n\n## 6. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 7. Maintenance escalation\n\n- **Two or more** corrective maintenance events on the **ESP** in the 12 months before the\n  current date require a root-cause analysis (RCA) before the next repair is closed.\n  (ESP pulls need a workover rig and cost far more than rod-lift repairs.)\n- For all other equipment, follow T200 section 10 (three events in 12 months).\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n",
+        "path": "fleet/well-types/T500.md"
+      },
+      "ev_a1612e0f1d7e31483dbfc633": {
+        "id": "ev_a1612e0f1d7e31483dbfc633",
+        "title": "WELL-0333",
+        "source_kind": "metadata",
+        "source_id": "src_451e620ec43b644f5d28061a",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0333\", \"equipment\": [{\"equipment_id\": \"WELL-0333-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0333-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0333-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0333-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0333-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0333-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2020-05-09\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T11:15:00Z\", \"inspection_id\": \"INS-0333-0219\", \"inspector_user_id\": \"U-603\"}, \"location\": {\"lat\": 32.20715, \"lon\": -102.60263}, \"name\": \"NW-12 Well 333\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0333/metadata.json"
+      },
+      "ev_5f3bd23741050b0cca19e675": {
+        "id": "ev_5f3bd23741050b0cca19e675",
+        "title": "MNT-0333-024",
+        "source_kind": "maintenance",
+        "source_id": "src_f5992cd915757081bcb72b6d",
+        "excerpt": "{\"action_taken\": \"Pulled and replaced downhole pump\", \"asset_id\": \"WELL-0333\", \"completed_at\": \"2026-05-26T19:00:00Z\", \"contractor\": null, \"cost_usd\": {\"labor\": 7802, \"parts\": 7638, \"total\": 15440}, \"downtime_hours\": 419, \"equipment_kind\": \"downhole_pump\", \"issue\": \"Downhole pump stuck\", \"maintenance_id\": \"MNT-0333-024\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0333-024.md\", \"started_at\": \"2026-05-09T08:00:00Z\", \"technician_user_id\": \"U-304\", \"triggered_by_inspection_id\": \"INS-0333-0183\"}",
+        "path": "assets/WELL-0333/maintenance.jsonl"
+      },
+      "src_db16880a486fec53f9546f4a": {
+        "id": "src_db16880a486fec53f9546f4a",
+        "title": "assets/WELL-0333/maintenance-reports/MNT-0333-024.md",
+        "source_kind": "report",
+        "source_id": "src_db16880a486fec53f9546f4a",
+        "asset_id": "WELL-0333",
+        "excerpt": "# Maintenance Report — MNT-0333-024\n\n**Asset:** WELL-0333 (NW-12 Well 333, T200, Northwest Block 12)\n**Equipment:** downhole pump\n**Work started:** 09 May 2026 08:00 · **Finished:** 26 May 2026 19:00 · **Well stopped for this job:** 419 hours\n**Crew lead:** Brian Coleman (U-304) · **Crew:** Megan Ward, Kevin Price\n**Triggered by:** inspection INS-0333-0183 on 2026-05-07\n**Report written:** 28 May 2026\n\n## What happened\n\nField staff reported that the wellhead was cold and the pump jack was straining with a heavy, uneven load. The thermal reading at inspection INS-0333-0183 showed the wellhead at 31.8 °C with the air at 26.7 °C, so the well was not producing. The operator shut the well in for the repair. The downhole pump was stuck, most likely from sand or scale.\nThe company workover rig was busy on other wells, so the well waited about 15 days for it; the work itself took about 2 days.\n\n## Root cause\n\nFree gas entering the pump stopped it from filling, and the dry plunger seized.\n\n## Safety and permits\n\n- Pre-job safety meeting held with the crew before work started (WS-01).\n- Energy isolated: prime mover stopped at the bottom of the stroke, brake set and chained, motor disconnect locked and tagged, wellhead wing valve closed and tagged, pressure bled off (WS-02).\n- Personal H2S monitors worn; highest reading 2 ppm, below the 10 ppm stop-work level (WS-03).\n\n**Parts installed:** Highline RP-175 pump, serial SN-507591, lot LOT-2409-A\n\n## Work done\n\n1. Rigged up the company workover rig on the well.\n2. Pulled the rods and the insert pump.\n3. Inspected the pump: sand in the barrel and a worn plunger.\n4. Ran in a new insert pump.\n5. Re-spaced the pump and hung the rods back on.\n\nSummary of the fix: pulled and replaced downhole pump.\n\n## Testing and return to service\n\nPump test confirmed fluid to surface and the wellhead warmed back to normal. The well was returned to production.\n\n## Parts and cost\n\n| Item | USD |\n|---|---|\n| Insert rod pump | 4,965 |\n| Rig services | 1,910 |\n| Consumables | 763 |\n| Labour (company crew) | 7,802 |\n| **Total** | **15,440** |\n\n## Compliance check\n\n| Protocol | Result | Detail |\n|---|---|---|\n| WS-01 | Met | Meeting held and recorded |\n| WS-02 | Met | Energy isolated and tagged |\n| WS-03 | Met | Monitors bump-tested; highest 2 ppm |\n| WS-07 | Met | Written 2 days after the work (limit 3 days) |\n\n## Notes and recommendations\n\n- Review sand control on this well.\n- Send the old pump for teardown.\n",
+        "path": "assets/WELL-0333/maintenance-reports/MNT-0333-024.md"
+      },
+      "src_853c7f7623412e1b78b5e791": {
+        "id": "src_853c7f7623412e1b78b5e791",
+        "title": "fleet/sops/supplier-recall-notice-2026-12-01.md",
+        "source_kind": "sop",
+        "source_id": "src_853c7f7623412e1b78b5e791",
+        "excerpt": "# Supplier Recall Notice — Downhole Rod Pumps\n\n> Fictional notice for the FlytBase Asset Copilot hackathon.\n\n**From:** Highline Pump Co., Quality Department\n**To:** All operators running Highline downhole rod pumps\n**Date:** 1 Dec 2026\n**Reference:** HPC-RN-2026-07\n\n## What is recalled\n\nHighline RP-175 downhole rod pumps from these manufacturing lots:\n\n- LOT-2409-A\n- LOT-2409-C\n- LOT-2410-B\n\nPumps from all other lots, including LOT-2409-B, LOT-2410-A and LOT-2410-C, are not affected.\nHighline Pump Co. does not supply ESP pumps, so ESP wells are not affected by this notice.\n\n## The problem\n\nTesting found that plungers from these lots can crack after several months in service. A cracked\nplunger lets the pump lose fluid and can break apart downhole, which makes the pump much harder\nto pull.\n\n## What you must do\n\nPumps from these lots must be pulled and replaced within 30 days of this notice (by 31 Dec 2026).\n\nUntil the replacement, keep running the pump as normal. Do not shut the well in only because of\nthis notice; the risk of cracking is low over a few weeks.\n\n## How to find affected pumps\n\nThe lot number is stamped on the pump barrel. Your crews record it when the pump is installed\n(in your maintenance reports, on the line \"Parts installed\"). Only the pump that is in the well\ntoday matters: a recalled pump that has already been pulled and replaced needs no action.\n\nReturn pulled pumps to Highline Pump Co. for a full credit.\n",
+        "path": "fleet/sops/supplier-recall-notice-2026-12-01.md"
+      },
+      "ev_6783450ed0e97a9354a9adcd": {
+        "id": "ev_6783450ed0e97a9354a9adcd",
+        "title": "INS-0333-0219",
+        "source_kind": "inspections",
+        "source_id": "src_bd104ad07d237e30887cbec6",
+        "excerpt": "{\"ambient_temp_c\": 6.2, \"asset_id\": \"WELL-0333\", \"evidence_images\": [\"evidence/WELL-0333/2027-01-14_rgb.jpg\", \"evidence/WELL-0333/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T11:15:00Z\", \"inspection_id\": \"INS-0333-0219\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 32.0}",
+        "path": "assets/WELL-0333/inspections.jsonl"
+      },
+      "ev_7abfc9900f22a11b1636e89d": {
+        "id": "ev_7abfc9900f22a11b1636e89d",
+        "title": "CTX-0333-001",
+        "source_kind": "context",
+        "source_id": "src_4d5eff7bcf0cbdf54b149950",
+        "excerpt": "{\"asset_id\": \"WELL-0333\", \"author_user_id\": \"U-601\", \"created_at\": \"2023-06-08T18:00:00Z\", \"note_id\": \"CTX-0333-001\", \"note_type\": \"operator_note\", \"text\": \"Waiting on replacement parts from the vendor; well stays shut in until they arrive.\", \"valid_from\": \"2023-06-08\", \"valid_to\": \"2023-06-29\"}",
+        "path": "assets/WELL-0333/context.jsonl"
+      },
+      "ev_356b3b677a5873825286ba11": {
+        "id": "ev_356b3b677a5873825286ba11",
+        "title": "MNT-0333-026",
+        "source_kind": "maintenance",
+        "source_id": "src_f5992cd915757081bcb72b6d",
+        "excerpt": "{\"action_taken\": \"Cut out and replaced the corroded flowline section\", \"asset_id\": \"WELL-0333\", \"completed_at\": \"2026-06-17T01:00:00Z\", \"contractor\": \"Tumbleweed Flowline Co.\", \"cost_usd\": {\"labor\": 1754, \"parts\": 3549, \"total\": 5303}, \"downtime_hours\": 257, \"equipment_kind\": \"flowline\", \"issue\": \"Flowline corrosion pinhole leak\", \"maintenance_id\": \"MNT-0333-026\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0333-026.md\", \"started_at\": \"2026-06-06T08:00:00Z\", \"technician_user_id\": \"U-303\", \"triggered_by_inspection_id\": \"INS-0333-0187\"}",
+        "path": "assets/WELL-0333/maintenance.jsonl"
+      },
+      "result_aae7926df37145cc9b092822cc258f5e": {
+        "id": "result_aae7926df37145cc9b092822cc258f5e",
+        "title": "result_aae7926df37145cc9b092822cc258f5e",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_aae7926df37145cc9b092822cc258f5e"
+      },
+      "result_9c6f88819933413189595c22368487c9": {
+        "id": "result_9c6f88819933413189595c22368487c9",
+        "title": "result_9c6f88819933413189595c22368487c9",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_9c6f88819933413189595c22368487c9"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      },
+      "chunk_1960500011899dcc000af9d2": {
+        "id": "chunk_1960500011899dcc000af9d2",
+        "title": "Maintenance Report — MNT-0332-033",
+        "source_kind": "report",
+        "source_id": "src_f6ccb487005134e6ef83ea02",
+        "asset_id": "WELL-0332",
+        "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** flowline\n**Work started:** 20 Nov 2026 08:00 · **Finished:** 20 Nov 2026 18:00 · **Well stopped for this job:** 10 hours\n**Crew lead:** Megan Ward (U-305) · **Crew:** Kevin Price\n**Triggered by:** inspection INS-0332-0211 on 2026-11-19\n**Report written:** 22 Nov 2026",
+        "path": "assets/WELL-0332/maintenance-reports/MNT-0332-033.md"
+      },
+      "chunk_92a71979342305129c768c76": {
+        "id": "chunk_92a71979342305129c768c76",
+        "title": "Maintenance Report — MNT-0332-003",
+        "source_kind": "report",
+        "source_id": "src_262c00fab15c37897f086681",
+        "asset_id": "WELL-0332",
+        "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** flowline\n**Work started:** 10 Mar 2023 08:00 · **Finished:** 10 Mar 2023 19:00 · **Well stopped for this job:** 11 hours\n**Crew lead:** Daniel Foster (U-302) · **Crew:** Kevin Price\n**Triggered by:** inspection INS-0332-0021 on 2023-03-09\n**Report written:** 11 Mar 2023",
+        "path": "assets/WELL-0332/maintenance-reports/MNT-0332-003.md"
+      },
+      "chunk_963d6444b3bf73cc165b3f68": {
+        "id": "chunk_963d6444b3bf73cc165b3f68",
+        "title": "Maintenance Report — MNT-0332-025",
+        "source_kind": "report",
+        "source_id": "src_afbb4ec8bec79e71b1fe29d7",
+        "asset_id": "WELL-0332",
+        "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** wellhead\n**Work started:** 16 Nov 2025 08:00 · **Finished:** 18 Nov 2025 03:00 · **Well stopped for this job:** 43 hours\n**Crew lead:** Daniel Foster (U-302) · **Crew:** Megan Ward, Brian Coleman\n**Triggered by:** inspection INS-0332-0159 on 2025-11-13\n**Report written:** 18 Nov 2025",
+        "path": "assets/WELL-0332/maintenance-reports/MNT-0332-025.md"
+      },
+      "chunk_2c8575b809f89958dd7822e7": {
+        "id": "chunk_2c8575b809f89958dd7822e7",
+        "title": "Maintenance Report — MNT-0332-024",
+        "source_kind": "report",
+        "source_id": "src_18196e251d897712c578ef6a",
+        "asset_id": "WELL-0332",
+        "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** pump jack\n**Work started:** 17 Oct 2025 08:00 · **Finished:** 28 Oct 2025 13:00 · **Well stopped for this job:** 269 hours\n**Crew lead:** Brian Coleman (U-304) · **Crew:** Megan Ward, Kevin Price\n**Triggered by:** inspection INS-0332-0155 on 2025-10-16\n**Report written:** 29 Oct 2025",
+        "path": "assets/WELL-0332/maintenance-reports/MNT-0332-024.md"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented.",
+      "Physical inventory and operational count are separate: explicit direct attributed replacement instruction changes operational count with unverified-work-order flag; hearsay does not. No claim becomes inspected physical evidence.",
+      "Installation cost is recorded total job cost, not pump-only price or paid expenditure.",
+      "Ranked lexical retrieval cannot prove a fleet total or source absence",
+      "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification",
+      "The explanation is incomplete; the panels contain verified records."
+    ],
+    "sample": false,
+    "generation": {
+      "status": "partial",
+      "model": "gemini-3.5-flash-lite",
+      "live": false,
+      "verified_tool_data": true,
+      "explanation_error_code": "unsupported_claim",
+      "retry_after": null,
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4436,
+            "output_tokens": 299,
+            "total_tokens": 4735,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 466,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 4754,
+            "output_tokens": 715,
+            "total_tokens": 5469,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 470,
+          "live": true
+        }
+      ]
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 554,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 589,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 554,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 589,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1959,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 31,
+      "partial_evidence": true,
+      "token_fit_omitted": 4,
+      "content_cap": 5000
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:10:48.256244+00:00",
+  "stages": [
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "8ead2fff-3459-4e3e-a75c-edbc5c7704cf",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:26.514593+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "8ead2fff-3459-4e3e-a75c-edbc5c7704cf",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:26.534031+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "c9e0dc0b-416f-4f5b-a283-d5a9a3cb3313",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:27.062121+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:464",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "started",
+      "timestamp": "2026-10-17T12:10:27.503819+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:10:29.270814+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:464",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:10:29.275597+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:10:29.275586+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "3d24dd9f-aeea-4698-903d-2b3b3562dd8f",
+      "stage": "repair",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:31.467601+00:00",
+      "operation": "repair",
+      "tool_name": null,
+      "message": "Repair started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:466",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "started",
+      "timestamp": "2026-10-17T12:10:32.175291+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:10:33.689413+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:466",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:10:33.693604+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:10:33.693558+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "3d24dd9f-aeea-4698-903d-2b3b3562dd8f",
+      "stage": "repair",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:36.344301+00:00",
+      "operation": "repair",
+      "tool_name": null,
+      "message": "Repair completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "c9e0dc0b-416f-4f5b-a283-d5a9a3cb3313",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:36.353047+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "fb747e88-60bd-41f5-8331-b3758deb308f",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:36.367452+00:00",
+      "operation": "maintenance.repair_candidates",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "fb747e88-60bd-41f5-8331-b3758deb308f",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:36.520699+00:00",
+      "operation": "maintenance.repair_candidates",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "asset_id": "WELL-0332",
+      "result_count": 1
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "a88709af-5853-476b-aad6-9946b2b41f34",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:36.535486+00:00",
+      "operation": "assets.status",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "a88709af-5853-476b-aad6-9946b2b41f34",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:38.952159+00:00",
+      "operation": "assets.status",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "asset_id": "WELL-0332",
+      "result_count": 1
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "00be0015-6b47-4102-a664-ce469cfff7ce",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:38.967247+00:00",
+      "operation": "maintenance.recall_inventory",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "00be0015-6b47-4102-a664-ce469cfff7ce",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.135478+00:00",
+      "operation": "maintenance.recall_inventory",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "asset_id": "WELL-0333",
+      "result_count": 1
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b5f96735-b58b-4373-a7a4-6f861ab55818",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.163189+00:00",
+      "operation": "context_notes.records",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b5f96735-b58b-4373-a7a4-6f861ab55818",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.170490+00:00",
+      "operation": "context_notes.records",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "asset_ids": [
+        "WELL-0332"
+      ],
+      "result_count": 6
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "93cf1883-1aaa-4b1e-9d7d-b44cae4fe599",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.183688+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "93cf1883-1aaa-4b1e-9d7d-b44cae4fe599",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.189911+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "78b096c9-9b71-4903-8d07-6dcd1d02083b",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.205708+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "78b096c9-9b71-4903-8d07-6dcd1d02083b",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.212100+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "85b32050-cdfa-423f-af80-a452f10823b3",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.225744+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "85b32050-cdfa-423f-af80-a452f10823b3",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.232206+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "2108c0e2-82ee-454d-bbf7-2d114cbef00e",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.247486+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "2108c0e2-82ee-454d-bbf7-2d114cbef00e",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.253564+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b9af5be5-fbeb-4729-8356-bb3adca7e6ff",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.265847+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b9af5be5-fbeb-4729-8356-bb3adca7e6ff",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.271873+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "06c8734f-9c3d-48f1-baf2-152509df0250",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.285515+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "06c8734f-9c3d-48f1-baf2-152509df0250",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.290866+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b67da094-a3b1-4cb2-b4fe-686df7d91862",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.302120+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b67da094-a3b1-4cb2-b4fe-686df7d91862",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.307089+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d6d2f730-81af-4287-a2b9-88d55f20da11",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.318855+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d6d2f730-81af-4287-a2b9-88d55f20da11",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.324198+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b28c9cea-3e77-4bd2-870b-166021e4d5a0",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.337423+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b28c9cea-3e77-4bd2-870b-166021e4d5a0",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.507307+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "e2860821-53a1-409d-a059-ed2c553d9aaa",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:39.520754+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "e2860821-53a1-409d-a059-ed2c553d9aaa",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.895756+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "70fdb290-b49e-4754-912c-15ce71b45d74",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.924237+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "70fdb290-b49e-4754-912c-15ce71b45d74",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.932776+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "51ef3782-bb5a-44f7-aec8-209e0bb19115",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.951756+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "51ef3782-bb5a-44f7-aec8-209e0bb19115",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.959670+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "fad53e4d-4163-4f41-a6e2-f5b8648dc2a2",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.976994+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "fad53e4d-4163-4f41-a6e2-f5b8648dc2a2",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.984118+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "ce186cca-d16b-4862-a2ea-4801ce38b843",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:41.997209+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "ce186cca-d16b-4862-a2ea-4801ce38b843",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.003329+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "eecf8e08-621c-4ea9-9bb4-a2fd96d64ef2",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.017087+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "eecf8e08-621c-4ea9-9bb4-a2fd96d64ef2",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.023046+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "93cba7fb-6381-411c-a258-971d49bb24ff",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.037887+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "93cba7fb-6381-411c-a258-971d49bb24ff",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.046361+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "bc3257ed-8d12-4d86-9428-a20638b93e7c",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.060418+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "bc3257ed-8d12-4d86-9428-a20638b93e7c",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.069469+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "54577fe5-690e-486f-946a-ec97961f954b",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.087025+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "54577fe5-690e-486f-946a-ec97961f954b",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.094884+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "f8f4ca15-0606-449a-8d85-6082b9664693",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.110701+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "f8f4ca15-0606-449a-8d85-6082b9664693",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.118663+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "61f77c51-aa75-455e-9d42-7a9f58c23b5b",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.131685+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "61f77c51-aa75-455e-9d42-7a9f58c23b5b",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.137656+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d83b448e-fa08-4826-bf64-60d4ffbddb9f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.150792+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d83b448e-fa08-4826-bf64-60d4ffbddb9f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.158247+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d2b4ac86-02c1-471d-8c0c-98de6f3eb6d2",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.174403+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "d2b4ac86-02c1-471d-8c0c-98de6f3eb6d2",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.375725+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "e8df4f48-a2e3-48fc-a66b-c70b80018d13",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.392291+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "e8df4f48-a2e3-48fc-a66b-c70b80018d13",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.401859+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "153d290e-b47e-4a40-b64f-18f2a86fadec",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.416660+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "153d290e-b47e-4a40-b64f-18f2a86fadec",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.549638+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "4e2b8d85-a0cd-4e66-aa97-501453918b54",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:42.971591+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:470",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "started",
+      "timestamp": "2026-10-17T12:10:43.229001+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:10:45.184558+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "quota:470",
+      "stage": "quota_wait",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:10:45.189042+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:10:45.188992+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "4e2b8d85-a0cd-4e66-aa97-501453918b54",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:47.691022+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "0c09f96a-b4a2-4951-8dd3-b38eb45a680d",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:47.702207+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "0c09f96a-b4a2-4951-8dd3-b38eb45a680d",
+      "stage": "validation",
+      "status": "failed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:47.707764+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation failed",
+      "error_code": "unsupported_claim"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b2f630f2-8ab0-486a-be2e-d8a0ba4af192",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:47.712909+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "stage_id": "b2f630f2-8ab0-486a-be2e-d8a0ba4af192",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "23533b45-9434-430f-9fc5-84c9222d2f5f",
+      "timestamp": "2026-10-17T12:10:47.723981+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

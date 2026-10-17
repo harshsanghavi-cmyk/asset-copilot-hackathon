@@ -1,0 +1,25 @@
+{
+  "url": "http://localhost:5190/admin.html#walkthrough?asset_id=WELL-0001",
+  "api_status": 200,
+  "asset_id": "WELL-0001",
+  "actual_field_values": [
+    22400,
+    25600
+  ],
+  "correction": {
+    "record": "INS-0001-0070",
+    "original_spill_detected": true,
+    "effective_spill_detected": false
+  },
+  "report_file": "maintenance-reports/MNT-0001-june-2026-flowline-spill.md",
+  "containment": {
+    "value": 7,
+    "qualifier": "about",
+    "byte_start": 1033,
+    "byte_end": 1077
+  },
+  "selector_WELL_0002_loaded": true,
+  "explicit_reload_restored_deep_link_WELL_0001": true,
+  "model_generation_calls": 0,
+  "screenshot": "admin-walkthrough-desktop.png"
+}

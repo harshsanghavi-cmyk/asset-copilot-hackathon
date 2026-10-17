@@ -1,0 +1,39 @@
+Initial reading and dataset inspection — 17 Oct 2026
+
+Read: the complete supplied DOCX (863 extracted paragraphs), all four challenge
+repository guides, README/license, both well-type manuals and all three SOPs.
+Inspected schemas across all JSON/JSONL data, every record's asset association,
+and representative linked maintenance reports and conflicting human notes.
+This is structural inspection of the dataset, not a claim of manually interpreting
+every inspection or all 1,509 repair reports.
+
+Measured sample inventory:
+200 wells; 39,567 inspections; 5,665 maintenance records; 1,509 repair reports;
+90 regulatory events; 141 context notes; five fleet Markdown documents.
+All JSON/JSONL parsed and no per-well asset_id mismatches were found.
+See dataset-source.json for the cloned revision.
+
+Source differences:
+- DOCX scenario today: 17 Oct 2026. Repository guide/scenarios: 16 Oct 2026.
+- Q6 explicitly uses 16 Jun–16 Oct 2026 in both sources.
+- DOCX write-up maximum: two pages. Repository: 2–3 pages.
+- Repository Q1 explicitly requests a status card; DOCX wording omits that request.
+Use source-specific evaluation dates and retain these differences visibly.
+
+Initial architecture requested by user:
+skills/; backend/chains/; backend/prompts/ with YAML input:/prompt: and Markdown
+prompt prose; backend/output_parsers/; frontend/ using React.
+No application code, dependencies or model calls are part of this reading phase.
+
+Key design direction for later implementation:
+Exact calculations plus document retrieval; provenance on both facts and rules;
+immutable originals with shared correction overlays; separate private memory;
+explicit conflicts; typed inline visuals; general ingestion of new test data.
+Language, database, UI library and retrieval implementation remain open choices.
+
+OpenRouter checked:
+https://openrouter.ai/google/gemma-4-31b-it:free
+https://openrouter.ai/docs/guides/features/structured-outputs
+The requested model is listed, but its page states JSON output without JSON-schema
+enforcement. Account-authenticated compatibility remains untested. Do not assume
+strict structured outputs until verified; plan local validation/bounded repair.

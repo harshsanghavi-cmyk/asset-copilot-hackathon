@@ -1,0 +1,484 @@
+{
+  "scenario": 2,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "bf73c61b-6fc6-4c93-82bd-b008cb7d4122",
+  "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+  "message_id": "6118f560-db7a-4140-9b2a-3512b79876a3",
+  "question": "Which well produced the most oil in 2026?",
+  "started_at": "2026-10-17T12:39:01.957473+00:00",
+  "status": "complete",
+  "file": "Q02-01.json",
+  "answer_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+  "error": null,
+  "panels": [],
+  "narrative": "The supplied records do not contain the oil production totals needed to determine which well produced the most oil in the specified year. Spills, thermal status, equipment ratings, and pressure tests cannot answer produced-oil volume. The necessary production measurement data is absent from the current data source.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+    "thread_id": "bf73c61b-6fc6-4c93-82bd-b008cb7d4122",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "The supplied records do not contain the oil production totals needed to determine which well produced the most oil in the specified year. Spills, thermal status, equipment ratings, and pressure tests cannot answer produced-oil volume. The necessary production measurement data is absent from the current data source.",
+    "blocks": [],
+    "results": {},
+    "evidence": {
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [],
+    "sample": false,
+    "claims": [],
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4744,
+            "output_tokens": 155,
+            "total_tokens": 4899,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 630,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 2761,
+            "output_tokens": 71,
+            "total_tokens": 2832,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 634,
+          "live": true
+        },
+        {
+          "stage": "grounding_repair",
+          "usage": {
+            "input_tokens": 2497,
+            "output_tokens": 72,
+            "total_tokens": 2569,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 641,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 3,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 1016,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 201,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 1016,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 201,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 16,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 0,
+      "partial_evidence": false,
+      "token_fit_omitted": 0,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 15075,
+      "current_request_bytes_separate": 41,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:39:21.090665+00:00",
+  "stages": [
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "a12f58d1-657e-4b16-ab33-b323deee8218",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:02.056305+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "a12f58d1-657e-4b16-ab33-b323deee8218",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:02.081789+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "ef576654-9825-4a85-b4ba-aff90dc90235",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:03.159527+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:630",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:03.426094+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:05.369618+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:630",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:05.399327+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:07.569867+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:630",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:07.586245+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:07.586223+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "ef576654-9825-4a85-b4ba-aff90dc90235",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:09.858548+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "a5599c8a-ed28-4f32-a9fc-d9bd4a764ef4",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:09.881387+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:633",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:09.894982+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:10.391606+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:633",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:10.395767+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:10.395742+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:634",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:10.718096+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:12.592629+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:634",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:12.596543+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:12.596520+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "a5599c8a-ed28-4f32-a9fc-d9bd4a764ef4",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:14.580327+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "e0390154-476e-40e0-8d0a-b8e7fa84a9bb",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:14.594300+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "e0390154-476e-40e0-8d0a-b8e7fa84a9bb",
+      "stage": "validation",
+      "status": "failed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:14.601983+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation failed",
+      "error_code": "unsupported_narrative_number"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:639",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:14.620856+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:15.117725+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:639",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:15.622280+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:16.118989+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:639",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:16.124216+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:16.124203+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "dedd5ded-a65a-404d-a655-d51a4785e911",
+      "stage": "grounding_repair",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:16.398764+00:00",
+      "operation": "grounding_repair",
+      "tool_name": null,
+      "message": "Grounding Repair started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:641",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:16.726631+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:18.609025+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "quota:641",
+      "stage": "quota_wait",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:18.691717+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:18.691668+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "dedd5ded-a65a-404d-a655-d51a4785e911",
+      "stage": "grounding_repair",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:20.494462+00:00",
+      "operation": "grounding_repair",
+      "tool_name": null,
+      "message": "Grounding Repair completed"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "8fa05225-3add-4891-9bbb-5fe0c82d3574",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:20.503401+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "8fa05225-3add-4891-9bbb-5fe0c82d3574",
+      "stage": "validation",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:20.512740+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation completed"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "0a8502cf-aa64-4883-a091-79c59cf3fdb7",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:20.523225+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "stage_id": "0a8502cf-aa64-4883-a091-79c59cf3fdb7",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "e655809b-fafd-4b89-825f-fa89a60d1da4",
+      "timestamp": "2026-10-17T12:39:20.539024+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+%% Proposed architecture only. Recommended hackathon option, not implemented.
+flowchart LR
+  U[User picker and question] --> I[Trusted identity and explicit time window]
+  I --> M[Scoped memory pack<br/>3000 token default]
+  P[(Private transcript<br/>summary and entity receipts)] --> M
+  CAP[Always-loaded private static-fact capsule<br/>source IDs and archival expansion] --> M
+  M --> A[Bounded planner<br/>Gemma through OpenRouter]
+  A --> G[Validated typed tool gateway]
+  G --> E[Exact effective-record calculations]
+  G --> D[Linked reports and applicable rules]
+  R[(Immutable source records)] --> E
+  R --> D
+  K[(Shared correction<br/>claim and type-rule ledger)] --> E
+  K --> D
+  I --> F[Explicit feedback classification]
+  F --> W[Validated idempotent write]
+  W --> K
+  W --> V[Knowledge revision and invalidation]
+  E --> S[Immutable result sets<br/>with evidence and revision]
+  D --> S
+  S --> C[Specialist composer]
+  C --> J[Local schema and evidence validation<br/>one formatting repair maximum]
+  J --> UI[Narrative and 1 to 5 inline blocks]
+  J --> P
+  P --> T[Every 10 completed exchanges<br/>or earlier token overflow]
+  T --> P
+  V --> G

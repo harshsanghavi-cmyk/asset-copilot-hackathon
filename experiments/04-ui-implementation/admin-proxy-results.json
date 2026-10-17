@@ -1,0 +1,27 @@
+[
+  {
+    "path": "/api/local-admin/admin/memory",
+    "explicit_local_admin": false,
+    "status": 403,
+    "response": {
+      "error": "Explicit local administrator access is required."
+    }
+  },
+  {
+    "path": "/api/local-admin/agent",
+    "explicit_local_admin": true,
+    "status": 403,
+    "response": {
+      "error": "This route is outside the local diagnostic capability."
+    }
+  },
+  {
+    "path": "/api/local-admin/admin/memory",
+    "explicit_local_admin": true,
+    "status": 200,
+    "response": {
+      "items": [],
+      "total": 0
+    }
+  }
+]

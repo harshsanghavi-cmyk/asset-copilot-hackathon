@@ -1,0 +1,137 @@
+{
+  "question": "Also, just for me: whenever you list wells, sort them by area and then by well ID, and show costs in thousands of dollars.",
+  "user": "Nathan Pierce",
+  "session_id": "2572b5ee-546e-4514-bb49-f4a883f5a58e",
+  "status": "complete",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "9917254f-343e-4eef-88af-baff5807feb2",
+    "thread_id": "2572b5ee-546e-4514-bb49-f4a883f5a58e",
+    "user_id": "U-601",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 5,
+    "reference_date": "2027-01-15",
+    "narrative": "Saved private When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. (author Nathan Pierce, attributed).",
+    "blocks": [],
+    "results": {},
+    "evidence": {
+      "memory:1de31300-5ad0-4dfd-96ec-5224889d3906": {
+        "id": "memory:1de31300-5ad0-4dfd-96ec-5224889d3906",
+        "title": "Preference reported by Nathan Pierce",
+        "source_kind": "private_memory",
+        "source_id": "memory:1de31300-5ad0-4dfd-96ec-5224889d3906",
+        "excerpt": "When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:41:51.626361+00:00"
+      },
+      "memory:ea233e6c-8168-431d-99f3-840cdbc32f54": {
+        "id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:41:18.023296+00:00"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d": {
+        "id": "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d",
+        "title": "Preference reported by Nathan Pierce",
+        "source_kind": "private_memory",
+        "source_id": "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d",
+        "excerpt": "When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:09:12.204283+00:00"
+      },
+      "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829": {
+        "id": "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829",
+        "title": "Preference reported by Nathan Pierce",
+        "source_kind": "private_memory",
+        "source_id": "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829",
+        "excerpt": "When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:58:48.231468+00:00"
+      }
+    },
+    "warnings": [],
+    "sample": false,
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 5880,
+            "output_tokens": 189,
+            "total_tokens": 6069,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 722,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 1,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 1853,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 269,
+      "short_term_cap": 1000,
+      "omitted_private": 4,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 1853,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 1
+        },
+        "short_term": {
+          "count": 269,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 67,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 0,
+      "partial_evidence": false,
+      "token_fit_omitted": 0,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 15075,
+      "current_request_bytes_separate": 122,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  }
+}

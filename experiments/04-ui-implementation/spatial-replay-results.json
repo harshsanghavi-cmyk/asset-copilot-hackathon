@@ -1,0 +1,160 @@
+{
+  "passed": true,
+  "recorded_original_envelope": true,
+  "model_generation_calls": 0,
+  "retrieval_calls": 0,
+  "original_answer_id": "1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f",
+  "original_block_encoding": {
+    "x": "lat",
+    "y": "lon",
+    "value": "delta_c"
+  },
+  "original_result_rows": 200,
+  "observed": {
+    "categoryChart": false,
+    "markers": 200,
+    "scale": "Delta C (\u00b0C)0.3 \u00b0C37.6 \u00b0CScope: 200 returned locations across 4 areas. Color shows recorded values; no spatial averaging.",
+    "title": "Temperature deviation by location"
+  },
+  "aggregation": "none; exact observations colored at geographic coordinates",
+  "commands": [
+    {
+      "args": [
+        "open",
+        "http://localhost:5195"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5195/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "network",
+        "unroute"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "network",
+        "route",
+        "**/api/copilotkit/agent/*/run",
+        "--abort"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "localStorage.clear();localStorage.setItem('asset-intelligence.mode','live');localStorage.setItem('asset-intelligence.profile.live',\"U-102\");localStorage.setItem('asset-intelligence.dataset-namespace',\"asset-field\");void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "reload"
+      ],
+      "exit": 0,
+      "stdout": "http://localhost:5195/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('[data-panel=\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\"] .leaflet-container')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('[data-panel=\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\"] .leaflet-container')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('[data-panel=\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\"] .leaflet-container')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('[data-panel=\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\"] .leaflet-container')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "set",
+        "viewport",
+        "1440",
+        "1000"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector(\"[data-panel=\\\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\\\"] button[aria-label^=\\\"Expand\\\"]\").scrollIntoView({block:'center'});void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        "[data-panel=\"1d66cdb0-8ca6-4bdd-b79b-28bf6b1f087f:block:1\"] button[aria-label^=\"Expand\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.expanded-view .leaflet-interactive').length===200"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({markers:document.querySelectorAll('.expanded-view .leaflet-interactive').length,scale:document.querySelector('.expanded-view .map-numeric-scale')?.textContent,categoryChart:!!document.querySelector('.expanded-view .chart-view svg'),title:document.querySelector('.expanded-view .ant-drawer-title')?.textContent})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"categoryChart\": false,\n  \"markers\": 200,\n  \"scale\": \"Delta C (\u00b0C)0.3 \u00b0C37.6 \u00b0CScope: 200 returned locations across 4 areas. Color shows recorded values; no spatial averaging.\",\n  \"title\": \"Temperature deviation by location\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/heatmap-geographic-after.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/heatmap-geographic-after.png\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,325 @@
+{
+  "session": {
+    "id": "ff7aeee3-2f71-43c5-8fba-8a61a8e49110",
+    "namespace": "asset-field-test-2027-01-15",
+    "user_id": "U-201",
+    "title": "Verified Gemini Q01 \u00b7 Missing pressure data",
+    "title_manual": 1,
+    "created_at": "2026-10-17T12:15:11.129498+00:00",
+    "updated_at": "2026-10-17T12:15:18.956516+00:00",
+    "completed": 1
+  },
+  "messages": [
+    {
+      "id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc:user",
+      "namespace": "asset-field-test-2027-01-15",
+      "user_id": "U-201",
+      "session_id": "ff7aeee3-2f71-43c5-8fba-8a61a8e49110",
+      "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+      "role": "user",
+      "content": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+      "envelope": null,
+      "status": "received",
+      "created_at": "2026-10-17T12:15:11.150688+00:00",
+      "client_message_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc:user",
+      "run_status": "complete",
+      "stages": [
+        {
+          "stage_id": "c1c57fe7-351b-4951-94fe-c4750bcb0171",
+          "stage": "read_context",
+          "status": "started",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:11.172418+00:00",
+          "operation": "read_context",
+          "tool_name": "read_context",
+          "message": "Read Context started"
+        },
+        {
+          "stage_id": "c1c57fe7-351b-4951-94fe-c4750bcb0171",
+          "stage": "read_context",
+          "status": "completed",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:11.195776+00:00",
+          "operation": "read_context",
+          "tool_name": "read_context",
+          "message": "Read Context completed"
+        },
+        {
+          "stage_id": "61acc03a-3ff4-4ef3-b1ef-bc6d118a3236",
+          "stage": "planner",
+          "status": "started",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:11.214474+00:00",
+          "operation": "planner",
+          "tool_name": null,
+          "message": "Planner started"
+        },
+        {
+          "stage_id": "quota:518",
+          "stage": "quota_wait",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "status": "started",
+          "timestamp": "2026-10-17T12:15:11.565043+00:00",
+          "queue_state": "queued",
+          "retry_at": "2026-10-17T12:15:13.426552+00:00",
+          "reason": "request_rate",
+          "priority": 0,
+          "message": "Waiting for shared model quota"
+        },
+        {
+          "stage_id": "quota:518",
+          "stage": "quota_wait",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "status": "completed",
+          "timestamp": "2026-10-17T12:15:13.430196+00:00",
+          "queue_state": "admitted",
+          "retry_at": "2026-10-17T12:15:13.430153+00:00",
+          "reason": "request_rate",
+          "priority": 0,
+          "message": "Model request admitted"
+        },
+        {
+          "stage_id": "61acc03a-3ff4-4ef3-b1ef-bc6d118a3236",
+          "stage": "planner",
+          "status": "completed",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:14.858339+00:00",
+          "operation": "planner",
+          "tool_name": null,
+          "message": "Planner completed"
+        },
+        {
+          "stage_id": "79fa9255-eeb6-406b-bd24-725a67ef6af7",
+          "stage": "maker",
+          "status": "started",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:15.138087+00:00",
+          "operation": "maker",
+          "tool_name": null,
+          "message": "Maker started"
+        },
+        {
+          "stage_id": "quota:521",
+          "stage": "quota_wait",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "status": "started",
+          "timestamp": "2026-10-17T12:15:15.408706+00:00",
+          "queue_state": "queued",
+          "retry_at": "2026-10-17T12:15:17.346829+00:00",
+          "reason": "request_rate",
+          "priority": 0,
+          "message": "Waiting for shared model quota"
+        },
+        {
+          "stage_id": "quota:521",
+          "stage": "quota_wait",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "status": "completed",
+          "timestamp": "2026-10-17T12:15:17.350195+00:00",
+          "queue_state": "admitted",
+          "retry_at": "2026-10-17T12:15:17.350179+00:00",
+          "reason": "request_rate",
+          "priority": 0,
+          "message": "Model request admitted"
+        },
+        {
+          "stage_id": "79fa9255-eeb6-406b-bd24-725a67ef6af7",
+          "stage": "maker",
+          "status": "completed",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:18.928316+00:00",
+          "operation": "maker",
+          "tool_name": null,
+          "message": "Maker completed"
+        },
+        {
+          "stage_id": "38630e24-3b01-4bf7-bc4e-98dd6264f4d4",
+          "stage": "validation",
+          "status": "started",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:18.938748+00:00",
+          "operation": "validation",
+          "tool_name": null,
+          "message": "Validation started"
+        },
+        {
+          "stage_id": "38630e24-3b01-4bf7-bc4e-98dd6264f4d4",
+          "stage": "validation",
+          "status": "completed",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:18.944271+00:00",
+          "operation": "validation",
+          "tool_name": null,
+          "message": "Validation completed"
+        },
+        {
+          "stage_id": "98aa4f7a-bf3e-4759-9da2-edf4136842df",
+          "stage": "publish",
+          "status": "started",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:18.950797+00:00",
+          "operation": "publish",
+          "tool_name": null,
+          "message": "Publish started"
+        },
+        {
+          "stage_id": "98aa4f7a-bf3e-4759-9da2-edf4136842df",
+          "stage": "publish",
+          "status": "completed",
+          "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "attempt_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+          "timestamp": "2026-10-17T12:15:18.960905+00:00",
+          "operation": "publish",
+          "tool_name": null,
+          "message": "Publish completed"
+        }
+      ]
+    },
+    {
+      "id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc:assistant",
+      "namespace": "asset-field-test-2027-01-15",
+      "user_id": "U-201",
+      "session_id": "ff7aeee3-2f71-43c5-8fba-8a61a8e49110",
+      "run_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+      "role": "assistant",
+      "content": "Equipment ratings and pressure tests cannot answer measured reservoir pressure. Because pressure data was not provided in the evidence pack, mapping the reservoir pressure across the field cannot be performed.",
+      "envelope": {
+        "schema_version": "1.0",
+        "answer_id": "59d3acc1-dea2-4b51-b9af-7d56ef76bbcc",
+        "thread_id": "ff7aeee3-2f71-43c5-8fba-8a61a8e49110",
+        "user_id": "U-201",
+        "dataset_namespace": "asset-field-test-2027-01-15",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 3,
+        "reference_date": "2027-01-15",
+        "narrative": "Equipment ratings and pressure tests cannot answer measured reservoir pressure. Because pressure data was not provided in the evidence pack, mapping the reservoir pressure across the field cannot be performed.",
+        "blocks": [],
+        "results": {},
+        "evidence": {
+          "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+            "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+            "title": "Observation reported by Robert Hayes",
+            "source_kind": "shared_knowledge",
+            "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+            "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+            "author": "Robert Hayes",
+            "source_time": "2026-10-17T12:10:03.801319+00:00"
+          },
+          "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+            "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+            "title": "Observation reported by Nathan Pierce",
+            "source_kind": "shared_knowledge",
+            "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+            "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+            "author": "Nathan Pierce",
+            "source_time": "2026-10-17T12:08:59.713096+00:00"
+          },
+          "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+            "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+            "title": "Observation reported by Nathan Pierce",
+            "source_kind": "shared_knowledge",
+            "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+            "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+            "author": "Nathan Pierce",
+            "source_time": "2026-10-17T11:57:27.997895+00:00"
+          }
+        },
+        "warnings": [
+          "One or more requested visual kinds could not be validated; verified data remains available"
+        ],
+        "sample": false,
+        "claims": [],
+        "generation": {
+          "status": "partial",
+          "model": "gemini-3.5-flash-lite",
+          "calls": [
+            {
+              "stage": "planner",
+              "usage": {
+                "input_tokens": 3907,
+                "output_tokens": 74,
+                "total_tokens": 3981,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "adapter": "langchain-google-genai",
+                "finish_reason": "STOP"
+              },
+              "call_id": 518,
+              "live": true
+            },
+            {
+              "stage": "maker",
+              "usage": {
+                "input_tokens": 1856,
+                "output_tokens": 44,
+                "total_tokens": 1900,
+                "input_token_details": {
+                  "cache_read": 0
+                },
+                "adapter": "langchain-google-genai",
+                "finish_reason": "STOP"
+              },
+              "call_id": 521,
+              "live": true
+            }
+          ],
+          "provider": "google",
+          "foreground_attempts": 2,
+          "live": true
+        },
+        "budget": {
+          "method": "google_sdk_countTokens",
+          "long_term": 505,
+          "long_term_cap": 2000,
+          "long_term_byte_cap": 8000,
+          "short_term": 10,
+          "short_term_cap": 1000,
+          "omitted_private": 0,
+          "omitted_shared": 0,
+          "omitted_dialogue": 0,
+          "omitted_reference_handles": 0,
+          "slot_measurements": {
+            "long_term": {
+              "count": 505,
+              "cap": 2000,
+              "method": "google_sdk_countTokens",
+              "omitted_items": 0
+            },
+            "short_term": {
+              "count": 10,
+              "cap": 1000,
+              "method": "google_sdk_countTokens",
+              "omitted_items": 0
+            }
+          },
+          "retrieved_context": 16,
+          "retrieved_cap": 2000,
+          "candidate_byte_cap": 8000,
+          "omitted_evidence_or_rows": 0,
+          "partial_evidence": false,
+          "token_fit_omitted": 0,
+          "content_cap": 5000,
+          "instructions_and_catalog_bytes": 14687,
+          "current_request_bytes_separate": 101,
+          "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+        }
+      },
+      "status": "complete",
+      "created_at": "2026-10-17T12:15:18.956516+00:00"
+    }
+  ]
+}

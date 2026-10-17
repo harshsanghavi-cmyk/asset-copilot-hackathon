@@ -1,0 +1,112 @@
+erDiagram
+  TEAM ||--o{ AREA : owns
+  TEAM ||--o{ USER : groups
+  USER ||--o{ TEAM : leads
+  AREA ||--|{ ASSET : contains
+  TEAM ||--o{ ASSET : operates
+  USER ||--o{ ASSET : in_charge
+  WELL_TYPE ||--o{ ASSET : selects_manual
+  ASSET ||--|{ EQUIPMENT : nests
+  ASSET ||--|{ INSPECTION : observed_by
+  ASSET ||--|{ MAINTENANCE : has
+  ASSET ||--o{ CONTEXT_NOTE : has
+  ASSET ||--o{ REGULATORY_EVENT : has
+  USER ||--o{ INSPECTION : inspects
+  USER ||--o{ MAINTENANCE : technician
+  USER ||--o{ CONTEXT_NOTE : authors
+  INSPECTION o|--o{ MAINTENANCE : triggers
+  INSPECTION ||--o{ REGULATORY_EVENT : relates
+  INSPECTION o|--o{ CONTEXT_NOTE : formal_correction_target
+  MAINTENANCE ||--o| REPAIR_REPORT : report_file
+  RULE_PROTOCOL ||--o{ REGULATORY_EVENT : protocol_id
+  TEAM {
+    string team_id PK
+    string lead_user_id FK
+    string name
+  }
+  AREA {
+    string area_id PK
+    string team_id FK
+    string name
+    array asset_ids "redundant membership list"
+  }
+  USER {
+    string user_id PK
+    string team_id FK
+    string name
+    string role
+  }
+  WELL_TYPE {
+    string well_type PK
+    string manual_path "T350 inherits T200"
+  }
+  ASSET {
+    string asset_id PK
+    string area_id FK
+    string team_id FK
+    string in_charge_user_id FK
+    string well_type FK
+    object last_inspection "ID time inspector; checked pointer"
+    string recorded_status "can be stale"
+    object location "lat lon"
+  }
+  EQUIPMENT {
+    string equipment_id PK
+    string asset_id FK "proposed normalized parent key"
+    string kind
+    string model
+  }
+  INSPECTION {
+    string inspection_id PK
+    string asset_id FK
+    string inspector_user_id FK
+    datetime inspected_at
+    number ambient_temp_c
+    number wellhead_temp_c
+    boolean spill_detected
+    number spill_est_volume_bbl
+    array evidence_images "logical references; bytes absent"
+  }
+  MAINTENANCE {
+    string maintenance_id PK
+    string asset_id FK
+    string technician_user_id FK
+    string triggered_by_inspection_id FK "nullable"
+    string equipment_kind "kind, not equipment_id"
+    datetime started_at
+    datetime completed_at "may be planned"
+    object cost_usd "labor parts total; may be estimate"
+    string report_file "nullable relative path"
+  }
+  REPAIR_REPORT {
+    string source_path PK "within dataset namespace and revision"
+    string maintenance_id FK "heading cross-check"
+    string content_hash "proposed provenance key"
+  }
+  CONTEXT_NOTE {
+    string note_id PK
+    string asset_id FK
+    string author_user_id FK
+    string inspection_id FK "formal corrections only"
+    string note_type
+    datetime created_at
+    date valid_from
+    date valid_to "nullable"
+    string text "ordinary references may be prose only"
+  }
+  REGULATORY_EVENT {
+    string event_id PK
+    string asset_id FK
+    string related_inspection_id FK
+    string protocol_id FK
+    date date
+    string event_type
+    number hours_to_report "written notice; nullable"
+    number fine_usd
+    string status "event-specific"
+  }
+  RULE_PROTOCOL {
+    string protocol_id PK "logical identifier within source revision"
+    string document_path
+    string section
+  }

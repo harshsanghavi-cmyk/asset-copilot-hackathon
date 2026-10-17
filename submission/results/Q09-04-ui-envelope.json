@@ -1,0 +1,305 @@
+{
+  "schema_version": "1.0",
+  "answer_id": "e3c9ed7f-9126-47b4-a6b0-1c95139ad955",
+  "thread_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+  "user_id": "U-301",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "knowledge_revision": 3,
+  "reference_date": "2027-01-15",
+  "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+  "blocks": [
+    {
+      "id": "e3c9ed7f-9126-47b4-a6b0-1c95139ad955:verified:0",
+      "type": "table",
+      "title": "Verified data — explanation incomplete",
+      "result_set_id": "result_24698ff3af4f4be49364c6678bfc3668",
+      "evidence_ids": [
+        "ev_630cef1e4aa799df8e2fccad",
+        "ev_7fe351e3d9212748884010cb",
+        "src_148067724bdb724664aecc6e",
+        "result_24698ff3af4f4be49364c6678bfc3668"
+      ],
+      "encoding": {},
+      "span": 2
+    }
+  ],
+  "results": {
+    "result_24698ff3af4f4be49364c6678bfc3668": {
+      "result_set_id": "result_24698ff3af4f4be49364c6678bfc3668",
+      "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+      "knowledge_revision": 3,
+      "columns": [
+        {
+          "key": "asset_id",
+          "label": "Asset Id"
+        },
+        {
+          "key": "area_id",
+          "label": "Area Id"
+        },
+        {
+          "key": "area_name",
+          "label": "Area Name"
+        },
+        {
+          "key": "note_id",
+          "label": "Note Id"
+        },
+        {
+          "key": "reported_at",
+          "label": "Reported At"
+        },
+        {
+          "key": "note",
+          "label": "Note"
+        },
+        {
+          "key": "response_id",
+          "label": "Response Id"
+        },
+        {
+          "key": "response_at",
+          "label": "Response At"
+        },
+        {
+          "key": "response_kind",
+          "label": "Response Kind"
+        },
+        {
+          "key": "hours_to_response",
+          "label": "Hours To Response",
+          "unit": "hour"
+        },
+        {
+          "key": "deadline_hours",
+          "label": "Deadline Hours",
+          "unit": "hour"
+        },
+        {
+          "key": "due_at",
+          "label": "Due At"
+        },
+        {
+          "key": "assessment",
+          "label": "Assessment"
+        },
+        {
+          "key": "h2s_ppm",
+          "label": "H2S Ppm"
+        }
+      ],
+      "rows": [
+        {
+          "asset_id": "WELL-0332",
+          "hours_to_response": null,
+          "response_id": null,
+          "h2s_ppm": null,
+          "deadline_hours": 24,
+          "note_id": "CTX-0332-004",
+          "note": "Gas odor reported by the pumper near WELL-0332 wellhead, area flagged off.",
+          "due_at": "2026-12-04T12:10:00+00:00",
+          "reported_at": "2026-12-03T12:10:00Z",
+          "area_name": "Northwest Block 12",
+          "area_id": "NW-12",
+          "assessment": "missed",
+          "response_kind": null,
+          "response_at": null
+        }
+      ],
+      "evidence_ids": [
+        "ev_630cef1e4aa799df8e2fccad",
+        "ev_7fe351e3d9212748884010cb",
+        "src_148067724bdb724664aecc6e",
+        "result_24698ff3af4f4be49364c6678bfc3668"
+      ],
+      "provider_coverage": {
+        "unit": "gas_response",
+        "matching": 1,
+        "evaluated": 1,
+        "unknown": 0,
+        "import_issues": 0,
+        "status": "complete",
+        "displayed_rows": 1,
+        "output_rows": 1,
+        "display_truncated": false,
+        "aggregation_input_truncated": false
+      },
+      "trace_id": "trace_5cd7530ced5546fb92cbe920b1d85454",
+      "warnings": [
+        "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day."
+      ],
+      "bounds": {
+        "start": "2026-12-03",
+        "end": "2026-12-03",
+        "closure": "both"
+      },
+      "operation": {
+        "collection": "inspections",
+        "metric": "gas_response"
+      },
+      "coverage": {
+        "matching": 1,
+        "evaluated": 1,
+        "unknown": 0
+      }
+    }
+  },
+  "evidence": {
+    "ev_630cef1e4aa799df8e2fccad": {
+      "id": "ev_630cef1e4aa799df8e2fccad",
+      "title": "WELL-0332",
+      "source_kind": "metadata",
+      "source_id": "src_1dde2aac8f318474821aa0ca",
+      "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0332\", \"equipment\": [{\"equipment_id\": \"WELL-0332-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0332-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0332-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0332-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0332-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0332-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2017-08-26\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:45:00Z\", \"inspection_id\": \"INS-0332-0217\", \"inspector_user_id\": \"U-603\"}, \"location\": {\"lat\": 32.2338, \"lon\": -102.61928}, \"name\": \"NW-12 Well 332\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+      "path": "assets/WELL-0332/metadata.json"
+    },
+    "ev_7fe351e3d9212748884010cb": {
+      "id": "ev_7fe351e3d9212748884010cb",
+      "title": "CTX-0332-004",
+      "source_kind": "context",
+      "source_id": "src_e0e3eaab7de9d4dd04af1edb",
+      "excerpt": "{\"asset_id\": \"WELL-0332\", \"author_user_id\": \"U-602\", \"created_at\": \"2026-12-03T12:10:00Z\", \"note_id\": \"CTX-0332-004\", \"note_type\": \"operator_note\", \"text\": \"Gas odor reported by the pumper near WELL-0332 wellhead, area flagged off.\", \"valid_from\": \"2026-12-03\", \"valid_to\": null}",
+      "path": "assets/WELL-0332/context.jsonl"
+    },
+    "src_148067724bdb724664aecc6e": {
+      "id": "src_148067724bdb724664aecc6e",
+      "title": "fleet/sops/operations-sop-rev2.md",
+      "source_kind": "sop",
+      "source_id": "src_148067724bdb724664aecc6e",
+      "excerpt": "# Operations SOP\n\n> Fictional SOP for the FlytBase Asset Copilot hackathon. Simplified; it is not real operating,\n> safety or regulatory guidance.\n\nDocument ID: SOP-OPS · Revision 2 · Effective 1 Oct 2026 · Owner: Field Operations with Health, Safety & Environment (TEAM-HSE)\n\n## Revision history\n\n| Revision | Effective | Change |\n|---|---|---|\n| 2 | 1 Oct 2026 | Adds OPS-1 to OPS-6. OPS-1 response time is cut from 24 hours to 12 hours for reports from 1 Jan 2027. |\n| 1 | 1 Mar 2025 | First issue (shift handover only). |\n\n## Operator notes\n\nField operators record what they see on their rounds as operator notes: the records with\n`note_type` = `operator_note` in the well's notes (`assets/<WELL_ID>/context.jsonl`). The note's\n`created_at` is the time of the observation (UTC, like the other timestamps in the records). A\nround note is filed under the well it is about (`asset_id`) and names that well by its ID in its\ntext (for example WELL-0412).\n\n## OPS-1 Gas odor response\n\nAn operator note reporting a gas smell needs a field response on that well. A gas odor report is an\noperator note saying the crew smelled gas, noticed a rotten-egg smell or a gas odor, or that an H2S\nmonitor alarmed at a well.\n\nA field response is either:\n- a maintenance job on that well (its `started_at` in `maintenance.jsonl`), or\n- an inspection of that well with `method` = `manual`. Drone inspections do not count.\n\nThe response must start after the note's `created_at` and within:\n- **24 hours** for reports noted before 1 Jan 2027;\n- **12 hours** for reports noted from 1 Jan 2027.\n\nOtherwise the response is missed. Crews on site follow WS-03 of the Field Work SOP (H2S monitors,\n10 ppm stop-work level).\n\n## OPS-2 Temporary bypass\n\nA temporary flowline bypass is allowed only on a well named in a management-of-change memo\n(the `moc-*.md` files in `fleet/sops/`) that has not expired. A memo that extends an earlier memo\nreplaces its expiry date.\n\nA bypass is in place from the operator note that puts it in until the operator note that takes it\nout.\nIt is a violation if:\n- the well is not named in any MOC, or\n- the bypass is still in place after the expiry date (the end of that day), including a bypass that\n  is still in place today.\n\n## OPS-3 Status evidence precedence\n\nA well's current status comes from the most recent of these two:\n- its latest inspection reading (producing oil or not producing oil, by the well-type manual,\n  after any `data_correction` note), or\n- its latest operator note saying the well was shut in or restarted.\n\nIf a shut-in note is more recent than the latest inspection, the well is **not producing (shut\nin)**, even if that inspection reads as producing. If a restart note is more recent than the latest\ninspection, the well is **producing (unconfirmed)** until an inspection confirms it. Other operator\nnotes (gas odor, bypass, equipment remarks) do not change the status.\n\n## OPS-4 Failure classification\n\nClassify a corrective job from the \"## Root cause\" section of its maintenance report. Check the\nrows of this table **in order**: the **first** row with a keyword that appears in the root-cause\ntext (ignoring upper and lower case) gives the category. Order matters: a text that mentions both\nsand and wear is Sand, and a text that mentions both corrosion and fatigue is Corrosion.\n\n| Order | Category | Keywords |\n|---|---|---|\n| 1 | Installation error | installation, installed incorrectly, misaligned, re-terminated, not torqued, cross-threaded |\n| 2 | Sand | sand |\n| 3 | Scale | scale, paraffin |\n| 4 | Gas interference | gas lock, gas interference, free gas |\n| 5 | Corrosion | corrosion, corroded |\n| 6 | Electrical | winding, insulation, switch, terminal box |\n| 7 | Fatigue/wear | fatigue, wear, worn, years of service, buckling, ageing, vibration |\n| 8 | Other | no keyword above matched |\n\n## OPS-5 Freeze protection (1 Dec – 28 Feb)\n\nFrom 1 Dec to 28 Feb, any inspection with `ambient_temp_c` at or below **−5 °C** on a well that is\nproducing oil at that reading needs a heat trace check on that well: a maintenance job whose `issue`\ncontains \"Heat trace check\", starting within **7 days** after the inspection. A cold reading on a\nwell that is not producing oil needs no check.\n\n## OPS-6 Repeat failure\n\nA corrective job is a **repeat failure** if it is on the same equipment kind of the same well and\nit starts within **30 days** after the previous corrective job on that equipment was completed.\n\nA repeat failure counts against the crew that did the previous job only when the repeat job's\nroot cause (OPS-4) is **Installation error**. Count it against the previous job's contractor; a\nprevious job with no contractor counts against the company crew.\n\nSee also the Spill Response SOP (reportable spills and clean-up) and the Field Work SOP (WS-01 to\nWS-07) for how the work itself is done and reported.\n",
+      "path": "fleet/sops/operations-sop-rev2.md"
+    },
+    "result_24698ff3af4f4be49364c6678bfc3668": {
+      "id": "result_24698ff3af4f4be49364c6678bfc3668",
+      "title": "result_24698ff3af4f4be49364c6678bfc3668",
+      "source_kind": "aggregate_lineage",
+      "source_id": "result_24698ff3af4f4be49364c6678bfc3668"
+    },
+    "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+      "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+      "title": "Observation reported by Robert Hayes",
+      "source_kind": "shared_knowledge",
+      "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+      "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+      "author": "Robert Hayes",
+      "source_time": "2026-10-17T12:10:03.801319+00:00"
+    },
+    "chunk_1960500011899dcc000af9d2": {
+      "id": "chunk_1960500011899dcc000af9d2",
+      "title": "Maintenance Report — MNT-0332-033",
+      "source_kind": "report",
+      "source_id": "src_f6ccb487005134e6ef83ea02",
+      "asset_id": "WELL-0332",
+      "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** flowline\n**Work started:** 20 Nov 2026 08:00 · **Finished:** 20 Nov 2026 18:00 · **Well stopped for this job:** 10 hours\n**Crew lead:** Megan Ward (U-305) · **Crew:** Kevin Price\n**Triggered by:** inspection INS-0332-0211 on 2026-11-19\n**Report written:** 22 Nov 2026",
+      "path": "assets/WELL-0332/maintenance-reports/MNT-0332-033.md"
+    },
+    "chunk_92a71979342305129c768c76": {
+      "id": "chunk_92a71979342305129c768c76",
+      "title": "Maintenance Report — MNT-0332-003",
+      "source_kind": "report",
+      "source_id": "src_262c00fab15c37897f086681",
+      "asset_id": "WELL-0332",
+      "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** flowline\n**Work started:** 10 Mar 2023 08:00 · **Finished:** 10 Mar 2023 19:00 · **Well stopped for this job:** 11 hours\n**Crew lead:** Daniel Foster (U-302) · **Crew:** Kevin Price\n**Triggered by:** inspection INS-0332-0021 on 2023-03-09\n**Report written:** 11 Mar 2023",
+      "path": "assets/WELL-0332/maintenance-reports/MNT-0332-003.md"
+    },
+    "chunk_963d6444b3bf73cc165b3f68": {
+      "id": "chunk_963d6444b3bf73cc165b3f68",
+      "title": "Maintenance Report — MNT-0332-025",
+      "source_kind": "report",
+      "source_id": "src_afbb4ec8bec79e71b1fe29d7",
+      "asset_id": "WELL-0332",
+      "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** wellhead\n**Work started:** 16 Nov 2025 08:00 · **Finished:** 18 Nov 2025 03:00 · **Well stopped for this job:** 43 hours\n**Crew lead:** Daniel Foster (U-302) · **Crew:** Megan Ward, Brian Coleman\n**Triggered by:** inspection INS-0332-0159 on 2025-11-13\n**Report written:** 18 Nov 2025",
+      "path": "assets/WELL-0332/maintenance-reports/MNT-0332-025.md"
+    },
+    "chunk_2c8575b809f89958dd7822e7": {
+      "id": "chunk_2c8575b809f89958dd7822e7",
+      "title": "Maintenance Report — MNT-0332-024",
+      "source_kind": "report",
+      "source_id": "src_18196e251d897712c578ef6a",
+      "asset_id": "WELL-0332",
+      "excerpt": "**Asset:** WELL-0332 (NW-12 Well 332, T200, Northwest Block 12)\n**Equipment:** pump jack\n**Work started:** 17 Oct 2025 08:00 · **Finished:** 28 Oct 2025 13:00 · **Well stopped for this job:** 269 hours\n**Crew lead:** Brian Coleman (U-304) · **Crew:** Megan Ward, Kevin Price\n**Triggered by:** inspection INS-0332-0155 on 2025-10-16\n**Report written:** 29 Oct 2025",
+      "path": "assets/WELL-0332/maintenance-reports/MNT-0332-024.md"
+    }
+  },
+  "warnings": [
+    "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+    "Ranked lexical retrieval cannot prove a fleet total or source absence",
+    "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification",
+    "The explanation is incomplete; the panels contain verified records."
+  ],
+  "sample": false,
+  "generation": {
+    "status": "partial",
+    "model": "gemini-3.5-flash-lite",
+    "live": false,
+    "verified_tool_data": true,
+    "explanation_error_code": "unsupported_claim",
+    "retry_after": null,
+    "calls": [
+      {
+        "stage": "planner",
+        "usage": {
+          "input_tokens": 3238,
+          "output_tokens": 396,
+          "total_tokens": 3634,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 445,
+        "live": true
+      },
+      {
+        "stage": "maker",
+        "usage": {
+          "input_tokens": 1979,
+          "output_tokens": 306,
+          "total_tokens": 2285,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 450,
+        "live": true
+      }
+    ]
+  },
+  "budget": {
+    "method": "google_sdk_countTokens",
+    "long_term": 174,
+    "long_term_cap": 2000,
+    "long_term_byte_cap": 8000,
+    "short_term": 170,
+    "short_term_cap": 1000,
+    "omitted_private": 0,
+    "omitted_shared": 0,
+    "omitted_dialogue": 0,
+    "omitted_reference_handles": 0,
+    "slot_measurements": {
+      "long_term": {
+        "count": 174,
+        "cap": 2000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      },
+      "short_term": {
+        "count": 170,
+        "cap": 1000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      }
+    },
+    "retrieved_context": 343,
+    "retrieved_cap": 2000,
+    "candidate_byte_cap": 8000,
+    "omitted_evidence_or_rows": 5,
+    "partial_evidence": true,
+    "token_fit_omitted": 6,
+    "content_cap": 5000
+  }
+}

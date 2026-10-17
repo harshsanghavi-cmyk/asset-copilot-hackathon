@@ -1,0 +1,155 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "evaluation_status": "draft_target_not_met",
+  "turns": [
+    {
+      "turn": "Q01-01",
+      "profile": "Michael Turner",
+      "session_id": "ff3266aa-22ab-4b26-a5e7-300798eeec78",
+      "status": "complete",
+      "json": "Q01-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q02-01",
+      "profile": "Robert Hayes",
+      "session_id": "4d3f7f21-b687-43a9-96dd-983476c53870",
+      "status": "complete",
+      "json": "Q02-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q03-01",
+      "profile": "Laura Simmons",
+      "session_id": "941c56c5-e5d4-49dc-a039-5a40493ee0b5",
+      "status": "partial",
+      "json": "Q03-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q04-01",
+      "profile": "Chris Dalton",
+      "session_id": "003b8c57-0cd8-4830-96a8-1ae5885f1db7",
+      "status": "partial",
+      "json": "Q04-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q05-01",
+      "profile": "Michael Turner",
+      "session_id": "5a7060b9-dff0-4e5c-9ce4-4192f64d6d27",
+      "status": "complete",
+      "json": "Q05-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q06-01",
+      "profile": "Nathan Pierce",
+      "session_id": "2634aa98-56a3-4ab3-82be-3d79eba3a597",
+      "status": "partial",
+      "json": "Q06-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q07-01",
+      "profile": "Robert Hayes",
+      "session_id": "7da73708-f6f1-4c3b-8c18-b3b2613ce097",
+      "status": "complete",
+      "json": "Q07-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q07-02",
+      "profile": "Robert Hayes",
+      "session_id": "7da73708-f6f1-4c3b-8c18-b3b2613ce097",
+      "status": "complete",
+      "json": "Q07-02-ui-envelope.json"
+    },
+    {
+      "turn": "Q08-01",
+      "profile": "Nathan Pierce",
+      "session_id": "02638959-82a5-457a-8a59-32ed94ee46d0",
+      "status": "complete",
+      "json": "Q08-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q08-02",
+      "profile": "Nathan Pierce",
+      "session_id": "02638959-82a5-457a-8a59-32ed94ee46d0",
+      "status": "complete",
+      "json": "Q08-02-ui-envelope.json"
+    },
+    {
+      "turn": "Q08-03",
+      "profile": "Robert Hayes",
+      "session_id": "43ea13cf-e796-4d66-85c8-3f7a783bab39",
+      "status": "complete",
+      "json": "Q08-03-ui-envelope.json"
+    },
+    {
+      "turn": "Q08-04",
+      "profile": "Olivia Grant",
+      "session_id": "99f83a5a-1e21-47fd-a79a-a77afce287eb",
+      "status": "complete",
+      "json": "Q08-04-ui-envelope.json"
+    },
+    {
+      "turn": "Q08-05",
+      "profile": "Nathan Pierce",
+      "session_id": "1de07d37-aa90-4a17-a2eb-fe954cdeab27",
+      "status": "partial",
+      "json": "Q08-05-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-01",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "complete",
+      "json": "Q09-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-02",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "complete",
+      "json": "Q09-02-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-03",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "complete",
+      "json": "Q09-03-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-04",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "partial",
+      "json": "Q09-04-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-05",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "complete",
+      "json": "Q09-05-ui-envelope.json"
+    },
+    {
+      "turn": "Q09-06",
+      "profile": "Robert Hayes",
+      "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+      "status": "partial",
+      "json": "Q09-06-ui-envelope.json"
+    },
+    {
+      "turn": "Q10-01",
+      "profile": "Michael Turner",
+      "session_id": "9aa91073-c66b-48d7-aafb-619e581cb0e5",
+      "status": "complete",
+      "json": "Q10-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q11-01",
+      "profile": "Olivia Grant",
+      "session_id": "012e0650-0e68-4c0c-add2-422c7f667cf8",
+      "status": "partial",
+      "json": "Q11-01-ui-envelope.json"
+    }
+  ]
+}

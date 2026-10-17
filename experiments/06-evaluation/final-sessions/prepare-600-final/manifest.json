@@ -1,0 +1,11 @@
+{
+  "run_tag": "prepare-600-final",
+  "started_at": "2026-10-17T11:49:19.126639+00:00",
+  "status": "prepared",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "parallel_chains": 2,
+  "sessions": [],
+  "turns": [],
+  "boundary": "Actual serving API and app database; delivery is separate from semantic correctness."
+}

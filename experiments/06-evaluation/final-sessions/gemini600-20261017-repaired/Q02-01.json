@@ -1,0 +1,118 @@
+{
+  "scenario": 2,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "f90105d5-e3f2-4060-9dc8-17c7c1424cb4",
+  "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+  "message_id": "fdbd60ed-7fd8-4310-ab46-2b8e39fb758e",
+  "question": "Which well produced the most oil in 2026?",
+  "started_at": "2026-10-17T12:13:30.928629+00:00",
+  "status": "error",
+  "file": "Q02-01.json",
+  "answer_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+  "error": {
+    "code": "provider_error",
+    "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  "panels": [],
+  "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:13:38.523910+00:00",
+  "stages": [
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "a4b53477-8d45-4c43-8b0e-bcf27f522d51",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "timestamp": "2026-10-17T12:13:31.063616+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "a4b53477-8d45-4c43-8b0e-bcf27f522d51",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "timestamp": "2026-10-17T12:13:31.101086+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "62f7b20d-1c14-4c3d-97dd-10ae1e7d2fb0",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "timestamp": "2026-10-17T12:13:31.828713+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "quota:477",
+      "stage": "quota_wait",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:32.190753+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:34.053400+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "quota:477",
+      "stage": "quota_wait",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:34.558988+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:36.266809+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "quota:477",
+      "stage": "quota_wait",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:13:36.271425+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:13:36.271376+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "stage_id": "62f7b20d-1c14-4c3d-97dd-10ae1e7d2fb0",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "timestamp": "2026-10-17T12:13:38.008540+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

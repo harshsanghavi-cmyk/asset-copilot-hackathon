@@ -1,0 +1,22 @@
+{
+  "health": {
+    "data_ready": true,
+    "model_configured": true,
+    "model_availability": "paused_for_diagnosis"
+  },
+  "desktop": {
+    "badge": "Model under repair",
+    "google_repair_banner": true,
+    "history_visible": true,
+    "send_disabled": true,
+    "retry_disabled": true,
+    "history_loading_spinner": false,
+    "stream_spinner": false
+  },
+  "mobile": {
+    "no_horizontal_overflow": true,
+    "send_disabled": true
+  },
+  "model_generation_calls": 0,
+  "automatic_probes_or_retries": 0
+}

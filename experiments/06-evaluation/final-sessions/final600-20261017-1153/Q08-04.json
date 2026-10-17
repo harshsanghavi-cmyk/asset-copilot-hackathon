@@ -1,0 +1,156 @@
+{
+  "scenario": 8,
+  "turn": 4,
+  "user": "Olivia Grant",
+  "user_id": "U-501",
+  "session_id": "ddeb8daf-e812-4abe-9c1c-8b4c38167c75",
+  "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+  "question": "Nathan told me the recalled pump on WELL-0577 was swapped as well. Take it off the recall list.",
+  "started_at": "2026-10-17T12:00:06.592526+00:00",
+  "status": "error",
+  "file": "Q08-04.json",
+  "answer_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+  "error": {
+    "code": "provider_error",
+    "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+  },
+  "panels": [],
+  "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:00:14.791702+00:00",
+  "stages": [
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "ebcada9c-145e-4284-8b9b-c95ab0957af1",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "timestamp": "2026-10-17T12:00:06.619914+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "ebcada9c-145e-4284-8b9b-c95ab0957af1",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "timestamp": "2026-10-17T12:00:06.638067+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:315",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "started",
+      "timestamp": "2026-10-17T12:00:06.926680+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:00:08.852117+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:315",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:00:08.855946+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:00:08.855878+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "643dcafd-7988-41cc-8575-610a3af3734f",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "timestamp": "2026-10-17T12:00:09.086194+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:316",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "started",
+      "timestamp": "2026-10-17T12:00:09.099183+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:00:11.052732+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:316",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:00:11.056730+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:00:11.056695+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:317",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "started",
+      "timestamp": "2026-10-17T12:00:11.317272+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:00:13.253268+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "quota:317",
+      "stage": "quota_wait",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:00:13.256857+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:00:13.256841+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "stage_id": "643dcafd-7988-41cc-8575-610a3af3734f",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "timestamp": "2026-10-17T12:00:14.282160+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

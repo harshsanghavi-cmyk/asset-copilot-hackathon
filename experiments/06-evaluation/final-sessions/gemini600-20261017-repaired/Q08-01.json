@@ -1,0 +1,105 @@
+{
+  "scenario": 8,
+  "turn": 1,
+  "user": "Nathan Pierce",
+  "user_id": "U-601",
+  "session_id": "649881c9-0389-48da-b12e-0f46b873cd6c",
+  "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+  "message_id": "dbf447de-84d8-43a3-a5bc-81bed408f230",
+  "question": "WELL-0333's recalled pump was swapped out yesterday. The work order isn't in the system yet. Please count it as replaced from now on.",
+  "started_at": "2026-10-17T12:13:58.587835+00:00",
+  "status": "error",
+  "file": "Q08-01.json",
+  "answer_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+  "error": {
+    "code": "provider_error",
+    "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  "panels": [],
+  "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:14:21.663477+00:00",
+  "stages": [
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "8da34a8b-f74c-4a66-9a1a-651f226f1222",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "timestamp": "2026-10-17T12:14:16.616593+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "8da34a8b-f74c-4a66-9a1a-651f226f1222",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "timestamp": "2026-10-17T12:14:16.635269+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "d2381bcb-0a8c-4f5f-b661-9f90e2bff7b8",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "timestamp": "2026-10-17T12:14:16.968721+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "quota:506",
+      "stage": "quota_wait",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:14:17.382078+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:14:19.177635+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "quota:506",
+      "stage": "quota_wait",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:14:19.181298+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:14:19.181246+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "stage_id": "d2381bcb-0a8c-4f5f-b661-9f90e2bff7b8",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "timestamp": "2026-10-17T12:14:21.151641+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

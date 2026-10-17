@@ -1,0 +1,14 @@
+%% Proposed architecture: provisional comparison written before research, not implemented.
+flowchart TB
+  U[User and explicit identity] --> R{Memory architecture}
+  R --> A[Bounded chain with application-owned memory]
+  R --> B[Letta style self-editing core and archive]
+  R --> C[Mem0 or gbrain memory service]
+  A --> S[Private transcript and entity references]
+  A --> L[Shared correction and claim ledger]
+  B --> L
+  C --> L
+  S --> P[Scoped context pack]
+  L --> T[Exact tools over effective records]
+  P --> Q[Specialist answer and inline dashboard]
+  T --> Q

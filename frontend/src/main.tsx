@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { App as AntApp, ConfigProvider } from 'antd';
+import { MotionConfig } from 'motion/react';
+import '@fontsource/dm-sans/400.css';
+import '@fontsource/dm-sans/500.css';
+import '@fontsource/dm-sans/600.css';
+import '@fontsource/dm-sans/700.css';
+import Workspace from './App';
+import './styles.css';
+export const theme={token:{fontFamily:'"DM Sans", sans-serif',colorPrimary:'#3b5eaa',colorLink:'#31569c',colorText:'#19263c',colorTextSecondary:'#59677d',colorTextDescription:'#59677d',colorTextPlaceholder:'#65758c',colorBorder:'#dce3ed',borderRadius:9,controlHeight:36},components:{Button:{primaryShadow:'none'},Table:{headerBg:'#f7f9fc',headerColor:'#53627a',fontSize:14},Drawer:{paddingLG:24}}};
+ReactDOM.createRoot(document.getElementById('root')!).render(<ConfigProvider theme={theme}><AntApp><MotionConfig reducedMotion="user"><Workspace/></MotionConfig></AntApp></ConfigProvider>);

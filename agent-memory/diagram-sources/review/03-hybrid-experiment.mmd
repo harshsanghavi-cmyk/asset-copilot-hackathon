@@ -1,0 +1,11 @@
+%% Actual isolated fixed-proposal experiment results; no live-model quality claim.
+flowchart LR
+  FIX["Same fixtures and fixed model proposals<br/>Shared claims, private canaries, corrections, overflow"] --> POLICY["Identical canonical ledger and write policy<br/>Same scopes, evidence and revisions"]
+  POLICY --> EX["Explicit durable workflow<br/>Application job journal and stage receipts<br/>53 of 53 state checks passed"]
+  POLICY --> LG["Actual LangGraph workflow<br/>Synchronous SQLite checkpoints<br/>53 of 53 same state checks passed"]
+  EX --> FAULT["Identical fault schedule<br/>Before commit, after commit, restart and replay"]
+  LG --> FAULT
+  FAULT --> ASSERT["Assert cross-user visibility, isolation<br/>One correction, preserved conflicts, exact entity recall"]
+  ASSERT --> RESULT["Measured state-behavior tie<br/>No live LLM extraction or semantic-quality test"]
+  RESULT --> PROBE["Actual isolated gbrain sourced projection<br/>17 of 17 integration checks passed<br/>Exact engine reads and canonical overlay"]
+  PROBE -.-> NEXT["Future retrieval comparison remains untested<br/>H1 exact and FTS versus H2 shared gbrain adjunct<br/>Gemma only or deterministic paths"]

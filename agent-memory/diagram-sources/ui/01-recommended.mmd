@@ -1,0 +1,26 @@
+%% Proposed architecture, not implemented. Domain values are server-owned.
+flowchart TB
+  U[User question and explicit visual request] --> C[Trusted request context and private memory]
+  C --> P[Python bounded analysis chain]
+  P --> E[Effective data and deterministic tools]
+  E --> RS[Immutable ResultSets and EvidenceRefs]
+  RS --> G[Gemma narrative and component selection]
+  G --> V[Parse and validate bounded view plan]
+  V --> J{Valid and grounded?}
+  J -->|one formatting repair| G
+  J -->|still invalid| F[Server-composed factual fallback]
+  J -->|yes| A[AnswerEnvelope assembler]
+  RS --> A
+  F --> A
+  A --> S[Python AG-UI events and SSE encoder]
+  S --> AC[Browser AG-UI HttpAgent client]
+  AC --> ST[Run-scoped reducer and saved snapshot]
+  ST --> R[Allowlisted React renderer]
+  R --> N[Inline narrative and citations]
+  R --> D[One message with 4 or 5 panels]
+  D --> B[Status card and table]
+  D --> H[Line or bar chart and heatmap]
+  D --> M[Map or cited diagram]
+  K[Shared correction commit] --> REV[New knowledge revision and invalidation]
+  REV --> P
+  REV --> ST

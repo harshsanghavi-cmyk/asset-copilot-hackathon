@@ -1,0 +1,20 @@
+flowchart LR
+    operator["Operator or supervisor"] --> request["Question, user identity, date window"]
+    request --> context["Scoped context assembly"]
+    sources["Immutable dataset and source documents"] --> effective["Effective records with correction overlay"]
+    effective --> tools["Exact tools and document retrieval"]
+    tools --> context
+    privateMemory["Private memory and selected entities"] --> context
+    shared["Shared asset facts and type rules"] --> context
+    context --> agent["Domain expert Q&A agent"]
+    agent --> validate["Validate answer, citations and component plan"]
+    validate --> transport["UI event transport"]
+    transport --> registry["Typed React component registry"]
+    registry --> dashboard["Narrative and 1–5 useful components"]
+    dashboard --> operator
+    operator --> feedback["Correction or shared note with attribution"]
+    feedback --> effective
+    feedback --> shared
+    agent --> turns["Persist completed exchange"]
+    turns --> summary["Every 10 exchanges: compact summary, retain originals"]
+    summary --> privateMemory

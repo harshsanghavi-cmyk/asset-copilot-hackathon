@@ -1,0 +1,395 @@
+{
+  "scenario": 2,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "5e51f1d0-3586-4196-afe8-27a2ee81b9ad",
+  "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+  "question": "Which well produced the most oil in 2026?",
+  "started_at": "2026-10-17T11:52:46.399482+00:00",
+  "status": "complete",
+  "file": "Q02-01.json",
+  "answer_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+  "error": null,
+  "panels": [],
+  "narrative": "I could not produce a supported data answer. Query unavailable: unsupported_operation: Latest status uses an as-of end date; use temperature_series for a period",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+    "thread_id": "5e51f1d0-3586-4196-afe8-27a2ee81b9ad",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 0,
+    "reference_date": "2027-01-15",
+    "narrative": "I could not produce a supported data answer. Query unavailable: unsupported_operation: Latest status uses an as-of end date; use temperature_series for a period",
+    "blocks": [],
+    "results": {},
+    "evidence": {},
+    "warnings": [
+      "Part of the requested data could not be retrieved."
+    ],
+    "sample": false,
+    "generation": {
+      "status": "partial",
+      "model": "gemma-4-26b-a4b-it",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 2580,
+            "output_tokens": 185,
+            "total_tokens": 2765,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 232,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 1,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 70,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 10,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 70,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 10,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 39,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 0,
+      "partial_evidence": false,
+      "token_fit_omitted": 0,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 11198,
+      "current_request_bytes_separate": 41,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T11:53:09.337017+00:00",
+  "stages": [
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "7f981404-cb1c-4bac-861f-035589c59310",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:52:46.543634+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "7f981404-cb1c-4bac-861f-035589c59310",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:52:46.564992+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:226",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:46.581064+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:48.675973+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:226",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:52:48.695568+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:52:48.695500+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:228",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:48.956266+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:50.892629+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:228",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:50.896872+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:51.393219+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:228",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:51.396210+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:53.101416+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:228",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:52:53.112655+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:52:53.112641+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "4071d040-6869-4c8f-9251-4ede71a9fa59",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:52:53.381766+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:230",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:53.390848+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:55.310997+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:230",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:55.816672+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:57.515997+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:230",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:52:57.526755+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:52:57.526734+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:232",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:57.802491+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:52:59.724916+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:232",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:52:59.728938+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:53:00.225802+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:232",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:53:00.228655+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:53:01.934418+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:232",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:53:01.938140+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:53:01.938116+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "4071d040-6869-4c8f-9251-4ede71a9fa59",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:53:07.020627+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "6b19fafc-de53-4a13-b488-d3ba2fa9bfb1",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:53:07.037112+00:00",
+      "operation": "assets.records",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "6b19fafc-de53-4a13-b488-d3ba2fa9bfb1",
+      "stage": "query_records",
+      "status": "failed",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:53:07.043812+00:00",
+      "operation": "assets.records",
+      "tool_name": "query_records",
+      "message": "Query Records failed",
+      "error_code": "unsupported_operation"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:235",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "started",
+      "timestamp": "2026-10-17T11:53:07.052485+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:53:08.538072+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "quota:235",
+      "stage": "quota_wait",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:53:08.542183+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:53:08.542115+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "354eb50c-3f51-432a-aeb7-8f3e9063fccb",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:53:08.811805+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "stage_id": "354eb50c-3f51-432a-aeb7-8f3e9063fccb",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "timestamp": "2026-10-17T11:53:08.821013+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

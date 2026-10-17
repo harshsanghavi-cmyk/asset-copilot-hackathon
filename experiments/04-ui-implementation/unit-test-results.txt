@@ -1,0 +1,47 @@
+
+> asset-intelligence-frontend@0.1.0 test
+> tsx --test src/**/*.test.ts server/*.test.ts
+
+✔ local diagnostic capability rejects chat, traversal and remote origins (1.783174ms)
+✔ bounded LRU evicts idle state while active streams survive expiry and capacity pressure (1.580885ms)
+✔ idle runner recreation never shares a different owner and does not own durable history (0.870707ms)
+✔ header identifiers have explicit bounds and sessions are UUIDs (0.345285ms)
+✔ actual HTTP AG-UI and self-hosted runtime keep an idle stream open until terminal event (1472.861068ms)
+✔ runtime exposes static info and scoped protocol routes, never global cached thread resources (1.327137ms)
+✔ runtime checks durable backend ownership before any cached run/connect/stop (42.942229ms)
+✔ ensure creates a client UUID only after a missing owned session, never after a forbidden read (43.945368ms)
+✔ durable history rejects a different owner and quarantines a mixed-scope envelope (15.379634ms)
+✔ durable user-only history stays pending until authoritative run status is known (2.10221ms)
+✔ stored provider failure retains safe category and stable retry identity after reload (2.693708ms)
+✔ history refresh preserves observed provider failure while complete server replies remain authoritative (0.784632ms)
+✔ a running server receipt remains pending until the scoped history returns a terminal reply (3.323641ms)
+✔ branch preparation preserves ownership and submits no model request; suggestions use a separate empty-body endpoint (14.773086ms)
+✔ valid multi-panel answer stays bound to its owner, session and immutable result revision (26.565803ms)
+✔ unknown source/column references and duplicate block IDs fail visibly (14.441117ms)
+✔ partial records require the server verified-data flag and remain explicitly partial (8.603573ms)
+✔ failure categories distinguish cancellation, network and actual provider rejection without raw details (2.144311ms)
+✔ valid citations become source links and unknown internal handles stay explicit without raw IDs (4.200451ms)
+✔ diagnostic warnings do not become a chat wall while retrieval failure remains visible (1.208798ms)
+✔ automatic title uses first user text, and a manual title stays authoritative (6.15709ms)
+✔ separate owners and modes persist without overwriting a different owner (7.710863ms)
+✔ reload restores history while incomplete responses become interrupted (1.262452ms)
+✔ invalid saved history is preserved instead of being overwritten (0.449746ms)
+✔ editing a sample turn forks the prefix while preserving the original version (0.517587ms)
+✔ unique latitude/longitude observations use a geographic value view, not category axes (3.759342ms)
+✔ spatial color ranges preserve original values and missing data without aggregation or zero filling (0.52936ms)
+✔ only actual structured stages survive; private payload and raw prose are excluded (7.635187ms)
+✔ stage completion preserves real start time and measured elapsed across history replay (1.190783ms)
+✔ replayed retries are chronological, deduplicated and separated after a recorded failure (1.964093ms)
+✔ actual quota admission resumes the still-running model stage instead of a stale wait label (10.688197ms)
+✔ a producing well with no spill cannot be inverted by treating spill as production (11.410469ms)
+✔ single-row metric cards display provided aggregate values rather than inventing one asset (0.657997ms)
+✔ local fixture emits real AG-UI text/tool/terminal lifecycle with a validated envelope (843.131128ms)
+✔ cancelled stream never publishes a late factual dashboard (411.955762ms)
+ℹ tests 35
+ℹ suites 0
+ℹ pass 35
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3912.304749

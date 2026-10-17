@@ -1,0 +1,13 @@
+%% Proposed combined alternative; two independently versioned protocols.
+flowchart TB
+  PY[Python bounded chain and exact tools] --> D[ResultSets and EvidenceRefs]
+  D --> V[Validated domain view plan]
+  V --> A[Server A2UI v0.9.1 catalog adapter]
+  A --> AG[AG-UI lifecycle and A2UI payload transport]
+  AG --> RT[Self-hosted TypeScript Copilot Runtime]
+  RT --> CK[CopilotKit chat and A2UI integration]
+  CK --> CAT[Trusted React catalog and binding state]
+  CAT --> UI[One multi-panel dashboard response]
+  UI -->|typed action| AG
+  AG -->|authorized new run| PY
+  N[No arbitrary generated React execution] -. constraint .-> CAT

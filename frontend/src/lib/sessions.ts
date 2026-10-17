@@ -1,0 +1,26 @@
+import { z } from 'zod';
+import {stageSchema} from './stages';
+import { answerSchema, type AnswerEnvelope } from './contracts';
+
+const messageSchema = z.object({ id:z.string(), role:z.enum(['user','assistant']), text:z.string(), createdAt:z.string(), status:z.enum(['complete','streaming','pending','partial','interrupted','error']), answer:answerSchema.optional(), error:z.string().optional(),errorCode:z.string().optional(),runId:z.string().optional(),runStatus:z.string().optional(),stages:z.array(stageSchema).max(64).optional(),retryAt:z.string().optional(),suggestions:z.array(z.string()).optional(),suggestionsStatus:z.enum(['pending','queued','ready','error']).optional(),suggestionsSince:z.string().optional(),suggestionsQueue:z.enum(['queued','admitted','running']).optional(),suggestionsObservedOnly:z.boolean().optional(),suggestionsErrorCode:z.string().optional() });
+const sessionSchema=z.object({id:z.string(),ownerId:z.string(),mode:z.enum(['sample','live']).default('sample'),title:z.string(),titleSource:z.enum(['first-message','manual','default','server']),createdAt:z.string(),updatedAt:z.string(),datasetNamespace:z.string().optional(),parentSessionId:z.string().optional(),branchMode:z.enum(['edit','regenerate']).optional(),messages:z.array(messageSchema)});
+export type ChatMessage=z.infer<typeof messageSchema>;
+export type ChatSession=z.infer<typeof sessionSchema>;
+export interface SessionRepository { list(userId:string):ChatSession[]; save(session:ChatSession):void; remove(userId:string,id:string):void; }
+export const STORAGE_KEY='asset-intelligence.sessions.v1';
+export function deriveTitle(text:string):string {const clean=text.replace(/\s+/g,' ').trim().replace(/[?!]+$/,'');if(!clean)return 'New conversation';return clean.length>52?clean.slice(0,49).replace(/\s+\S*$/,'')+'…':clean;}
+export function relativeTime(iso:string,now=Date.now()):string {const seconds=Math.max(0,Math.floor((now-new Date(iso).getTime())/1000));if(seconds<60)return 'Just now';if(seconds<3600)return `${Math.floor(seconds/60)}m ago`;if(seconds<86400)return `${Math.floor(seconds/3600)}h ago`;return `${Math.floor(seconds/86400)}d ago`;}
+export function createSession(ownerId:string,mode:'sample'|'live'='sample'):ChatSession {const now=new Date().toISOString();return {id:crypto.randomUUID(),ownerId,mode,title:'New conversation',titleSource:'default',createdAt:now,updatedAt:now,messages:[]};}
+export class LocalSessionRepository implements SessionRepository {
+ readFailed=false;
+ constructor(private storage:Pick<Storage,'getItem'|'setItem'>){}
+ private read():ChatSession[]{try {const raw=JSON.parse(this.storage.getItem(STORAGE_KEY)||'[]');const valid=z.array(sessionSchema).parse(raw);this.readFailed=false;return valid.map(session=>({...session,messages:session.messages.map(message=>message.status==='streaming'?{...message,status:'interrupted' as const,errorCode:'interrupted',error:'This response was interrupted. You can try the request again.'}:message)}));}catch{this.readFailed=true;return [];}}
+ list(userId:string){return this.read().filter(s=>s.ownerId===userId).sort((a,b)=>b.updatedAt.localeCompare(a.updatedAt));}
+ save(session:ChatSession){sessionSchema.parse(session);const all=this.read();if(this.readFailed)throw new Error('Existing local history could not be read safely.');const existing=all.find(s=>s.id===session.id);if(existing&&existing.ownerId!==session.ownerId)throw new Error('Conversation ownership mismatch.');this.storage.setItem(STORAGE_KEY,JSON.stringify([session,...all.filter(s=>s.id!==session.id)]));}
+ remove(userId:string,id:string){const all=this.read();if(this.readFailed)throw new Error('Existing local history could not be read safely.');this.storage.setItem(STORAGE_KEY,JSON.stringify(all.filter(s=>!(s.id===id&&s.ownerId===userId))));}
+}
+export function appendUser(session:ChatSession,text:string):ChatSession {const now=new Date().toISOString();return {...session,title:session.titleSource==='default'?deriveTitle(text):session.title,titleSource:session.titleSource==='default'?'first-message':session.titleSource,updatedAt:now,messages:[...session.messages,{id:crypto.randomUUID(),role:'user',text,createdAt:now,status:'complete'}]};}
+export function completeMessage(session:ChatSession,id:string,text:string,answer?:AnswerEnvelope):ChatSession{return {...session,updatedAt:new Date().toISOString(),messages:session.messages.map(m=>m.id===id?{...m,text,answer,status:'complete',error:undefined,errorCode:undefined}:m)};}
+
+/** UI-only sample branches; live branches are prepared and scoped by the backend. */
+export function forkSampleSession(source:ChatSession,messageId:string,mode:'edit'|'regenerate'):ChatSession{const index=source.messages.findIndex(m=>m.id===messageId&&m.role==='user');if(index<0)throw new Error('The original message is unavailable.');const next=createSession(source.ownerId,'sample');return {...next,parentSessionId:source.id,branchMode:mode,title:index===0?'New conversation':source.title+' · '+(mode==='edit'?'edited':'retry'),titleSource:index===0?'default':'manual',messages:source.messages.slice(0,index).map(message=>{const id=crypto.randomUUID();return {...message,id,answer:message.answer?{...message.answer,answer_id:crypto.randomUUID(),thread_id:next.id,source_answer_id:message.answer.answer_id}:undefined};})};}

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "model_generation_calls": 0,
+  "kind": "Metadata-only real branch API verification; edited/original text was NOT submitted to agent",
+  "original_session_id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+  "original_message_ids_unchanged": true,
+  "branches": [
+    {
+      "mode": "edit",
+      "http_status": 201,
+      "new_session_id": "208e546f-0312-4b9b-8cd4-b04995d34376",
+      "parent_session_id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+      "prefix_messages": 0
+    },
+    {
+      "mode": "regenerate",
+      "http_status": 201,
+      "new_session_id": "4ad555f0-b964-421f-8ac6-e0fa3052ef1d",
+      "parent_session_id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+      "prefix_messages": 0
+    }
+  ],
+  "active_dataset": {
+    "reference_date": null,
+    "model": "gemma-4-26b-a4b-it",
+    "model_provider": "google"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "method": "agent-browser DOM verification, actual rendered sample answer",
+  "panels": 6,
+  "echarts_svg_charts": 3,
+  "loaded_leaflet_tiles": 4,
+  "sample_only": true,
+  "model_calls": 0,
+  "admin_browser_password_field": false,
+  "admin_visible_alerts": [],
+  "keyboard_marker_Enter_selects_asset_and_opens_evidence": true,
+  "inspector_map_coordinate_columns_visible": true,
+  "inspector_map_rows": 4,
+  "recorded_text_only_no_empty_dashboard_or_false_evidence_badge": true,
+  "recorded_evidence_only_sources_drawer": true,
+  "settings_google_ai_studio_gemma4_31b_only": true,
+  "settings_alternate_provider_options": false
+}

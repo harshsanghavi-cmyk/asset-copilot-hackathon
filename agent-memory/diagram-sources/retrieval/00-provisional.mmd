@@ -1,0 +1,13 @@
+%% Provisional planning hypothesis; not implemented. Refined diagrams accompany final research.
+flowchart LR
+    Sources["Immutable JSON, JSONL and Markdown"] --> Intake["Validate IDs, joins, hashes and coverage"]
+    Intake --> SQL["Candidate A: SQLite exact facts and FTS5"]
+    Intake --> PG["Candidate B: Postgres, text search and pgvector"]
+    Intake --> Duck["Candidate C: DuckDB, FTS and optional vectors"]
+    Overlay["Shared corrections and scoped rules"] --> SQL
+    Overlay --> PG
+    Overlay --> Duck
+    SQL --> Tools["Typed exact tools plus document evidence"]
+    PG --> Tools
+    Duck --> Tools
+    Tools --> Answer["Bounded context, evidence and inline visual data"]

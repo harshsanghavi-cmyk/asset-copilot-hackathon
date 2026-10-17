@@ -1,0 +1,104 @@
+{
+  "scenario": 10,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "efd9b382-28dd-42ff-9715-f77a9a284297",
+  "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+  "question": "When a well stays shut in longer than the repair itself, what are we usually waiting on: parts, crews, contractors or weather? Break it down by area for jobs started in 2026, with the typical number of extra days, and tell me if any area stands out.",
+  "started_at": "2026-10-17T11:55:35.258510+00:00",
+  "status": "error",
+  "file": "Q10-01.json",
+  "answer_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+  "error": {
+    "code": "provider_error",
+    "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+  },
+  "panels": [],
+  "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T11:55:38.972423+00:00",
+  "stages": [
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "3aa2320f-3697-457e-86e1-7fd41ead673a",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "timestamp": "2026-10-17T11:55:35.280602+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "3aa2320f-3697-457e-86e1-7fd41ead673a",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "timestamp": "2026-10-17T11:55:35.298881+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "8f16066b-5b51-4702-af3b-3b9b4a836824",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "timestamp": "2026-10-17T11:55:35.322554+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "quota:267",
+      "stage": "quota_wait",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "status": "started",
+      "timestamp": "2026-10-17T11:55:35.906140+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T11:55:37.535196+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "quota:267",
+      "stage": "quota_wait",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "status": "completed",
+      "timestamp": "2026-10-17T11:55:37.538494+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T11:55:37.538476+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "stage_id": "8f16066b-5b51-4702-af3b-3b9b4a836824",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "timestamp": "2026-10-17T11:55:38.462284+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

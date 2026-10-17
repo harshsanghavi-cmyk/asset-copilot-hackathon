@@ -1,0 +1,126 @@
+{
+  "run_tag": "first7-targeted-final",
+  "started_at": "2026-10-17T12:36:53.604142+00:00",
+  "status": "finished",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "expected_model": "gemini-3.5-flash-lite",
+  "parallel_chains": 2,
+  "sessions": [
+    {
+      "scenario": 5,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Latest Q05 · Regulator letter",
+      "session_id": "ee322a47-b1eb-4827-a68f-e056bc0601f7"
+    },
+    {
+      "scenario": 6,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Latest Q06 · Conflicting status",
+      "session_id": "ccfdcbba-6ca2-4c93-9d92-90ce76bad8be"
+    },
+    {
+      "scenario": 7,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Latest Q07 · Repair priorities",
+      "session_id": "897c7ff7-a449-4686-8dd9-bf0253db9bbe"
+    }
+  ],
+  "turns": [
+    {
+      "scenario": 5,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "ee322a47-b1eb-4827-a68f-e056bc0601f7",
+      "run_id": "6812751c-e731-4038-97f3-67757c772bc3",
+      "message_id": "4df7b623-8a48-4083-a3ee-2a778b81b790",
+      "question": "The State Oil & Gas Commission wrote to us in November 2026 about spills. Which of our spills does the letter cover, and on which ones are we not compliant? Show me a table.",
+      "started_at": "2026-10-17T12:36:56.098185+00:00",
+      "status": "complete",
+      "file": "Q05-01.json",
+      "answer_id": "6812751c-e731-4038-97f3-67757c772bc3",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "The State Oil & Gas Commission letter from November 2026 covers six spills across Northeast Block 7 and Northeast Block 8 [ev_c8678cad23d239cd6b6b21a5]. Based on the inspection and report checks, three spills are compliant and three are not compliant due to missing the required lab sentence in the specified cleanup report section [ev_c8678cad23d239cd6b6b21a5].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:37:25.728498+00:00"
+    },
+    {
+      "scenario": 6,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "ccfdcbba-6ca2-4c93-9d92-90ce76bad8be",
+      "run_id": "e598b862-5a1d-4c6d-8165-4ebc01321166",
+      "message_id": "c4623979-fbf8-42e9-b9ef-9610b2a4ce40",
+      "question": "Across the whole field, not just my area, for which wells do the latest inspection and the operator notes disagree about whether the well is producing oil? For each one, what is its real status right now, and why?",
+      "started_at": "2026-10-17T12:36:56.098899+00:00",
+      "status": "complete",
+      "file": "Q06-01.json",
+      "answer_id": "e598b862-5a1d-4c6d-8165-4ebc01321166",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Across the entire field, inspections and operator notes identify several wells where the latest inspection and the operator notes disagree on whether the well is producing oil [app:pages:c78363ad-1be7-4ac7-af2b-2b5ab50f1dca].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:37:31.166590+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "897c7ff7-a449-4686-8dd9-bf0253db9bbe",
+      "run_id": "d0f43ea6-f444-40b2-9570-0c91ede1a3b2",
+      "message_id": "e05953d7-49ec-433c-be99-d9f46405f686",
+      "question": "Over the last month the operators have written notes about wells that sound or behave wrong. Which of those wells haven't had a repair since? Rank the 10 most likely to need a repair in the next 90 days, other than a spill clean-up, and quote the notes as evidence.",
+      "started_at": "2026-10-17T12:37:25.731416+00:00",
+      "status": "partial",
+      "file": "Q07-01.json",
+      "answer_id": "d0f43ea6-f444-40b2-9570-0c91ede1a3b2",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:37:47.983949+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "897c7ff7-a449-4686-8dd9-bf0253db9bbe",
+      "run_id": "23f5a751-6658-451b-ba9b-67dc194f5061",
+      "message_id": "203da640-f3a1-41d7-8853-c8f475744207",
+      "question": "Which three would you send a crew to first this week, and why?",
+      "started_at": "2026-10-17T12:37:47.987658+00:00",
+      "status": "complete",
+      "file": "Q07-02.json",
+      "answer_id": "23f5a751-6658-451b-ba9b-67dc194f5061",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Based on the asset evaluation, the top three wells to send a crew to first this week are WELL-0010 (Southwest Block 23), WELL-0175 (Northeast Block 8), and WELL-0197 (Northeast Block 8) [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. Each of these candidates shares a priority score of 5, is currently not producing, and has accumulated 3 warning notes [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. \n\n1. WELL-0010: Last repaired on 2026-05-09 (Repair ID: MNT-0010-027) [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. The latest note at 2027-01-14T16:50:00Z states: \"Heard fluid pound on WELL-0010, unit still running.\" [result_ff28a21f593e47bfbd0bee0fcb3d57b6].\n2. WELL-0175: Last repaired on 2026-05-30 (Repair ID: MNT-0175-031) [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. The latest note at 2026-12-26T06:25:00Z states: \"WELL-0175 tagging bottom on the downstroke, adjust spacing next visit.\" [result_ff28a21f593e47bfbd0bee0fcb3d57b6].\n3. WELL-0197: Last repaired on 2027-01-01 (Repair ID: MNT-0197-029) [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. The latest note at 2027-01-12T15:35:00Z states: \"Heard fluid pound on WELL-0197, unit still running.\" [result_ff28a21f593e47bfbd0bee0fcb3d57b6].\n\nA heuristic repair score serves as a screening judgement and does not guarantee future failure [result_ff28a21f593e47bfbd0bee0fcb3d57b6]. The complete evaluation encompasses 133 candidate wells matching criteria across all blocks [result_ff28a21f593e47bfbd0bee0fcb3d57b6].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:38:06.870778+00:00"
+    }
+  ],
+  "boundary": "Actual serving API and app database; delivery is separate from semantic correctness.",
+  "model": "gemini-3.5-flash-lite",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "finished_at": "2026-10-17T12:38:06.907491+00:00"
+}

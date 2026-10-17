@@ -1,0 +1,1926 @@
+{
+  "scenario": 4,
+  "turn": 1,
+  "user": "Chris Dalton",
+  "user_id": "U-402",
+  "session_id": "06fe7239-225e-4eef-bec0-ba27d998ac2f",
+  "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+  "message_id": "0e9acab8-6765-443e-97db-02740b98493e",
+  "question": "Across all areas, which temporary flowline bypasses are in place right now, and is each one allowed? Also list any bypass, past or present, that stayed in after its approval ran out or was never approved at all.",
+  "started_at": "2026-10-17T12:31:53.687073+00:00",
+  "status": "complete",
+  "file": "Q04-01.json",
+  "answer_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+  "error": null,
+  "panels": [
+    "table"
+  ],
+  "narrative": "Across all areas, there are 3 temporary flowline bypasses currently in place (out of 12 total past or present records) [result_a949c27d3c85431484d3eafce5a0c209]. For the currently active bypasses, WELL-0249 in Southeast Block 31 has an expired bypass assessment (MOC-2026-036 expired on 2026-12-15) and is counted as a violation [result_a949c27d3c85431484d3eafce5a0c209, src_b225e00c275a47ecd7c4ed16]. WELL-0405 in Northwest Block 12 is currently in place with no approval and is marked as not allowed / a violation [result_a949c27d3c85431484d3eafce5a0c209]. WELL-0248 in Southeast Block 31 is currently in place and allowed under MOC-2026-031 with extension MOC-2026-044 valid until 2027-02-28 [result_a949c27d3c85431484d3eafce5a0c209]. Additionally, past or present bypasses that stayed in after approval ran out or were never approved include WELL-0249, WELL-0405, WELL-0087, WELL-0158, and WELL-0561, all flagged with violations [result_a949c27d3c85431484d3eafce5a0c209]. The preview displays 6 of the 12 total matching records [result_a949c27d3c85431484d3eafce5a0c209].",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+    "thread_id": "06fe7239-225e-4eef-bec0-ba27d998ac2f",
+    "user_id": "U-402",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "Across all areas, there are 3 temporary flowline bypasses currently in place (out of 12 total past or present records) [result_a949c27d3c85431484d3eafce5a0c209]. For the currently active bypasses, WELL-0249 in Southeast Block 31 has an expired bypass assessment (MOC-2026-036 expired on 2026-12-15) and is counted as a violation [result_a949c27d3c85431484d3eafce5a0c209, src_b225e00c275a47ecd7c4ed16]. WELL-0405 in Northwest Block 12 is currently in place with no approval and is marked as not allowed / a violation [result_a949c27d3c85431484d3eafce5a0c209]. WELL-0248 in Southeast Block 31 is currently in place and allowed under MOC-2026-031 with extension MOC-2026-044 valid until 2027-02-28 [result_a949c27d3c85431484d3eafce5a0c209]. Additionally, past or present bypasses that stayed in after approval ran out or were never approved include WELL-0249, WELL-0405, WELL-0087, WELL-0158, and WELL-0561, all flagged with violations [result_a949c27d3c85431484d3eafce5a0c209]. The preview displays 6 of the 12 total matching records [result_a949c27d3c85431484d3eafce5a0c209].",
+    "blocks": [
+      {
+        "id": "5f32a15c-38a7-4eda-8367-49a0c843d58a:block:0",
+        "type": "table",
+        "title": "Temporary Flowline Bypasses Assessment",
+        "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+        "evidence_ids": [
+          "ev_4ccfcc1b719f0f6b34641ddb",
+          "ev_68a418cbdd8d97073465ff08",
+          "src_b225e00c275a47ecd7c4ed16"
+        ],
+        "encoding": {},
+        "span": 2
+      }
+    ],
+    "results": {
+      "result_a949c27d3c85431484d3eafce5a0c209": {
+        "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 4,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "bypass_in",
+            "label": "Bypass In"
+          },
+          {
+            "key": "bypass_out",
+            "label": "Bypass Out"
+          },
+          {
+            "key": "current_in_place",
+            "label": "Current In Place"
+          },
+          {
+            "key": "approval_id",
+            "label": "Approval Id"
+          },
+          {
+            "key": "extension_id",
+            "label": "Extension Id"
+          },
+          {
+            "key": "approval_valid_until",
+            "label": "Approval Valid Until"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          },
+          {
+            "key": "violation",
+            "label": "Violation"
+          }
+        ],
+        "rows": [
+          {
+            "area_name": "Southeast Block 31",
+            "bypass_in": "2026-11-25T10:25:00Z",
+            "assessment": "expired",
+            "current_in_place": true,
+            "bypass_out": null,
+            "violation": true,
+            "area_id": "SE-31",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0249",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "bypass_in": "2026-12-20T10:15:00Z",
+            "assessment": "not_approved",
+            "current_in_place": true,
+            "bypass_out": null,
+            "violation": true,
+            "area_id": "NW-12",
+            "approval_id": null,
+            "asset_id": "WELL-0405",
+            "approval_valid_until": null,
+            "extension_id": null
+          },
+          {
+            "area_name": "Southeast Block 31",
+            "bypass_in": "2026-11-05T13:30:00Z",
+            "assessment": "allowed",
+            "current_in_place": true,
+            "bypass_out": null,
+            "violation": false,
+            "area_id": "SE-31",
+            "approval_id": "MOC-2026-031",
+            "asset_id": "WELL-0248",
+            "approval_valid_until": "2027-02-28",
+            "extension_id": "MOC-2026-044"
+          },
+          {
+            "area_name": "Southwest Block 24",
+            "bypass_in": "2026-12-02T11:15:00Z",
+            "assessment": "expired",
+            "current_in_place": false,
+            "bypass_out": "2027-01-06T13:20:00Z",
+            "violation": true,
+            "area_id": "SW-24",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0087",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Northeast Block 8",
+            "bypass_in": "2026-11-20T15:20:00Z",
+            "assessment": "expired",
+            "current_in_place": false,
+            "bypass_out": "2026-12-28T10:35:00Z",
+            "violation": true,
+            "area_id": "NE-08",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0158",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "bypass_in": "2026-12-08T08:25:00Z",
+            "assessment": "not_approved",
+            "current_in_place": false,
+            "bypass_out": "2026-12-19T08:55:00Z",
+            "violation": true,
+            "area_id": "SE-32",
+            "approval_id": null,
+            "asset_id": "WELL-0561",
+            "approval_valid_until": null,
+            "extension_id": null
+          },
+          {
+            "area_name": "Southwest Block 23",
+            "bypass_in": "2026-11-10T13:15:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2027-01-08T14:45:00Z",
+            "violation": false,
+            "area_id": "SW-23",
+            "approval_id": "MOC-2026-031",
+            "asset_id": "WELL-0013",
+            "approval_valid_until": "2027-02-28",
+            "extension_id": "MOC-2026-044"
+          },
+          {
+            "area_name": "Southwest Block 24",
+            "bypass_in": "2026-11-02T11:45:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2026-11-27T09:20:00Z",
+            "violation": false,
+            "area_id": "SW-24",
+            "approval_id": "MOC-2026-031",
+            "asset_id": "WELL-0062",
+            "approval_valid_until": "2027-02-28",
+            "extension_id": "MOC-2026-044"
+          },
+          {
+            "area_name": "Southwest Block 24",
+            "bypass_in": "2026-11-12T10:55:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2026-12-10T15:20:00Z",
+            "violation": false,
+            "area_id": "SW-24",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0284",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "bypass_in": "2026-11-18T09:20:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2026-12-05T12:15:00Z",
+            "violation": false,
+            "area_id": "NW-12",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0356",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "bypass_in": "2026-11-14T09:50:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2026-12-12T15:40:00Z",
+            "violation": false,
+            "area_id": "SE-32",
+            "approval_id": "MOC-2026-036",
+            "asset_id": "WELL-0461",
+            "approval_valid_until": "2026-12-15",
+            "extension_id": null
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "bypass_in": "2026-10-22T15:50:00Z",
+            "assessment": "allowed",
+            "current_in_place": false,
+            "bypass_out": "2026-11-18T14:10:00Z",
+            "violation": false,
+            "area_id": "SE-32",
+            "approval_id": "MOC-2026-031",
+            "asset_id": "WELL-0476",
+            "approval_valid_until": "2027-02-28",
+            "extension_id": "MOC-2026-044"
+          }
+        ],
+        "evidence_ids": [
+          "ev_4ccfcc1b719f0f6b34641ddb",
+          "ev_68a418cbdd8d97073465ff08",
+          "src_b225e00c275a47ecd7c4ed16",
+          "result_a949c27d3c85431484d3eafce5a0c209",
+          "ev_d0227f9e08a9cfd5acfbd8e6",
+          "ev_55e4119cbf5a590f1bb2d45e",
+          "ev_52be59807385555e3182dc48",
+          "ev_a31314778c5ef64320a2ddf4",
+          "src_40f453f8564eae41c6b0c88a",
+          "src_2935fd1cbef23fad63283ec4",
+          "ev_2657a5467d6f90a1e28a522f",
+          "ev_7b95ebda3a252d55a6afdbfa",
+          "ev_d9f2e20c021109353ac05c7b",
+          "ev_7cba5f3a951513c7ee14919f",
+          "ev_0965e97478a316d3051a0e2d",
+          "ev_b69f803f76e0caa7bc457820",
+          "ev_98cc2b82acb97097859bd1bf",
+          "ev_edf5f09f2338bd9a95ca028b",
+          "ev_d0b666e3c2905adc723811e1",
+          "ev_6712bb9260578093b99f22a6",
+          "ev_d9d5fabcf03a1b19f0f099d6",
+          "ev_909f0929e4b8fd758ce10f83",
+          "ev_a104fc9ec774855f0c5fb861",
+          "ev_99e9174448f58bf52d887375",
+          "ev_896c0fef598ce78a91db5318",
+          "ev_0ece1b8b536c90ae84433024",
+          "ev_8709a4df155cf1f53f062da3",
+          "ev_b2ab91f5468cba4c06748fa6",
+          "ev_778742186d923e1ed92ff905",
+          "ev_747afdcdf0b1351ac4391944",
+          "ev_d7796a4b48a98e70419df7da",
+          "ev_732974a48806c67af6f141b4",
+          "ev_3789d41eb6e0c7bb2ceb65cf",
+          "ev_3cd7eaa786efaf91150e216a",
+          "ev_1e36700897c1dfb2fac0ad15",
+          "ev_890e0e1d59851004c5220423",
+          "ev_99be5619071d226670ab5876",
+          "src_148067724bdb724664aecc6e"
+        ],
+        "provider_coverage": {
+          "unit": "bypass_intervals",
+          "matching": 12,
+          "evaluated": 12,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 12,
+          "output_rows": 12,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_199b077c8fd24310b3c52799ba0af743",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day."
+        ],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "assets",
+          "metric": "bypass_intervals"
+        },
+        "summary": {
+          "total_matching": 12,
+          "assessment_counts": {
+            "expired": 3,
+            "not_approved": 2,
+            "allowed": 7
+          },
+          "area_counts": {
+            "Southeast Block 31": 2,
+            "Northwest Block 12": 2,
+            "Southwest Block 24": 3,
+            "Northeast Block 8": 1,
+            "Southeast Block 32": 3,
+            "Southwest Block 23": 1
+          },
+          "current_in_place": 3,
+          "violations": 5
+        },
+        "assessment_counts": {
+          "expired": 3,
+          "not_approved": 2,
+          "allowed": 7
+        },
+        "coverage": {
+          "matching": 12,
+          "evaluated": 12,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_4ccfcc1b719f0f6b34641ddb": {
+        "id": "ev_4ccfcc1b719f0f6b34641ddb",
+        "title": "WELL-0249",
+        "source_kind": "metadata",
+        "source_id": "src_09848cfb8de66e525cd9b704",
+        "excerpt": "{\"area_id\": \"SE-31\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0249\", \"equipment\": [{\"equipment_id\": \"WELL-0249-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0249-ESP\", \"kind\": \"esp_pump\", \"model\": \"ESP-400\"}, {\"equipment_id\": \"WELL-0249-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2024-09-06\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T12:00:00Z\", \"inspection_id\": \"INS-0249-0120\", \"inspector_user_id\": \"U-502\"}, \"location\": {\"lat\": 31.73474, \"lon\": -102.29981}, \"name\": \"SE-31 Well 249\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T500\"}",
+        "path": "assets/WELL-0249/metadata.json"
+      },
+      "ev_68a418cbdd8d97073465ff08": {
+        "id": "ev_68a418cbdd8d97073465ff08",
+        "title": "CTX-0249-002",
+        "source_kind": "context",
+        "source_id": "src_5a7515ae361c22dfdb83358f",
+        "excerpt": "{\"asset_id\": \"WELL-0249\", \"author_user_id\": \"U-504\", \"created_at\": \"2026-11-25T10:25:00Z\", \"note_id\": \"CTX-0249-002\", \"note_type\": \"operator_note\", \"text\": \"Bypass installed on WELL-0249 flowline around the leaking check valve.\", \"valid_from\": \"2026-11-25\", \"valid_to\": null}",
+        "path": "assets/WELL-0249/context.jsonl"
+      },
+      "src_b225e00c275a47ecd7c4ed16": {
+        "id": "src_b225e00c275a47ecd7c4ed16",
+        "title": "fleet/sops/moc-2026-036.md",
+        "source_kind": "sop",
+        "source_id": "src_b225e00c275a47ecd7c4ed16",
+        "excerpt": "# Management of Change — MOC-2026-036\n\n> Fictional memo for the FlytBase Asset Copilot hackathon.\n\n**Title:** Temporary flowline bypass during the winter valve program\n**Date:** 6 Nov 2026\n**Requested by:** Robert Hayes (U-301), maintenance lead\n**Approved by:** Michael Turner (U-201), production supervisor; Chris Dalton (U-402), HSE\n\n## Change\n\nA temporary flowline bypass is authorized on these wells: WELL-0087, WELL-0158, WELL-0249, WELL-0284, WELL-0356, WELL-0388, WELL-0461.\n\n## Conditions\n\n- Effective from 10 Nov 2026.\n- The bypass is checked on every daily round and recorded as an operator note on the well when it\n  is put in and when it is taken out.\n- Only the wells named above are covered. Any other well needs its own MOC.\n\nThis approval expires on 15 Dec 2026.\n",
+        "path": "fleet/sops/moc-2026-036.md"
+      },
+      "result_a949c27d3c85431484d3eafce5a0c209": {
+        "id": "result_a949c27d3c85431484d3eafce5a0c209",
+        "title": "result_a949c27d3c85431484d3eafce5a0c209",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_a949c27d3c85431484d3eafce5a0c209"
+      },
+      "ev_d0227f9e08a9cfd5acfbd8e6": {
+        "id": "ev_d0227f9e08a9cfd5acfbd8e6",
+        "title": "WELL-0405",
+        "source_kind": "metadata",
+        "source_id": "src_2472ca703beebe656db5e411",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0405\", \"equipment\": [{\"equipment_id\": \"WELL-0405-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0405-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0405-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0405-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0405-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2020-06-16\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T10:45:00Z\", \"inspection_id\": \"INS-0405-0219\", \"inspector_user_id\": \"U-604\"}, \"location\": {\"lat\": 32.22361, \"lon\": -102.60282}, \"name\": \"NW-12 Well 405\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0405/metadata.json"
+      },
+      "ev_55e4119cbf5a590f1bb2d45e": {
+        "id": "ev_55e4119cbf5a590f1bb2d45e",
+        "title": "CTX-0405-003",
+        "source_kind": "context",
+        "source_id": "src_6843304491e021704b5b3814",
+        "excerpt": "{\"asset_id\": \"WELL-0405\", \"author_user_id\": \"U-604\", \"created_at\": \"2026-12-20T10:15:00Z\", \"note_id\": \"CTX-0405-003\", \"note_type\": \"operator_note\", \"text\": \"Put the bypass in at WELL-0405 so the flowline can stay in service.\", \"valid_from\": \"2026-12-20\", \"valid_to\": null}",
+        "path": "assets/WELL-0405/context.jsonl"
+      },
+      "ev_52be59807385555e3182dc48": {
+        "id": "ev_52be59807385555e3182dc48",
+        "title": "WELL-0248",
+        "source_kind": "metadata",
+        "source_id": "src_be90a5ce1fc6fc0030777f79",
+        "excerpt": "{\"area_id\": \"SE-31\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0248\", \"equipment\": [{\"equipment_id\": \"WELL-0248-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0248-ESP\", \"kind\": \"esp_pump\", \"model\": \"ESP-400\"}, {\"equipment_id\": \"WELL-0248-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0248-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2022-10-02\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T08:30:00Z\", \"inspection_id\": \"INS-0248-0213\", \"inspector_user_id\": \"U-504\"}, \"location\": {\"lat\": 31.7067, \"lon\": -102.32448}, \"name\": \"SE-31 Well 248\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T500\"}",
+        "path": "assets/WELL-0248/metadata.json"
+      },
+      "ev_a31314778c5ef64320a2ddf4": {
+        "id": "ev_a31314778c5ef64320a2ddf4",
+        "title": "CTX-0248-002",
+        "source_kind": "context",
+        "source_id": "src_4274c7f2eda863e8a3f1f87f",
+        "excerpt": "{\"asset_id\": \"WELL-0248\", \"author_user_id\": \"U-502\", \"created_at\": \"2026-11-05T13:30:00Z\", \"note_id\": \"CTX-0248-002\", \"note_type\": \"operator_note\", \"text\": \"Temporary bypass in place on WELL-0248 until the new valve arrives.\", \"valid_from\": \"2026-11-05\", \"valid_to\": null}",
+        "path": "assets/WELL-0248/context.jsonl"
+      },
+      "src_40f453f8564eae41c6b0c88a": {
+        "id": "src_40f453f8564eae41c6b0c88a",
+        "title": "fleet/sops/moc-2026-031.md",
+        "source_kind": "sop",
+        "source_id": "src_40f453f8564eae41c6b0c88a",
+        "excerpt": "# Management of Change — MOC-2026-031\n\n> Fictional memo for the FlytBase Asset Copilot hackathon.\n\n**Title:** Temporary flowline bypass while check valves are on back-order\n**Date:** 19 Oct 2026\n**Requested by:** Robert Hayes (U-301), maintenance lead\n**Approved by:** Emily Carter (U-101), production supervisor; Laura Simmons (U-401), HSE\n\n## Change\n\nA temporary flowline bypass is authorized on these wells: WELL-0013, WELL-0062, WELL-0118, WELL-0248, WELL-0476.\n\nThe bypass routes production around a leaking check valve so the flowline can stay in service\nuntil the replacement valve arrives. It must be removed as soon as the valve is replaced.\n\n## Conditions\n\n- Effective from 20 Oct 2026.\n- The bypass is checked on every daily round and recorded as an operator note on the well when it\n  is put in and when it is taken out.\n- Only the wells named above are covered. Any other well needs its own MOC.\n\nThis approval expires on 30 Nov 2026.\n",
+        "path": "fleet/sops/moc-2026-031.md"
+      },
+      "src_2935fd1cbef23fad63283ec4": {
+        "id": "src_2935fd1cbef23fad63283ec4",
+        "title": "fleet/sops/moc-2026-044.md",
+        "source_kind": "sop",
+        "source_id": "src_2935fd1cbef23fad63283ec4",
+        "excerpt": "# Management of Change — MOC-2026-044\n\n> Fictional memo for the FlytBase Asset Copilot hackathon.\n\n**Title:** Extension of MOC-2026-031 (temporary flowline bypass)\n**Date:** 24 Nov 2026\n**Requested by:** Robert Hayes (U-301), maintenance lead\n**Approved by:** Emily Carter (U-101), production supervisor; Laura Simmons (U-401), HSE\n\n## Change\n\nThis memo extends MOC-2026-031. The replacement check valves are still on back-order, so the\ntemporary flowline bypass stays authorized on every well named in MOC-2026-031:\nWELL-0013, WELL-0062, WELL-0118, WELL-0248, WELL-0476.\n\nThe new expiry date below replaces the expiry date in MOC-2026-031. All other conditions of\nMOC-2026-031 stay the same. MOC-2026-036 is not changed by this memo.\n\nThis approval expires on 28 Feb 2027.\n",
+        "path": "fleet/sops/moc-2026-044.md"
+      },
+      "ev_2657a5467d6f90a1e28a522f": {
+        "id": "ev_2657a5467d6f90a1e28a522f",
+        "title": "WELL-0087",
+        "source_kind": "metadata",
+        "source_id": "src_bc2533407868b17b40e76149",
+        "excerpt": "{\"area_id\": \"SW-24\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0087\", \"equipment\": [{\"equipment_id\": \"WELL-0087-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0087-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0087-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0087-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0087-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-101\", \"installed_on\": \"2009-01-07\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T10:30:00Z\", \"inspection_id\": \"INS-0087-0218\", \"inspector_user_id\": \"U-103\"}, \"location\": {\"lat\": 31.77443, \"lon\": -102.48095}, \"name\": \"SW-24 Well 087\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0087/metadata.json"
+      },
+      "ev_7b95ebda3a252d55a6afdbfa": {
+        "id": "ev_7b95ebda3a252d55a6afdbfa",
+        "title": "CTX-0087-001",
+        "source_kind": "context",
+        "source_id": "src_18cc32be7f209a603ef54847",
+        "excerpt": "{\"asset_id\": \"WELL-0087\", \"author_user_id\": \"U-102\", \"created_at\": \"2026-12-02T11:15:00Z\", \"note_id\": \"CTX-0087-001\", \"note_type\": \"operator_note\", \"text\": \"Crew had the bypass installed at WELL-0087 by mid-morning.\", \"valid_from\": \"2026-12-02\", \"valid_to\": null}",
+        "path": "assets/WELL-0087/context.jsonl"
+      },
+      "ev_d9f2e20c021109353ac05c7b": {
+        "id": "ev_d9f2e20c021109353ac05c7b",
+        "title": "CTX-0087-004",
+        "source_kind": "context",
+        "source_id": "src_18cc32be7f209a603ef54847",
+        "excerpt": "{\"asset_id\": \"WELL-0087\", \"author_user_id\": \"U-104\", \"created_at\": \"2027-01-06T13:20:00Z\", \"note_id\": \"CTX-0087-004\", \"note_type\": \"operator_note\", \"text\": \"Took the bypass out at WELL-0087 after the valve was replaced.\", \"valid_from\": \"2027-01-06\", \"valid_to\": null}",
+        "path": "assets/WELL-0087/context.jsonl"
+      },
+      "ev_7cba5f3a951513c7ee14919f": {
+        "id": "ev_7cba5f3a951513c7ee14919f",
+        "title": "WELL-0158",
+        "source_kind": "metadata",
+        "source_id": "src_13017e7f3179cda52e9689ff",
+        "excerpt": "{\"area_id\": \"NE-08\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0158\", \"equipment\": [{\"equipment_id\": \"WELL-0158-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0158-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-456\"}, {\"equipment_id\": \"WELL-0158-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0158-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0158-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-201\", \"installed_on\": \"2020-02-13\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T12:00:00Z\", \"inspection_id\": \"INS-0158-0219\", \"inspector_user_id\": \"U-204\"}, \"location\": {\"lat\": 32.14419, \"lon\": -102.13938}, \"name\": \"NE-08 Well 158\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NE\", \"well_type\": \"T350\"}",
+        "path": "assets/WELL-0158/metadata.json"
+      },
+      "ev_0965e97478a316d3051a0e2d": {
+        "id": "ev_0965e97478a316d3051a0e2d",
+        "title": "CTX-0158-003",
+        "source_kind": "context",
+        "source_id": "src_9467ed264e88278b15ad9cd8",
+        "excerpt": "{\"asset_id\": \"WELL-0158\", \"author_user_id\": \"U-204\", \"created_at\": \"2026-11-20T15:20:00Z\", \"note_id\": \"CTX-0158-003\", \"note_type\": \"operator_note\", \"text\": \"Put the bypass in at WELL-0158 so the flowline can stay in service.\", \"valid_from\": \"2026-11-20\", \"valid_to\": null}",
+        "path": "assets/WELL-0158/context.jsonl"
+      },
+      "ev_b69f803f76e0caa7bc457820": {
+        "id": "ev_b69f803f76e0caa7bc457820",
+        "title": "CTX-0158-005",
+        "source_kind": "context",
+        "source_id": "src_9467ed264e88278b15ad9cd8",
+        "excerpt": "{\"asset_id\": \"WELL-0158\", \"author_user_id\": \"U-203\", \"created_at\": \"2026-12-28T10:35:00Z\", \"note_id\": \"CTX-0158-005\", \"note_type\": \"operator_note\", \"text\": \"Bypass removed from WELL-0158, flowline back to normal routing.\", \"valid_from\": \"2026-12-28\", \"valid_to\": null}",
+        "path": "assets/WELL-0158/context.jsonl"
+      },
+      "ev_98cc2b82acb97097859bd1bf": {
+        "id": "ev_98cc2b82acb97097859bd1bf",
+        "title": "WELL-0561",
+        "source_kind": "metadata",
+        "source_id": "src_7f23086605b3e91aa15969c1",
+        "excerpt": "{\"area_id\": \"SE-32\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0561\", \"equipment\": [{\"equipment_id\": \"WELL-0561-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0561-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0561-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0561-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0561-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2014-05-28\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:30:00Z\", \"inspection_id\": \"INS-0561-0220\", \"inspector_user_id\": \"U-503\"}, \"location\": {\"lat\": 31.64841, \"lon\": -102.29222}, \"name\": \"SE-32 Well 561\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0561/metadata.json"
+      },
+      "ev_edf5f09f2338bd9a95ca028b": {
+        "id": "ev_edf5f09f2338bd9a95ca028b",
+        "title": "CTX-0561-004",
+        "source_kind": "context",
+        "source_id": "src_82c377e8a0093f0cc65fba2d",
+        "excerpt": "{\"asset_id\": \"WELL-0561\", \"author_user_id\": \"U-503\", \"created_at\": \"2026-12-08T08:25:00Z\", \"note_id\": \"CTX-0561-004\", \"note_type\": \"operator_note\", \"text\": \"Crew had the bypass installed at WELL-0561 by mid-morning.\", \"valid_from\": \"2026-12-08\", \"valid_to\": null}",
+        "path": "assets/WELL-0561/context.jsonl"
+      },
+      "ev_d0b666e3c2905adc723811e1": {
+        "id": "ev_d0b666e3c2905adc723811e1",
+        "title": "CTX-0561-005",
+        "source_kind": "context",
+        "source_id": "src_82c377e8a0093f0cc65fba2d",
+        "excerpt": "{\"asset_id\": \"WELL-0561\", \"author_user_id\": \"U-506\", \"created_at\": \"2026-12-19T08:55:00Z\", \"note_id\": \"CTX-0561-005\", \"note_type\": \"operator_note\", \"text\": \"Bypass pulled on WELL-0561, normal flow path restored.\", \"valid_from\": \"2026-12-19\", \"valid_to\": null}",
+        "path": "assets/WELL-0561/context.jsonl"
+      },
+      "ev_6712bb9260578093b99f22a6": {
+        "id": "ev_6712bb9260578093b99f22a6",
+        "title": "WELL-0013",
+        "source_kind": "metadata",
+        "source_id": "src_8313aa8d6895ee143c57f782",
+        "excerpt": "{\"area_id\": \"SW-23\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0013\", \"equipment\": [{\"equipment_id\": \"WELL-0013-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0013-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-456\"}, {\"equipment_id\": \"WELL-0013-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0013-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0013-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-101\", \"installed_on\": \"2014-03-07\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:00:00Z\", \"inspection_id\": \"INS-0013-0219\", \"inspector_user_id\": \"U-102\"}, \"location\": {\"lat\": 31.86965, \"lon\": -102.50142}, \"name\": \"SW-23 Well 013\", \"recorded_status\": \"down\", \"team_id\": \"TEAM-SW\", \"well_type\": \"T350\"}",
+        "path": "assets/WELL-0013/metadata.json"
+      },
+      "ev_d9d5fabcf03a1b19f0f099d6": {
+        "id": "ev_d9d5fabcf03a1b19f0f099d6",
+        "title": "CTX-0013-002",
+        "source_kind": "context",
+        "source_id": "src_42816a15443631330be242ae",
+        "excerpt": "{\"asset_id\": \"WELL-0013\", \"author_user_id\": \"U-102\", \"created_at\": \"2026-11-10T13:15:00Z\", \"note_id\": \"CTX-0013-002\", \"note_type\": \"operator_note\", \"text\": \"Temporary bypass in place on WELL-0013 until the new valve arrives.\", \"valid_from\": \"2026-11-10\", \"valid_to\": null}",
+        "path": "assets/WELL-0013/context.jsonl"
+      },
+      "ev_909f0929e4b8fd758ce10f83": {
+        "id": "ev_909f0929e4b8fd758ce10f83",
+        "title": "CTX-0013-005",
+        "source_kind": "context",
+        "source_id": "src_42816a15443631330be242ae",
+        "excerpt": "{\"asset_id\": \"WELL-0013\", \"author_user_id\": \"U-104\", \"created_at\": \"2027-01-08T14:45:00Z\", \"note_id\": \"CTX-0013-005\", \"note_type\": \"operator_note\", \"text\": \"Took the bypass out at WELL-0013 after the valve was replaced.\", \"valid_from\": \"2027-01-08\", \"valid_to\": null}",
+        "path": "assets/WELL-0013/context.jsonl"
+      },
+      "ev_a104fc9ec774855f0c5fb861": {
+        "id": "ev_a104fc9ec774855f0c5fb861",
+        "title": "WELL-0062",
+        "source_kind": "metadata",
+        "source_id": "src_cae3552c092ca6d38d44b2a5",
+        "excerpt": "{\"area_id\": \"SW-24\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0062\", \"equipment\": [{\"equipment_id\": \"WELL-0062-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0062-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0062-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0062-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0062-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0062-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-101\", \"installed_on\": \"2009-04-22\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T11:45:00Z\", \"inspection_id\": \"INS-0062-0217\", \"inspector_user_id\": \"U-102\"}, \"location\": {\"lat\": 31.78989, \"lon\": -102.44175}, \"name\": \"SW-24 Well 062\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0062/metadata.json"
+      },
+      "ev_99e9174448f58bf52d887375": {
+        "id": "ev_99e9174448f58bf52d887375",
+        "title": "CTX-0062-002",
+        "source_kind": "context",
+        "source_id": "src_0b17f3a1c3360b1b8fdf6c49",
+        "excerpt": "{\"asset_id\": \"WELL-0062\", \"author_user_id\": \"U-102\", \"created_at\": \"2026-11-02T11:45:00Z\", \"note_id\": \"CTX-0062-002\", \"note_type\": \"operator_note\", \"text\": \"Crew had the bypass installed at WELL-0062 by mid-morning.\", \"valid_from\": \"2026-11-02\", \"valid_to\": null}",
+        "path": "assets/WELL-0062/context.jsonl"
+      },
+      "ev_896c0fef598ce78a91db5318": {
+        "id": "ev_896c0fef598ce78a91db5318",
+        "title": "CTX-0062-005",
+        "source_kind": "context",
+        "source_id": "src_0b17f3a1c3360b1b8fdf6c49",
+        "excerpt": "{\"asset_id\": \"WELL-0062\", \"author_user_id\": \"U-103\", \"created_at\": \"2026-11-27T09:20:00Z\", \"note_id\": \"CTX-0062-005\", \"note_type\": \"operator_note\", \"text\": \"Took the bypass out at WELL-0062 after the valve was replaced.\", \"valid_from\": \"2026-11-27\", \"valid_to\": null}",
+        "path": "assets/WELL-0062/context.jsonl"
+      },
+      "ev_0ece1b8b536c90ae84433024": {
+        "id": "ev_0ece1b8b536c90ae84433024",
+        "title": "WELL-0284",
+        "source_kind": "metadata",
+        "source_id": "src_7c2593a630365f24fba946a3",
+        "excerpt": "{\"area_id\": \"SW-24\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0284\", \"equipment\": [{\"equipment_id\": \"WELL-0284-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0284-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0284-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0284-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0284-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-101\", \"installed_on\": \"2010-10-11\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:30:00Z\", \"inspection_id\": \"INS-0284-0218\", \"inspector_user_id\": \"U-104\"}, \"location\": {\"lat\": 31.8306, \"lon\": -102.49133}, \"name\": \"SW-24 Well 284\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0284/metadata.json"
+      },
+      "ev_8709a4df155cf1f53f062da3": {
+        "id": "ev_8709a4df155cf1f53f062da3",
+        "title": "CTX-0284-002",
+        "source_kind": "context",
+        "source_id": "src_484604a7bf9b0c49457a4ef1",
+        "excerpt": "{\"asset_id\": \"WELL-0284\", \"author_user_id\": \"U-103\", \"created_at\": \"2026-11-12T10:55:00Z\", \"note_id\": \"CTX-0284-002\", \"note_type\": \"operator_note\", \"text\": \"Bypass installed on WELL-0284 flowline around the leaking check valve.\", \"valid_from\": \"2026-11-12\", \"valid_to\": null}",
+        "path": "assets/WELL-0284/context.jsonl"
+      },
+      "ev_b2ab91f5468cba4c06748fa6": {
+        "id": "ev_b2ab91f5468cba4c06748fa6",
+        "title": "CTX-0284-003",
+        "source_kind": "context",
+        "source_id": "src_484604a7bf9b0c49457a4ef1",
+        "excerpt": "{\"asset_id\": \"WELL-0284\", \"author_user_id\": \"U-104\", \"created_at\": \"2026-12-10T15:20:00Z\", \"note_id\": \"CTX-0284-003\", \"note_type\": \"operator_note\", \"text\": \"WELL-0284: valve work finished and bypass removed.\", \"valid_from\": \"2026-12-10\", \"valid_to\": null}",
+        "path": "assets/WELL-0284/context.jsonl"
+      },
+      "ev_778742186d923e1ed92ff905": {
+        "id": "ev_778742186d923e1ed92ff905",
+        "title": "WELL-0356",
+        "source_kind": "metadata",
+        "source_id": "src_7d3b34e8542e6f7d525eab66",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0356\", \"equipment\": [{\"equipment_id\": \"WELL-0356-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0356-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0356-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0356-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0356-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0356-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2010-08-04\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T14:00:00Z\", \"inspection_id\": \"INS-0356-0215\", \"inspector_user_id\": \"U-603\"}, \"location\": {\"lat\": 32.21115, \"lon\": -102.62412}, \"name\": \"NW-12 Well 356\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0356/metadata.json"
+      },
+      "ev_747afdcdf0b1351ac4391944": {
+        "id": "ev_747afdcdf0b1351ac4391944",
+        "title": "CTX-0356-002",
+        "source_kind": "context",
+        "source_id": "src_1a576011180070dc1730f791",
+        "excerpt": "{\"asset_id\": \"WELL-0356\", \"author_user_id\": \"U-604\", \"created_at\": \"2026-11-18T09:20:00Z\", \"note_id\": \"CTX-0356-002\", \"note_type\": \"operator_note\", \"text\": \"Bypass installed on WELL-0356 flowline around the leaking check valve.\", \"valid_from\": \"2026-11-18\", \"valid_to\": null}",
+        "path": "assets/WELL-0356/context.jsonl"
+      },
+      "ev_d7796a4b48a98e70419df7da": {
+        "id": "ev_d7796a4b48a98e70419df7da",
+        "title": "CTX-0356-003",
+        "source_kind": "context",
+        "source_id": "src_1a576011180070dc1730f791",
+        "excerpt": "{\"asset_id\": \"WELL-0356\", \"author_user_id\": \"U-605\", \"created_at\": \"2026-12-05T12:15:00Z\", \"note_id\": \"CTX-0356-003\", \"note_type\": \"operator_note\", \"text\": \"Bypass removed from WELL-0356, flowline back to normal routing.\", \"valid_from\": \"2026-12-05\", \"valid_to\": null}",
+        "path": "assets/WELL-0356/context.jsonl"
+      },
+      "ev_732974a48806c67af6f141b4": {
+        "id": "ev_732974a48806c67af6f141b4",
+        "title": "WELL-0461",
+        "source_kind": "metadata",
+        "source_id": "src_128fab1da2949feac7abb64d",
+        "excerpt": "{\"area_id\": \"SE-32\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0461\", \"equipment\": [{\"equipment_id\": \"WELL-0461-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0461-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-456\"}, {\"equipment_id\": \"WELL-0461-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0461-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0461-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2022-06-08\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T10:45:00Z\", \"inspection_id\": \"INS-0461-0219\", \"inspector_user_id\": \"U-503\"}, \"location\": {\"lat\": 31.65584, \"lon\": -102.24573}, \"name\": \"SE-32 Well 461\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T350\"}",
+        "path": "assets/WELL-0461/metadata.json"
+      },
+      "ev_3789d41eb6e0c7bb2ceb65cf": {
+        "id": "ev_3789d41eb6e0c7bb2ceb65cf",
+        "title": "CTX-0461-002",
+        "source_kind": "context",
+        "source_id": "src_8c72d7f9f849bdfc8a98a32f",
+        "excerpt": "{\"asset_id\": \"WELL-0461\", \"author_user_id\": \"U-503\", \"created_at\": \"2026-11-14T09:50:00Z\", \"note_id\": \"CTX-0461-002\", \"note_type\": \"operator_note\", \"text\": \"Put the bypass in at WELL-0461 so the flowline can stay in service.\", \"valid_from\": \"2026-11-14\", \"valid_to\": null}",
+        "path": "assets/WELL-0461/context.jsonl"
+      },
+      "ev_3cd7eaa786efaf91150e216a": {
+        "id": "ev_3cd7eaa786efaf91150e216a",
+        "title": "CTX-0461-003",
+        "source_kind": "context",
+        "source_id": "src_8c72d7f9f849bdfc8a98a32f",
+        "excerpt": "{\"asset_id\": \"WELL-0461\", \"author_user_id\": \"U-505\", \"created_at\": \"2026-12-12T15:40:00Z\", \"note_id\": \"CTX-0461-003\", \"note_type\": \"operator_note\", \"text\": \"Bypass pulled on WELL-0461, normal flow path restored.\", \"valid_from\": \"2026-12-12\", \"valid_to\": null}",
+        "path": "assets/WELL-0461/context.jsonl"
+      },
+      "ev_1e36700897c1dfb2fac0ad15": {
+        "id": "ev_1e36700897c1dfb2fac0ad15",
+        "title": "WELL-0476",
+        "source_kind": "metadata",
+        "source_id": "src_664eef2a4bb47cc617f65a41",
+        "excerpt": "{\"area_id\": \"SE-32\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0476\", \"equipment\": [{\"equipment_id\": \"WELL-0476-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0476-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0476-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0476-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0476-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2023-01-26\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T11:30:00Z\", \"inspection_id\": \"INS-0476-0203\", \"inspector_user_id\": \"U-503\"}, \"location\": {\"lat\": 31.68346, \"lon\": -102.28857}, \"name\": \"SE-32 Well 476\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0476/metadata.json"
+      },
+      "ev_890e0e1d59851004c5220423": {
+        "id": "ev_890e0e1d59851004c5220423",
+        "title": "CTX-0476-002",
+        "source_kind": "context",
+        "source_id": "src_ac9a39957e5a5dba89f10afd",
+        "excerpt": "{\"asset_id\": \"WELL-0476\", \"author_user_id\": \"U-505\", \"created_at\": \"2026-10-22T15:50:00Z\", \"note_id\": \"CTX-0476-002\", \"note_type\": \"operator_note\", \"text\": \"Temporary bypass in place on WELL-0476 until the new valve arrives.\", \"valid_from\": \"2026-10-22\", \"valid_to\": null}",
+        "path": "assets/WELL-0476/context.jsonl"
+      },
+      "ev_99be5619071d226670ab5876": {
+        "id": "ev_99be5619071d226670ab5876",
+        "title": "CTX-0476-003",
+        "source_kind": "context",
+        "source_id": "src_ac9a39957e5a5dba89f10afd",
+        "excerpt": "{\"asset_id\": \"WELL-0476\", \"author_user_id\": \"U-505\", \"created_at\": \"2026-11-18T14:10:00Z\", \"note_id\": \"CTX-0476-003\", \"note_type\": \"operator_note\", \"text\": \"Bypass removed from WELL-0476, flowline back to normal routing.\", \"valid_from\": \"2026-11-18\", \"valid_to\": null}",
+        "path": "assets/WELL-0476/context.jsonl"
+      },
+      "src_148067724bdb724664aecc6e": {
+        "id": "src_148067724bdb724664aecc6e",
+        "title": "fleet/sops/operations-sop-rev2.md",
+        "source_kind": "sop",
+        "source_id": "src_148067724bdb724664aecc6e",
+        "excerpt": "# Operations SOP\n\n> Fictional SOP for the FlytBase Asset Copilot hackathon. Simplified; it is not real operating,\n> safety or regulatory guidance.\n\nDocument ID: SOP-OPS · Revision 2 · Effective 1 Oct 2026 · Owner: Field Operations with Health, Safety & Environment (TEAM-HSE)\n\n## Revision history\n\n| Revision | Effective | Change |\n|---|---|---|\n| 2 | 1 Oct 2026 | Adds OPS-1 to OPS-6. OPS-1 response time is cut from 24 hours to 12 hours for reports from 1 Jan 2027. |\n| 1 | 1 Mar 2025 | First issue (shift handover only). |\n\n## Operator notes\n\nField operators record what they see on their rounds as operator notes: the records with\n`note_type` = `operator_note` in the well's notes (`assets/<WELL_ID>/context.jsonl`). The note's\n`created_at` is the time of the observation (UTC, like the other timestamps in the records). A\nround note is filed under the well it is about (`asset_id`) and names that well by its ID in its\ntext (for example WELL-0412).\n\n## OPS-1 Gas odor response\n\nAn operator note reporting a gas smell needs a field response on that well. A gas odor report is an\noperator note saying the crew smelled gas, noticed a rotten-egg smell or a gas odor, or that an H2S\nmonitor alarmed at a well.\n\nA field response is either:\n- a maintenance job on that well (its `started_at` in `maintenance.jsonl`), or\n- an inspection of that well with `method` = `manual`. Drone inspections do not count.\n\nThe response must start after the note's `created_at` and within:\n- **24 hours** for reports noted before 1 Jan 2027;\n- **12 hours** for reports noted from 1 Jan 2027.\n\nOtherwise the response is missed. Crews on site follow WS-03 of the Field Work SOP (H2S monitors,\n10 ppm stop-work level).\n\n## OPS-2 Temporary bypass\n\nA temporary flowline bypass is allowed only on a well named in a management-of-change memo\n(the `moc-*.md` files in `fleet/sops/`) that has not expired. A memo that extends an earlier memo\nreplaces its expiry date.\n\nA bypass is in place from the operator note that puts it in until the operator note that takes it\nout.\nIt is a violation if:\n- the well is not named in any MOC, or\n- the bypass is still in place after the expiry date (the end of that day), including a bypass that\n  is still in place today.\n\n## OPS-3 Status evidence precedence\n\nA well's current status comes from the most recent of these two:\n- its latest inspection reading (producing oil or not producing oil, by the well-type manual,\n  after any `data_correction` note), or\n- its latest operator note saying the well was shut in or restarted.\n\nIf a shut-in note is more recent than the latest inspection, the well is **not producing (shut\nin)**, even if that inspection reads as producing. If a restart note is more recent than the latest\ninspection, the well is **producing (unconfirmed)** until an inspection confirms it. Other operator\nnotes (gas odor, bypass, equipment remarks) do not change the status.\n\n## OPS-4 Failure classification\n\nClassify a corrective job from the \"## Root cause\" section of its maintenance report. Check the\nrows of this table **in order**: the **first** row with a keyword that appears in the root-cause\ntext (ignoring upper and lower case) gives the category. Order matters: a text that mentions both\nsand and wear is Sand, and a text that mentions both corrosion and fatigue is Corrosion.\n\n| Order | Category | Keywords |\n|---|---|---|\n| 1 | Installation error | installation, installed incorrectly, misaligned, re-terminated, not torqued, cross-threaded |\n| 2 | Sand | sand |\n| 3 | Scale | scale, paraffin |\n| 4 | Gas interference | gas lock, gas interference, free gas |\n| 5 | Corrosion | corrosion, corroded |\n| 6 | Electrical | winding, insulation, switch, terminal box |\n| 7 | Fatigue/wear | fatigue, wear, worn, years of service, buckling, ageing, vibration |\n| 8 | Other | no keyword above matched |\n\n## OPS-5 Freeze protection (1 Dec – 28 Feb)\n\nFrom 1 Dec to 28 Feb, any inspection with `ambient_temp_c` at or below **−5 °C** on a well that is\nproducing oil at that reading needs a heat trace check on that well: a maintenance job whose `issue`\ncontains \"Heat trace check\", starting within **7 days** after the inspection. A cold reading on a\nwell that is not producing oil needs no check.\n\n## OPS-6 Repeat failure\n\nA corrective job is a **repeat failure** if it is on the same equipment kind of the same well and\nit starts within **30 days** after the previous corrective job on that equipment was completed.\n\nA repeat failure counts against the crew that did the previous job only when the repeat job's\nroot cause (OPS-4) is **Installation error**. Count it against the previous job's contractor; a\nprevious job with no contractor counts against the company crew.\n\nSee also the Spill Response SOP (reportable spills and clean-up) and the Field Work SOP (WS-01 to\nWS-07) for how the work itself is done and reported.\n",
+        "path": "fleet/sops/operations-sop-rev2.md"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day."
+    ],
+    "sample": false,
+    "claims": [
+      {
+        "text": "WELL-0249 currently has a flowline bypass in place that is assessed as expired under approval MOC-2026-036.",
+        "kind": "fact",
+        "evidence_ids": [
+          "src_b225e00c275a47ecd7c4ed16",
+          "ev_4ccfcc1b719f0f6b34641ddb"
+        ],
+        "value_refs": [
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 0,
+            "column": "asset_id"
+          },
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 0,
+            "column": "assessment"
+          }
+        ]
+      },
+      {
+        "text": "WELL-0405 currently has a flowline bypass in place with no approval, classified as not approved and a violation.",
+        "kind": "fact",
+        "evidence_ids": [
+          "ev_4ccfcc1b719f0f6b34641ddb"
+        ],
+        "value_refs": [
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 1,
+            "column": "asset_id"
+          },
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 1,
+            "column": "assessment"
+          }
+        ]
+      },
+      {
+        "text": "WELL-0248 has an active, allowed bypass in place backed by MOC-2026-031 and extension MOC-2026-044 valid until 2027-02-28.",
+        "kind": "fact",
+        "evidence_ids": [
+          "ev_4ccfcc1b719f0f6b34641ddb"
+        ],
+        "value_refs": [
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 2,
+            "column": "asset_id"
+          },
+          {
+            "result_set_id": "result_a949c27d3c85431484d3eafce5a0c209",
+            "row_index": 2,
+            "column": "assessment"
+          }
+        ]
+      }
+    ],
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4260,
+            "output_tokens": 172,
+            "total_tokens": 4432,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 542,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 3963,
+            "output_tokens": 1428,
+            "total_tokens": 5391,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 550,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 2,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 745,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 50,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 745,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 50,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1568,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 28,
+      "partial_evidence": true,
+      "token_fit_omitted": 16,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 14763,
+      "current_request_bytes_separate": 211,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:32:09.855411+00:00",
+  "stages": [
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "95004ef3-c123-4d88-b419-480895d2c055",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:53.702868+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "95004ef3-c123-4d88-b419-480895d2c055",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:53.723213+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:540",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:53.737492+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:54.235913+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:540",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:54.239753+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:54.239739+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "816e1626-2f40-4a7c-b08d-59b5cf534eb2",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:54.508969+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:542",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:54.889057+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:56.731676+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:542",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:57.127623+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:57.127607+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "816e1626-2f40-4a7c-b08d-59b5cf534eb2",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.034695+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7f2145a1-2eda-4afd-9c7b-e30c76705218",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.051728+00:00",
+      "operation": "assets.bypass_intervals",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7f2145a1-2eda-4afd-9c7b-e30c76705218",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.355518+00:00",
+      "operation": "assets.bypass_intervals",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "result_count": 12
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "21931622-66f6-47f6-adc8-3f41d7a73ab1",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.395801+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "21931622-66f6-47f6-adc8-3f41d7a73ab1",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.401097+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "31310dd4-402e-410a-bbbc-f9ecb7f52af5",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.414075+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "31310dd4-402e-410a-bbbc-f9ecb7f52af5",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.420735+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "85b7c25f-b482-4899-89da-06bf8ad893b9",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.432611+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "85b7c25f-b482-4899-89da-06bf8ad893b9",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.438347+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "3c196ae5-2501-46d2-ae39-ef8626d96169",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.448918+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "3c196ae5-2501-46d2-ae39-ef8626d96169",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.815997+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7ed5b062-f36d-4ee4-9ad4-d0e4f4ac30db",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.841893+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7ed5b062-f36d-4ee4-9ad4-d0e4f4ac30db",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.847201+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "293d8578-6dde-4b9b-aba3-142ae4c71082",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.857682+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "293d8578-6dde-4b9b-aba3-142ae4c71082",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.862725+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "66423289-110d-440f-9a32-a33cd0b809c4",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.873231+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "66423289-110d-440f-9a32-a33cd0b809c4",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.878046+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "4e1a8d56-a9f5-467a-ad9e-131d269fce92",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.888917+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "4e1a8d56-a9f5-467a-ad9e-131d269fce92",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.894306+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "40664344-3684-4dc4-bf33-0a3e49add621",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.904609+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "40664344-3684-4dc4-bf33-0a3e49add621",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.909977+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b4ba51c0-ebe7-4118-979a-51f9816d07ab",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.920643+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b4ba51c0-ebe7-4118-979a-51f9816d07ab",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.926243+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "9dc2b573-7950-4dd4-b7ce-5cc2b2b2116f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.936504+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "9dc2b573-7950-4dd4-b7ce-5cc2b2b2116f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.941639+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "fba11891-d026-4bb0-963f-e5bb474823fd",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.951731+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "fba11891-d026-4bb0-963f-e5bb474823fd",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.956558+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "c4d7734d-45e8-4d8e-8f63-38b6cc6cf551",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.967285+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "c4d7734d-45e8-4d8e-8f63-38b6cc6cf551",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.972303+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "5bf01e16-37c0-4de5-b50a-17727b51bf84",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.982731+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "5bf01e16-37c0-4de5-b50a-17727b51bf84",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.987924+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "4f1a1f4c-4ae2-4654-9b82-9b246fd2816d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:31:59.998753+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "4f1a1f4c-4ae2-4654-9b82-9b246fd2816d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.005163+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "e907df24-00a5-4e49-a368-60c312c17b16",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.017831+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "e907df24-00a5-4e49-a368-60c312c17b16",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.025118+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b6e779d8-f864-42ac-94a5-c30f7ff1b08f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.037595+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b6e779d8-f864-42ac-94a5-c30f7ff1b08f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.043540+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "58eaa4a3-2f6b-499a-b42f-1fc54bc14913",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.055034+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "58eaa4a3-2f6b-499a-b42f-1fc54bc14913",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.060285+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "30cb0fe4-7713-4dc1-ba34-d5976101a3cf",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.072547+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "30cb0fe4-7713-4dc1-ba34-d5976101a3cf",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.077768+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "efbf137a-9d4b-4578-8155-78f044ed8267",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.090409+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "efbf137a-9d4b-4578-8155-78f044ed8267",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.096943+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "f4f30e59-b5ef-4d46-b531-e3f602ed2c4d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.109062+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "f4f30e59-b5ef-4d46-b531-e3f602ed2c4d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.114815+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ddf4d632-1df1-4af5-af11-8e040c58c35f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.127802+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ddf4d632-1df1-4af5-af11-8e040c58c35f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.133656+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ef2ecb74-f3e1-4784-ae99-c30f568044a5",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.146317+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ef2ecb74-f3e1-4784-ae99-c30f568044a5",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.151857+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7f3379e7-99fd-433c-b1cb-c16d28fd1138",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.163485+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7f3379e7-99fd-433c-b1cb-c16d28fd1138",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.168176+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "c421fc50-0386-4e84-987e-be81aba584d4",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.178423+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "c421fc50-0386-4e84-987e-be81aba584d4",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.183298+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "e8cb18e1-942d-4843-9d8d-fff13dcf80c1",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.193878+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "e8cb18e1-942d-4843-9d8d-fff13dcf80c1",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.200426+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "10638ce1-9b4c-40cd-b62d-68849533431a",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.212042+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "10638ce1-9b4c-40cd-b62d-68849533431a",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.217328+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "0a0be4d0-be82-4159-b460-c551b6420d67",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.228376+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "0a0be4d0-be82-4159-b460-c551b6420d67",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.234459+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "44d62641-860a-4cbf-bf21-55b717745a66",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.250825+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "44d62641-860a-4cbf-bf21-55b717745a66",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.256053+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7a4950ed-f01d-45a7-a8bc-b5ae038ff1fa",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.268717+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "7a4950ed-f01d-45a7-a8bc-b5ae038ff1fa",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.275154+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "844626f6-58cd-4cb3-b07f-af5d594b7bb8",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.289604+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "844626f6-58cd-4cb3-b07f-af5d594b7bb8",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.296778+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "3725676f-9f8c-4ba9-83f9-ca64a79ef883",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.310754+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "3725676f-9f8c-4ba9-83f9-ca64a79ef883",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.317632+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "9b206eaf-fbac-49a5-ac31-d66fb46d018e",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.331350+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "9b206eaf-fbac-49a5-ac31-d66fb46d018e",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.336671+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "0c09c7e9-23e9-4bbe-9b59-c341f8bce1e8",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.349411+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "0c09c7e9-23e9-4bbe-9b59-c341f8bce1e8",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.354649+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "8bcae5d5-e238-4c58-bc60-2709ecfe38ee",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.366279+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "8bcae5d5-e238-4c58-bc60-2709ecfe38ee",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.371855+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "80c9f0fd-03d1-4a3d-9cf6-63f04df33dcd",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.383360+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "80c9f0fd-03d1-4a3d-9cf6-63f04df33dcd",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.389315+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b0a3deba-4ebf-4023-9730-ed49a30784d9",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.401478+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "b0a3deba-4ebf-4023-9730-ed49a30784d9",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.406435+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "1de10b11-aa54-4709-93b9-dc7e000ca1a6",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.417030+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "1de10b11-aa54-4709-93b9-dc7e000ca1a6",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:00.422723+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:547",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:32:00.439328+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:32:00.937571+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:547",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:32:00.942707+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:32:01.439212+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:547",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:32:01.944626+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:32:01.944612+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "72c96efc-fafb-4b9d-b21b-8d5ed63f4ab9",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:02.387241+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:550",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "started",
+      "timestamp": "2026-10-17T12:32:02.676721+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:32:04.594774+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "quota:550",
+      "stage": "quota_wait",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:32:04.598811+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:32:04.598755+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "72c96efc-fafb-4b9d-b21b-8d5ed63f4ab9",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:09.220732+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "61afad97-abf3-474e-9c4f-6b47b7c7fd27",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:09.232938+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "61afad97-abf3-474e-9c4f-6b47b7c7fd27",
+      "stage": "validation",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:09.238828+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation completed"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ac20a8c9-cafb-425e-8e41-317ca5c82ad0",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:09.246704+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "stage_id": "ac20a8c9-cafb-425e-8e41-317ca5c82ad0",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "timestamp": "2026-10-17T12:32:09.259524+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+%% Proposed batch-analytics alternative, not implemented.
+flowchart TB
+    Raw["Immutable JSON / JSONL / Markdown roots"] --> Load["Validated typed import with manifest + spans"]
+    Load --> Duck["DuckDB tables and versioned report facts"]
+    Ledger["Serialized shared correction / rule writes"] --> Duck
+    Duck --> Snapshot["Effective views at explicit revision"]
+    Snapshot --> SQL["Full-row SQL aggregation"]
+    Load --> Text["FTS BM25 index; explicit rebuild after document change"]
+    Load --> Vec["Optional vectors / VSS; persistence caveats must be checked"]
+    Q["Trusted typed query + dates"] --> SQL
+    Q --> Lookup["Direct joins first; filtered document search second"]
+    Text --> Lookup
+    Vec --> Lookup
+    SQL --> Result["ResultSet + original spans + coverage"]
+    Lookup --> Result
+    Result --> UI["Bounded model explanation + exact visual data"]

@@ -1,0 +1,1036 @@
+{
+  "question": "Which region of the field consistently runs hotter?",
+  "user": "Olivia Grant",
+  "session_id": "32b0f1e3-0696-4f3f-a071-beb09041d84e",
+  "status": "partial",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "c1fbc5c0-0d9c-4c2b-8f7f-a7e27508c564",
+    "thread_id": "32b0f1e3-0696-4f3f-a071-beb09041d84e",
+    "user_id": "U-501",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+    "blocks": [
+      {
+        "id": "c1fbc5c0-0d9c-4c2b-8f7f-a7e27508c564:verified:0",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+        "evidence_ids": [
+          "ev_062ce204bf8139998dceea5c",
+          "ev_f95667ecfcd3c3122a931684",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c",
+          "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+          "ev_04dc07d0d6b066004262dd43",
+          "ev_29d5a0cff366537c07ccecf4"
+        ],
+        "encoding": {},
+        "span": 2
+      }
+    ],
+    "results": {
+      "result_1d7f3eaf6c154dd7bac35b2bbe489aee": {
+        "result_set_id": "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 4,
+        "columns": [
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "well_type",
+            "label": "Well Type"
+          },
+          {
+            "key": "inspection_count",
+            "label": "Inspection Count"
+          },
+          {
+            "key": "valid_temperature_count",
+            "label": "Valid Temperature Count"
+          },
+          {
+            "key": "well_count",
+            "label": "Well Count"
+          },
+          {
+            "key": "mean_wellhead_c",
+            "label": "Mean Wellhead C"
+          },
+          {
+            "key": "mean_ambient_c",
+            "label": "Mean Ambient C"
+          },
+          {
+            "key": "mean_delta_c",
+            "label": "Mean Delta C"
+          },
+          {
+            "key": "producing_inspection_count",
+            "label": "Producing Inspection Count"
+          },
+          {
+            "key": "mean_producing_delta_c",
+            "label": "Mean Producing Delta C"
+          },
+          {
+            "key": "months_measured",
+            "label": "Months Measured"
+          },
+          {
+            "key": "comparable_months_with_other_areas_same_type",
+            "label": "Comparable Months With Other Areas Same Type"
+          },
+          {
+            "key": "months_highest_producing_delta_same_type",
+            "label": "Months Highest Producing Delta Same Type"
+          },
+          {
+            "key": "unknown_count",
+            "label": "Unknown Count"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          }
+        ],
+        "rows": [
+          {
+            "area_name": "Northeast Block 7",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.603267193793826,
+            "valid_temperature_count": 6703,
+            "well_count": 33,
+            "producing_inspection_count": 6332,
+            "months_measured": 52,
+            "inspection_count": 6703,
+            "mean_delta_c": 24.736729822467552,
+            "mean_producing_delta_c": 26.03681301326595,
+            "mean_wellhead_c": 46.33999701626138,
+            "months_highest_producing_delta_same_type": 11,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "NE-07"
+          },
+          {
+            "area_name": "Northeast Block 7",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.50441705187468,
+            "valid_temperature_count": 5841,
+            "well_count": 28,
+            "producing_inspection_count": 5564,
+            "months_measured": 52,
+            "inspection_count": 5841,
+            "mean_delta_c": 29.71915767847971,
+            "mean_producing_delta_c": 30.94769949676492,
+            "mean_wellhead_c": 51.22357473035439,
+            "months_highest_producing_delta_same_type": 4,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "NE-07"
+          },
+          {
+            "area_name": "Northeast Block 7",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.08590909090909,
+            "valid_temperature_count": 220,
+            "well_count": 1,
+            "producing_inspection_count": 215,
+            "months_measured": 52,
+            "inspection_count": 220,
+            "mean_delta_c": 35.87227272727273,
+            "mean_producing_delta_c": 36.47348837209302,
+            "mean_wellhead_c": 56.958181818181814,
+            "months_highest_producing_delta_same_type": 15,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "NE-07"
+          },
+          {
+            "area_name": "Northeast Block 8",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.494455470106672,
+            "valid_temperature_count": 8062,
+            "well_count": 38,
+            "producing_inspection_count": 7667,
+            "months_measured": 52,
+            "inspection_count": 8062,
+            "mean_delta_c": 24.74951624906971,
+            "mean_producing_delta_c": 25.886904917177514,
+            "mean_wellhead_c": 46.243971719176386,
+            "months_highest_producing_delta_same_type": 2,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "NE-08"
+          },
+          {
+            "area_name": "Northeast Block 8",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.475209140991634,
+            "valid_temperature_count": 4901,
+            "well_count": 23,
+            "producing_inspection_count": 4677,
+            "months_measured": 52,
+            "inspection_count": 4901,
+            "mean_delta_c": 29.868516629259336,
+            "mean_producing_delta_c": 31.071113961941418,
+            "mean_wellhead_c": 51.34372577025097,
+            "months_highest_producing_delta_same_type": 13,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "NE-08"
+          },
+          {
+            "area_name": "Northeast Block 8",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.563761467889908,
+            "valid_temperature_count": 218,
+            "well_count": 1,
+            "producing_inspection_count": 218,
+            "months_measured": 52,
+            "inspection_count": 218,
+            "mean_delta_c": 36.58715596330275,
+            "mean_producing_delta_c": 36.58715596330275,
+            "mean_wellhead_c": 58.15091743119266,
+            "months_highest_producing_delta_same_type": 20,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "NE-08"
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.492660243543423,
+            "valid_temperature_count": 14946,
+            "well_count": 71,
+            "producing_inspection_count": 14228,
+            "months_measured": 52,
+            "inspection_count": 14946,
+            "mean_delta_c": 24.790713234310182,
+            "mean_producing_delta_c": 25.910486364914252,
+            "mean_wellhead_c": 46.28337347785361,
+            "months_highest_producing_delta_same_type": 3,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "NW-12"
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.477093491626032,
+            "valid_temperature_count": 9434,
+            "well_count": 45,
+            "producing_inspection_count": 9008,
+            "months_measured": 52,
+            "inspection_count": 9434,
+            "mean_delta_c": 29.75999576001696,
+            "mean_producing_delta_c": 30.94593694493783,
+            "mean_wellhead_c": 51.237089251643,
+            "months_highest_producing_delta_same_type": 4,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "NW-12"
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.50113156100886,
+            "valid_temperature_count": 7335,
+            "well_count": 34,
+            "producing_inspection_count": 6964,
+            "months_measured": 52,
+            "inspection_count": 7335,
+            "mean_delta_c": 34.74845262440354,
+            "mean_producing_delta_c": 36.21602527283171,
+            "mean_wellhead_c": 56.24958418541241,
+            "months_highest_producing_delta_same_type": 2,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "NW-12"
+          },
+          {
+            "area_name": "Southeast Block 31",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.581488337652722,
+            "valid_temperature_count": 2701,
+            "well_count": 14,
+            "producing_inspection_count": 2585,
+            "months_measured": 52,
+            "inspection_count": 2701,
+            "mean_delta_c": 24.846686412439837,
+            "mean_producing_delta_c": 25.837446808510638,
+            "mean_wellhead_c": 46.42817475009256,
+            "months_highest_producing_delta_same_type": 9,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "SE-31"
+          },
+          {
+            "area_name": "Southeast Block 31",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.452659225213395,
+            "valid_temperature_count": 1523,
+            "well_count": 7,
+            "producing_inspection_count": 1469,
+            "months_measured": 52,
+            "inspection_count": 1523,
+            "mean_delta_c": 29.97990807616546,
+            "mean_producing_delta_c": 30.903131381892443,
+            "mean_wellhead_c": 51.43256730137885,
+            "months_highest_producing_delta_same_type": 9,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "SE-31"
+          },
+          {
+            "area_name": "Southeast Block 31",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.447456325590323,
+            "valid_temperature_count": 5209,
+            "well_count": 29,
+            "producing_inspection_count": 5009,
+            "months_measured": 52,
+            "inspection_count": 5209,
+            "mean_delta_c": 35.14090996352467,
+            "mean_producing_delta_c": 36.25268516669994,
+            "mean_wellhead_c": 56.588366289114994,
+            "months_highest_producing_delta_same_type": 1,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "SE-31"
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.568736332396124,
+            "valid_temperature_count": 12804,
+            "well_count": 62,
+            "producing_inspection_count": 12281,
+            "months_measured": 52,
+            "inspection_count": 12804,
+            "mean_delta_c": 24.98708216182443,
+            "mean_producing_delta_c": 25.946519013109683,
+            "mean_wellhead_c": 46.55581849422055,
+            "months_highest_producing_delta_same_type": 8,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "SE-32"
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.593273758047467,
+            "valid_temperature_count": 10407,
+            "well_count": 51,
+            "producing_inspection_count": 10015,
+            "months_measured": 52,
+            "inspection_count": 10407,
+            "mean_delta_c": 29.965369462861535,
+            "mean_producing_delta_c": 30.93872191712431,
+            "mean_wellhead_c": 51.558643220909005,
+            "months_highest_producing_delta_same_type": 2,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "SE-32"
+          },
+          {
+            "area_name": "Southeast Block 32",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.481738256719417,
+            "valid_temperature_count": 7962,
+            "well_count": 37,
+            "producing_inspection_count": 7609,
+            "months_measured": 52,
+            "inspection_count": 7962,
+            "mean_delta_c": 34.9716277317257,
+            "mean_producing_delta_c": 36.24882376133526,
+            "mean_wellhead_c": 56.453365988445114,
+            "months_highest_producing_delta_same_type": 1,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "SE-32"
+          },
+          {
+            "area_name": "Southwest Block 23",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.49351756198347,
+            "valid_temperature_count": 7744,
+            "well_count": 36,
+            "producing_inspection_count": 7349,
+            "months_measured": 52,
+            "inspection_count": 7744,
+            "mean_delta_c": 24.751200929752066,
+            "mean_producing_delta_c": 25.957449993196356,
+            "mean_wellhead_c": 46.24471849173554,
+            "months_highest_producing_delta_same_type": 10,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "SW-23"
+          },
+          {
+            "area_name": "Southwest Block 23",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.482063624947678,
+            "valid_temperature_count": 4778,
+            "well_count": 24,
+            "producing_inspection_count": 4523,
+            "months_measured": 52,
+            "inspection_count": 4778,
+            "mean_delta_c": 29.596609460025117,
+            "mean_producing_delta_c": 30.956776475790406,
+            "mean_wellhead_c": 51.07867308497279,
+            "months_highest_producing_delta_same_type": 10,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "SW-23"
+          },
+          {
+            "area_name": "Southwest Block 23",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.47715269804822,
+            "valid_temperature_count": 871,
+            "well_count": 4,
+            "producing_inspection_count": 823,
+            "months_measured": 52,
+            "inspection_count": 871,
+            "mean_delta_c": 34.62273249138921,
+            "mean_producing_delta_c": 36.18262454434994,
+            "mean_wellhead_c": 56.09988518943743,
+            "months_highest_producing_delta_same_type": 13,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T500",
+            "area_id": "SW-23"
+          },
+          {
+            "area_name": "Southwest Block 24",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.502926029962545,
+            "valid_temperature_count": 8544,
+            "well_count": 40,
+            "producing_inspection_count": 7993,
+            "months_measured": 52,
+            "inspection_count": 8544,
+            "mean_delta_c": 24.48684456928839,
+            "mean_producing_delta_c": 26.00536719629676,
+            "mean_wellhead_c": 45.98977059925094,
+            "months_highest_producing_delta_same_type": 9,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T200",
+            "area_id": "SW-24"
+          },
+          {
+            "area_name": "Southwest Block 24",
+            "comparable_months_with_other_areas_same_type": 52,
+            "mean_ambient_c": 21.413613613613613,
+            "valid_temperature_count": 4995,
+            "well_count": 23,
+            "producing_inspection_count": 4676,
+            "months_measured": 52,
+            "inspection_count": 4995,
+            "mean_delta_c": 29.31011011011011,
+            "mean_producing_delta_c": 30.977095808383233,
+            "mean_wellhead_c": 50.72372372372372,
+            "months_highest_producing_delta_same_type": 10,
+            "assessment": "measured",
+            "unknown_count": 0,
+            "well_type": "T350",
+            "area_id": "SW-24"
+          }
+        ],
+        "evidence_ids": [
+          "ev_062ce204bf8139998dceea5c",
+          "ev_f95667ecfcd3c3122a931684",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c",
+          "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+          "ev_04dc07d0d6b066004262dd43",
+          "ev_29d5a0cff366537c07ccecf4",
+          "ev_97e81ccb5c073406d88bca5e",
+          "ev_6d4c2580788f8f728116ef52",
+          "ev_f23dcd3164f676b624562b1a",
+          "ev_f511bc1fac95db1a9d8b00bb",
+          "ev_d499901d5fc025b3869cc3d2",
+          "ev_e4b3243121d2fc2bd80bf545",
+          "ev_5a800ac8a20feff37a61c268",
+          "ev_254479af0b1e6defbbb38127",
+          "ev_2e4657a04312b3a430b9c2c4",
+          "ev_bd3345ef5a88a9f53ae33cbf",
+          "ev_d8e5101018149019b1f3396b",
+          "ev_863956543b31ec9a5ca44424",
+          "ev_9d2b5b7854116715216cd2d0",
+          "ev_e62ae5db438d40082fdad0ff",
+          "ev_239b901294a9e89487fed284",
+          "ev_0a0760dbeb283dbb8d561004",
+          "ev_e46908b4cca71fb1316653e9",
+          "ev_33557da3b83be9222637efd9",
+          "ev_a49927a92a4da394f3590993",
+          "ev_9bc4f299a0128361bc312b42",
+          "ev_91fd1faed7db6266e26803e9",
+          "ev_d06ce0b4c5b94ee931fc9415",
+          "ev_2b6a1905f94bd2d8612576ab",
+          "ev_1f786b3e751b3fc77d74e47e",
+          "ev_7465f8fe2d4533608b018c81",
+          "ev_bbfd0c5c087bf3ff151c56af",
+          "ev_94092cbeaad809410e043b96",
+          "ev_848c041b4fb8f2ff2be6c3d9",
+          "ev_5fc11dd2f6da1ce9300da0aa",
+          "ev_211ff232033b86a600e0103e",
+          "ev_37bd562d0b2e24740abcfcc5",
+          "ev_ce5a0cb362da848b50bf0495",
+          "ev_8ed390efb4fe59afacfedc19",
+          "ev_c5887e24aa4c3416173b7981",
+          "ev_161751749e4ee884f3223997",
+          "ev_464d7cb35702e6fa3e59212f"
+        ],
+        "provider_coverage": {
+          "unit": "temperature_profile",
+          "matching": 20,
+          "evaluated": 20,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 20,
+          "output_rows": 20,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_f946b9bd891f4993a80a4867a38ddf2a",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Means are inspection-weighted observed temperatures, not flow volumes or reservoir pressure. Compare same type and producing state; absolute wellhead heat also reflects ambient weather. Monthly hottest counts allow ties and use only months with another area of that type; unmatched type/area coverage is not field-wide consistency."
+        ],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "assets",
+          "metric": "temperature_profile"
+        },
+        "summary": {
+          "total_matching": 20,
+          "assessment_counts": {
+            "measured": 20
+          },
+          "area_counts": {
+            "Northeast Block 7": 3,
+            "Northeast Block 8": 3,
+            "Northwest Block 12": 3,
+            "Southeast Block 31": 3,
+            "Southeast Block 32": 3,
+            "Southwest Block 23": 3,
+            "Southwest Block 24": 2
+          },
+          "source_observation_count": 125198,
+          "profile_groups": 20
+        },
+        "assessment_counts": {
+          "measured": 20
+        },
+        "coverage": {
+          "matching": 20,
+          "evaluated": 20,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_062ce204bf8139998dceea5c": {
+        "id": "ev_062ce204bf8139998dceea5c",
+        "title": "INS-0124-0001",
+        "source_kind": "inspections",
+        "source_id": "src_37112cfdc630430dca55f95a",
+        "excerpt": "{\"ambient_temp_c\": 21.2, \"asset_id\": \"WELL-0124\", \"evidence_images\": [\"evidence/WELL-0124/2022-10-20_rgb.jpg\", \"evidence/WELL-0124/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:30:00Z\", \"inspection_id\": \"INS-0124-0001\", \"inspector_user_id\": \"U-204\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 51.0}",
+        "path": "assets/WELL-0124/inspections.jsonl"
+      },
+      "ev_f95667ecfcd3c3122a931684": {
+        "id": "ev_f95667ecfcd3c3122a931684",
+        "title": "INS-0118-0001",
+        "source_kind": "inspections",
+        "source_id": "src_0ef438e5174941b0cb0722c9",
+        "excerpt": "{\"ambient_temp_c\": 19.8, \"asset_id\": \"WELL-0118\", \"evidence_images\": [\"evidence/WELL-0118/2022-10-20_rgb.jpg\", \"evidence/WELL-0118/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0118-0001\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 51.0}",
+        "path": "assets/WELL-0118/inspections.jsonl"
+      },
+      "src_215c78036f52b5303b330fe0": {
+        "id": "src_215c78036f52b5303b330fe0",
+        "title": "fleet/well-types/T200.md",
+        "source_kind": "manual",
+        "source_id": "src_215c78036f52b5303b330fe0",
+        "excerpt": "# T200 Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> sucker-rod (beam pump) well practice. Not for real-world operational use.\n\nDocument ID: OM-T200 · Revision 4 · Applies to all wells with `well_type = \"T200\"`\n\n## 1. Scope\n\nThis manual covers the T200 class of onshore rod-lift (beam pump) oil wells: a\nconventional wellhead, a surface pump jack (walking-beam pumping unit), a sucker\nrod string, an insert downhole pump and a 3-inch carbon-steel flowline to the\narea gathering line. Some T200 pads also carry a two-phase vertical separator.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-3000 | Seals the well, holds the stuffing box and production valves |\n| Pump jack | PJ-228 | Converts motor rotation to reciprocating rod motion |\n| Rod string | API Grade D 7/8 in | Transmits motion from the pump jack to the downhole pump |\n| Downhole pump | Insert rod pump 1.75 in | Lifts fluid from the reservoir |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\n## 3. Normal operation\n\nA producing T200 well cycles continuously at 6–9 strokes per minute. Produced\nfluid leaves the reservoir warmer than the surface air, so a producing wellhead\nruns noticeably warmer than ambient. When the pump stops, the\nwellhead cools to near ambient within a few hours.\n\nOperators should expect daily and seasonal variation. On hot summer afternoons\nthe steel of an idle wellhead can read well above 45 °C from solar heating alone.\n**Never judge production from absolute wellhead temperature.**\n\n## 4. Start-up and shut-in\n\n1. Confirm the flowline valve is open and the separator (if fitted) is at operating level.\n2. Release the pump jack brake and start the prime mover.\n3. Confirm stroke rate within 6–9 spm and check the stuffing box for leaks.\n4. For a planned shut-in, stop the prime mover at the bottom of the stroke, set the brake,\n   close the wing valve and record the shut-in in the maintenance system before work starts.\n\n## 5. Routine inspection checklist\n\n- Visual check of pad, cellar and flowline route for staining or pooled fluid.\n- Thermal reading of the wellhead (drone or handheld).\n- Stuffing box leakage, belt condition and gearbox oil level.\n- Separator level and dump valve operation (if fitted).\n\n## 6. Lubrication schedule\n\n| Item | Interval |\n|---|---|\n| Saddle and tail bearings | 90 days |\n| Gearbox oil level check | 30 days |\n| Gearbox oil change | 12 months |\n| Belt tension | 60 days |\n\n## 7. Common failure modes\n\n| Symptom | Likely cause | First action |\n|---|---|---|\n| Unit running, wellhead cold | Rod parted or pump stuck | Shut in, call rod/pump crew |\n| Unit stopped, motor hot | Prime mover overload | Reset overload, check cooling |\n| Oil on gearbox base | Seal failure | Replace seals |\n| Staining along flowline | Corrosion pinhole or coupling failure | Shut in, contain, report per SOP SR |\n| Stuffing box weeping | Worn packing | Replace packing |\n\n## 8. Spill response on the pad\n\nAny crude release must be handled under the company Spill Response SOP\n(`sops/spill-response-sop.md`). In short: stop the source, contain, estimate the\nvolume, and report within the deadline set by the SOP.\n\n## 9. Engineering limits\n\n### 9.1 Pressure\nMaximum allowable wellhead working pressure: 3,000 psi.\n\n### 9.2 Stroke\nMaximum stroke rate: 10 spm. Maximum polished-rod load: 22,800 lb.\n\n### 9.3 Production temperature rule\nA T200 well is considered **producing (active)** when its wellhead temperature is\nat least **15 °C above ambient** air temperature at the time of the reading. A\ndifference below 15 °C means the well is **not producing** for that reading,\nwhatever the absolute temperature.\n\n### 9.4 Temperature alarm\nThe wellhead must stay **at or below 85 °C**. Any reading above 85 °C requires the\noperator to shut in and inspect the stuffing box and rod string within 24 hours.\n\n### 9.5 Spill-related shut-in\nIf a spill covers **more than 5 % of the pad area**, shut in the well immediately and\nkeep it shut in until the source is repaired.\n\n## 10. Maintenance escalation\n\n- Three or more **corrective** maintenance events on the same equipment kind in the\n  12 months before the current date require a root-cause analysis (RCA) before the next repair is closed.\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n\n## 11. Records\n\nEvery inspection, maintenance job and shut-in must be recorded. Human notes that\nexplain an abnormal reading (for example a planned shut-in) are valid context and\nshould be considered alongside the sensor data.\n",
+        "path": "fleet/well-types/T200.md"
+      },
+      "src_0b27ec48fd9b0f16a6cd84c6": {
+        "id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "title": "fleet/well-types/T350.md",
+        "source_kind": "manual",
+        "source_id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "excerpt": "# T350 Deep Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Not for real-world use.\n\nDocument ID: OM-T350 · Revision 2 · Applies to all wells with `well_type = \"T350\"`\n\n## 1. Scope\n\nThe T350 is a deeper, higher-rate version of the T200 rod-lift well. It uses a\nWH-5000 wellhead, a PJ-456 pump jack and the same rod, pump and\nflowline families as the T200. Procedures not listed here follow the T200 manual.\n\n## 2. Differences from T200\n\n| Item | T200 | T350 |\n|---|---|---|\n| Wellhead rating | 3,000 psi | 5,000 psi |\n| Pump jack | PJ-228 | PJ-456 |\n| Normal stroke rate | 6–9 spm | 5–8 spm |\n| Max polished-rod load | 22,800 lb | 45,600 lb |\n\n## 3. Production temperature rule\n\nBecause T350 fluid comes from a deeper, hotter zone, a T350 well is considered\n**producing (active)** only when its wellhead temperature is at least **20 °C above\nambient** air temperature at the time of the reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and inspect within 24 hours.\n\n## 5. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 6. Maintenance escalation\n\nSame as T200 section 10 (RCA after three corrective events on the same equipment\nkind within 12 months; report downtime over 14 consecutive days).\n",
+        "path": "fleet/well-types/T350.md"
+      },
+      "src_330aa8bd8455ae32332cb94c": {
+        "id": "src_330aa8bd8455ae32332cb94c",
+        "title": "fleet/well-types/T500.md",
+        "source_kind": "manual",
+        "source_id": "src_330aa8bd8455ae32332cb94c",
+        "excerpt": "# T500 Electric Submersible Pump Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> electric submersible pump (ESP) well practice. Not for real-world operational use.\n\nDocument ID: OM-T500 · Revision 1 · Applies to all wells with `well_type = \"T500\"`\n\n## 1. Scope\n\nThe T500 is a high-rate well lifted by an **electric submersible pump (ESP)** instead of a\npump jack and rod string. There is no surface pumping unit: a variable-speed drive on the\npad powers a motor and multistage pump hung on the tubing deep in the well. The wellhead,\nflowline and optional separator are the same families as on rod-lift wells.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-5000 | Seals the well, carries the power cable penetrator and production valves |\n| ESP (`esp_pump`) | ESP-400 | Downhole motor, seal section and multistage pump, with its surface drive and power cable |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\nA T500 pad has **no pump jack, rod string or rod pump**. There is no visible stroke, so a\ndrone cannot tell from movement alone whether the well is running.\n\n## 3. Production temperature rule\n\nESP wells move more fluid, and the motor adds heat. A T500 well is considered\n**producing (active)** only when its wellhead temperature is at least **25 °C above\nambient** air temperature at the time of the reading. Below 25 °C the well is **not\nproducing** for that reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and check the drive\nand motor within 24 hours.\n\n## 5. Early warning signs\n\nAn ESP runs at a steady speed, so a healthy T500 wellhead stays within a degree or two of\nits usual difference above air. ESP motors usually fail after running hot with too little\nfluid over the pump. In the weeks before a failure, the wellhead-to-air difference typically\n**falls steadily** while the well is still producing.\n\n- If the wellhead-to-air difference is **lower than at the inspection before, three\n  inspections in a row** (four readings, each lower than the last) **and has fallen by\n  3 °C or more in total** over those four readings, schedule an ESP drive and insulation\n  check within **14 days** of the third drop.\n- A ground fault or repeated trips on the drive must be treated as a failure, not reset.\n\n## 6. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 7. Maintenance escalation\n\n- **Two or more** corrective maintenance events on the **ESP** in the 12 months before the\n  current date require a root-cause analysis (RCA) before the next repair is closed.\n  (ESP pulls need a workover rig and cost far more than rod-lift repairs.)\n- For all other equipment, follow T200 section 10 (three events in 12 months).\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n",
+        "path": "fleet/well-types/T500.md"
+      },
+      "result_1d7f3eaf6c154dd7bac35b2bbe489aee": {
+        "id": "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+        "title": "result_1d7f3eaf6c154dd7bac35b2bbe489aee",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_1d7f3eaf6c154dd7bac35b2bbe489aee"
+      },
+      "ev_04dc07d0d6b066004262dd43": {
+        "id": "ev_04dc07d0d6b066004262dd43",
+        "title": "INS-0144-0001",
+        "source_kind": "inspections",
+        "source_id": "src_d117998b7c165b70817d4608",
+        "excerpt": "{\"ambient_temp_c\": 21.5, \"asset_id\": \"WELL-0144\", \"evidence_images\": [\"evidence/WELL-0144/2022-10-20_rgb.jpg\", \"evidence/WELL-0144/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0144-0001\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 50.1}",
+        "path": "assets/WELL-0144/inspections.jsonl"
+      },
+      "ev_29d5a0cff366537c07ccecf4": {
+        "id": "ev_29d5a0cff366537c07ccecf4",
+        "title": "INS-0125-0001",
+        "source_kind": "inspections",
+        "source_id": "src_88f320e4a512c0abaf8ff57b",
+        "excerpt": "{\"ambient_temp_c\": 21.2, \"asset_id\": \"WELL-0125\", \"evidence_images\": [\"evidence/WELL-0125/2022-10-20_rgb.jpg\", \"evidence/WELL-0125/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0125-0001\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 47.1}",
+        "path": "assets/WELL-0125/inspections.jsonl"
+      },
+      "ev_97e81ccb5c073406d88bca5e": {
+        "id": "ev_97e81ccb5c073406d88bca5e",
+        "title": "INS-0285-0001",
+        "source_kind": "inspections",
+        "source_id": "src_5415f019b67b2c9ca8b582b1",
+        "excerpt": "{\"ambient_temp_c\": 18.8, \"asset_id\": \"WELL-0285\", \"evidence_images\": [\"evidence/WELL-0285/2022-10-20_rgb.jpg\", \"evidence/WELL-0285/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T13:45:00Z\", \"inspection_id\": \"INS-0285-0001\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 54.8}",
+        "path": "assets/WELL-0285/inspections.jsonl"
+      },
+      "ev_6d4c2580788f8f728116ef52": {
+        "id": "ev_6d4c2580788f8f728116ef52",
+        "title": "INS-0285-0002",
+        "source_kind": "inspections",
+        "source_id": "src_5415f019b67b2c9ca8b582b1",
+        "excerpt": "{\"ambient_temp_c\": 15.8, \"asset_id\": \"WELL-0285\", \"evidence_images\": [\"evidence/WELL-0285/2022-10-27_rgb.jpg\", \"evidence/WELL-0285/2022-10-27_thermal.jpg\"], \"inspected_at\": \"2022-10-27T09:30:00Z\", \"inspection_id\": \"INS-0285-0002\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 52.9}",
+        "path": "assets/WELL-0285/inspections.jsonl"
+      },
+      "ev_f23dcd3164f676b624562b1a": {
+        "id": "ev_f23dcd3164f676b624562b1a",
+        "title": "INS-0178-0001",
+        "source_kind": "inspections",
+        "source_id": "src_3b062a545de8efe88e97ec22",
+        "excerpt": "{\"ambient_temp_c\": 18.4, \"asset_id\": \"WELL-0178\", \"evidence_images\": [\"evidence/WELL-0178/2022-10-20_rgb.jpg\", \"evidence/WELL-0178/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0178-0001\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 41.2}",
+        "path": "assets/WELL-0178/inspections.jsonl"
+      },
+      "ev_f511bc1fac95db1a9d8b00bb": {
+        "id": "ev_f511bc1fac95db1a9d8b00bb",
+        "title": "INS-0166-0001",
+        "source_kind": "inspections",
+        "source_id": "src_8b56aea344f5bf0cb2f3118a",
+        "excerpt": "{\"ambient_temp_c\": 20.6, \"asset_id\": \"WELL-0166\", \"evidence_images\": [\"evidence/WELL-0166/2022-10-20_rgb.jpg\", \"evidence/WELL-0166/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0166-0001\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.6}",
+        "path": "assets/WELL-0166/inspections.jsonl"
+      },
+      "ev_d499901d5fc025b3869cc3d2": {
+        "id": "ev_d499901d5fc025b3869cc3d2",
+        "title": "INS-0193-0001",
+        "source_kind": "inspections",
+        "source_id": "src_2042d591545351d636161194",
+        "excerpt": "{\"ambient_temp_c\": 23.0, \"asset_id\": \"WELL-0193\", \"evidence_images\": [\"evidence/WELL-0193/2022-10-20_rgb.jpg\", \"evidence/WELL-0193/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0193-0001\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 56.9}",
+        "path": "assets/WELL-0193/inspections.jsonl"
+      },
+      "ev_e4b3243121d2fc2bd80bf545": {
+        "id": "ev_e4b3243121d2fc2bd80bf545",
+        "title": "INS-0153-0001",
+        "source_kind": "inspections",
+        "source_id": "src_3964a8c9e1469da588053ece",
+        "excerpt": "{\"ambient_temp_c\": 23.7, \"asset_id\": \"WELL-0153\", \"evidence_images\": [\"evidence/WELL-0153/2022-10-20_rgb.jpg\", \"evidence/WELL-0153/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T09:30:00Z\", \"inspection_id\": \"INS-0153-0001\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.5}",
+        "path": "assets/WELL-0153/inspections.jsonl"
+      },
+      "ev_5a800ac8a20feff37a61c268": {
+        "id": "ev_5a800ac8a20feff37a61c268",
+        "title": "INS-0282-0001",
+        "source_kind": "inspections",
+        "source_id": "src_7b548555ab6bb8c0b985a29d",
+        "excerpt": "{\"ambient_temp_c\": 20.2, \"asset_id\": \"WELL-0282\", \"evidence_images\": [\"evidence/WELL-0282/2022-10-20_rgb.jpg\", \"evidence/WELL-0282/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T11:15:00Z\", \"inspection_id\": \"INS-0282-0001\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 57.0}",
+        "path": "assets/WELL-0282/inspections.jsonl"
+      },
+      "ev_254479af0b1e6defbbb38127": {
+        "id": "ev_254479af0b1e6defbbb38127",
+        "title": "INS-0282-0002",
+        "source_kind": "inspections",
+        "source_id": "src_7b548555ab6bb8c0b985a29d",
+        "excerpt": "{\"ambient_temp_c\": 20.1, \"asset_id\": \"WELL-0282\", \"evidence_images\": [\"evidence/WELL-0282/2022-10-27_rgb.jpg\", \"evidence/WELL-0282/2022-10-27_thermal.jpg\"], \"inspected_at\": \"2022-10-27T11:15:00Z\", \"inspection_id\": \"INS-0282-0002\", \"inspector_user_id\": \"U-204\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 57.2}",
+        "path": "assets/WELL-0282/inspections.jsonl"
+      },
+      "ev_2e4657a04312b3a430b9c2c4": {
+        "id": "ev_2e4657a04312b3a430b9c2c4",
+        "title": "INS-0357-0001",
+        "source_kind": "inspections",
+        "source_id": "src_10f1a6679913fb6fd80626e0",
+        "excerpt": "{\"ambient_temp_c\": 20.6, \"asset_id\": \"WELL-0357\", \"evidence_images\": [\"evidence/WELL-0357/2022-10-20_rgb.jpg\", \"evidence/WELL-0357/2022-10-20_thermal.jpg\", \"evidence/WELL-0357/2022-10-20_spill_closeup.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0357-0001\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"Pooled fluid near flowline.\", \"spill_area_pct\": 6.8, \"spill_detected\": true, \"spill_est_volume_bbl\": 1.7, \"wellhead_temp_c\": 49.7}",
+        "path": "assets/WELL-0357/inspections.jsonl"
+      },
+      "ev_bd3345ef5a88a9f53ae33cbf": {
+        "id": "ev_bd3345ef5a88a9f53ae33cbf",
+        "title": "INS-0307-0001",
+        "source_kind": "inspections",
+        "source_id": "src_0e81932282e01726f2bc9456",
+        "excerpt": "{\"ambient_temp_c\": 18.3, \"asset_id\": \"WELL-0307\", \"evidence_images\": [\"evidence/WELL-0307/2022-10-20_rgb.jpg\", \"evidence/WELL-0307/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0307-0001\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.4}",
+        "path": "assets/WELL-0307/inspections.jsonl"
+      },
+      "ev_d8e5101018149019b1f3396b": {
+        "id": "ev_d8e5101018149019b1f3396b",
+        "title": "INS-0304-0001",
+        "source_kind": "inspections",
+        "source_id": "src_04decbdee3b3d2e22694f004",
+        "excerpt": "{\"ambient_temp_c\": 22.6, \"asset_id\": \"WELL-0304\", \"evidence_images\": [\"evidence/WELL-0304/2022-10-20_rgb.jpg\", \"evidence/WELL-0304/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0304-0001\", \"inspector_user_id\": \"U-602\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 58.7}",
+        "path": "assets/WELL-0304/inspections.jsonl"
+      },
+      "ev_863956543b31ec9a5ca44424": {
+        "id": "ev_863956543b31ec9a5ca44424",
+        "title": "INS-0346-0001",
+        "source_kind": "inspections",
+        "source_id": "src_dec126b421567c19c9617c00",
+        "excerpt": "{\"ambient_temp_c\": 17.3, \"asset_id\": \"WELL-0346\", \"evidence_images\": [\"evidence/WELL-0346/2022-10-20_rgb.jpg\", \"evidence/WELL-0346/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0346-0001\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 49.4}",
+        "path": "assets/WELL-0346/inspections.jsonl"
+      },
+      "ev_9d2b5b7854116715216cd2d0": {
+        "id": "ev_9d2b5b7854116715216cd2d0",
+        "title": "INS-0446-0001",
+        "source_kind": "inspections",
+        "source_id": "src_ed1436a04c2aea6e3dc434e3",
+        "excerpt": "{\"ambient_temp_c\": 23.9, \"asset_id\": \"WELL-0446\", \"evidence_images\": [\"evidence/WELL-0446/2022-10-20_rgb.jpg\", \"evidence/WELL-0446/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0446-0001\", \"inspector_user_id\": \"U-604\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 60.5}",
+        "path": "assets/WELL-0446/inspections.jsonl"
+      },
+      "ev_e62ae5db438d40082fdad0ff": {
+        "id": "ev_e62ae5db438d40082fdad0ff",
+        "title": "INS-0370-0001",
+        "source_kind": "inspections",
+        "source_id": "src_3a2757a6341a9b51a2691357",
+        "excerpt": "{\"ambient_temp_c\": 22.8, \"asset_id\": \"WELL-0370\", \"evidence_images\": [\"evidence/WELL-0370/2022-10-20_rgb.jpg\", \"evidence/WELL-0370/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0370-0001\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 59.9}",
+        "path": "assets/WELL-0370/inspections.jsonl"
+      },
+      "ev_239b901294a9e89487fed284": {
+        "id": "ev_239b901294a9e89487fed284",
+        "title": "INS-0227-0001",
+        "source_kind": "inspections",
+        "source_id": "src_67b5535bd2e55ebd07419e3c",
+        "excerpt": "{\"ambient_temp_c\": 23.1, \"asset_id\": \"WELL-0227\", \"evidence_images\": [\"evidence/WELL-0227/2022-10-20_rgb.jpg\", \"evidence/WELL-0227/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T08:00:00Z\", \"inspection_id\": \"INS-0227-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 52.5}",
+        "path": "assets/WELL-0227/inspections.jsonl"
+      },
+      "ev_0a0760dbeb283dbb8d561004": {
+        "id": "ev_0a0760dbeb283dbb8d561004",
+        "title": "INS-0217-0001",
+        "source_kind": "inspections",
+        "source_id": "src_0cd67765098b93cb509ad42f",
+        "excerpt": "{\"ambient_temp_c\": 22.4, \"asset_id\": \"WELL-0217\", \"evidence_images\": [\"evidence/WELL-0217/2022-10-20_rgb.jpg\", \"evidence/WELL-0217/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T10:00:00Z\", \"inspection_id\": \"INS-0217-0001\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 47.7}",
+        "path": "assets/WELL-0217/inspections.jsonl"
+      },
+      "ev_e46908b4cca71fb1316653e9": {
+        "id": "ev_e46908b4cca71fb1316653e9",
+        "title": "INS-0240-0001",
+        "source_kind": "inspections",
+        "source_id": "src_9fb2f87005781820906ad328",
+        "excerpt": "{\"ambient_temp_c\": 23.2, \"asset_id\": \"WELL-0240\", \"evidence_images\": [\"evidence/WELL-0240/2022-10-20_rgb.jpg\", \"evidence/WELL-0240/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0240-0001\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 58.2}",
+        "path": "assets/WELL-0240/inspections.jsonl"
+      },
+      "ev_33557da3b83be9222637efd9": {
+        "id": "ev_33557da3b83be9222637efd9",
+        "title": "INS-0221-0001",
+        "source_kind": "inspections",
+        "source_id": "src_ec85b16f0db5212b421f490e",
+        "excerpt": "{\"ambient_temp_c\": 20.3, \"asset_id\": \"WELL-0221\", \"evidence_images\": [\"evidence/WELL-0221/2022-10-20_rgb.jpg\", \"evidence/WELL-0221/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0221-0001\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 47.5}",
+        "path": "assets/WELL-0221/inspections.jsonl"
+      },
+      "ev_a49927a92a4da394f3590993": {
+        "id": "ev_a49927a92a4da394f3590993",
+        "title": "INS-0226-0001",
+        "source_kind": "inspections",
+        "source_id": "src_f76682a5e2c9076080a09eec",
+        "excerpt": "{\"ambient_temp_c\": 24.7, \"asset_id\": \"WELL-0226\", \"evidence_images\": [\"evidence/WELL-0226/2022-10-20_rgb.jpg\", \"evidence/WELL-0226/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0226-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 61.3}",
+        "path": "assets/WELL-0226/inspections.jsonl"
+      },
+      "ev_9bc4f299a0128361bc312b42": {
+        "id": "ev_9bc4f299a0128361bc312b42",
+        "title": "INS-0235-0001",
+        "source_kind": "inspections",
+        "source_id": "src_1d4804c234a236668c899c49",
+        "excerpt": "{\"ambient_temp_c\": 22.2, \"asset_id\": \"WELL-0235\", \"evidence_images\": [\"evidence/WELL-0235/2022-10-20_rgb.jpg\", \"evidence/WELL-0235/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0235-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 58.9}",
+        "path": "assets/WELL-0235/inspections.jsonl"
+      },
+      "ev_91fd1faed7db6266e26803e9": {
+        "id": "ev_91fd1faed7db6266e26803e9",
+        "title": "INS-0586-0001",
+        "source_kind": "inspections",
+        "source_id": "src_067410af340707b6242d9beb",
+        "excerpt": "{\"ambient_temp_c\": 17.8, \"asset_id\": \"WELL-0586\", \"evidence_images\": [\"evidence/WELL-0586/2022-10-20_rgb.jpg\", \"evidence/WELL-0586/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0586-0001\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 39.8}",
+        "path": "assets/WELL-0586/inspections.jsonl"
+      },
+      "ev_d06ce0b4c5b94ee931fc9415": {
+        "id": "ev_d06ce0b4c5b94ee931fc9415",
+        "title": "INS-0475-0001",
+        "source_kind": "inspections",
+        "source_id": "src_02171b87394acad881854f42",
+        "excerpt": "{\"ambient_temp_c\": 18.1, \"asset_id\": \"WELL-0475\", \"evidence_images\": [\"evidence/WELL-0475/2022-10-20_rgb.jpg\", \"evidence/WELL-0475/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:30:00Z\", \"inspection_id\": \"INS-0475-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 47.2}",
+        "path": "assets/WELL-0475/inspections.jsonl"
+      },
+      "ev_2b6a1905f94bd2d8612576ab": {
+        "id": "ev_2b6a1905f94bd2d8612576ab",
+        "title": "INS-0510-0001",
+        "source_kind": "inspections",
+        "source_id": "src_2fa288fe79fc1f6bf19becdf",
+        "excerpt": "{\"ambient_temp_c\": 19.1, \"asset_id\": \"WELL-0510\", \"evidence_images\": [\"evidence/WELL-0510/2022-10-20_rgb.jpg\", \"evidence/WELL-0510/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0510-0001\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 44.2}",
+        "path": "assets/WELL-0510/inspections.jsonl"
+      },
+      "ev_1f786b3e751b3fc77d74e47e": {
+        "id": "ev_1f786b3e751b3fc77d74e47e",
+        "title": "INS-0555-0001",
+        "source_kind": "inspections",
+        "source_id": "src_adec5595690b3c3c3d00e8d2",
+        "excerpt": "{\"ambient_temp_c\": 19.5, \"asset_id\": \"WELL-0555\", \"evidence_images\": [\"evidence/WELL-0555/2022-10-20_rgb.jpg\", \"evidence/WELL-0555/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0555-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.0}",
+        "path": "assets/WELL-0555/inspections.jsonl"
+      },
+      "ev_7465f8fe2d4533608b018c81": {
+        "id": "ev_7465f8fe2d4533608b018c81",
+        "title": "INS-0590-0001",
+        "source_kind": "inspections",
+        "source_id": "src_b009f16a59c4d1c76b561152",
+        "excerpt": "{\"ambient_temp_c\": 24.2, \"asset_id\": \"WELL-0590\", \"evidence_images\": [\"evidence/WELL-0590/2022-10-20_rgb.jpg\", \"evidence/WELL-0590/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:00:00Z\", \"inspection_id\": \"INS-0590-0001\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 56.2}",
+        "path": "assets/WELL-0590/inspections.jsonl"
+      },
+      "ev_bbfd0c5c087bf3ff151c56af": {
+        "id": "ev_bbfd0c5c087bf3ff151c56af",
+        "title": "INS-0556-0001",
+        "source_kind": "inspections",
+        "source_id": "src_86d8c57e5ba1a0aa8657abff",
+        "excerpt": "{\"ambient_temp_c\": 24.6, \"asset_id\": \"WELL-0556\", \"evidence_images\": [\"evidence/WELL-0556/2022-10-20_rgb.jpg\", \"evidence/WELL-0556/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:45:00Z\", \"inspection_id\": \"INS-0556-0001\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 60.6}",
+        "path": "assets/WELL-0556/inspections.jsonl"
+      },
+      "ev_94092cbeaad809410e043b96": {
+        "id": "ev_94092cbeaad809410e043b96",
+        "title": "INS-0001-0001",
+        "source_kind": "inspections",
+        "source_id": "src_a1861faf6179a04ea29f0a4d",
+        "excerpt": "{\"ambient_temp_c\": 20.1, \"asset_id\": \"WELL-0001\", \"evidence_images\": [\"evidence/WELL-0001/2022-10-20_rgb.jpg\", \"evidence/WELL-0001/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0001-0001\", \"inspector_user_id\": \"U-104\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 41.9}",
+        "path": "assets/WELL-0001/inspections.jsonl"
+      },
+      "ev_848c041b4fb8f2ff2be6c3d9": {
+        "id": "ev_848c041b4fb8f2ff2be6c3d9",
+        "title": "INS-0295-0001",
+        "source_kind": "inspections",
+        "source_id": "src_799f76b3b95b083f4dd11b3a",
+        "excerpt": "{\"ambient_temp_c\": 19.7, \"asset_id\": \"WELL-0295\", \"evidence_images\": [\"evidence/WELL-0295/2022-10-20_rgb.jpg\", \"evidence/WELL-0295/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0295-0001\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.9}",
+        "path": "assets/WELL-0295/inspections.jsonl"
+      },
+      "ev_5fc11dd2f6da1ce9300da0aa": {
+        "id": "ev_5fc11dd2f6da1ce9300da0aa",
+        "title": "INS-0005-0001",
+        "source_kind": "inspections",
+        "source_id": "src_e93e50329eb49d1e7f3b6efb",
+        "excerpt": "{\"ambient_temp_c\": 18.2, \"asset_id\": \"WELL-0005\", \"evidence_images\": [\"evidence/WELL-0005/2022-10-20_rgb.jpg\", \"evidence/WELL-0005/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T08:00:00Z\", \"inspection_id\": \"INS-0005-0001\", \"inspector_user_id\": \"U-104\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.1}",
+        "path": "assets/WELL-0005/inspections.jsonl"
+      },
+      "ev_211ff232033b86a600e0103e": {
+        "id": "ev_211ff232033b86a600e0103e",
+        "title": "INS-0038-0001",
+        "source_kind": "inspections",
+        "source_id": "src_46cda9c2c497725d7b7b541b",
+        "excerpt": "{\"ambient_temp_c\": 23.3, \"asset_id\": \"WELL-0038\", \"evidence_images\": [\"evidence/WELL-0038/2022-10-20_rgb.jpg\", \"evidence/WELL-0038/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T08:00:00Z\", \"inspection_id\": \"INS-0038-0001\", \"inspector_user_id\": \"U-104\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 49.8}",
+        "path": "assets/WELL-0038/inspections.jsonl"
+      },
+      "ev_37bd562d0b2e24740abcfcc5": {
+        "id": "ev_37bd562d0b2e24740abcfcc5",
+        "title": "INS-0287-0001",
+        "source_kind": "inspections",
+        "source_id": "src_965ec61eed61fef3b002fee7",
+        "excerpt": "{\"ambient_temp_c\": 22.8, \"asset_id\": \"WELL-0287\", \"evidence_images\": [\"evidence/WELL-0287/2022-10-20_rgb.jpg\", \"evidence/WELL-0287/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T08:45:00Z\", \"inspection_id\": \"INS-0287-0001\", \"inspector_user_id\": \"U-102\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 59.1}",
+        "path": "assets/WELL-0287/inspections.jsonl"
+      },
+      "ev_ce5a0cb362da848b50bf0495": {
+        "id": "ev_ce5a0cb362da848b50bf0495",
+        "title": "INS-0255-0001",
+        "source_kind": "inspections",
+        "source_id": "src_055558d29a6c3635c22a8c9b",
+        "excerpt": "{\"ambient_temp_c\": 24.5, \"asset_id\": \"WELL-0255\", \"evidence_images\": [\"evidence/WELL-0255/2022-10-20_rgb.jpg\", \"evidence/WELL-0255/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T10:00:00Z\", \"inspection_id\": \"INS-0255-0001\", \"inspector_user_id\": \"U-104\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 60.6}",
+        "path": "assets/WELL-0255/inspections.jsonl"
+      },
+      "ev_8ed390efb4fe59afacfedc19": {
+        "id": "ev_8ed390efb4fe59afacfedc19",
+        "title": "INS-0070-0001",
+        "source_kind": "inspections",
+        "source_id": "src_24495f257acff36f3828b6e1",
+        "excerpt": "{\"ambient_temp_c\": 20.5, \"asset_id\": \"WELL-0070\", \"evidence_images\": [\"evidence/WELL-0070/2022-10-20_rgb.jpg\", \"evidence/WELL-0070/2022-10-20_thermal.jpg\", \"evidence/WELL-0070/2022-10-20_spill_closeup.jpg\"], \"inspected_at\": \"2022-10-20T07:30:00Z\", \"inspection_id\": \"INS-0070-0001\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"Oil sheen around cellar.\", \"spill_area_pct\": 10.2, \"spill_detected\": true, \"spill_est_volume_bbl\": 2.2, \"wellhead_temp_c\": 52.3}",
+        "path": "assets/WELL-0070/inspections.jsonl"
+      },
+      "ev_c5887e24aa4c3416173b7981": {
+        "id": "ev_c5887e24aa4c3416173b7981",
+        "title": "INS-0087-0001",
+        "source_kind": "inspections",
+        "source_id": "src_c83487c3f5b0fb9ce3d54fca",
+        "excerpt": "{\"ambient_temp_c\": 22.1, \"asset_id\": \"WELL-0087\", \"evidence_images\": [\"evidence/WELL-0087/2022-10-20_rgb.jpg\", \"evidence/WELL-0087/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:30:00Z\", \"inspection_id\": \"INS-0087-0001\", \"inspector_user_id\": \"U-102\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.2}",
+        "path": "assets/WELL-0087/inspections.jsonl"
+      },
+      "ev_161751749e4ee884f3223997": {
+        "id": "ev_161751749e4ee884f3223997",
+        "title": "INS-0090-0001",
+        "source_kind": "inspections",
+        "source_id": "src_7623237e34eaec98b4ba5869",
+        "excerpt": "{\"ambient_temp_c\": 17.9, \"asset_id\": \"WELL-0090\", \"evidence_images\": [\"evidence/WELL-0090/2022-10-20_rgb.jpg\", \"evidence/WELL-0090/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:15:00Z\", \"inspection_id\": \"INS-0090-0001\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 42.4}",
+        "path": "assets/WELL-0090/inspections.jsonl"
+      },
+      "ev_464d7cb35702e6fa3e59212f": {
+        "id": "ev_464d7cb35702e6fa3e59212f",
+        "title": "INS-0081-0001",
+        "source_kind": "inspections",
+        "source_id": "src_fcb37a6c70db37329f87b83d",
+        "excerpt": "{\"ambient_temp_c\": 21.6, \"asset_id\": \"WELL-0081\", \"evidence_images\": [\"evidence/WELL-0081/2022-10-20_rgb.jpg\", \"evidence/WELL-0081/2022-10-20_thermal.jpg\"], \"inspected_at\": \"2022-10-20T07:30:00Z\", \"inspection_id\": \"INS-0081-0001\", \"inspector_user_id\": \"U-104\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 53.7}",
+        "path": "assets/WELL-0081/inspections.jsonl"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:2388cd76-a257-47f0-bf54-32aa83cec09f": {
+        "id": "memory:2388cd76-a257-47f0-bf54-32aa83cec09f",
+        "title": "Work_Context reported by Olivia Grant",
+        "source_kind": "private_memory",
+        "source_id": "memory:2388cd76-a257-47f0-bf54-32aa83cec09f",
+        "excerpt": "The recalled pump on WELL-0577 was swapped as reported by Nathan. [attributed]",
+        "author": "Olivia Grant",
+        "source_time": "2026-10-17T12:09:22.624774+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Means are inspection-weighted observed temperatures, not flow volumes or reservoir pressure. Compare same type and producing state; absolute wellhead heat also reflects ambient weather. Monthly hottest counts allow ties and use only months with another area of that type; unmatched type/area coverage is not field-wide consistency.",
+      "The explanation is incomplete; the panels contain verified records."
+    ],
+    "sample": false,
+    "generation": {
+      "status": "partial",
+      "model": "gemini-3.5-flash-lite",
+      "live": false,
+      "verified_tool_data": true,
+      "explanation_error_code": "grounding_repair_budget",
+      "retry_after": null,
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4359,
+            "output_tokens": 199,
+            "total_tokens": 4558,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 697,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 4500,
+            "output_tokens": 857,
+            "total_tokens": 5357,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 701,
+          "live": true
+        }
+      ]
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 772,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 87,
+      "short_term_cap": 1000,
+      "omitted_private": 1,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 772,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 87,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1844,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 48,
+      "partial_evidence": true,
+      "token_fit_omitted": 12,
+      "content_cap": 5000
+    }
+  }
+}

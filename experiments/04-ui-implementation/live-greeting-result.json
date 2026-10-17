@@ -1,0 +1,49 @@
+{
+  "user_id": "U-201",
+  "question": "Hello",
+  "session_id": "d6101960-99b4-435c-80c9-128d3aa7edc2",
+  "sent_at_utc": "2026-10-17T09:50:44.937Z",
+  "observed_terminal_utc": "2026-10-17T09:51:00.292691+00:00",
+  "observations": [
+    {
+      "observation_elapsed_seconds": 0.0,
+      "busy": false,
+      "error": "Response interruptedNo completed response was saved for this request. Your message is preserved; you can try again.Try again "
+    }
+  ],
+  "final": {
+    "busy": false,
+    "error": "Response interruptedNo completed response was saved for this request. Your message is preserved; you can try again.Try again ",
+    "heading": "Asset CopilotResponse interrupted",
+    "panels": 0,
+    "stored": {
+      "createdAt": "2026-10-17T09:50:44.939596+00:00",
+      "id": "d6101960-99b4-435c-80c9-128d3aa7edc2",
+      "messages": [
+        {
+          "createdAt": "2026-10-17T09:50:44.997737+00:00",
+          "id": "6e6f1136-1b67-4314-aad7-e744ecb7c022",
+          "role": "user",
+          "status": "complete",
+          "text": "Hello"
+        },
+        {
+          "createdAt": "2026-10-17T09:50:44.997737+00:00",
+          "error": "No completed response was saved for this request. Your message is preserved; you can try again.",
+          "errorCode": "interrupted",
+          "id": "unfinished-6e6f1136-1b67-4314-aad7-e744ecb7c022",
+          "role": "assistant",
+          "status": "interrupted",
+          "text": ""
+        }
+      ],
+      "mode": "live",
+      "ownerId": "U-201",
+      "title": "Hello",
+      "titleSource": "server",
+      "updatedAt": "2026-10-17T09:50:44.997737+00:00"
+    }
+  },
+  "automatic_retries": 0,
+  "purpose": "Actual Google Gemma chat roundtrip only; not factual planner validation"
+}

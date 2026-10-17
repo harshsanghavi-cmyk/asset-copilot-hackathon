@@ -1,0 +1,20 @@
+{
+  "run": "all11-final-accepted",
+  "scenarios": 11,
+  "turns": 21,
+  "sessions": 14,
+  "complete_replies": 10,
+  "partial_replies": 11,
+  "fatal_request_errors": 0,
+  "ui_envelope_contract_passes": 21,
+  "persisted_envelopes_checked": 21,
+  "google_doc_verified": {
+    "questions": 11,
+    "json_blocks": 21,
+    "original_images": 4,
+    "tables": 0
+  },
+  "live_url": "http://localhost:5192",
+  "google_doc": "https://docs.google.com/document/d/1Q6hCoswobev7UAoJV3pSMTYVgnKjGN67p0f0ZgWzt3E/edit",
+  "accuracy_claim": "Not established; partials remain explicit."
+}

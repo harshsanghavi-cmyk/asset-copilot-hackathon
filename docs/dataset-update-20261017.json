@@ -1,0 +1,17 @@
+{
+  "counts": {
+    "assets": 600,
+    "inspections": 125198,
+    "maintenance": 17415,
+    "regulatory-events": 328,
+    "context": 1887,
+    "maintenance_reports": 4437
+  },
+  "well_types": {
+    "T200": 293,
+    "T500": 106,
+    "T350": 201
+  },
+  "reference_date": "2027-01-15",
+  "active_root": "dataset/test-data/dataset"
+}

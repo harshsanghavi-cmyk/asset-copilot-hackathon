@@ -1,0 +1,19 @@
+%% Proposed scale/semantic-search alternative, not implemented.
+flowchart LR
+    Raw["Immutable sources + import manifest"] --> Load["Validate and normalize; extract typed report facts with spans"]
+    Load --> PG["Postgres full relational facts + shared ledger"]
+    PG --> View["Effective values and scoped rules in transaction snapshot"]
+    View --> Exact["Complete SQL aggregates; no top-k restriction"]
+    Load --> Chunks["Versioned report / SOP sections + metadata"]
+    Chunks --> Text["Postgres GIN text search"]
+    Chunks --> Embed["Optional explicitly selected embedding model"]
+    Embed --> Vector["pgvector exact search first; ANN only if justified"]
+    Query["Trusted scope, bounds and typed tools"] --> Exact
+    Query --> Filter["Filter relevant assets / dates / document types"]
+    Filter --> Text
+    Filter --> Vector
+    Text --> Fuse["Rank fusion, deduplicate, expand neighboring sections"]
+    Vector --> Fuse
+    Exact --> Result["ResultSet + EvidenceRef + completeness"]
+    Fuse --> Result
+    Result --> UI["Bounded composer + same exact datasets for visuals"]

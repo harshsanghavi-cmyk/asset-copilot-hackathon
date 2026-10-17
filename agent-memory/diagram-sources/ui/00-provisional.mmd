@@ -1,0 +1,13 @@
+%% Provisional research hypothesis; proposed, not implemented.
+flowchart LR
+  U[User question and visual request] --> P[Python evidence and deterministic analysis]
+  P --> G[Gemma narrative and bounded view plan]
+  G --> V[Local typed validation]
+  V --> T{Transport choice}
+  T --> S[Small SSE event envelope]
+  T --> A[AG-UI event adapter]
+  S --> R[Allowlisted React block renderer]
+  A --> R
+  V --> D[Optional A2UI catalog adapter]
+  D --> R
+  R --> M[One message with narrative and multiple panels]

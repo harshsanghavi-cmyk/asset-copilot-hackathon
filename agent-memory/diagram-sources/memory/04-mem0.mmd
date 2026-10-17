@@ -1,0 +1,19 @@
+%% Proposed alternative only. Mem0 is private contextual memory, not asset truth.
+flowchart LR
+  U[Trusted user request] --> S[Server-scoped memory search]
+  M[(Mem0 private facts<br/>metadata and configured indexes)] --> S
+  S --> P[Bounded prompt pack]
+  P --> A[Q and A planner and composer]
+  A --> G[Typed domain tools]
+  G --> K[(Shared structured ledger<br/>and effective source records)]
+  G --> E[Exact results and citations]
+  E --> A
+  A --> V[Local validation]
+  V --> O[Inline answer]
+  O --> RAW[(Application-owned transcript<br/>exact entity receipts)]
+  RAW --> X[Selective useful-fact extraction]
+  X --> M
+  U --> F[Explicit correction transaction]
+  F --> K
+  N[Managed and OSS capabilities differ<br/>async job receipt is not committed truth] -.-> M
+  N -.-> F

@@ -1,0 +1,1 @@
+PASS: recorded running → terminal → reload, no model calls

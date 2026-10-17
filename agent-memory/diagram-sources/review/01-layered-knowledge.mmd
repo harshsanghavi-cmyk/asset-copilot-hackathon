@@ -1,0 +1,49 @@
+%% Proposed architecture; no implementation claim. Coordinator renders final PNG.
+flowchart TB
+  REQUEST["A or B asks or says remember"] --> GATE["Trusted identity and scope gateway<br/>Audience is separate from subject and authority"]
+  GATE --> WRITE["Resolve intent, source and validity<br/>Claim, private fact, correction or rule"]
+  GATE --> READ["Load bounded context<br/>Read committed head on every request"]
+
+  subgraph CANON["Canonical durable records"]
+    PRIVATE[("Private per-user memory<br/>Preferences, transcript, exact entity receipts")]
+    CLAIMS[("Shared operational claims<br/>Asset, equipment, type, team, organization<br/>Attribution, validity and visible conflicts")]
+    AUTH[("Structured authority ledger<br/>Corrections and scoped rule overrides<br/>Original values and explicit supersession")]
+    SOURCE[("Immutable source evidence<br/>Records, manuals, reports and spans")]
+  end
+  WRITE -->|"private only"| PRIVATE
+  WRITE -->|"shared minimal assertion"| CLAIMS
+  WRITE -->|"validated formal intent"| AUTH
+  CLAIMS --> TX["Transactional receipt and knowledge revision<br/>Durable outbox for projections and invalidation"]
+  AUTH --> TX
+  PRIVATE --> CORE["Always loaded<br/>Persona, own fact capsule, organization header"]
+  PRIVATE --> EPISODE["Owner-only exact reference resolution<br/>Summary is a replaceable navigation aid"]
+  CORE --> READ
+  EPISODE --> READ
+  CLAIMS --> EXACT["Mandatory subject and time lookup<br/>Plans and conflicts cannot depend on top-k"]
+  EXACT --> READ
+
+  subgraph OPTIONAL["Rebuildable retrieval adjuncts"]
+    INDEX["FTS and optional Gemma-assisted graph<br/>Shared redacted evidence only<br/>No other encoder or reranker model"]
+    CHECK["Authorize and revalidate candidates<br/>Index watermark plus canonical delta overlay"]
+    INDEX --> CHECK
+  end
+  TX -.-> INDEX
+  SOURCE --> INDEX
+  CLAIMS --> CHECK
+  CHECK --> READ
+  READ --> FLOW["Bounded workflow<br/>LangGraph durable checkpoints or journal control"]
+  FLOW --> TOOLS["Exact effective-record tools<br/>Complete aggregates and linked report evidence"]
+  AUTH --> TOOLS
+  SOURCE --> TOOLS
+  TOOLS --> RESULT["Immutable result sets at one snapshot<br/>Values, coverage, rules and evidence"]
+  RESULT --> ANSWER["Validated narrative and coordinated panels<br/>Same revision for every value and citation"]
+  TX -.->|"mark stale or refresh together"| ANSWER
+
+  classDef private fill:#e8e6ff,stroke:#6557a4,color:#222;
+  classDef shared fill:#dff3e8,stroke:#307653,color:#222;
+  classDef authority fill:#ffe7ce,stroke:#986021,color:#222;
+  classDef derived fill:#edf1f5,stroke:#617184,color:#222;
+  class PRIVATE,CORE,EPISODE private;
+  class CLAIMS,EXACT shared;
+  class AUTH,TX authority;
+  class INDEX,CHECK,RESULT derived;

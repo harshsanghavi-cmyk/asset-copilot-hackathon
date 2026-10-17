@@ -1,0 +1,22 @@
+"""Browser edit/cancel/branch/retry regression in explicit sample mode; zero LLM calls."""
+import json,subprocess,time
+from pathlib import Path
+name='asset-ui-controls';out=Path(__file__).resolve().parents[2]/'experiments/04-ui-implementation';logs=[]
+def cli(*args):
+ p=subprocess.run(['agent-browser','--session',name,*args],capture_output=True,text=True);logs.append({'args':args,'exit':p.returncode,'stdout':p.stdout,'stderr':p.stderr});assert p.returncode==0,p.stderr;return p.stdout
+def ev(js):return json.loads(cli('eval',js))
+def wait(js):
+ for _ in range(120):
+  if ev(js):return
+  time.sleep(.12)
+ raise AssertionError(js)
+def send(text):
+ cli('fill','textarea[aria-label="Message Asset Copilot"]',text);cli('wait','button[aria-label="Send message"]:not(:disabled)');cli('click','button[aria-label="Send message"]');wait("!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')")
+cli('open','http://localhost:5192');cli('eval',"Object.keys(localStorage).filter(k=>k.startsWith('asset-intelligence')).forEach(k=>localStorage.removeItem(k));void 0");cli('reload');wait("!!document.querySelector('.welcome')");send('Show sample fleet overview');send('Show sample temperature trends');original=ev("document.querySelector('[data-session-id]').dataset.sessionId")
+cli('click','.chat-message.user:first-child button[aria-label="Edit message"]');cli('fill','textarea[aria-label="Edit message text"]','This edit is cancelled');cli('eval',"[...document.querySelectorAll('.user-edit-form button')].find(b=>b.textContent==='Cancel').click();void 0");assert ev("document.querySelectorAll('.chat-message.user').length===2 && !document.querySelector('.user-edit-form')")
+cli('click','.chat-message.user:first-child button[aria-label="Edit message"]');cli('fill','textarea[aria-label="Edit message text"]','Show sample asset locations');cli('click','.user-edit-form button[type=submit]');wait("!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3");edited=ev("document.querySelector('[data-session-id]').dataset.sessionId");assert edited!=original;assert ev("document.querySelectorAll('.chat-message.user').length===1");assert ev("JSON.parse(localStorage.getItem('asset-intelligence.sessions.v1')).find(s=>s.id==='"+original+"').messages.filter(m=>m.role==='user').length===2")
+cli('reload');wait("!!document.querySelector('.conversation-branch-banner')");cli('click','.conversation-branch-banner button');wait("document.querySelector('[data-session-id]').dataset.sessionId==='"+original+"'");assert ev("document.querySelectorAll('.chat-message.user').length===2")
+cli('click','.chat-message.assistant button[aria-label="Retry response"]');wait("document.querySelector('[data-session-id]').dataset.sessionId!=='"+original+"' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6");assert ev("document.querySelectorAll('.chat-message.user').length===1 && document.querySelector('.conversation-branch-banner').textContent.includes('New response')")
+retry_branch=ev("document.querySelector('[data-session-id]').dataset.sessionId");cli('click','.chat-message.user:first-child button[aria-label=\"Edit message\"]');cli('fill','textarea[aria-label=\"Edit message text\"]','Show sample asset locations');cli('click','.user-edit-form button[type=submit]');wait("document.querySelector('[data-session-id]').dataset.sessionId!=='"+retry_branch+"' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3");assert ev("document.querySelectorAll('.chat-message.user').length===1")
+cli('set','viewport','390','844');assert ev("getComputedStyle(document.querySelector('.user-actions')).opacity==='1' && document.documentElement.scrollWidth<=innerWidth");cli('screenshot',str(out/'chat-controls-mobile.png'))
+(out/'chat-controls-browser-results.json').write_text(json.dumps({'passed':True,'sample_only':True,'model_generation_calls':0,'checks':['cancel keeps original','edit old turn creates branch','original history preserved','branch survives reload','view original','complete retry forks without duplicate user','mobile actions accessible'],'commands':logs},indent=2)+'\n');print('PASS: edit/cancel/branch/retry/reload/mobile, no model calls');cli('close')

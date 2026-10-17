@@ -1,0 +1,666 @@
+{
+  "fixture_only": true,
+  "model_generation_calls": 0,
+  "actual_agent_requests": 1,
+  "time_origin_unchanged": true,
+  "states": [
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 0.07
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 1.07
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 2.08
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 3.08
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 4.09
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 5.09
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 6.09
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 7.1
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 8.1
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 9.11
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 10.11
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 11.12
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 12.13
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 13.13
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 14.13
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 15.14
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 16.14
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 17.15
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 18.15
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 19.15
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 20.17
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 21.17
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 22.18
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 23.18
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 24.19
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 25.19
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 26.2
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 27.2
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 28.2
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 29.21
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 30.21
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 31.21
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 32.22
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 33.23
+    },
+    {
+      "origin": 1792232127674.7,
+      "pending": "Working with your asset evidence\u2026",
+      "stop": true,
+      "elapsed_seconds": 34.23
+    },
+    {
+      "origin": 1792232127674.7,
+      "stop": false,
+      "text": "Recorded delayed HTTP response. No model was called.",
+      "elapsed_seconds": 35.23
+    }
+  ],
+  "server": {
+    "calls": 1,
+    "timeline": [
+      {
+        "event": "agent_start",
+        "at": 1792232128263
+      },
+      {
+        "event": "fixture_complete",
+        "at": 1792232163265
+      },
+      {
+        "event": "upstream_close",
+        "at": 1792232163266,
+        "finished": true
+      }
+    ],
+    "sid": "d8b1730b-334e-4b22-acbb-7dbff59c8887"
+  },
+  "commands": [
+    {
+      "args": [
+        "open",
+        "http://localhost:5194"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5194/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "localStorage.clear();localStorage.setItem('asset-intelligence.mode','live');localStorage.setItem('asset-intelligence.profile.live','recorded-http-operator');void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "reload"
+      ],
+      "exit": 0,
+      "stdout": "http://localhost:5194/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('.connection-badge')?.textContent==='Connected' && !document.querySelector('.history-loading')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('.connection-badge')?.textContent==='Connected' && !document.querySelector('.history-loading')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "performance.timeOrigin"
+      ],
+      "exit": 0,
+      "stdout": "1792232127674.7\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "network",
+        "har",
+        "start",
+        "--content",
+        "none"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 HAR recording started\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Message Asset Copilot\"]",
+        "Recorded delayed request \u2014 no model"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"pending\": \"Working with your asset evidence\u2026\",\n  \"stop\": true\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "({stop:!!document.querySelector('button[aria-label=\"Stop response\"]'),pending:document.querySelector('.stream-status')?.textContent,error:document.querySelector('.response-error')?.textContent,text:document.querySelector('.answer-narrative')?.textContent,origin:performance.timeOrigin})"
+      ],
+      "exit": 0,
+      "stdout": "{\n  \"origin\": 1792232127674.7,\n  \"stop\": false,\n  \"text\": \"Recorded delayed HTTP response. No model was called.\"\n}\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "network",
+        "har",
+        "stop",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/delayed-runtime-replay.har"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 HAR saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/delayed-runtime-replay.har (3 requests)\n",
+      "stderr": ""
+    }
+  ],
+  "scratch_logs": "/tmp/asset-ui-http-audit-24lvjick",
+  "passed": true
+}

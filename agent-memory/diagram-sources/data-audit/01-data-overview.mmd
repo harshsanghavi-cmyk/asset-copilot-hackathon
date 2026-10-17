@@ -1,0 +1,36 @@
+flowchart TB
+  subgraph SOURCE["Measured source files - revision b8de8c9 - 2516 files / 23.49 MB"]
+    direction TB
+    F["Fleet JSON directories<br/>4 areas / 4 teams / 15 users"]
+    A["200 metadata files<br/>119 T200 / 81 T350<br/>1094 nested equipment items"]
+    I["39567 inspection rows<br/>thermal readings / spill estimates<br/>79805 image references - bytes not supplied"]
+    M["5665 maintenance rows<br/>4156 scheduled / 1509 corrective"]
+    R["1509 linked Markdown reports<br/>containment / cause / tests / cost state"]
+    G["90 regulatory events<br/>36 incident inspection IDs<br/>up to 4 events per inspection"]
+    C["141 context notes<br/>56 corrections / 85 ordinary notes or feedback"]
+    D["5 rule documents<br/>2 type manuals / 3 SOPs<br/>T350 inherits unchanged T200 procedures"]
+    F -->|"area_id / team_id / user_id"| A
+    A -->|"asset_id"| I
+    A -->|"asset_id"| M
+    I -->|"triggered_by_inspection_id<br/>1509 non-null links"| M
+    M -->|"report_file<br/>resolve actual relative path"| R
+    I -->|"related_inspection_id<br/>one to many"| G
+    A -->|"asset_id"| C
+    C -->|"inspection_id<br/>formal corrections only"| I
+  end
+  subgraph PROPOSAL["Proposed storage mapping - no application implemented"]
+    RAW["Immutable source registry<br/>dataset namespace / revision / path / line / hash"]
+    SHARED["Shared attributed ledger<br/>corrections / rules / operational claims<br/>preserve conflicts and validity"]
+    EFFECTIVE["Effective records and incident timelines<br/>typed deterministic calculations<br/>coverage / units / source and rule references"]
+    RESULT["Versioned ResultSet + EvidenceRef<br/>same facts for narrative and all UI panels"]
+    PRIVATE["Separate user-scoped conversation memory<br/>private entity sets / preferences / history"]
+    RAW --> EFFECTIVE
+    SHARED --> EFFECTIVE
+    EFFECTIVE --> RESULT
+    PRIVATE -.->|"authorized conversation context only"| RESULT
+  end
+  SOURCE --> RAW
+  C -->|"classify typed scope"| SHARED
+  D -->|"applicable thresholds / deadlines"| EFFECTIVE
+  REVIEW["Measured integrity priorities<br/>27 opposed shutdown accounts / 30 competing delays<br/>21 stale statuses / 56 false-positive corrections<br/>9 interim repairs / 6 late closed verifications"]
+  SOURCE --> REVIEW

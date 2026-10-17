@@ -1,0 +1,894 @@
+{
+  "checks": {
+    "error_retry_without_duplicate_user": {
+      "passed": true
+    },
+    "honest_empty_results": {
+      "passed": true
+    },
+    "explicit_stop_no_late_facts": {
+      "passed": true
+    },
+    "bar_chart_renderer": {
+      "passed": true
+    },
+    "recorded_partial_data_cooldown_retry": {
+      "passed": true
+    },
+    "recorded_text_and_evidence_only": {
+      "passed": true
+    }
+  },
+  "commands": [
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "Object.keys(localStorage).filter(k=>k.startsWith('asset-intelligence')).forEach(k=>localStorage.removeItem(k));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "viewport",
+        "1440",
+        "1000"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "media",
+        "light"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.welcome')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.suggestion-card').disabled"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "textarea",
+        "simulate error"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.response-error button').click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1 && !document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1 && !document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1 && !document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1 && !document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.response-error').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1 && document.querySelectorAll('.chat-message.assistant').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.assistant-heading').textContent.includes('Evidence-backed answer')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/error-state.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/error-state.png\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".new-conversation"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "textarea",
+        "Show empty sample fleet overview"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.answer-empty').length===1 && document.querySelectorAll('[data-panel]').length===0"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.answer-narrative').textContent.includes('Two sample assets')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/empty-state.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/empty-state.png\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".new-conversation"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "textarea",
+        "Show a sample fleet overview"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Stop response\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.response-error')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===0"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".new-conversation"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "textarea",
+        "Show bar sample"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('[data-panel=bar] .analytics-chart svg')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('[data-panel=bar]').textContent.includes('This view is unavailable')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "const key='asset-intelligence.sessions.v1';const sessions=JSON.parse(localStorage.getItem(key));const id=document.querySelector('[data-session-id]').dataset.sessionId;const m=sessions.find(s=>s.id===id).messages.filter(m=>m.role==='assistant').at(-1);m.status='partial';m.answer.generation={status:'partial',verified_tool_data:true,explanation_error_code:'provider_rate_limited'};m.retryAt=new Date(Date.now()+8000).toISOString();m.text=m.answer.narrative='Recorded partial fixture: source records are available; explanation is incomplete.';localStorage.setItem(key,JSON.stringify(sessions));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "reload"
+      ],
+      "exit": 0,
+      "stdout": "http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length>0"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length>0"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length>0"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length>0"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length>0 && !document.querySelector('.assistant-heading').textContent.includes('Evidence-backed')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.partial-result-notice button').disabled"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.partial-result-notice button').disabled"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".partial-result-notice button"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !document.querySelector('.partial-result-notice')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1 && document.querySelectorAll('.chat-message.assistant').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "const key='asset-intelligence.sessions.v1';const sessions=JSON.parse(localStorage.getItem(key));const active=document.querySelector('[data-session-id]').dataset.sessionId;const message=sessions.find(s=>s.id===active).messages.filter(m=>m.role==='assistant').at(-1);message.status='complete';message.answer.generation=undefined;message.retryAt=undefined;message.answer.blocks=[];message.answer.results={};message.text=message.answer.narrative='This is a recorded sample response with evidence only.';localStorage.setItem(key,JSON.stringify(sessions));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.evidence-only button')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.evidence-only button')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.evidence-only button')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.evidence-only button')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===0"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".evidence-only button"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.ant-drawer-open')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.ant-drawer-open').textContent.includes('Sample weekly inspection')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "press",
+        "Escape"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "const key='asset-intelligence.sessions.v1';const sessions=JSON.parse(localStorage.getItem(key));const active=document.querySelector('[data-session-id]').dataset.sessionId;const message=sessions.find(s=>s.id===active).messages.filter(m=>m.role==='assistant').at(-1);message.answer.evidence={};message.text=message.answer.narrative='This recorded sample response contains text only.';localStorage.setItem(key,JSON.stringify(sessions));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.answer-narrative')?.textContent.includes('text only')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel],.evidence-only,.answer-dashboard').length===0"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.assistant-heading').textContent.includes('Evidence-backed') && document.querySelector('.message-actions').textContent.includes('Response complete')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    }
+  ]
+}

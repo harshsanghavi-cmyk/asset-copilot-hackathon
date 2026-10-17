@@ -1,0 +1,9 @@
+input:
+  required:
+  - request
+  - trusted_context
+  - memory
+  - evidence_pack
+  - requested_visuals
+  optional: []
+prompt: maker.md

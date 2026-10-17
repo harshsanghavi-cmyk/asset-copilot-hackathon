@@ -1,0 +1,155 @@
+{
+  "question": "WELL-0333's recalled pump was swapped out yesterday. The work order isn't in the system yet. Please count it as replaced from now on.",
+  "user": "Nathan Pierce",
+  "session_id": "2572b5ee-546e-4514-bb49-f4a883f5a58e",
+  "status": "partial",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "082cd538-69e9-4bb9-bc64-101ec66b48b8",
+    "thread_id": "2572b5ee-546e-4514-bb49-f4a883f5a58e",
+    "user_id": "U-601",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 5,
+    "reference_date": "2027-01-15",
+    "narrative": "I could not establish data for this selection. Please confirm the well and date range.",
+    "blocks": [],
+    "results": {},
+    "evidence": {
+      "src_853c7f7623412e1b78b5e791": {
+        "id": "src_853c7f7623412e1b78b5e791",
+        "title": "fleet/sops/supplier-recall-notice-2026-12-01.md",
+        "source_kind": "sop",
+        "source_id": "src_853c7f7623412e1b78b5e791",
+        "excerpt": "# Supplier Recall Notice — Downhole Rod Pumps\n\n> Fictional notice for the FlytBase Asset Copilot hackathon.\n\n**From:** Highline Pump Co., Quality Department\n**To:** All operators running Highline downhole rod pumps\n**Date:** 1 Dec 2026\n**Reference:** HPC-RN-2026-07\n\n## What is recalled\n\nHighline RP-175 downhole rod pumps from these manufacturing lots:\n\n- LOT-2409-A\n- LOT-2409-C\n- LOT-2410-B\n\nPumps from all other lots, including LOT-2409-B, LOT-2410-A and LOT-2410-C, are not affected.\nHighline Pump Co. does not supply ESP pumps, so ESP wells are not affected by this notice.\n\n## The problem\n\nTesting found that plungers from these lots can crack after several months in service. A cracked\nplunger lets the pump lose fluid and can break apart downhole, which makes the pump much harder\nto pull.\n\n## What you must do\n\nPumps from these lots must be pulled and replaced within 30 days of this notice (by 31 Dec 2026).\n\nUntil the replacement, keep running the pump as normal. Do not shut the well in only because of\nthis notice; the risk of cracking is low over a few weeks.\n\n## How to find affected pumps\n\nThe lot number is stamped on the pump barrel. Your crews record it when the pump is installed\n(in your maintenance reports, on the line \"Parts installed\"). Only the pump that is in the well\ntoday matters: a recalled pump that has already been pulled and replaced needs no action.\n\nReturn pulled pumps to Highline Pump Co. for a full credit.\n",
+        "path": "fleet/sops/supplier-recall-notice-2026-12-01.md"
+      },
+      "memory:ea233e6c-8168-431d-99f3-840cdbc32f54": {
+        "id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:41:18.023296+00:00"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d": {
+        "id": "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d",
+        "title": "Preference reported by Nathan Pierce",
+        "source_kind": "private_memory",
+        "source_id": "memory:0ce382ad-c21c-431d-96bf-26d89c7d200d",
+        "excerpt": "When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:09:12.204283+00:00"
+      },
+      "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829": {
+        "id": "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829",
+        "title": "Preference reported by Nathan Pierce",
+        "source_kind": "private_memory",
+        "source_id": "memory:2868c56a-d0b7-408c-a839-e5bbbd01c829",
+        "excerpt": "When listing wells, sort by area and then by well ID, and display costs in thousands of dollars. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:58:48.231468+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Physical inventory and operational count are separate: explicit direct attributed replacement instruction changes operational count with unverified-work-order flag; hearsay does not. No claim becomes inspected physical evidence.",
+      "Installation cost is recorded total job cost, not pump-only price or paid expenditure.",
+      "The explanation is incomplete; the panels contain verified records."
+    ],
+    "sample": false,
+    "data_state": "unknown",
+    "generation": {
+      "status": "partial",
+      "model": "gemini-3.5-flash-lite",
+      "live": false,
+      "verified_tool_data": false,
+      "explanation_error_code": "invalid_model_json",
+      "retry_after": null,
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 5388,
+            "output_tokens": 326,
+            "total_tokens": 5714,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 706,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 5743,
+            "output_tokens": 416,
+            "total_tokens": 6159,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 715,
+          "live": true
+        }
+      ]
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 1750,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 203,
+      "short_term_cap": 1000,
+      "omitted_private": 4,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 1750,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 203,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1920,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 1,
+      "partial_evidence": true,
+      "token_fit_omitted": 0,
+      "content_cap": 5000
+    }
+  }
+}

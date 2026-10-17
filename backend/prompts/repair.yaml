@@ -1,0 +1,13 @@
+input:
+  required:
+  - memory
+  - expected_schema
+  optional:
+  - request
+  - trusted_context
+  - provider_catalog
+  - retrieved_context
+  - evidence_pack
+  - requested_visuals
+  - repair_fields
+prompt: repair.md

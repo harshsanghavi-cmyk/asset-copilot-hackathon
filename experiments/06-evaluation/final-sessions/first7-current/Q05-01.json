@@ -1,0 +1,877 @@
+{
+  "scenario": 5,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "ec106afe-423c-4c91-950b-331cfde9e8af",
+  "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+  "message_id": "5430e9e7-b3a5-4469-840f-15042a8e8c15",
+  "question": "The State Oil & Gas Commission wrote to us in November 2026 about spills. Which of our spills does the letter cover, and on which ones are we not compliant? Show me a table.",
+  "started_at": "2026-10-17T12:32:09.748787+00:00",
+  "status": "complete",
+  "file": "Q05-01.json",
+  "answer_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+  "error": null,
+  "panels": [
+    "table"
+  ],
+  "narrative": "The State Oil & Gas Commission letter dated 20 Nov 2026 covers reportable spills (5 bbl or more) in Northeast Block 7 and Northeast Block 8 since 1 Jun 2026 [src_71ddc6a00e486f4dff8c2f6c]. The single covered spill for WELL-0119 in Northeast Block 7 is assessed as compliant [result_ee0099adee4c4c30b5811d6242fdf6b0].",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+    "thread_id": "ec106afe-423c-4c91-950b-331cfde9e8af",
+    "user_id": "U-201",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "The State Oil & Gas Commission letter dated 20 Nov 2026 covers reportable spills (5 bbl or more) in Northeast Block 7 and Northeast Block 8 since 1 Jun 2026 [src_71ddc6a00e486f4dff8c2f6c]. The single covered spill for WELL-0119 in Northeast Block 7 is assessed as compliant [result_ee0099adee4c4c30b5811d6242fdf6b0].",
+    "blocks": [
+      {
+        "id": "14bce70f-09ea-49bc-8082-497157c8099e:block:0",
+        "type": "table",
+        "title": "State Oil & Gas Commission Spill Compliance Review",
+        "result_set_id": "result_ee0099adee4c4c30b5811d6242fdf6b0",
+        "evidence_ids": [
+          "src_71ddc6a00e486f4dff8c2f6c",
+          "result_ee0099adee4c4c30b5811d6242fdf6b0"
+        ],
+        "encoding": {},
+        "span": 1
+      }
+    ],
+    "results": {
+      "result_ee0099adee4c4c30b5811d6242fdf6b0": {
+        "result_set_id": "result_ee0099adee4c4c30b5811d6242fdf6b0",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 4,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "inspection_id",
+            "label": "Inspection Id"
+          },
+          {
+            "key": "inspected_at",
+            "label": "Inspected At"
+          },
+          {
+            "key": "spill_volume_bbl",
+            "label": "Spill Volume Bbl",
+            "unit": "bbl"
+          },
+          {
+            "key": "cleanup_jobs",
+            "label": "Cleanup Jobs"
+          },
+          {
+            "key": "cleanup_job_ids",
+            "label": "Cleanup Job Ids"
+          },
+          {
+            "key": "compliant",
+            "label": "Compliant"
+          },
+          {
+            "key": "report_checks",
+            "label": "Report Checks"
+          },
+          {
+            "key": "due_date",
+            "label": "Due Date"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          },
+          {
+            "key": "reason",
+            "label": "Reason"
+          }
+        ],
+        "rows": [
+          {
+            "spill_volume_bbl": 6.0,
+            "area_name": "Northeast Block 7",
+            "assessment": "compliant",
+            "compliant": true,
+            "report_checks": "[{\"maintenance_id\": \"MNT-0119-029\", \"report_source_id\": \"src_20e751ecdf19d0416c5accb8\", \"lab_sentence_present\": true}]",
+            "reason": "Affirmative required lab sentence in specified report section",
+            "area_id": "NE-07",
+            "cleanup_jobs": "[\"MNT-0119-029\"]",
+            "inspection_id": "INS-0119-0209",
+            "asset_id": "WELL-0119",
+            "due_date": "2027-01-15",
+            "inspected_at": "2026-11-05T14:15:00Z",
+            "cleanup_job_ids": "MNT-0119-029"
+          }
+        ],
+        "evidence_ids": [
+          "ev_c8678cad23d239cd6b6b21a5",
+          "ev_5eee886bf708d89f810c9f16",
+          "src_71ddc6a00e486f4dff8c2f6c",
+          "src_85bc657d28115b6a502a6e44",
+          "src_20e751ecdf19d0416c5accb8",
+          "ev_b1c5b71aec0a24b5c29b72f3",
+          "result_ee0099adee4c4c30b5811d6242fdf6b0"
+        ],
+        "provider_coverage": {
+          "unit": "letter_compliance",
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 1,
+          "output_rows": 1,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_6e22ec03dfe94adb9d45909c778d4950",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Compliant means the letter's explicit internal report-evidence criterion is met; report wording alone does not independently verify actual laboratory submission time."
+        ],
+        "bounds": {
+          "start": "2026-11-01",
+          "end": "2026-11-30",
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "regulatory_events",
+          "metric": "letter_compliance"
+        },
+        "summary": {
+          "total_matching": 1,
+          "assessment_counts": {
+            "compliant": 1
+          },
+          "area_counts": {
+            "Northeast Block 7": 1
+          }
+        },
+        "assessment_counts": {
+          "compliant": 1
+        },
+        "coverage": {
+          "matching": 1,
+          "evaluated": 1,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_c8678cad23d239cd6b6b21a5": {
+        "id": "ev_c8678cad23d239cd6b6b21a5",
+        "title": "WELL-0119",
+        "source_kind": "metadata",
+        "source_id": "src_f4f8260813bacacc87859e76",
+        "excerpt": "{\"area_id\": \"NE-07\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0119\", \"equipment\": [{\"equipment_id\": \"WELL-0119-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0119-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0119-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0119-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0119-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0119-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-201\", \"installed_on\": \"2018-02-17\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T13:30:00Z\", \"inspection_id\": \"INS-0119-0219\", \"inspector_user_id\": \"U-202\"}, \"location\": {\"lat\": 32.12614, \"lon\": -102.18261}, \"name\": \"NE-07 Well 119\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NE\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0119/metadata.json"
+      },
+      "ev_5eee886bf708d89f810c9f16": {
+        "id": "ev_5eee886bf708d89f810c9f16",
+        "title": "INS-0119-0209",
+        "source_kind": "inspections",
+        "source_id": "src_35da0b93d83407909227ce8f",
+        "excerpt": "{\"ambient_temp_c\": 15.0, \"asset_id\": \"WELL-0119\", \"evidence_images\": [\"evidence/WELL-0119/2026-11-05_rgb.jpg\", \"evidence/WELL-0119/2026-11-05_thermal.jpg\", \"evidence/WELL-0119/2026-11-05_spill_closeup.jpg\"], \"inspected_at\": \"2026-11-05T14:15:00Z\", \"inspection_id\": \"INS-0119-0209\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"Staining along flowline route.\", \"spill_area_pct\": 11.6, \"spill_detected\": true, \"spill_est_volume_bbl\": 6.0, \"wellhead_temp_c\": 47.0}",
+        "path": "assets/WELL-0119/inspections.jsonl"
+      },
+      "src_71ddc6a00e486f4dff8c2f6c": {
+        "id": "src_71ddc6a00e486f4dff8c2f6c",
+        "title": "fleet/sops/regulator-letter-2026-11-20.md",
+        "source_kind": "sop",
+        "source_id": "src_71ddc6a00e486f4dff8c2f6c",
+        "excerpt": "# Letter from the State Oil & Gas Commission\n\n> Fictional letter for the FlytBase Asset Copilot hackathon.\n\n**From:** State Oil & Gas Commission, District Office\n**To:** Northeast Production (TEAM-NE), attention Michael Turner, production supervisor\n**Date:** 20 Nov 2026\n**Subject:** Soil sampling after reportable spills in Northeast Block 7 and Northeast Block 8\n\nOur review of recent spill reports from your Northeast Block 7 and Northeast Block 8 leases found\nclean-up files without laboratory soil results.\n\nFor every reportable spill in Northeast Block 7 or Northeast Block 8 since 1 Jun 2026, soil samples must be taken during clean-up and results submitted by 15 Jan 2027.\n\n\"Reportable\" has the meaning in your Spill Response SOP (5 bbl or more). Spills that you later\nconfirmed were not crude oil do not need samples. Failure to submit results may lead to a notice of\nviolation.\n\n---\n\n**Internal note from HSE (Laura Simmons, U-401), 22 Nov 2026:** crews must record lab samples in the\n\"Spill clean-up and waste\" section of the maintenance report. We treat a spill as compliant only if\nits clean-up report contains the sentence \"Soil samples sent to the lab.\" Field soil readings taken\non site do not count.\n",
+        "path": "fleet/sops/regulator-letter-2026-11-20.md"
+      },
+      "src_85bc657d28115b6a502a6e44": {
+        "id": "src_85bc657d28115b6a502a6e44",
+        "title": "fleet/sops/spill-response-sop.md",
+        "source_kind": "sop",
+        "source_id": "src_85bc657d28115b6a502a6e44",
+        "excerpt": "# Spill Response SOP\n\n> Fictional SOP for the FlytBase Asset Copilot hackathon. Simplified and modelled on\n> common US onshore practice. It is not a copy of any rule and is not legal or regulatory\n> guidance.\n\nDocument ID: SOP-SR · Revision 5 · Effective 1 Jan 2027 · Owner: Health, Safety & Environment (TEAM-HSE)\n\n## Revision history\n\n| Revision | In force for spills discovered | Change |\n|---|---|---|\n| 5 | from 1 Jan 2027 | SR-01 written notice deadline cut from 24 hours to **12 hours** |\n| 4 | before 1 Jan 2027 | SR-01 written notice within 24 hours |\n\nUse the revision that was in force on the date the spill was **discovered**.\n\n## 1. Purpose\n\nDefines how field teams respond to, classify, report and close out crude oil\nreleases on well pads and along flowlines.\n\n## 2. Background (industry references)\n\n- **Reporting:** state oil and gas regulators commonly require immediate notice of fires,\n  leaks, spills and breaks, and a written report for crude oil losses of more than 5\n  barrels. Texas Railroad Commission Statewide Rule 20 and its Form H-8 are an example. Our SR-01 keeps the\n  immediate phone call and adds a company deadline for the written notice (12 hours from\n  revision 5; 24 hours before).\n  Our reporting threshold (5 bbl or more) is slightly stricter than \"more than 5 bbl\".\n- **Cleanup:** Texas Statewide Rule 91 is an example cleanup standard for crude oil on\n  land in non-sensitive areas. It requires free oil to be removed promptly, the\n  contamination to be mapped, and soil cleaned to **1.0% total petroleum hydrocarbons\n  (TPH) by weight**; Commission guidance also describes treating more heavily\n  contaminated soil (around 5% TPH) by mixing it down or hauling it away. Our SR-03 follows\n  this approach. The number of soil samples and the 60-day verification deadline in SR-03\n  are company rules.\n- **Prevention:** for onshore production facilities covered by EPA's SPCC rules,\n  40 CFR 112.9 requires a flowline maintenance program and prompt cleanup of discharges\n  (see Regulatory Compliance SOP, RC-05).\n\n## 3. Spill classes\n\nThe classes, the 72-hour HSE notice and the 4-hour containment limit (SR-02) are company\nrules.\n\n| Class | Estimated crude volume | Notes |\n|---|---|---|\n| Minor | below 1 bbl | Record and clean up; no external report |\n| Moderate | 1 bbl to below 5 bbl | Record, clean up, notify HSE within 72 h |\n| Reportable | 5 bbl to below 25 bbl | External report required (SR-01) |\n| Major | 25 bbl or more | External report within 2 h (company rule), incident command |\n\n1 bbl (barrel) = 159 litres.\n\n## 4. Protocols\n\n| Protocol ID | Requirement |\n|---|---|\n| **SR-01** | For a **reportable or major** spill, phone the State Oil & Gas Commission immediately, then file the **written notice** (volume, affected area, cleanup plan) within **12 hours** of discovery (24 hours for spills discovered before 1 Jan 2027), or within **2 hours** for a major spill. Discovery time is the time of the inspection that detected the spill. `hours_to_report` in the data is the time to the written notice. |\n| **SR-02** | The source must be stopped and the spill contained within **4 hours** of discovery. |\n| **SR-03** | Contaminated soil must be cleaned to **1.0% TPH or less**. Take **at least 4 soil samples** to map the edges of a reportable spill. Haul soil above 5% TPH to an approved disposal site. For reportable and major spills, the remediation must be **verified within 60 days** of discovery; verification is closed only by a passing site inspection from the environmental agency. Smaller spills are cleaned to the same 1.0% TPH target without agency verification. |\n| **SR-04** | Every spill, including minor ones, must be recorded against the asset with an estimated volume and affected area. |\n\n## 5. Response steps\n\n1. Stop the source (shut in the well if needed; see the well-type manual).\n2. Contain the spill (berms, absorbents).\n3. Estimate volume and affected pad area.\n4. Classify using section 3.\n5. Report per SR-01 if required.\n6. Repair the cause and log a corrective maintenance record.\n7. Remediate, sample the soil and request agency verification (SR-03).\n8. Write the maintenance report with a compliance check (Field Work SOP, WS-07).\n\n## 6. Penalties\n\nA late SR-01 report usually results in a **notice of violation** from the State Oil &\nGas Commission, typically with a fine between USD 2,500 and 7,500. An open notice\nstays on the asset's compliance record until the agency closes it.\n\n## 7. False positives\n\nIf a detected \"spill\" is later confirmed as water, mud or shadow by a qualified\nperson, that correction is recorded as a context note. Corrected detections do not\ncount as spills for reporting or statistics.\n",
+        "path": "fleet/sops/spill-response-sop.md"
+      },
+      "src_20e751ecdf19d0416c5accb8": {
+        "id": "src_20e751ecdf19d0416c5accb8",
+        "title": "assets/WELL-0119/maintenance-reports/MNT-0119-029.md",
+        "source_kind": "report",
+        "source_id": "src_20e751ecdf19d0416c5accb8",
+        "asset_id": "WELL-0119",
+        "excerpt": "# Maintenance Report — MNT-0119-029\n\n**Asset:** WELL-0119 (NE-07 Well 119, T200, Northeast Block 7)\n**Equipment:** flowline\n**Work started:** 06 Nov 2026 08:00 · **Finished:** 07 Nov 2026 02:00 · **Well stopped for this job:** 18 hours\n**Crew lead:** Kevin Price (U-303) · **Crew:** Brian Coleman · **Contractor:** Tumbleweed Flowline Co.\n**Triggered by:** inspection INS-0119-0209 on 2026-11-05\n**Report written:** 07 Nov 2026\n\n## What happened\n\nThe weekly drone inspection INS-0119-0209 at 14:15 on 2026-11-05 found crude oil on the pad: about 11.6% of the pad area, estimated 6.0 bbl. The inspector noted: \"Staining along flowline route.\" The field operator shut the well in, closed the flowline valve and placed earth berms and absorbent pads. The release was contained about 1.9 hours after the inspection. The crew traced the leak to a corrosion hole along the flowline route.\n\n## Root cause\n\nExternal corrosion where the pipe coating had been damaged.\n\n## Safety and permits\n\n- Pre-job safety meeting held with the crew before work started (WS-01).\n- Energy isolated: prime mover stopped at the bottom of the stroke, brake set and chained, motor disconnect locked and tagged, wellhead wing valve closed and tagged, pressure bled off (WS-02).\n- Personal H2S monitors worn; highest reading 6 ppm, below the 10 ppm stop-work level (WS-03).\n- Hot work permit issued for welding; gas test before welding read 0% LEL, below the 10% limit (WS-04).\n\n## Work done\n\n1. Excavated around the leak point.\n2. Cut out the corroded section.\n3. Welded in new line pipe.\n4. Coated the new joints.\n5. Excavated the stained soil.\n6. Backfilled after the pressure test.\n\nSummary of the fix: replaced leaking flowline section and remediated soil.\n\n## Testing and return to service\n\nPressure-tested the repaired section at 188 psi (1.25 × the flowline's maximum operating pressure of 150 psi) and held it for 4 hours with no pressure drop (WS-05). The well was returned to production.\n\n## Spill clean-up and waste\n\n- About 4.1 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0119-029 (WS-06).\n- 4 soil samples taken around the spill; the highest result after clean-up was 0.83% TPH, below the 1.0% target (SR-03).\n- Soil samples sent to the lab.\n\n## Parts and cost\n\n| Item | USD |\n|---|---|\n| Line pipe and fittings | 1,876 |\n| Absorbents and berms | 834 |\n| Soil hauling and disposal | 1,460 |\n| Labour (company crew and contractor) | 3,570 |\n| **Total** | **7,740** |\n\n## Compliance check\n\n| Protocol | Result | Detail |\n|---|---|---|\n| WS-01 | Met | Meeting held and recorded |\n| WS-02 | Met | Energy isolated and tagged |\n| WS-03 | Met | Monitors bump-tested; highest 6 ppm |\n| WS-04 | Met | Permit issued; gas test 0% LEL |\n| WS-05 | Met | Tested at 1.25 × maximum operating pressure, held 4 hours |\n| WS-06 | Met | Oily waste manifested to an approved site |\n| WS-07 | Met | Written the same day as the work (limit 3 days) |\n| SR-02 | Met | Contained about 1.9 hours after discovery (limit 4 hours) |\n| SR-01 | Met | Written notice filed with the State Oil & Gas Commission 7 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |\n\n## Notes and recommendations\n\n- Inspect the remaining joints on this flowline.\n- Record the leak location for the flowline maintenance program (RC-05).\n",
+        "path": "assets/WELL-0119/maintenance-reports/MNT-0119-029.md"
+      },
+      "ev_b1c5b71aec0a24b5c29b72f3": {
+        "id": "ev_b1c5b71aec0a24b5c29b72f3",
+        "title": "MNT-0119-029",
+        "source_kind": "maintenance",
+        "source_id": "src_7c29d436264cb0cfeb35e017",
+        "excerpt": "{\"action_taken\": \"Replaced leaking flowline section and remediated soil\", \"asset_id\": \"WELL-0119\", \"completed_at\": \"2026-11-07T02:00:00Z\", \"contractor\": \"Tumbleweed Flowline Co.\", \"cost_usd\": {\"labor\": 3570, \"parts\": 4170, \"total\": 7740}, \"downtime_hours\": 18, \"equipment_kind\": \"flowline\", \"issue\": \"Flowline leak causing spill\", \"maintenance_id\": \"MNT-0119-029\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0119-029.md\", \"started_at\": \"2026-11-06T08:00:00Z\", \"technician_user_id\": \"U-303\", \"triggered_by_inspection_id\": \"INS-0119-0209\"}",
+        "path": "assets/WELL-0119/maintenance.jsonl"
+      },
+      "result_ee0099adee4c4c30b5811d6242fdf6b0": {
+        "id": "result_ee0099adee4c4c30b5811d6242fdf6b0",
+        "title": "result_ee0099adee4c4c30b5811d6242fdf6b0",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_ee0099adee4c4c30b5811d6242fdf6b0"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      },
+      "chunk_0042df56db6acbd007d26eb8": {
+        "id": "chunk_0042df56db6acbd007d26eb8",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_77bc8d9c52cb2b2f829dc881",
+        "asset_id": "WELL-0474",
+        "excerpt": "State Oil & Gas Commission 6 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0474/maintenance-reports/MNT-0474-028.md"
+      },
+      "chunk_00b004e1b16176fb07f482ce": {
+        "id": "chunk_00b004e1b16176fb07f482ce",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_90e04dff8745219b43aeca7d",
+        "asset_id": "WELL-0114",
+        "excerpt": "State Oil & Gas Commission 19 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0114/maintenance-reports/MNT-0114-004.md"
+      },
+      "chunk_02f7081ac6a9c60ec4f2db71": {
+        "id": "chunk_02f7081ac6a9c60ec4f2db71",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_9ff85b38c4bbb4cd0b3fee7c",
+        "asset_id": "WELL-0123",
+        "excerpt": "State Oil & Gas Commission 4 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0123/maintenance-reports/MNT-0123-014.md"
+      },
+      "chunk_064c3f479f44fe7f893fb805": {
+        "id": "chunk_064c3f479f44fe7f893fb805",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_3bf4ee8ff72d55bdf9aaad83",
+        "asset_id": "WELL-0204",
+        "excerpt": "State Oil & Gas Commission 9 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0204/maintenance-reports/MNT-0204-019.md"
+      },
+      "chunk_0bf0af2383db5653aa4046b0": {
+        "id": "chunk_0bf0af2383db5653aa4046b0",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_8576776a299e47c1705d5084",
+        "asset_id": "WELL-0216",
+        "excerpt": "State Oil & Gas Commission 13 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0216/maintenance-reports/MNT-0216-014.md"
+      },
+      "chunk_1170ae988a51f8d13faa5649": {
+        "id": "chunk_1170ae988a51f8d13faa5649",
+        "title": "Compliance check",
+        "source_kind": "report",
+        "source_id": "src_990d5e71ac4cf7fd07ed4a3c",
+        "asset_id": "WELL-0303",
+        "excerpt": "State Oil & Gas Commission 2 hours after discovery (limit 24 hours) |\n| SR-03 | In progress | Cleaned to below 1.0% TPH; agency verification requested (due within 60 days of discovery) |\n| SR-04 | Met | Spill recorded with volume and area (reportable class) |",
+        "path": "assets/WELL-0303/maintenance-reports/MNT-0303-011.md"
+      },
+      "chunk_0004b2905b46c4c1dbe9c533": {
+        "id": "chunk_0004b2905b46c4c1dbe9c533",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_655ca395b3a3035172d533ca",
+        "asset_id": "WELL-0336",
+        "excerpt": "- About 0.5 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0336-005 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.78% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0336/maintenance-reports/MNT-0336-005.md"
+      },
+      "chunk_005bca29ff4b1c68b1db28b5": {
+        "id": "chunk_005bca29ff4b1c68b1db28b5",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_bdb1619c09d958732da1ce95",
+        "asset_id": "WELL-0066",
+        "excerpt": "- About 2.7 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0066-005 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.64% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0066/maintenance-reports/MNT-0066-005.md"
+      },
+      "chunk_0090f5cfc8bd2c805a23b674": {
+        "id": "chunk_0090f5cfc8bd2c805a23b674",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_bbf97d476d48474ad60ce133",
+        "asset_id": "WELL-0260",
+        "excerpt": "- About 1.4 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0260-018 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.51% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0260/maintenance-reports/MNT-0260-018.md"
+      },
+      "chunk_009dce96cc7cab515232cf1d": {
+        "id": "chunk_009dce96cc7cab515232cf1d",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_116f07fefc8d160f840e7031",
+        "asset_id": "WELL-0093",
+        "excerpt": "- About 3.6 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0093-005 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.29% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0093/maintenance-reports/MNT-0093-005.md"
+      },
+      "chunk_01114e70d1de0da578ebec0c": {
+        "id": "chunk_01114e70d1de0da578ebec0c",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_767f3771e8d03673c2d7d9f2",
+        "asset_id": "WELL-0502",
+        "excerpt": "- About 2.2 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0502-015 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.53% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0502/maintenance-reports/MNT-0502-015.md"
+      },
+      "chunk_017a52931491139ef1c85d54": {
+        "id": "chunk_017a52931491139ef1c85d54",
+        "title": "Spill clean-up and waste",
+        "source_kind": "report",
+        "source_id": "src_1a8e090506d54ba0607357df",
+        "asset_id": "WELL-0060",
+        "excerpt": "- About 0.8 m³ of stained soil excavated, bagged and sent to an approved disposal site under waste manifest WM-0060-014 (WS-06).\n- 2 soil samples taken around the spill; the highest result after clean-up was 0.64% TPH, below the 1.0% target (SR-03).",
+        "path": "assets/WELL-0060/maintenance-reports/MNT-0060-014.md"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Compliant means the letter's explicit internal report-evidence criterion is met; report wording alone does not independently verify actual laboratory submission time.",
+      "Ranked lexical retrieval cannot prove a fleet total or source absence",
+      "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification"
+    ],
+    "sample": false,
+    "claims": [
+      {
+        "text": "The State Oil & Gas Commission letter covers reportable spills in Northeast Block 7 and Northeast Block 8 since 1 Jun 2026 [src_71ddc6a00e486f4dff8c2f6c].",
+        "kind": "fact",
+        "evidence_ids": [
+          "src_71ddc6a00e486f4dff8c2f6c"
+        ],
+        "value_refs": []
+      },
+      {
+        "text": "The spill at WELL-0119 in Northeast Block 7 is compliant [result_ee0099adee4c4c30b5811d6242fdf6b0].",
+        "kind": "fact",
+        "evidence_ids": [
+          "result_ee0099adee4c4c30b5811d6242fdf6b0"
+        ],
+        "value_refs": [
+          {
+            "result_set_id": "result_ee0099adee4c4c30b5811d6242fdf6b0",
+            "row_index": 0,
+            "column": "assessment"
+          }
+        ]
+      }
+    ],
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4071,
+            "output_tokens": 268,
+            "total_tokens": 4339,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 557,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 3062,
+            "output_tokens": 618,
+            "total_tokens": 3680,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 562,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 2,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 619,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 10,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 619,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 10,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 981,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 21,
+      "partial_evidence": true,
+      "token_fit_omitted": 3,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 14763,
+      "current_request_bytes_separate": 173,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:32:28.317049+00:00",
+  "stages": [
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "de2d0088-9003-4031-9257-667bd29287f1",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:09.771651+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "de2d0088-9003-4031-9257-667bd29287f1",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:09.803225+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "c7a52d23-187a-4ce3-bf6b-175388b176a6",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:10.092586+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "quota:557",
+      "stage": "quota_wait",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:32:10.363536+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:32:12.359830+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "quota:557",
+      "stage": "quota_wait",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:32:12.367852+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:32:12.367835+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "c7a52d23-187a-4ce3-bf6b-175388b176a6",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:14.936221+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "be4e9e3a-49eb-42c9-9003-bfbe6001f18d",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:14.966414+00:00",
+      "operation": "regulatory_events.letter_compliance",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "be4e9e3a-49eb-42c9-9003-bfbe6001f18d",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.869448+00:00",
+      "operation": "regulatory_events.letter_compliance",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "result_count": 1
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "f7ea0761-5e97-43a3-8b6b-9ba63945f57f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.896729+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "f7ea0761-5e97-43a3-8b6b-9ba63945f57f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.909492+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "397b5be1-704f-4a5c-9186-d5e46331105d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.928715+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "397b5be1-704f-4a5c-9186-d5e46331105d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.940474+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "ac461216-c68a-412c-bf3a-741cb0380665",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.965185+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "ac461216-c68a-412c-bf3a-741cb0380665",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:15.978018+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "ba95e7b0-7db6-45d8-a3b7-cb7572f404d3",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.000886+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "ba95e7b0-7db6-45d8-a3b7-cb7572f404d3",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.011637+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "867c0c7a-7ef9-4dc7-a361-25b9d7ba55e1",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.035341+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "867c0c7a-7ef9-4dc7-a361-25b9d7ba55e1",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.052993+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "8bc7a790-23da-463b-a58f-1a4f6d668b9d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.085565+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "8bc7a790-23da-463b-a58f-1a4f6d668b9d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.096404+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "796217c5-f646-4277-a726-4682df87137d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.121238+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "796217c5-f646-4277-a726-4682df87137d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.621051+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "023a3adf-35e3-48f5-ab2f-e6af83e31acc",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.645368+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "023a3adf-35e3-48f5-ab2f-e6af83e31acc",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.909745+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "52c44df1-64ae-4943-90d5-bf07173f3585",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:16.937463+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "52c44df1-64ae-4943-90d5-bf07173f3585",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:17.141671+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "267e7cb0-b1d5-4941-820c-7f383e235d4a",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:22.500613+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "quota:562",
+      "stage": "quota_wait",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:32:22.754309+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:32:24.711652+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "quota:562",
+      "stage": "quota_wait",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:32:24.727364+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:32:24.727344+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "267e7cb0-b1d5-4941-820c-7f383e235d4a",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:27.741699+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "60833a0b-9aff-47f3-8708-cc4d524948ff",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:27.757736+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "60833a0b-9aff-47f3-8708-cc4d524948ff",
+      "stage": "validation",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:27.767421+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation completed"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "deeb5ea3-df84-40df-a8d6-f7d8a861f2c8",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:27.780154+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "stage_id": "deeb5ea3-df84-40df-a8d6-f7d8a861f2c8",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "timestamp": "2026-10-17T12:32:27.795242+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

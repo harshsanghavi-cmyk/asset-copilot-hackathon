@@ -1,0 +1,361 @@
+{
+  "scenario": 1,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "726d99ea-61c0-4d23-87f4-1d8cc7860c42",
+  "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+  "message_id": "5e647584-d3a8-42c6-b5ae-189ba3f4ac43",
+  "question": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+  "started_at": "2026-10-17T12:39:01.956648+00:00",
+  "status": "complete",
+  "file": "Q01-01.json",
+  "answer_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+  "error": null,
+  "panels": [],
+  "narrative": "The supplied records do not include reservoir pressure measurements. Equipment ratings and pressure tests cannot answer measured reservoir pressure, and the available evidence pack contains no pressure data or results to map.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+    "thread_id": "726d99ea-61c0-4d23-87f4-1d8cc7860c42",
+    "user_id": "U-201",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "The supplied records do not include reservoir pressure measurements. Equipment ratings and pressure tests cannot answer measured reservoir pressure, and the available evidence pack contains no pressure data or results to map.",
+    "blocks": [],
+    "results": {},
+    "evidence": {
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "One or more requested visual kinds could not be validated; verified data remains available"
+    ],
+    "sample": false,
+    "claims": [],
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4337,
+            "output_tokens": 74,
+            "total_tokens": 4411,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 629,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 2355,
+            "output_tokens": 46,
+            "total_tokens": 2401,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 632,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 2,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 750,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 88,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 750,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 88,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 16,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 0,
+      "partial_evidence": false,
+      "token_fit_omitted": 0,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 15075,
+      "current_request_bytes_separate": 101,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:39:12.432252+00:00",
+  "stages": [
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "5eda6344-53c3-411f-ab32-b47c6a457690",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:01.990094+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "5eda6344-53c3-411f-ab32-b47c6a457690",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:02.014637+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "521c217f-fdd4-4ad7-b201-56052c5eb259",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:02.960183+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:629",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:03.254271+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:05.369618+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:629",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:05.372170+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:05.372153+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "521c217f-fdd4-4ad7-b201-56052c5eb259",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:07.028361+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "77ca2fa0-00b1-4322-a666-499054c78655",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:07.053172+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:631",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:07.068519+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:07.566556+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:631",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:07.570994+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:08.067698+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:631",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:08.073888+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:08.073817+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:632",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "started",
+      "timestamp": "2026-10-17T12:39:08.300148+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:39:10.268680+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "quota:632",
+      "stage": "quota_wait",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:39:10.272205+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:39:10.272187+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "77ca2fa0-00b1-4322-a666-499054c78655",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:11.869703+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "c51d30ef-e979-40cc-ac04-950c2d185c09",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:11.884251+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "c51d30ef-e979-40cc-ac04-950c2d185c09",
+      "stage": "validation",
+      "status": "completed",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:11.891658+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation completed"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "9fb291ec-9fc8-41cf-8f93-f976ad34a20c",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:11.899441+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "stage_id": "9fb291ec-9fc8-41cf-8f93-f976ad34a20c",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "194ebce3-7dbb-4145-bb18-43535753599e",
+      "timestamp": "2026-10-17T12:39:11.913209+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

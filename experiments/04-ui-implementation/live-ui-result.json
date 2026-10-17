@@ -1,0 +1,38 @@
+{
+  "question": "Is WELL-0001 producing oil right now? Show its status card.",
+  "observations": [
+    {
+      "elapsed_seconds": 0.0,
+      "busy": false,
+      "panels": 0,
+      "error": null
+    }
+  ],
+  "final": {
+    "busy": false,
+    "panels": 0,
+    "stored": [
+      {
+        "createdAt": "2026-10-17T09:12:35.574239+00:00",
+        "id": "33738091-a2a8-4612-a611-49af9c89de96",
+        "messages": [
+          {
+            "createdAt": "2026-10-17T09:12:35.612383+00:00",
+            "id": "c7f91a4b-2b2b-4828-8ba4-e551fb7d755f:user",
+            "role": "user",
+            "status": "complete",
+            "text": "Is WELL-0001 producing oil right now? Show its status card."
+          }
+        ],
+        "mode": "live",
+        "ownerId": "U-201",
+        "title": "Is WELL-0001 producing oil right now? Show its status card.",
+        "titleSource": "server",
+        "updatedAt": "2026-10-17T09:12:35.612383+00:00"
+      }
+    ],
+    "text": "Skip to conversation\nAsset Intelligence\nOPERATIONS WORKSPACE\nNew conversation\n\u2318 K\nYOUR CONVERSATIONS\n1\nIs WELL-0001 producing oil right now? Show its status card.\nJust now\nEvidence, connected.\n\nRecords, rules, and context.\nOne clear view of your assets.\n\nData explorer\nAdmin & diagnostics\nMT\nMichael Turner\nLocal profile \u00b7 connected\nWorkspace\n/\nIs WELL-0001 producing oil right now? Show its status card.\nConnected\nIs WELL-0001 producing oil right now? Show its status card.\nAsset workspace\nSource-linked answers\nEnter to send\nVerify important decisions against the cited source records.\nShift + Enter for a new line\nReady for your next question"
+  },
+  "observation_elapsed_seconds": 0.0,
+  "timing_note": "Observer began after the UI was already idle; this is observation duration, not provider latency."
+}

@@ -1,0 +1,36 @@
+---
+name: agent-memory
+description: Design and evaluate this Asset Intelligence Copilot's private conversation memory, shared asset corrections, scoped rules and evidence-grounded specialist answers. Use for cross-session references, memory compaction, feedback propagation and conflicting claims in this project.
+---
+
+# Asset copilot memory
+
+Respect the current implementation boundary in `../../AGENTS.md`. The detailed proposal, contracts and failure checks are in [memory-research.md](../../agent-memory/memory-research.md); read its relevant section for compaction, interfaces or Q11–Q18 rather than treating a proposal as implemented behavior.
+
+Current operating details supersede earlier research budgets: read [memory operating contract](../../agent-memory/memory-operating-contract.md), [selective long-term loading decision](../../agent-memory/long-term-memory-loading-decision.md) and [backend API seam](../../agent-memory/backend-api-contract.md). Main implementation is authorized and in progress; historical fixture checks do not establish live extraction, summarization or integrated acceptance. Follow [model policy](../../agent-memory/model-policy.md): Gemma 4 31B only through the authorized Google-compatible route, shared 30 RPM and local validation; no other model/encoder.
+
+Bind dataset namespace, active user, thread ownership and explicit reference date before retrieval. Filter private transcripts, summaries, entity receipts, caches and streams before anything reaches the model. A new chat preserves that user's archive; it grants no access to another user's discussion. Exact entity receipts, with ordered well IDs and source exchanges, resolve “the three wells” more reliably than a prose summary. Recompute current values from tools.
+
+Route durable information by meaning:
+
+- Private: explicit remembered facts/preferences and useful extracted facts, each with source messages; entity sets and conversation history stay per user.
+- Shared: attributed asset notes, planned work, formal record corrections, conflicting claims and valid type-specific user overrides. Publish the minimal domain statement, never surrounding private chat.
+- Authoritative: immutable raw records plus structured accepted correction/rule overlays. Every later calculation and visual uses the same effective revision.
+
+An explicit correction retains record/field, original and effective value, author, time, reason or `not_supplied`, scope and validity. Commit before saying “saved.” Ordinary notes do not become corrections. Keep conflicting claims visible and unconfirmed where appropriate; direct user statements do not automatically override observations. Q12's clear correction applies while the contradictory inspector note remains visible. Type rules affect only their specified type/equipment/time and are attributed to the user, distinct from the manual.
+
+Check useful memory proposals on **every incoming message**, normally in the planner call. Clear explicit saves/corrections/rules commit before acknowledgement. Ordinary operational statements remain attributed claims; ambiguous proposals stay pending. Saving long-term facts does not wait for exchange ten. Publish minimal shared operational facts once so another user can retrieve them immediately through canonical subject lookup, including when a search index/capsule rebuild is pending.
+
+Compact short-term dialogue after every ten completed exchanges per private thread. Count one persisted final answer/clarification once; exclude tool messages, streaming chunks, failed requests and retries. At N summarize through N−3, preserving newest three exchanges durably; their loaded text still fits its dialogue slot. Retain originals, exact receipts and correction/conflict pointers. Version summaries with coverage/source hashes and compare-and-swap; failed/stale jobs preserve accepted coverage. Earlier overflow compaction does not reset the ten-exchange counter.
+
+Enforce the user's **5K content cap: 2K long-term TOTAL private+shared, 1K short-term summary+historical user/assistant text, 2K fresh retrieved evidence**. Proposed long-term loading is always private capsule/index600 + shared header/index200, then relevant exact private facts400 + shared claims/conflicts800. Durable atomic records remain outside prompt loading; refresh affected projections on accepted writes, using deterministic grouping/manifests first and optional Gemma rewriting only when needed. gbrain is an optional unadopted projection; its 17/17 exact checks do not prove recall/compression quality.
+
+Proposed short-term split is summary400 + dialogue500 + handles100; fresh evidence split is results600 + rules650 + report spans550 + coverage200. Pool unused subslots only within each category; follow-up fetches replace content rather than append hidden batches. Count persona/tools/current request/output/framing separately and disclose actual counting method; estimates are not exact Gemma counts. Preserve qualifiers/conflicts or clarify/return partial when indispensable support cannot fit. Never discard canonical facts or silently enlarge the cap.
+
+Use four model-facing capabilities: `read_context`, `query_records`, `read_evidence`, `write_knowledge`. Q&A/memory depend on the injected versioned `RetrievalProvider`, not SQLite/FTS tables or ingestion layout; retrieval remains provisional pending user inspection. Normal flow is planner/proposer then composer/ViewPlan; at most one evidence assistance and one formatting repair, four foreground completion attempts including retries. Exact writes are never replayed by repair.
+
+Admin memory inspection is separate from normal chat identity: explicit enabled local diagnostic mode plus server-validated admin capability, with paginated private/shared facts, versions, provenance, save/update times and compaction state. A dataset role or model argument grants no admin access. Do not expose secrets or arbitrary SQL. Current architecture PNGs [10](../../diagrams/10-architecture-and-evidence-for-review.png), [11](../../diagrams/11-prompts-and-agent-flow.png), [12](../../diagrams/12-contextual-retrieval-operating-flow.png), [13](../../diagrams/13-memory-save-and-summary-flow.png) and [14](../../diagrams/14-long-term-compression-and-retrieval.png) illustrate proposals; contracts remain authoritative.
+
+Speak as a warm practical senior asset specialist: operational answer first, cited facts/rules next, labelled inference and useful next checks. Unknown causes stay unknown. Generate multiple approved inline blocks when the question benefits; a scalar needs no forced dashboard. Exact tools calculate; the model explains. Preserve shared result/evidence references across narration and panels. Allow one formatting repair without changing validated facts or replaying a write.
+
+Evaluate original-data Q1–Q10 separately; sequence Q11–Q18 with isolated fixtures. Check cross-chat entity recall, cross-user correction propagation, negative privacy, type-scope exclusion and ordinary-note conflicts. Test count 9/10/20, overflow, restart, duplicate delivery, summary failure and stale revision refresh. Record actual failures, usage/cost and latency; source docs and diagrams prove a design, not a working copilot.

@@ -1,0 +1,450 @@
+{
+  "run_tag": "gemini600-20261017-repaired",
+  "started_at": "2026-10-17T12:13:27.770442+00:00",
+  "status": "stopped_invalid_provider_schema",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "expected_model": "gemini-3.5-flash-lite",
+  "parallel_chains": 2,
+  "sessions": [
+    {
+      "scenario": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Gemini Q01 \u00b7 Reservoir pressure",
+      "session_id": "3c8a84f2-d5a5-4c28-97c6-5695e408fb4d"
+    },
+    {
+      "scenario": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Gemini Q02 \u00b7 Best producer",
+      "session_id": "f90105d5-e3f2-4060-9dc8-17c7c1424cb4"
+    },
+    {
+      "scenario": 3,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "title": "Gemini Q03 \u00b7 Gas reports",
+      "session_id": "90b0d12e-912e-4ed1-a1e9-1d338102dfaf"
+    },
+    {
+      "scenario": 4,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "title": "Gemini Q04 \u00b7 Temporary bypasses",
+      "session_id": "e6551f28-9ed2-4a4a-86a9-47db802527ea"
+    },
+    {
+      "scenario": 5,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Gemini Q05 \u00b7 Regulator letter",
+      "session_id": "deeabbed-e9af-4be3-a83d-ae309fe165eb"
+    },
+    {
+      "scenario": 6,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Gemini Q06 \u00b7 Conflicting status",
+      "session_id": "94ab28b5-a8fd-4664-9a1d-64e219532403"
+    },
+    {
+      "scenario": 7,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Gemini Q07 \u00b7 Repair priorities",
+      "session_id": "9e4cfec4-9259-42ba-b7fb-9fec369eae22"
+    },
+    {
+      "scenario": 8,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Gemini Q08 \u00b7 Recall and attribution \u00b7 nathan-1",
+      "session_id": "649881c9-0389-48da-b12e-0f46b873cd6c"
+    },
+    {
+      "scenario": 8,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Gemini Q08 \u00b7 Recall and attribution \u00b7 robert",
+      "session_id": "774c220f-d903-4364-8136-c225cf02408b"
+    },
+    {
+      "scenario": 8,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "title": "Gemini Q08 \u00b7 Recall and attribution \u00b7 olivia",
+      "session_id": "345e6c80-4cff-4adc-a63c-37709b296dc5"
+    },
+    {
+      "scenario": 8,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Gemini Q08 \u00b7 Recall and attribution \u00b7 nathan-2",
+      "session_id": "d1739c4c-3e67-43d5-bdb0-fb870bac11a9"
+    },
+    {
+      "scenario": 9,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Gemini Q09 \u00b7 Several topics",
+      "session_id": "aa836beb-01c1-4441-ab60-07958fca1f2c"
+    },
+    {
+      "scenario": 10,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Gemini Q10 \u00b7 Repair waiting time",
+      "session_id": "4a88133f-1446-44ea-abc2-bf71a5d0c50a"
+    },
+    {
+      "scenario": 11,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "title": "Gemini Q11 \u00b7 Hotter regions",
+      "session_id": "6818bbd6-81fb-48ad-897c-a09ab45cccd2"
+    }
+  ],
+  "turns": [
+    {
+      "scenario": 1,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "3c8a84f2-d5a5-4c28-97c6-5695e408fb4d",
+      "run_id": "344fc444-4cdf-4390-b208-64d3d431f6d1",
+      "message_id": "ff297524-56ab-4125-8d2f-f2d750a08d99",
+      "question": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+      "started_at": "2026-10-17T12:13:30.927370+00:00",
+      "status": "error",
+      "file": "Q01-01.json",
+      "answer_id": "344fc444-4cdf-4390-b208-64d3d431f6d1",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:36.845512+00:00"
+    },
+    {
+      "scenario": 2,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "f90105d5-e3f2-4060-9dc8-17c7c1424cb4",
+      "run_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "message_id": "fdbd60ed-7fd8-4310-ab46-2b8e39fb758e",
+      "question": "Which well produced the most oil in 2026?",
+      "started_at": "2026-10-17T12:13:30.928629+00:00",
+      "status": "error",
+      "file": "Q02-01.json",
+      "answer_id": "2a47432b-28df-4139-b71c-34f6a01581ab",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:38.523910+00:00"
+    },
+    {
+      "scenario": 3,
+      "turn": 1,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "session_id": "90b0d12e-912e-4ed1-a1e9-1d338102dfaf",
+      "run_id": "a9532d36-f89d-4500-b3eb-ed8d97908df9",
+      "message_id": "53080725-0268-4847-95a0-43b0f610c9d0",
+      "question": "Since 1 Nov 2026, every time an operator note reports gas at a well, did we get someone out to that well in time under our operating procedures? List every report and whether the response met the deadline.",
+      "started_at": "2026-10-17T12:13:36.846465+00:00",
+      "status": "error",
+      "file": "Q03-01.json",
+      "answer_id": "a9532d36-f89d-4500-b3eb-ed8d97908df9",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:41.870429+00:00"
+    },
+    {
+      "scenario": 4,
+      "turn": 1,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "session_id": "e6551f28-9ed2-4a4a-86a9-47db802527ea",
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "message_id": "b1cb41d2-0e19-422f-8d2f-4708d56983d8",
+      "question": "Across all areas, which temporary flowline bypasses are in place right now, and is each one allowed? Also list any bypass, past or present, that stayed in after its approval ran out or was never approved at all.",
+      "started_at": "2026-10-17T12:13:38.524739+00:00",
+      "status": "error",
+      "file": "Q04-01.json",
+      "answer_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:45.586525+00:00"
+    },
+    {
+      "scenario": 5,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "deeabbed-e9af-4be3-a83d-ae309fe165eb",
+      "run_id": "2ab53c42-d740-4294-a9de-014853d63904",
+      "message_id": "443eb5c8-bcce-4f71-ad9d-23064e4ffae2",
+      "question": "The State Oil & Gas Commission wrote to us in November 2026 about spills. Which of our spills does the letter cover, and on which ones are we not compliant? Show me a table.",
+      "started_at": "2026-10-17T12:13:41.871259+00:00",
+      "status": "error",
+      "file": "Q05-01.json",
+      "answer_id": "2ab53c42-d740-4294-a9de-014853d63904",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:47.381421+00:00"
+    },
+    {
+      "scenario": 6,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "94ab28b5-a8fd-4664-9a1d-64e219532403",
+      "run_id": "48feb873-bfe8-442b-bd20-d8d8015fc424",
+      "message_id": "e8b99074-fabf-4736-b55f-989f6093efc7",
+      "question": "Across the whole field, not just my area, for which wells do the latest inspection and the operator notes disagree about whether the well is producing oil? For each one, what is its real status right now, and why?",
+      "started_at": "2026-10-17T12:13:45.587406+00:00",
+      "status": "error",
+      "file": "Q06-01.json",
+      "answer_id": "48feb873-bfe8-442b-bd20-d8d8015fc424",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:50.700895+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "9e4cfec4-9259-42ba-b7fb-9fec369eae22",
+      "run_id": "bfdb826c-b4c5-4205-a561-90c6f73bb1f1",
+      "message_id": "879e7200-c759-47d9-8dad-a28827a57d09",
+      "question": "Over the last month the operators have written notes about wells that sound or behave wrong. Which of those wells haven't had a repair since? Rank the 10 most likely to need a repair in the next 90 days, other than a spill clean-up, and quote the notes as evidence.",
+      "started_at": "2026-10-17T12:13:47.382244+00:00",
+      "status": "error",
+      "file": "Q07-01.json",
+      "answer_id": "bfdb826c-b4c5-4205-a561-90c6f73bb1f1",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:52.840147+00:00"
+    },
+    {
+      "scenario": 10,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "4a88133f-1446-44ea-abc2-bf71a5d0c50a",
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "message_id": "2243d4b5-f895-42b0-ac7f-d2b12e797822",
+      "question": "When a well stays shut in longer than the repair itself, what are we usually waiting on: parts, crews, contractors or weather? Break it down by area for jobs started in 2026, with the typical number of extra days, and tell me if any area stands out.",
+      "started_at": "2026-10-17T12:13:50.701856+00:00",
+      "status": "error",
+      "file": "Q10-01.json",
+      "answer_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:55.391768+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "9e4cfec4-9259-42ba-b7fb-9fec369eae22",
+      "run_id": "cdc949aa-e7b8-4399-b309-888156d3687d",
+      "message_id": "9aeeaa2c-36fa-413e-ad3a-dfa4f9c60bbd",
+      "question": "Which three would you send a crew to first this week, and why?",
+      "started_at": "2026-10-17T12:13:52.840972+00:00",
+      "status": "error",
+      "file": "Q07-02.json",
+      "answer_id": "cdc949aa-e7b8-4399-b309-888156d3687d",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:13:58.586370+00:00"
+    },
+    {
+      "scenario": 11,
+      "turn": 1,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "session_id": "6818bbd6-81fb-48ad-897c-a09ab45cccd2",
+      "run_id": "3e5a70ce-cb46-4764-94a9-8ba75acdee2d",
+      "message_id": "dcbde519-ab15-47d0-9a71-d61d1f8e6a40",
+      "question": "Which region of the field consistently runs hotter?",
+      "started_at": "2026-10-17T12:13:55.393402+00:00",
+      "status": "error",
+      "file": "Q11-01.json",
+      "answer_id": "3e5a70ce-cb46-4764-94a9-8ba75acdee2d",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:14:19.039542+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "649881c9-0389-48da-b12e-0f46b873cd6c",
+      "run_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "message_id": "dbf447de-84d8-43a3-a5bc-81bed408f230",
+      "question": "WELL-0333's recalled pump was swapped out yesterday. The work order isn't in the system yet. Please count it as replaced from now on.",
+      "started_at": "2026-10-17T12:13:58.587835+00:00",
+      "status": "error",
+      "file": "Q08-01.json",
+      "answer_id": "c163f908-c531-449f-baee-89f45bb0c62a",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:14:21.663477+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 2,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "649881c9-0389-48da-b12e-0f46b873cd6c",
+      "run_id": "d83e3cf7-3e6f-4fb1-abc4-7256a1c8da7e",
+      "message_id": "a967e037-27de-4f6d-86db-8b37ac35bf13",
+      "question": "Also, just for me: whenever you list wells, sort them by area and then by well ID, and show costs in thousands of dollars.",
+      "started_at": "2026-10-17T12:14:21.664329+00:00",
+      "status": "error",
+      "file": "Q08-02.json",
+      "answer_id": "d83e3cf7-3e6f-4fb1-abc4-7256a1c8da7e",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:14:26.570497+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 3,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "774c220f-d903-4364-8136-c225cf02408b",
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "message_id": "84fd81b7-d553-4a68-a942-f1e7e2e6404c",
+      "question": "Which recalled pumps are still in the ground right now?",
+      "started_at": "2026-10-17T12:14:26.571616+00:00",
+      "status": "error",
+      "file": "Q08-03.json",
+      "answer_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:14:31.607945+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 4,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "session_id": "345e6c80-4cff-4adc-a63c-37709b296dc5",
+      "run_id": "0b148eee-6b9b-4e01-b53c-ec426fe1030e",
+      "message_id": "8bb4da9e-8d47-41e1-b3e5-3550a6a65ab1",
+      "question": "Nathan told me the recalled pump on WELL-0577 was swapped as well. Take it off the recall list.",
+      "started_at": "2026-10-17T12:14:31.608910+00:00",
+      "status": "error",
+      "file": "Q08-04.json",
+      "answer_id": "0b148eee-6b9b-4e01-b53c-ec426fe1030e",
+      "error": {
+        "code": "provider_error",
+        "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+      },
+      "panels": [],
+      "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:14:36.691496+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 5,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "d1739c4c-3e67-43d5-bdb0-fb870bac11a9",
+      "run_id": "56cd5727-aa86-4a33-8d1f-55cefb752734",
+      "message_id": "32c45649-5a8a-408e-9088-9d768e1f5451",
+      "question": "Show me the recalled pumps that are still in the ground in my area, and what it cost to install each one.",
+      "started_at": "2026-10-17T12:14:36.692444+00:00",
+      "status": "running",
+      "file": "Q08-05.json"
+    }
+  ],
+  "boundary": "Actual serving API and app database; delivery is separate from semantic correctness.",
+  "model": "gemini-3.5-flash-lite",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "stop_reason": "Provider rejected free-form native schema400; integration rolled back to verified JSON mode."
+}

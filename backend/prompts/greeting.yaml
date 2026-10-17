@@ -1,0 +1,7 @@
+input:
+  required:
+  - request
+  - trusted_context
+  - memory
+  optional: []
+prompt: greeting.md

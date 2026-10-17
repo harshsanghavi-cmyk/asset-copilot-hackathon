@@ -1,0 +1,24 @@
+{
+  "kind": "actual_desktop_browser",
+  "url": "http://127.0.0.1:5190/admin.html",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "query": "find assets whose maintaince report has found crude oil on the pad",
+  "observed": {
+    "manual_button_disabled_while_search_text_present": true,
+    "actual_report_excerpt_visible": true,
+    "ranked_subset_label": true,
+    "lexical_matching_chunks_not_assets_label": true,
+    "matching_chunks": 4500,
+    "selected_report_passages": 4
+  },
+  "screenshots": [
+    "storage-map-desktop.png",
+    "report-search-desktop.png",
+    "query-trace-desktop.png",
+    "source-evidence-desktop.png"
+  ],
+  "no_live_model_calls": true
+}

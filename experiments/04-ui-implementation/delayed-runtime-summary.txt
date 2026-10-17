@@ -1,0 +1,27 @@
+{
+  "fixture_only": true,
+  "model_generation_calls": 0,
+  "actual_agent_requests": 1,
+  "time_origin_unchanged": true,
+  "server": {
+    "calls": 1,
+    "timeline": [
+      {
+        "event": "agent_start",
+        "at": 1792232128263
+      },
+      {
+        "event": "fixture_complete",
+        "at": 1792232163265
+      },
+      {
+        "event": "upstream_close",
+        "at": 1792232163266,
+        "finished": true
+      }
+    ],
+    "sid": "d8b1730b-334e-4b22-acbb-7dbff59c8887"
+  },
+  "scratch_logs": "/tmp/asset-ui-http-audit-24lvjick",
+  "passed": true
+}

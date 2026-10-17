@@ -1,0 +1,89 @@
+{
+  "kind": "in_process_real_provider_http_smoke",
+  "not_live_model_quality": true,
+  "passed": 10,
+  "total": 10,
+  "checks": [
+    {
+      "path": "overview",
+      "status": 200,
+      "passed": true,
+      "returned_items": 0
+    },
+    {
+      "path": "sources?limit=5",
+      "status": 200,
+      "passed": true,
+      "returned_items": 5
+    },
+    {
+      "path": "chunks?limit=5",
+      "status": 200,
+      "passed": true,
+      "returned_items": 5
+    },
+    {
+      "path": "enrichments?limit=5",
+      "status": 200,
+      "passed": true,
+      "returned_items": 5
+    },
+    {
+      "path": "walkthrough?asset_id=WELL-0001",
+      "status": 200,
+      "passed": true,
+      "returned_items": 0
+    },
+    {
+      "path": "overview without admin",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "explicit false admin guard",
+      "status": 403,
+      "passed": true
+    },
+    {
+      "path": "typed assets count",
+      "status": 200,
+      "passed": true
+    },
+    {
+      "path": "raw SQL rejection",
+      "status": 422,
+      "passed": true
+    },
+    {
+      "path": "actual user report-text search",
+      "status": 200,
+      "passed": true,
+      "coverage": {
+        "unit": "lexical_matching_chunk",
+        "matching": 4500,
+        "evaluated": 8,
+        "selected": 4,
+        "omitted_from_candidates": 4,
+        "status": "ranked_subset",
+        "exhaustive_factual_scope": false
+      }
+    }
+  ],
+  "counts": {
+    "assets": 200,
+    "areas": 4,
+    "teams": 4,
+    "users": 15,
+    "equipment": 1094,
+    "inspections": 39567,
+    "maintenance": 5665,
+    "regulatory_events": 90,
+    "context_notes": 141,
+    "baseline_corrections": 56,
+    "sources": 2516,
+    "chunks": 15187,
+    "facts": 1232,
+    "rules": 2,
+    "issues": 0
+  }
+}

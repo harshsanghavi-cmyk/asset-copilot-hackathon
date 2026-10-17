@@ -1,0 +1,621 @@
+{
+  "checks": {
+    "automatic_title_and_six_panels": {
+      "passed": true
+    },
+    "coordinated_selection_and_evidence": {
+      "passed": true
+    },
+    "map_keyboard_selection_and_evidence": {
+      "passed": true
+    },
+    "new_switch_reload": {
+      "passed": false,
+      "error": "\u2717 Element '.new-conversation' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n",
+      "text": "he illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\n\nSample evidence\nAs of 2026-10-16\nSnapshot \u00b7 knowledge v1\nAll returned assets\nLatest observations\nReturned observations\n4\nassets\nSAMPLE-01\n18 \u00b0C\nSAMPLE-02\n24 \u00b0C\nSAMPLE-03\n11 \u00b0C\nSAMPLE-04\nNot recorded\n2 sources\nIllustrative data\nInspection register\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\n\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\nSAMPLE-01\tNorth field\t\nProducing\t18\nSAMPLE-02\tNorth field\t\nProducing\t24\nSAMPLE-03\tSouth field\t\nNot producing\t11\nSAMPLE-04\tSouth field\t\nNeeds review\tNot recorded\n2 sources\nIllustrative data\nTemperature delta over time\n\u00b0C\n0\n5\n10\n15\n20\n25\n09-25\n10-02\n10-09\n10-16\nSAMPLE-01\nSAMPLE-02\n2 sources\nIllustrative data\nAsset locations\nSAMPLE-01\nProducing\n29.18000, -101.12000\nView evidence\n\u00d7\n+\n\u2212\n Leaflet | \u00a9 OpenStreetMap contributors\n4 returned locations\nFit view\n2 sources\nIllustrative data\nWeekly inspection pattern\nSAMPLE-01\nSAMPLE-02\nSAMPLE-03\nSAMPLE-04\nW39\nW40\nW41\nW42\n16\n21\n9\n19\n22\n12\n17\n23\n10\n18\n24\n11\n\nBlank cells indicate a missing observation, never zero.\n\n2 sources\nIllustrative data\nHow the evidence connects\nInspection\nTemperature delta\nOperating rule\nObserved status\nEvidence review\n2 sources\nIllustrative data\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\n\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\n\n6 linked views\nSample workspace\nSource-linked answers\nEnter to send\nSample data only. Connect the backend for real asset analysis.\nShift + Enter for a new line\nReady for your next question\nEvidence & provenance\n\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer."
+    },
+    "history_search_and_rename": {
+      "passed": false,
+      "error": "\u2717 Element '.session-select' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n",
+      "text": "he illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\n\nSample evidence\nAs of 2026-10-16\nSnapshot \u00b7 knowledge v1\nAll returned assets\nLatest observations\nReturned observations\n4\nassets\nSAMPLE-01\n18 \u00b0C\nSAMPLE-02\n24 \u00b0C\nSAMPLE-03\n11 \u00b0C\nSAMPLE-04\nNot recorded\n2 sources\nIllustrative data\nInspection register\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\n\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\nSAMPLE-01\tNorth field\t\nProducing\t18\nSAMPLE-02\tNorth field\t\nProducing\t24\nSAMPLE-03\tSouth field\t\nNot producing\t11\nSAMPLE-04\tSouth field\t\nNeeds review\tNot recorded\n2 sources\nIllustrative data\nTemperature delta over time\n\u00b0C\n0\n5\n10\n15\n20\n25\n09-25\n10-02\n10-09\n10-16\nSAMPLE-01\nSAMPLE-02\n2 sources\nIllustrative data\nAsset locations\nSAMPLE-01\nProducing\n29.18000, -101.12000\nView evidence\n\u00d7\n+\n\u2212\n Leaflet | \u00a9 OpenStreetMap contributors\n4 returned locations\nFit view\n2 sources\nIllustrative data\nWeekly inspection pattern\nSAMPLE-01\nSAMPLE-02\nSAMPLE-03\nSAMPLE-04\nW39\nW40\nW41\nW42\n16\n21\n9\n19\n22\n12\n17\n23\n10\n18\n24\n11\n\nBlank cells indicate a missing observation, never zero.\n\n2 sources\nIllustrative data\nHow the evidence connects\nInspection\nTemperature delta\nOperating rule\nObserved status\nEvidence review\n2 sources\nIllustrative data\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\n\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\n\n6 linked views\nSample workspace\nSource-linked answers\nEnter to send\nSample data only. Connect the backend for real asset analysis.\nShift + Enter for a new line\nReady for your next question\nEvidence & provenance\n\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer."
+    },
+    "confirmed_delete": {
+      "passed": false,
+      "error": "\u2717 Element 'button[aria-label=\"Clear conversation search\"]' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n",
+      "text": "he illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\n\nSample evidence\nAs of 2026-10-16\nSnapshot \u00b7 knowledge v1\nAll returned assets\nLatest observations\nReturned observations\n4\nassets\nSAMPLE-01\n18 \u00b0C\nSAMPLE-02\n24 \u00b0C\nSAMPLE-03\n11 \u00b0C\nSAMPLE-04\nNot recorded\n2 sources\nIllustrative data\nInspection register\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\n\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\nSAMPLE-01\tNorth field\t\nProducing\t18\nSAMPLE-02\tNorth field\t\nProducing\t24\nSAMPLE-03\tSouth field\t\nNot producing\t11\nSAMPLE-04\tSouth field\t\nNeeds review\tNot recorded\n2 sources\nIllustrative data\nTemperature delta over time\n\u00b0C\n0\n5\n10\n15\n20\n25\n09-25\n10-02\n10-09\n10-16\nSAMPLE-01\nSAMPLE-02\n2 sources\nIllustrative data\nAsset locations\nSAMPLE-01\nProducing\n29.18000, -101.12000\nView evidence\n\u00d7\n+\n\u2212\n Leaflet | \u00a9 OpenStreetMap contributors\n4 returned locations\nFit view\n2 sources\nIllustrative data\nWeekly inspection pattern\nSAMPLE-01\nSAMPLE-02\nSAMPLE-03\nSAMPLE-04\nW39\nW40\nW41\nW42\n16\n21\n9\n19\n22\n12\n17\n23\n10\n18\n24\n11\n\nBlank cells indicate a missing observation, never zero.\n\n2 sources\nIllustrative data\nHow the evidence connects\nInspection\nTemperature delta\nOperating rule\nObserved status\nEvidence review\n2 sources\nIllustrative data\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\n\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\n\n6 linked views\nSample workspace\nSource-linked answers\nEnter to send\nSample data only. Connect the backend for real asset analysis.\nShift + Enter for a new line\nReady for your next question\nEvidence & provenance\n\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer."
+    },
+    "user_switch_cancels_and_isolates": {
+      "passed": false,
+      "error": "\u2717 Element 'button[aria-label=\"Send message\"]' is covered by <div.ant-drawer-body> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n",
+      "text": "he illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\n\nSample evidence\nAs of 2026-10-16\nSnapshot \u00b7 knowledge v1\nAll returned assets\nLatest observations\nReturned observations\n4\nassets\nSAMPLE-01\n18 \u00b0C\nSAMPLE-02\n24 \u00b0C\nSAMPLE-03\n11 \u00b0C\nSAMPLE-04\nNot recorded\n2 sources\nIllustrative data\nInspection register\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\n\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\nSAMPLE-01\tNorth field\t\nProducing\t18\nSAMPLE-02\tNorth field\t\nProducing\t24\nSAMPLE-03\tSouth field\t\nNot producing\t11\nSAMPLE-04\tSouth field\t\nNeeds review\tNot recorded\n2 sources\nIllustrative data\nTemperature delta over time\n\u00b0C\n0\n5\n10\n15\n20\n25\n09-25\n10-02\n10-09\n10-16\nSAMPLE-01\nSAMPLE-02\n2 sources\nIllustrative data\nAsset locations\nSAMPLE-01\nProducing\n29.18000, -101.12000\nView evidence\n\u00d7\n+\n\u2212\n Leaflet | \u00a9 OpenStreetMap contributors\n4 returned locations\nFit view\n2 sources\nIllustrative data\nWeekly inspection pattern\nSAMPLE-01\nSAMPLE-02\nSAMPLE-03\nSAMPLE-04\nW39\nW40\nW41\nW42\n16\n21\n9\n19\n22\n12\n17\n23\n10\n18\n24\n11\n\nBlank cells indicate a missing observation, never zero.\n\n2 sources\nIllustrative data\nHow the evidence connects\nInspection\nTemperature delta\nOperating rule\nObserved status\nEvidence review\n2 sources\nIllustrative data\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\n\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\n\n6 linked views\nSample workspace\nSource-linked answers\nEnter to send\nSample data only. Connect the backend for real asset analysis.\nShift + Enter for a new line\nReady for your next question\nEvidence & provenance\n\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer."
+    },
+    "mobile_keyboard_and_reduced_motion": {
+      "passed": false,
+      "error": "",
+      "text": "no temperature measurement. Missing evidence stays unknown rather than becoming zero.\n\nSample evidence\nAs of 2026-10-16\nSnapshot \u00b7 knowledge v1\nAll returned assets\nLatest observations\nReturned observations\n4\nassets\nSAMPLE-01\n18 \u00b0C\nSAMPLE-02\n24 \u00b0C\nSAMPLE-03\n11 \u00b0C\nSAMPLE-04\nNot recorded\n2 sources\nIllustrative data\nInspection register\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\n\nAsset\n\t\nArea\n\t\nObservation\n\t\nTemperature delta \u00b0C\n\nSAMPLE-01\tNorth field\t\nProducing\t18\nSAMPLE-02\tNorth field\t\nProducing\t24\nSAMPLE-03\tSouth field\t\nNot producing\t11\nSAMPLE-04\tSouth field\t\nNeeds review\tNot recorded\n2 sources\nIllustrative data\nTemperature delta over time\n\u00b0C\n0\n5\n10\n15\n20\n25\n09-25\n10-02\n10-09\n10-16\nSAMPLE-01\nSAMPLE-02\n2 sources\nIllustrative data\nAsset locations\n+\n\u2212\n Leaflet | \u00a9 OpenStreetMap contributors\nLoading geographic context\u2026\n4 returned locations\nFit view\n2 sources\nIllustrative data\nWeekly inspection pattern\nSAMPLE-01\nSAMPLE-02\nSAMPLE-03\nSAMPLE-04\nW39\nW40\nW41\nW42\n16\n21\n9\n19\n22\n12\n17\n23\n10\n18\n24\n11\n\nBlank cells indicate a missing observation, never zero.\n\n2 sources\nIllustrative data\nHow the evidence connects\nInspection\nTemperature delta\nOperating rule\nObserved status\nEvidence review\n2 sources\nIllustrative data\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\n\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\n\n6 linked views\nSample workspace\nSample data only. Connect the backend for real asset analysis.\nReady for your next question\nAsset Intelligence\nOPERATIONS WORKSPACE\nNew conversation\nSEARCH RESULTS\n1\nShow a sample fleet overview with all asset\u2026\nJust now\nEvidence, connected.\n\nRecords, rules, and context.\nOne clear view of your assets.\n\nData explorer\nAdmin & diagnostics\nAM\nAlex Morgan\nLocal profile \u00b7 sample"
+    }
+  },
+  "elapsed_seconds": 7.743,
+  "commands": [
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "media",
+        "light"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "viewport",
+        "1440",
+        "1000"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "Object.keys(localStorage).filter(k=>k.startsWith('asset-intelligence')).forEach(k=>localStorage.removeItem(k));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "open",
+        "http://localhost:5190"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5190/\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.welcome')!==null"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/welcome-desktop.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/welcome-desktop.png\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".suggestion-card:first-child"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.header-leading strong').textContent.startsWith('Show a sample fleet')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/conversation-desktop.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/conversation-desktop.png\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.leaflet-container')!==null"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.analytics-chart svg').length===3"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('[data-panel=table] tr[data-row-key^=SAMPLE-02] button').click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.selection-note').textContent.includes('SAMPLE-02')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('[data-panel=status]').textContent.includes('24')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('[data-panel=status] .source-link').click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.ant-drawer-open')!==null"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.ant-drawer-open').textContent.includes('Sample weekly inspection')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/evidence-desktop.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/evidence-desktop.png\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "press",
+        "Escape"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.ant-drawer-open')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.selection-note button').click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('[data-panel=map]').scrollIntoView({block:'center'});document.querySelector('.leaflet-interactive').focus();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "press",
+        "Enter"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.selection-note')?.textContent.includes('SAMPLE-01') && !!document.querySelector('.asset-map-popup')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".asset-map-popup button"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!!document.querySelector('.ant-drawer-open')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.ant-drawer-open').textContent.includes('Sample weekly inspection')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "press",
+        "Escape"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "!document.querySelector('.ant-drawer-open')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.selection-note button').click();document.querySelector('.leaflet-popup-close-button')?.click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".new-conversation"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "\u2717 Element '.new-conversation' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n"
+    },
+    {
+      "argv": [
+        "eval",
+        "document.body.innerText"
+      ],
+      "exit": 0,
+      "stdout": "\"Skip to conversation\\nAsset Intelligence\\nOPERATIONS WORKSPACE\\nNew conversation\\n\u2318 K\\nYOUR CONVERSATIONS\\n1\\nShow a sample fleet overview with all asset\u2026\\nJust now\\nEvidence, connected.\\n\\nRecords, rules, and context.\\nOne clear view of your assets.\\n\\nData explorer\\nAdmin & diagnostics\\nAM\\nAlex Morgan\\nLocal profile \u00b7 sample\\nWorkspace\\n/\\nShow a sample fleet overview with all asset\u2026\\nSample workspace\\nShow a sample fleet overview with all asset health views and evidence.\\nAsset Copilot\\nSample workspace\\n\\nHere is a sample view of the latest asset observations, with the supporting records connected to every panel.\\n\\nTwo sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\\n\\nSample evidence\\nAs of 2026-10-16\\nSnapshot \u00b7 knowledge v1\\nAll returned assets\\nLatest observations\\nReturned observations\\n4\\nassets\\nSAMPLE-01\\n18 \u00b0C\\nSAMPLE-02\\n24 \u00b0C\\nSAMPLE-03\\n11 \u00b0C\\nSAMPLE-04\\nNot recorded\\n2 sources\\nIllustrative data\\nInspection register\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\n\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\nSAMPLE-01\\tNorth field\\t\\nProducing\\t18\\nSAMPLE-02\\tNorth field\\t\\nProducing\\t24\\nSAMPLE-03\\tSouth field\\t\\nNot producing\\t11\\nSAMPLE-04\\tSouth field\\t\\nNeeds review\\tNot recorded\\n2 sources\\nIllustrative data\\nTemperature delta over time\\n\u00b0C\\n0\\n5\\n10\\n15\\n20\\n25\\n09-25\\n10-02\\n10-09\\n10-16\\nSAMPLE-01\\nSAMPLE-02\\n2 sources\\nIllustrative data\\nAsset locations\\nSAMPLE-01\\nProducing\\n29.18000, -101.12000\\nView evidence\\n\u00d7\\n+\\n\u2212\\n Leaflet | \u00a9 OpenStreetMap contributors\\n4 returned locations\\nFit view\\n2 sources\\nIllustrative data\\nWeekly inspection pattern\\nSAMPLE-01\\nSAMPLE-02\\nSAMPLE-03\\nSAMPLE-04\\nW39\\nW40\\nW41\\nW42\\n16\\n21\\n9\\n19\\n22\\n12\\n17\\n23\\n10\\n18\\n24\\n11\\n\\nBlank cells indicate a missing observation, never zero.\\n\\n2 sources\\nIllustrative data\\nHow the evidence connects\\nInspection\\nTemperature delta\\nOperating rule\\nObserved status\\nEvidence review\\n2 sources\\nIllustrative data\\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\\n\\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\\n\\n6 linked views\\nSample workspace\\nSource-linked answers\\nEnter to send\\nSample data only. Connect the backend for real asset analysis.\\nShift + Enter for a new line\\nReady for your next question\\nEvidence & provenance\\n\\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer.\"\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "input[data-session-search]",
+        "fleet"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelectorAll('.sidebar-shell .session-navigation li').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "[...document.querySelectorAll('.ant-modal-wrap')].every(el=>getComputedStyle(el).display==='none')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        ".session-select"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "\u2717 Element '.session-select' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n"
+    },
+    {
+      "argv": [
+        "eval",
+        "document.body.innerText"
+      ],
+      "exit": 0,
+      "stdout": "\"Skip to conversation\\nAsset Intelligence\\nOPERATIONS WORKSPACE\\nNew conversation\\nSEARCH RESULTS\\n1\\nShow a sample fleet overview with all asset\u2026\\nJust now\\nEvidence, connected.\\n\\nRecords, rules, and context.\\nOne clear view of your assets.\\n\\nData explorer\\nAdmin & diagnostics\\nAM\\nAlex Morgan\\nLocal profile \u00b7 sample\\nWorkspace\\n/\\nShow a sample fleet overview with all asset\u2026\\nSample workspace\\nShow a sample fleet overview with all asset health views and evidence.\\nAsset Copilot\\nSample workspace\\n\\nHere is a sample view of the latest asset observations, with the supporting records connected to every panel.\\n\\nTwo sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\\n\\nSample evidence\\nAs of 2026-10-16\\nSnapshot \u00b7 knowledge v1\\nAll returned assets\\nLatest observations\\nReturned observations\\n4\\nassets\\nSAMPLE-01\\n18 \u00b0C\\nSAMPLE-02\\n24 \u00b0C\\nSAMPLE-03\\n11 \u00b0C\\nSAMPLE-04\\nNot recorded\\n2 sources\\nIllustrative data\\nInspection register\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\n\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\nSAMPLE-01\\tNorth field\\t\\nProducing\\t18\\nSAMPLE-02\\tNorth field\\t\\nProducing\\t24\\nSAMPLE-03\\tSouth field\\t\\nNot producing\\t11\\nSAMPLE-04\\tSouth field\\t\\nNeeds review\\tNot recorded\\n2 sources\\nIllustrative data\\nTemperature delta over time\\n\u00b0C\\n0\\n5\\n10\\n15\\n20\\n25\\n09-25\\n10-02\\n10-09\\n10-16\\nSAMPLE-01\\nSAMPLE-02\\n2 sources\\nIllustrative data\\nAsset locations\\nSAMPLE-01\\nProducing\\n29.18000, -101.12000\\nView evidence\\n\u00d7\\n+\\n\u2212\\n Leaflet | \u00a9 OpenStreetMap contributors\\n4 returned locations\\nFit view\\n2 sources\\nIllustrative data\\nWeekly inspection pattern\\nSAMPLE-01\\nSAMPLE-02\\nSAMPLE-03\\nSAMPLE-04\\nW39\\nW40\\nW41\\nW42\\n16\\n21\\n9\\n19\\n22\\n12\\n17\\n23\\n10\\n18\\n24\\n11\\n\\nBlank cells indicate a missing observation, never zero.\\n\\n2 sources\\nIllustrative data\\nHow the evidence connects\\nInspection\\nTemperature delta\\nOperating rule\\nObserved status\\nEvidence review\\n2 sources\\nIllustrative data\\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\\n\\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\\n\\n6 linked views\\nSample workspace\\nSource-linked answers\\nEnter to send\\nSample data only. Connect the backend for real asset analysis.\\nShift + Enter for a new line\\nReady for your next question\\nEvidence & provenance\\n\\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer.\"\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Clear conversation search\"]"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "\u2717 Element 'button[aria-label=\"Clear conversation search\"]' is covered by <div.ant-drawer-mask.ant-drawer-mask-motion-leave> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n"
+    },
+    {
+      "argv": [
+        "eval",
+        "document.body.innerText"
+      ],
+      "exit": 0,
+      "stdout": "\"Skip to conversation\\nAsset Intelligence\\nOPERATIONS WORKSPACE\\nNew conversation\\nSEARCH RESULTS\\n1\\nShow a sample fleet overview with all asset\u2026\\nJust now\\nEvidence, connected.\\n\\nRecords, rules, and context.\\nOne clear view of your assets.\\n\\nData explorer\\nAdmin & diagnostics\\nAM\\nAlex Morgan\\nLocal profile \u00b7 sample\\nWorkspace\\n/\\nShow a sample fleet overview with all asset\u2026\\nSample workspace\\nShow a sample fleet overview with all asset health views and evidence.\\nAsset Copilot\\nSample workspace\\n\\nHere is a sample view of the latest asset observations, with the supporting records connected to every panel.\\n\\nTwo sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\\n\\nSample evidence\\nAs of 2026-10-16\\nSnapshot \u00b7 knowledge v1\\nAll returned assets\\nLatest observations\\nReturned observations\\n4\\nassets\\nSAMPLE-01\\n18 \u00b0C\\nSAMPLE-02\\n24 \u00b0C\\nSAMPLE-03\\n11 \u00b0C\\nSAMPLE-04\\nNot recorded\\n2 sources\\nIllustrative data\\nInspection register\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\n\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\nSAMPLE-01\\tNorth field\\t\\nProducing\\t18\\nSAMPLE-02\\tNorth field\\t\\nProducing\\t24\\nSAMPLE-03\\tSouth field\\t\\nNot producing\\t11\\nSAMPLE-04\\tSouth field\\t\\nNeeds review\\tNot recorded\\n2 sources\\nIllustrative data\\nTemperature delta over time\\n\u00b0C\\n0\\n5\\n10\\n15\\n20\\n25\\n09-25\\n10-02\\n10-09\\n10-16\\nSAMPLE-01\\nSAMPLE-02\\n2 sources\\nIllustrative data\\nAsset locations\\nSAMPLE-01\\nProducing\\n29.18000, -101.12000\\nView evidence\\n\u00d7\\n+\\n\u2212\\n Leaflet | \u00a9 OpenStreetMap contributors\\n4 returned locations\\nFit view\\n2 sources\\nIllustrative data\\nWeekly inspection pattern\\nSAMPLE-01\\nSAMPLE-02\\nSAMPLE-03\\nSAMPLE-04\\nW39\\nW40\\nW41\\nW42\\n16\\n21\\n9\\n19\\n22\\n12\\n17\\n23\\n10\\n18\\n24\\n11\\n\\nBlank cells indicate a missing observation, never zero.\\n\\n2 sources\\nIllustrative data\\nHow the evidence connects\\nInspection\\nTemperature delta\\nOperating rule\\nObserved status\\nEvidence review\\n2 sources\\nIllustrative data\\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\\n\\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\\n\\n6 linked views\\nSample workspace\\nSource-linked answers\\nEnter to send\\nSample data only. Connect the backend for real asset analysis.\\nShift + Enter for a new line\\nReady for your next question\\nEvidence & provenance\\n\\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer.\"\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "fill",
+        "textarea[aria-label=\"Message Asset Copilot\"]",
+        "Show a sample fleet overview"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 1,
+      "stdout": "",
+      "stderr": "\u2717 Element 'button[aria-label=\"Send message\"]' is covered by <div.ant-drawer-body> at its click point, so the input would land on that element instead. Dismiss or interact with the covering element first (it is often a dialog, banner, or sticky header).\n"
+    },
+    {
+      "argv": [
+        "eval",
+        "document.body.innerText"
+      ],
+      "exit": 0,
+      "stdout": "\"Skip to conversation\\nAsset Intelligence\\nOPERATIONS WORKSPACE\\nNew conversation\\nSEARCH RESULTS\\n1\\nShow a sample fleet overview with all asset\u2026\\nJust now\\nEvidence, connected.\\n\\nRecords, rules, and context.\\nOne clear view of your assets.\\n\\nData explorer\\nAdmin & diagnostics\\nAM\\nAlex Morgan\\nLocal profile \u00b7 sample\\nWorkspace\\n/\\nShow a sample fleet overview with all asset\u2026\\nSample workspace\\nShow a sample fleet overview with all asset health views and evidence.\\nAsset Copilot\\nSample workspace\\n\\nHere is a sample view of the latest asset observations, with the supporting records connected to every panel.\\n\\nTwo sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\\n\\nSample evidence\\nAs of 2026-10-16\\nSnapshot \u00b7 knowledge v1\\nAll returned assets\\nLatest observations\\nReturned observations\\n4\\nassets\\nSAMPLE-01\\n18 \u00b0C\\nSAMPLE-02\\n24 \u00b0C\\nSAMPLE-03\\n11 \u00b0C\\nSAMPLE-04\\nNot recorded\\n2 sources\\nIllustrative data\\nInspection register\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\n\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\nSAMPLE-01\\tNorth field\\t\\nProducing\\t18\\nSAMPLE-02\\tNorth field\\t\\nProducing\\t24\\nSAMPLE-03\\tSouth field\\t\\nNot producing\\t11\\nSAMPLE-04\\tSouth field\\t\\nNeeds review\\tNot recorded\\n2 sources\\nIllustrative data\\nTemperature delta over time\\n\u00b0C\\n0\\n5\\n10\\n15\\n20\\n25\\n09-25\\n10-02\\n10-09\\n10-16\\nSAMPLE-01\\nSAMPLE-02\\n2 sources\\nIllustrative data\\nAsset locations\\nSAMPLE-01\\nProducing\\n29.18000, -101.12000\\nView evidence\\n\u00d7\\n+\\n\u2212\\n Leaflet | \u00a9 OpenStreetMap contributors\\n4 returned locations\\nFit view\\n2 sources\\nIllustrative data\\nWeekly inspection pattern\\nSAMPLE-01\\nSAMPLE-02\\nSAMPLE-03\\nSAMPLE-04\\nW39\\nW40\\nW41\\nW42\\n16\\n21\\n9\\n19\\n22\\n12\\n17\\n23\\n10\\n18\\n24\\n11\\n\\nBlank cells indicate a missing observation, never zero.\\n\\n2 sources\\nIllustrative data\\nHow the evidence connects\\nInspection\\nTemperature delta\\nOperating rule\\nObserved status\\nEvidence review\\n2 sources\\nIllustrative data\\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\\n\\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\\n\\n6 linked views\\nSample workspace\\nSource-linked answers\\nEnter to send\\nSample data only. Connect the backend for real asset analysis.\\nShift + Enter for a new line\\nReady for your next question\\nEvidence & provenance\\n\\nEvery view resolves to the same result and knowledge revision. Sources stay attached to the answer.\"\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "viewport",
+        "390",
+        "844"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.documentElement.scrollWidth<=innerWidth"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "click",
+        "button[aria-label=\"Open conversations\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "[...document.querySelectorAll('.mobile-sidebar')].some(el=>el.getBoundingClientRect().width>0)"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.querySelector('.mobile-sidebar').textContent.includes('North field review')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "eval",
+        "document.body.innerText"
+      ],
+      "exit": 0,
+      "stdout": "\"Skip to conversation\\nShow a sample fleet overview with all asset\u2026\\nSample workspace\\nShow a sample fleet overview with all asset health views and evidence.\\nAsset Copilot\\n\\nHere is a sample view of the latest asset observations, with the supporting records connected to every panel.\\n\\nTwo sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.\\n\\nSample evidence\\nAs of 2026-10-16\\nSnapshot \u00b7 knowledge v1\\nAll returned assets\\nLatest observations\\nReturned observations\\n4\\nassets\\nSAMPLE-01\\n18 \u00b0C\\nSAMPLE-02\\n24 \u00b0C\\nSAMPLE-03\\n11 \u00b0C\\nSAMPLE-04\\nNot recorded\\n2 sources\\nIllustrative data\\nInspection register\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\n\\nAsset\\n\\t\\nArea\\n\\t\\nObservation\\n\\t\\nTemperature delta \u00b0C\\n\\nSAMPLE-01\\tNorth field\\t\\nProducing\\t18\\nSAMPLE-02\\tNorth field\\t\\nProducing\\t24\\nSAMPLE-03\\tSouth field\\t\\nNot producing\\t11\\nSAMPLE-04\\tSouth field\\t\\nNeeds review\\tNot recorded\\n2 sources\\nIllustrative data\\nTemperature delta over time\\n\u00b0C\\n0\\n5\\n10\\n15\\n20\\n25\\n09-25\\n10-02\\n10-09\\n10-16\\nSAMPLE-01\\nSAMPLE-02\\n2 sources\\nIllustrative data\\nAsset locations\\n+\\n\u2212\\n Leaflet | \u00a9 OpenStreetMap contributors\\nLoading geographic context\u2026\\n4 returned locations\\nFit view\\n2 sources\\nIllustrative data\\nWeekly inspection pattern\\nSAMPLE-01\\nSAMPLE-02\\nSAMPLE-03\\nSAMPLE-04\\nW39\\nW40\\nW41\\nW42\\n16\\n21\\n9\\n19\\n22\\n12\\n17\\n23\\n10\\n18\\n24\\n11\\n\\nBlank cells indicate a missing observation, never zero.\\n\\n2 sources\\nIllustrative data\\nHow the evidence connects\\nInspection\\nTemperature delta\\nOperating rule\\nObserved status\\nEvidence review\\n2 sources\\nIllustrative data\\n2026-09-25 \u2014 2026-10-16 \u00b7 inclusive \u00b7 Dataset sample-v1\\n\\nThis is a sample workspace. These illustrative assets and values are not answers from your operational dataset.\\n\\n6 linked views\\nSample workspace\\nSample data only. Connect the backend for real asset analysis.\\nReady for your next question\\nAsset Intelligence\\nOPERATIONS WORKSPACE\\nNew conversation\\nSEARCH RESULTS\\n1\\nShow a sample fleet overview with all asset\u2026\\nJust now\\nEvidence, connected.\\n\\nRecords, rules, and context.\\nOne clear view of your assets.\\n\\nData explorer\\nAdmin & diagnostics\\nAM\\nAlex Morgan\\nLocal profile \u00b7 sample\"\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "a11y",
+        "--tags",
+        "wcag2a,wcag2aa",
+        "--json"
+      ],
+      "exit": 0,
+      "stdout": "{\"success\":true,\"data\":{\"axeVersion\":\"4.12.1\",\"counts\":{\"inapplicable\":30,\"incomplete\":2,\"passes\":30,\"violations\":0},\"incomplete\":[{\"help\":\"ARIA attributes must conform to valid values\",\"helpUrl\":\"https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=axeAPI\",\"id\":\"aria-valid-attr-value\",\"impact\":\"critical\",\"nodeCount\":1,\"nodes\":[{\"failureSummary\":\"Fix all of the following:\\n  ARIA attribute element ID does not exist on the page: aria-describedby=\\\"leaflet-tooltip-46\\\"\",\"html\":\"<path class=\\\"leaflet-interactive\\\" stroke=\\\"#fff\\\" stroke-opacity=\\\"1\\\" stroke-width=\\\"2.5\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" fill=\\\"#27856b\\\" fill-opacity=\\\"1\\\" fill-rule=\\\"evenodd\\\" d=\\\"M48,110a7,7 0 1,0 14...\\\" tabindex=\\\"0\\\" role=\\\"button\\\" aria-label=\\\"SAMPLE-01 \u00b7 Producin...\\\" ...>\",\"target\":[\"path[aria-describedby=\\\"leaflet-tooltip-46\\\"]\"]}],\"tags\":[\"cat.aria\",\"wcag2a\",\"wcag412\",\"EN-301-549\",\"EN-9.4.1.2\",\"RGAAv4\",\"RGAA-7.1.1\"]},{\"help\":\"Elements must meet minimum color contrast ratio thresholds\",\"helpUrl\":\"https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI\",\"id\":\"color-contrast\",\"impact\":\"serious\",\"nodeCount\":10,\"nodes\":[{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<strong>Show a sample fleet overview with all asset\u2026</strong>\",\"target\":[\".header-leading > strong\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"middle\\\" y=\\\"-4.999992370605469\\\" transform=\\\"translate(44 10)\\\" fill=\\\"#627087\\\" style=\\\"font-size: 10px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">\u00b0C</text>\",\"target\":[\"text[y=\\\"-4.999992370605469\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element content is too short to determine if it is actual text content\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 149)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">5</text>\",\"target\":[\"text[transform=\\\"translate(36 149)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 118)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">10</text>\",\"target\":[\"text[transform=\\\"translate(36 118)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 87)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">15</text>\",\"target\":[\"text[transform=\\\"translate(36 87)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 56)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">20</text>\",\"target\":[\"text[transform=\\\"translate(36 56)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 25)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">25</text>\",\"target\":[\"text[transform=\\\"translate(36 25)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<div class=\\\"composer-footnote\\\">Sample data only. Connect the backend for real asset analysis.<span>Shift + Enter for a new line</span></div>\",\"target\":[\".composer-footnote\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<strong>Evidence, connected.</strong>\",\"target\":[\".ant-drawer-body > .sidebar-bottom > .workspace-note > strong\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<p>Records, rules, and context.<br>One clear view of your assets.</p>\",\"target\":[\".ant-drawer-body > .sidebar-bottom > .workspace-note > p\"]}],\"tags\":[\"cat.color\",\"wcag2aa\",\"wcag143\",\"TTv5\",\"TT13.c\",\"EN-301-549\",\"EN-9.1.4.3\",\"ACT\",\"RGAAv4\",\"RGAA-3.2.1\"]}],\"lifecycle\":{\"effectiveLaunch\":{\"browserLaunched\":true,\"engine\":\"chrome\",\"launchHash\":16228916338243421459},\"launched\":false,\"relaunchedBrowser\":false,\"restartedBackground\":false,\"restoreStatus\":\"not_configured\",\"reused\":true,\"saveStatus\":\"not_attempted\"},\"url\":\"http://localhost:5190/\",\"violations\":[]},\"error\":null}\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "set",
+        "viewport",
+        "1440",
+        "1000"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "a11y",
+        "--tags",
+        "wcag2a,wcag2aa",
+        "--json"
+      ],
+      "exit": 0,
+      "stdout": "{\"success\":true,\"data\":{\"axeVersion\":\"4.12.1\",\"counts\":{\"inapplicable\":30,\"incomplete\":2,\"passes\":30,\"violations\":0},\"incomplete\":[{\"help\":\"ARIA attributes must conform to valid values\",\"helpUrl\":\"https://dequeuniversity.com/rules/axe/4.12/aria-valid-attr-value?application=axeAPI\",\"id\":\"aria-valid-attr-value\",\"impact\":\"critical\",\"nodeCount\":1,\"nodes\":[{\"failureSummary\":\"Fix all of the following:\\n  ARIA attribute element ID does not exist on the page: aria-describedby=\\\"leaflet-tooltip-46\\\"\",\"html\":\"<path class=\\\"leaflet-interactive\\\" stroke=\\\"#fff\\\" stroke-opacity=\\\"1\\\" stroke-width=\\\"2.5\\\" stroke-linecap=\\\"round\\\" stroke-linejoin=\\\"round\\\" fill=\\\"#27856b\\\" fill-opacity=\\\"1\\\" fill-rule=\\\"evenodd\\\" d=\\\"M48,110a7,7 0 1,0 14...\\\" tabindex=\\\"0\\\" role=\\\"button\\\" aria-label=\\\"SAMPLE-01 \u00b7 Producin...\\\" ...>\",\"target\":[\"path[aria-describedby=\\\"leaflet-tooltip-46\\\"]\"]}],\"tags\":[\"cat.aria\",\"wcag2a\",\"wcag412\",\"EN-301-549\",\"EN-9.4.1.2\",\"RGAAv4\",\"RGAA-7.1.1\"]},{\"help\":\"Elements must meet minimum color contrast ratio thresholds\",\"helpUrl\":\"https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI\",\"id\":\"color-contrast\",\"impact\":\"serious\",\"nodeCount\":52,\"nodes\":[{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<strong>Evidence, connected.</strong>\",\"target\":[\"aside > .sidebar-bottom > .workspace-note > strong\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<p>Records, rules, and context.<br>One clear view of your assets.</p>\",\"target\":[\"aside > .sidebar-bottom > .workspace-note > p\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<span class=\\\"header-breadcrumb\\\">Workspace<span>/</span></span>\",\"target\":[\".header-breadcrumb\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined due to a background gradient\",\"html\":\"<strong>Show a sample fleet overview with all asset\u2026</strong>\",\"target\":[\".header-leading > strong\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because it is overlapped by another element\",\"html\":\"<span>Illustrative data</span>\",\"target\":[\"section[aria-label=\\\"Inspection register\\\"] > footer > span\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"middle\\\" y=\\\"-4.999992370605469\\\" transform=\\\"translate(44 10)\\\" fill=\\\"#627087\\\" style=\\\"font-size: 10px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">\u00b0C</text>\",\"target\":[\"text[y=\\\"-4.999992370605469\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element content is too short to determine if it is actual text content\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 180)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">0</text>\",\"target\":[\"text[transform=\\\"translate(36 180)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element content is too short to determine if it is actual text content\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 149)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">5</text>\",\"target\":[\"text[transform=\\\"translate(36 149)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 118)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">10</text>\",\"target\":[\"text[transform=\\\"translate(36 118)\\\"]\"]},{\"failureSummary\":\"Fix any of the following:\\n  Element's background color could not be determined because element contains an image node\",\"html\":\"<text dominant-baseline=\\\"central\\\" text-anchor=\\\"end\\\" transform=\\\"translate(36 87)\\\" fill=\\\"#54555a\\\" style=\\\"font-size: 12px; font-family: &quot;DM Sans&quot;, sans-serif;\\\">15</text>\",\"target\":[\"text[transform=\\\"translate(36 87)\\\"]\"]}],\"tags\":[\"cat.color\",\"wcag2aa\",\"wcag143\",\"TTv5\",\"TT13.c\",\"EN-301-549\",\"EN-9.1.4.3\",\"ACT\",\"RGAAv4\",\"RGAA-3.2.1\"]}],\"lifecycle\":{\"effectiveLaunch\":{\"browserLaunched\":true,\"engine\":\"chrome\",\"launchHash\":16228916338243421459},\"launched\":false,\"relaunchedBrowser\":false,\"restartedBackground\":false,\"restoreStatus\":\"not_configured\",\"reused\":true,\"saveStatus\":\"not_attempted\"},\"url\":\"http://localhost:5190/\",\"violations\":[]},\"error\":null}\n",
+      "stderr": ""
+    }
+  ]
+}

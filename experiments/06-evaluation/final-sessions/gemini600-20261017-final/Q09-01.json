@@ -1,0 +1,118 @@
+{
+  "scenario": 9,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+  "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+  "message_id": "d34e6b60-0317-466e-9738-b4da2716a6a0",
+  "question": "How many recalled pumps are still in the ground, and in which areas?",
+  "started_at": "2026-10-17T12:09:44.814006+00:00",
+  "status": "complete",
+  "file": "Q09-01.json",
+  "answer_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+  "error": null,
+  "panels": [],
+  "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+    "thread_id": "d5a9a3f2-5d82-4e5c-8d7c-e713db99f3a0",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 2,
+    "reference_date": "2027-01-15",
+    "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+    "blocks": [],
+    "results": {},
+    "evidence": {},
+    "warnings": [
+      "Private reference absent"
+    ],
+    "sample": false
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:09:49.014250+00:00",
+  "stages": [
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "10b6d283-4f21-4010-ab85-213b9bd2240c",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "timestamp": "2026-10-17T12:09:44.829140+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "10b6d283-4f21-4010-ab85-213b9bd2240c",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "timestamp": "2026-10-17T12:09:44.856938+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "9948d5f4-75ff-4b8f-a887-1a306f4dd1ff",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "timestamp": "2026-10-17T12:09:44.873576+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "quota:436",
+      "stage": "quota_wait",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "status": "started",
+      "timestamp": "2026-10-17T12:09:45.228911+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:09:47.088667+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "quota:436",
+      "stage": "quota_wait",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:09:47.093591+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:09:47.093571+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "stage_id": "9948d5f4-75ff-4b8f-a887-1a306f4dd1ff",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "a6977a6a-49e5-42af-9769-a77bd2d2cbf2",
+      "timestamp": "2026-10-17T12:09:48.501299+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    }
+  ]
+}

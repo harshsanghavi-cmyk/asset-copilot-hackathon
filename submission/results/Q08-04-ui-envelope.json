@@ -1,0 +1,516 @@
+{
+  "schema_version": "1.0",
+  "answer_id": "f7f5ed69-0a9f-4464-85c5-1e23a8df67dd",
+  "thread_id": "99f83a5a-1e21-47fd-a79a-a77afce287eb",
+  "user_id": "U-501",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "knowledge_revision": 2,
+  "reference_date": "2027-01-15",
+  "narrative": "The recalled pump on WELL-0577 was noted as swapped in private work context by Olivia Grant [memory:2388cd76-a257-47f0-bf54-32aa83cec09f], but update requests without a formal commit receipt remain uncommitted. WELL-0577 is producing in Southeast Block 32 [result_9bfbad8f5f5d4eb59d13bf198e72dd70]. Operator notes show past weather and equipment checks [result_0cceea396cf94c91a1c5f6b41e869e9a].",
+  "blocks": [
+    {
+      "id": "f7f5ed69-0a9f-4464-85c5-1e23a8df67dd:block:0",
+      "type": "table",
+      "title": "WELL-0577 Status",
+      "result_set_id": "result_9bfbad8f5f5d4eb59d13bf198e72dd70",
+      "evidence_ids": [
+        "ev_fbd4b7b4e99379f1f849327c",
+        "ev_33881d2e0f89e2a1ae009719",
+        "src_b94f3fb94d5d1496e2d01785"
+      ],
+      "encoding": {},
+      "span": 1
+    }
+  ],
+  "results": {
+    "result_9bfbad8f5f5d4eb59d13bf198e72dd70": {
+      "result_set_id": "result_9bfbad8f5f5d4eb59d13bf198e72dd70",
+      "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+      "knowledge_revision": 2,
+      "columns": [
+        {
+          "key": "asset_id",
+          "label": "Asset Id"
+        },
+        {
+          "key": "area_id",
+          "label": "Area Id"
+        },
+        {
+          "key": "area_name",
+          "label": "Area Name"
+        },
+        {
+          "key": "serial",
+          "label": "Serial"
+        },
+        {
+          "key": "lot",
+          "label": "Lot"
+        },
+        {
+          "key": "parts_installed",
+          "label": "Parts Installed"
+        },
+        {
+          "key": "installation_job",
+          "label": "Installation Job"
+        },
+        {
+          "key": "installed_at",
+          "label": "Installed At"
+        },
+        {
+          "key": "installation_cost_usd",
+          "label": "Installation Cost Usd",
+          "unit": "USD"
+        },
+        {
+          "key": "assessment",
+          "label": "Assessment"
+        },
+        {
+          "key": "documented_in_ground",
+          "label": "Documented In Ground"
+        },
+        {
+          "key": "included_in_operational_recall_list",
+          "label": "Included In Operational Recall List"
+        },
+        {
+          "key": "work_order_verified",
+          "label": "Work Order Verified"
+        },
+        {
+          "key": "replacement_claims",
+          "label": "Replacement Claims"
+        },
+        {
+          "key": "producing",
+          "label": "Producing"
+        },
+        {
+          "key": "status_now",
+          "label": "Status Now"
+        },
+        {
+          "key": "status_confirmed",
+          "label": "Status Confirmed"
+        },
+        {
+          "key": "last_repair_id",
+          "label": "Last Repair Id"
+        },
+        {
+          "key": "last_repair_at",
+          "label": "Last Repair At"
+        },
+        {
+          "key": "last_repair_equipment",
+          "label": "Last Repair Equipment"
+        }
+      ],
+      "rows": [
+        {
+          "asset_id": "WELL-0577",
+          "replacement_claims": "[]",
+          "producing": true,
+          "included_in_operational_recall_list": true,
+          "lot": "LOT-2409-A",
+          "last_repair_id": "MNT-0577-032",
+          "last_repair_at": "2026-11-21T08:00:00Z",
+          "area_name": "Southeast Block 32",
+          "work_order_verified": null,
+          "assessment": "recorded_in_ground",
+          "serial": "SN-757468",
+          "status_confirmed": true,
+          "last_repair_equipment": "pump_jack",
+          "installation_cost_usd": 25500,
+          "parts_installed": "Highline RP-175 pump, serial SN-757468, lot LOT-2409-A",
+          "documented_in_ground": true,
+          "installation_job": "MNT-0577-028",
+          "status_now": "Producing oil",
+          "installed_at": "2026-08-11T12:00:00Z",
+          "area_id": "SE-32"
+        }
+      ],
+      "evidence_ids": [
+        "ev_fbd4b7b4e99379f1f849327c",
+        "ev_33881d2e0f89e2a1ae009719",
+        "src_b94f3fb94d5d1496e2d01785",
+        "src_853c7f7623412e1b78b5e791",
+        "ev_69f2a8c39f8df63775ada596",
+        "ev_ce15a0af9f5bb4dd0d818f63",
+        "result_9bfbad8f5f5d4eb59d13bf198e72dd70"
+      ],
+      "provider_coverage": {
+        "unit": "recall_inventory",
+        "matching": 1,
+        "evaluated": 1,
+        "unknown": 0,
+        "import_issues": 0,
+        "status": "complete",
+        "displayed_rows": 1,
+        "output_rows": 1,
+        "display_truncated": false,
+        "aggregation_input_truncated": false
+      },
+      "trace_id": "trace_b76be152644747b5b45a1f5b97de0be0",
+      "warnings": [
+        "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+        "Physical inventory and operational count are separate: explicit direct attributed replacement instruction changes operational count with unverified-work-order flag; hearsay does not. No claim becomes inspected physical evidence.",
+        "Installation cost is recorded total job cost, not pump-only price or paid expenditure."
+      ],
+      "bounds": {
+        "start": null,
+        "end": null,
+        "closure": "both"
+      },
+      "operation": {
+        "collection": "maintenance",
+        "metric": "recall_inventory"
+      },
+      "coverage": {
+        "matching": 1,
+        "evaluated": 1,
+        "unknown": 0
+      }
+    },
+    "result_0cceea396cf94c91a1c5f6b41e869e9a": {
+      "result_set_id": "result_0cceea396cf94c91a1c5f6b41e869e9a",
+      "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+      "knowledge_revision": 2,
+      "columns": [
+        {
+          "key": "note_id",
+          "label": "Note Id"
+        },
+        {
+          "key": "asset_id",
+          "label": "Asset Id"
+        },
+        {
+          "key": "author_user_id",
+          "label": "Author User Id"
+        },
+        {
+          "key": "created_at",
+          "label": "Created At"
+        },
+        {
+          "key": "note_type",
+          "label": "Note Type"
+        },
+        {
+          "key": "inspection_id",
+          "label": "Inspection Id"
+        },
+        {
+          "key": "text",
+          "label": "Text"
+        },
+        {
+          "key": "valid_from",
+          "label": "Valid From"
+        },
+        {
+          "key": "valid_to",
+          "label": "Valid To"
+        }
+      ],
+      "rows": [
+        {
+          "valid_from": "2026-11-16",
+          "asset_id": "WELL-0577",
+          "created_at": "2026-11-16T13:05:00Z",
+          "note_id": "CTX-0577-001",
+          "inspection_id": null,
+          "valid_to": null,
+          "author_user_id": "U-506",
+          "text": "Pumper reports rattling at WELL-0577 pump jack, keep an eye on it.",
+          "note_type": "operator_note"
+        },
+        {
+          "valid_from": "2026-11-23",
+          "asset_id": "WELL-0577",
+          "created_at": "2026-11-23T06:30:00Z",
+          "note_id": "CTX-0577-002",
+          "inspection_id": null,
+          "valid_to": null,
+          "author_user_id": "U-503",
+          "text": "Checked WELL-0577 after the rain, pad dry and clean.",
+          "note_type": "operator_note"
+        }
+      ],
+      "evidence_ids": [
+        "ev_fbd4b7b4e99379f1f849327c",
+        "result_0cceea396cf94c91a1c5f6b41e869e9a",
+        "src_215c78036f52b5303b330fe0",
+        "src_0b27ec48fd9b0f16a6cd84c6",
+        "src_330aa8bd8455ae32332cb94c"
+      ],
+      "provider_coverage": {
+        "unit": "matching_source_record",
+        "matching": 2,
+        "evaluated": 2,
+        "unknown": 0,
+        "import_issues": 0,
+        "status": "complete",
+        "output_rows": 2,
+        "displayed_rows": 2,
+        "display_truncated": false,
+        "aggregation_input_truncated": false
+      },
+      "trace_id": "trace_a7b4488c8a4149bb89f730d352ede72a",
+      "warnings": [],
+      "bounds": {
+        "start": null,
+        "end": "2027-01-15",
+        "closure": "both"
+      },
+      "operation": {
+        "collection": "context_notes",
+        "metric": "records"
+      },
+      "coverage": {
+        "matching": 2,
+        "evaluated": 2,
+        "unknown": 0
+      }
+    }
+  },
+  "evidence": {
+    "ev_fbd4b7b4e99379f1f849327c": {
+      "id": "ev_fbd4b7b4e99379f1f849327c",
+      "title": "WELL-0577",
+      "source_kind": "metadata",
+      "source_id": "src_639f855c0b5f55747c10f304",
+      "excerpt": "{\"area_id\": \"SE-32\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0577\", \"equipment\": [{\"equipment_id\": \"WELL-0577-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0577-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0577-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0577-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0577-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-501\", \"installed_on\": \"2022-11-06\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T15:30:00Z\", \"inspection_id\": \"INS-0577-0211\", \"inspector_user_id\": \"U-504\"}, \"location\": {\"lat\": 31.63857, \"lon\": -102.24996}, \"name\": \"SE-32 Well 577\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SE\", \"well_type\": \"T200\"}",
+      "path": "assets/WELL-0577/metadata.json"
+    },
+    "ev_33881d2e0f89e2a1ae009719": {
+      "id": "ev_33881d2e0f89e2a1ae009719",
+      "title": "MNT-0577-028",
+      "source_kind": "maintenance",
+      "source_id": "src_3e9bbe49277aa4f833e42f6c",
+      "excerpt": "{\"action_taken\": \"Pulled and replaced downhole pump\", \"asset_id\": \"WELL-0577\", \"completed_at\": \"2026-08-11T12:00:00Z\", \"contractor\": null, \"cost_usd\": {\"labor\": 7840, \"parts\": 17660, \"total\": 25500}, \"downtime_hours\": 268, \"equipment_kind\": \"downhole_pump\", \"issue\": \"Downhole pump stuck\", \"maintenance_id\": \"MNT-0577-028\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0577-028.md\", \"started_at\": \"2026-07-31T08:00:00Z\", \"technician_user_id\": \"U-303\", \"triggered_by_inspection_id\": \"INS-0577-0187\"}",
+      "path": "assets/WELL-0577/maintenance.jsonl"
+    },
+    "src_b94f3fb94d5d1496e2d01785": {
+      "id": "src_b94f3fb94d5d1496e2d01785",
+      "title": "assets/WELL-0577/maintenance-reports/MNT-0577-028.md",
+      "source_kind": "report",
+      "source_id": "src_b94f3fb94d5d1496e2d01785",
+      "asset_id": "WELL-0577",
+      "excerpt": "# Maintenance Report — MNT-0577-028\n\n**Asset:** WELL-0577 (SE-32 Well 577, T200, Southeast Block 32)\n**Equipment:** downhole pump\n**Work started:** 31 Jul 2026 08:00 · **Finished:** 11 Aug 2026 12:00 · **Well stopped for this job:** 268 hours\n**Crew lead:** Kevin Price (U-303) · **Crew:** Megan Ward\n**Triggered by:** inspection INS-0577-0187 on 2026-07-30\n**Report written:** 11 Aug 2026\n\n## What happened\n\nField staff reported that the wellhead was cold and the pump jack was straining with a heavy, uneven load. The thermal reading at inspection INS-0577-0187 showed the wellhead at 42.3 °C with the air at 37.5 °C, so the well was not producing. The operator shut the well in for the repair. The downhole pump was stuck, most likely from sand or scale.\nThe company workover rig was busy on other wells, so the well waited about 9 days for it; the work itself took about 2 days.\n\n## Root cause\n\nFree gas entering the pump stopped it from filling, and the dry plunger seized.\n\n## Safety and permits\n\n- Pre-job safety meeting held with the crew before work started (WS-01).\n- Energy isolated: prime mover stopped at the bottom of the stroke, brake set and chained, motor disconnect locked and tagged, wellhead wing valve closed and tagged, pressure bled off (WS-02).\n- Personal H2S monitors worn; highest reading 0 ppm, below the 10 ppm stop-work level (WS-03).\n\n**Parts installed:** Highline RP-175 pump, serial SN-757468, lot LOT-2409-A\n\n**Follow-up:** Crew to return within 7 days to check the fluid level and pump fillage.\n\n## Work done\n\n1. Rigged up the company workover rig on the well.\n2. Pulled the rods and the insert pump.\n3. Inspected the pump: sand in the barrel and a worn plunger.\n4. Ran in a new insert pump.\n5. Re-spaced the pump and hung the rods back on.\n\nSummary of the fix: pulled and replaced downhole pump.\n\n## Testing and return to service\n\nPump test confirmed fluid to surface and the wellhead warmed back to normal. The well was returned to production.\n\n## Parts and cost\n\n| Item | USD |\n|---|---|\n| Insert rod pump | 11,479 |\n| Rig services | 4,415 |\n| Consumables | 1,766 |\n| Labour (company crew) | 7,840 |\n| **Total** | **25,500** |\n\n## Compliance check\n\n| Protocol | Result | Detail |\n|---|---|---|\n| WS-01 | Met | Meeting held and recorded |\n| WS-02 | Met | Energy isolated and tagged |\n| WS-03 | Met | Monitors bump-tested; highest 0 ppm |\n| WS-07 | Met | Written the same day as the work (limit 3 days) |\n\n## Notes and recommendations\n\n- Review sand control on this well.\n- Send the old pump for teardown.\n",
+      "path": "assets/WELL-0577/maintenance-reports/MNT-0577-028.md"
+    },
+    "src_853c7f7623412e1b78b5e791": {
+      "id": "src_853c7f7623412e1b78b5e791",
+      "title": "fleet/sops/supplier-recall-notice-2026-12-01.md",
+      "source_kind": "sop",
+      "source_id": "src_853c7f7623412e1b78b5e791",
+      "excerpt": "# Supplier Recall Notice — Downhole Rod Pumps\n\n> Fictional notice for the FlytBase Asset Copilot hackathon.\n\n**From:** Highline Pump Co., Quality Department\n**To:** All operators running Highline downhole rod pumps\n**Date:** 1 Dec 2026\n**Reference:** HPC-RN-2026-07\n\n## What is recalled\n\nHighline RP-175 downhole rod pumps from these manufacturing lots:\n\n- LOT-2409-A\n- LOT-2409-C\n- LOT-2410-B\n\nPumps from all other lots, including LOT-2409-B, LOT-2410-A and LOT-2410-C, are not affected.\nHighline Pump Co. does not supply ESP pumps, so ESP wells are not affected by this notice.\n\n## The problem\n\nTesting found that plungers from these lots can crack after several months in service. A cracked\nplunger lets the pump lose fluid and can break apart downhole, which makes the pump much harder\nto pull.\n\n## What you must do\n\nPumps from these lots must be pulled and replaced within 30 days of this notice (by 31 Dec 2026).\n\nUntil the replacement, keep running the pump as normal. Do not shut the well in only because of\nthis notice; the risk of cracking is low over a few weeks.\n\n## How to find affected pumps\n\nThe lot number is stamped on the pump barrel. Your crews record it when the pump is installed\n(in your maintenance reports, on the line \"Parts installed\"). Only the pump that is in the well\ntoday matters: a recalled pump that has already been pulled and replaced needs no action.\n\nReturn pulled pumps to Highline Pump Co. for a full credit.\n",
+      "path": "fleet/sops/supplier-recall-notice-2026-12-01.md"
+    },
+    "ev_69f2a8c39f8df63775ada596": {
+      "id": "ev_69f2a8c39f8df63775ada596",
+      "title": "INS-0577-0211",
+      "source_kind": "inspections",
+      "source_id": "src_da28b5372b2d5ce8d386d2f5",
+      "excerpt": "{\"ambient_temp_c\": 10.0, \"asset_id\": \"WELL-0577\", \"evidence_images\": [\"evidence/WELL-0577/2027-01-14_rgb.jpg\", \"evidence/WELL-0577/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T15:30:00Z\", \"inspection_id\": \"INS-0577-0211\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 40.0}",
+      "path": "assets/WELL-0577/inspections.jsonl"
+    },
+    "ev_ce15a0af9f5bb4dd0d818f63": {
+      "id": "ev_ce15a0af9f5bb4dd0d818f63",
+      "title": "MNT-0577-032",
+      "source_kind": "maintenance",
+      "source_id": "src_3e9bbe49277aa4f833e42f6c",
+      "excerpt": "{\"action_taken\": \"Replaced saddle bearing and re-greased\", \"asset_id\": \"WELL-0577\", \"completed_at\": \"2026-12-01T19:00:00Z\", \"contractor\": \"Coyote Ridge Well Services\", \"cost_usd\": {\"labor\": 1699, \"parts\": 2490, \"total\": 4189}, \"downtime_hours\": 251, \"equipment_kind\": \"pump_jack\", \"issue\": \"Walking beam bearing wear\", \"maintenance_id\": \"MNT-0577-032\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0577-032.md\", \"started_at\": \"2026-11-21T08:00:00Z\", \"technician_user_id\": \"U-304\", \"triggered_by_inspection_id\": \"INS-0577-0203\"}",
+      "path": "assets/WELL-0577/maintenance.jsonl"
+    },
+    "result_9bfbad8f5f5d4eb59d13bf198e72dd70": {
+      "id": "result_9bfbad8f5f5d4eb59d13bf198e72dd70",
+      "title": "result_9bfbad8f5f5d4eb59d13bf198e72dd70",
+      "source_kind": "aggregate_lineage",
+      "source_id": "result_9bfbad8f5f5d4eb59d13bf198e72dd70"
+    },
+    "result_0cceea396cf94c91a1c5f6b41e869e9a": {
+      "id": "result_0cceea396cf94c91a1c5f6b41e869e9a",
+      "title": "result_0cceea396cf94c91a1c5f6b41e869e9a",
+      "source_kind": "aggregate_lineage",
+      "source_id": "result_0cceea396cf94c91a1c5f6b41e869e9a"
+    },
+    "src_215c78036f52b5303b330fe0": {
+      "id": "src_215c78036f52b5303b330fe0",
+      "title": "fleet/well-types/T200.md",
+      "source_kind": "manual",
+      "source_id": "src_215c78036f52b5303b330fe0",
+      "excerpt": "# T200 Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> sucker-rod (beam pump) well practice. Not for real-world operational use.\n\nDocument ID: OM-T200 · Revision 4 · Applies to all wells with `well_type = \"T200\"`\n\n## 1. Scope\n\nThis manual covers the T200 class of onshore rod-lift (beam pump) oil wells: a\nconventional wellhead, a surface pump jack (walking-beam pumping unit), a sucker\nrod string, an insert downhole pump and a 3-inch carbon-steel flowline to the\narea gathering line. Some T200 pads also carry a two-phase vertical separator.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-3000 | Seals the well, holds the stuffing box and production valves |\n| Pump jack | PJ-228 | Converts motor rotation to reciprocating rod motion |\n| Rod string | API Grade D 7/8 in | Transmits motion from the pump jack to the downhole pump |\n| Downhole pump | Insert rod pump 1.75 in | Lifts fluid from the reservoir |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\n## 3. Normal operation\n\nA producing T200 well cycles continuously at 6–9 strokes per minute. Produced\nfluid leaves the reservoir warmer than the surface air, so a producing wellhead\nruns noticeably warmer than ambient. When the pump stops, the\nwellhead cools to near ambient within a few hours.\n\nOperators should expect daily and seasonal variation. On hot summer afternoons\nthe steel of an idle wellhead can read well above 45 °C from solar heating alone.\n**Never judge production from absolute wellhead temperature.**\n\n## 4. Start-up and shut-in\n\n1. Confirm the flowline valve is open and the separator (if fitted) is at operating level.\n2. Release the pump jack brake and start the prime mover.\n3. Confirm stroke rate within 6–9 spm and check the stuffing box for leaks.\n4. For a planned shut-in, stop the prime mover at the bottom of the stroke, set the brake,\n   close the wing valve and record the shut-in in the maintenance system before work starts.\n\n## 5. Routine inspection checklist\n\n- Visual check of pad, cellar and flowline route for staining or pooled fluid.\n- Thermal reading of the wellhead (drone or handheld).\n- Stuffing box leakage, belt condition and gearbox oil level.\n- Separator level and dump valve operation (if fitted).\n\n## 6. Lubrication schedule\n\n| Item | Interval |\n|---|---|\n| Saddle and tail bearings | 90 days |\n| Gearbox oil level check | 30 days |\n| Gearbox oil change | 12 months |\n| Belt tension | 60 days |\n\n## 7. Common failure modes\n\n| Symptom | Likely cause | First action |\n|---|---|---|\n| Unit running, wellhead cold | Rod parted or pump stuck | Shut in, call rod/pump crew |\n| Unit stopped, motor hot | Prime mover overload | Reset overload, check cooling |\n| Oil on gearbox base | Seal failure | Replace seals |\n| Staining along flowline | Corrosion pinhole or coupling failure | Shut in, contain, report per SOP SR |\n| Stuffing box weeping | Worn packing | Replace packing |\n\n## 8. Spill response on the pad\n\nAny crude release must be handled under the company Spill Response SOP\n(`sops/spill-response-sop.md`). In short: stop the source, contain, estimate the\nvolume, and report within the deadline set by the SOP.\n\n## 9. Engineering limits\n\n### 9.1 Pressure\nMaximum allowable wellhead working pressure: 3,000 psi.\n\n### 9.2 Stroke\nMaximum stroke rate: 10 spm. Maximum polished-rod load: 22,800 lb.\n\n### 9.3 Production temperature rule\nA T200 well is considered **producing (active)** when its wellhead temperature is\nat least **15 °C above ambient** air temperature at the time of the reading. A\ndifference below 15 °C means the well is **not producing** for that reading,\nwhatever the absolute temperature.\n\n### 9.4 Temperature alarm\nThe wellhead must stay **at or below 85 °C**. Any reading above 85 °C requires the\noperator to shut in and inspect the stuffing box and rod string within 24 hours.\n\n### 9.5 Spill-related shut-in\nIf a spill covers **more than 5 % of the pad area**, shut in the well immediately and\nkeep it shut in until the source is repaired.\n\n## 10. Maintenance escalation\n\n- Three or more **corrective** maintenance events on the same equipment kind in the\n  12 months before the current date require a root-cause analysis (RCA) before the next repair is closed.\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n\n## 11. Records\n\nEvery inspection, maintenance job and shut-in must be recorded. Human notes that\nexplain an abnormal reading (for example a planned shut-in) are valid context and\nshould be considered alongside the sensor data.\n",
+      "path": "fleet/well-types/T200.md"
+    },
+    "src_0b27ec48fd9b0f16a6cd84c6": {
+      "id": "src_0b27ec48fd9b0f16a6cd84c6",
+      "title": "fleet/well-types/T350.md",
+      "source_kind": "manual",
+      "source_id": "src_0b27ec48fd9b0f16a6cd84c6",
+      "excerpt": "# T350 Deep Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Not for real-world use.\n\nDocument ID: OM-T350 · Revision 2 · Applies to all wells with `well_type = \"T350\"`\n\n## 1. Scope\n\nThe T350 is a deeper, higher-rate version of the T200 rod-lift well. It uses a\nWH-5000 wellhead, a PJ-456 pump jack and the same rod, pump and\nflowline families as the T200. Procedures not listed here follow the T200 manual.\n\n## 2. Differences from T200\n\n| Item | T200 | T350 |\n|---|---|---|\n| Wellhead rating | 3,000 psi | 5,000 psi |\n| Pump jack | PJ-228 | PJ-456 |\n| Normal stroke rate | 6–9 spm | 5–8 spm |\n| Max polished-rod load | 22,800 lb | 45,600 lb |\n\n## 3. Production temperature rule\n\nBecause T350 fluid comes from a deeper, hotter zone, a T350 well is considered\n**producing (active)** only when its wellhead temperature is at least **20 °C above\nambient** air temperature at the time of the reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and inspect within 24 hours.\n\n## 5. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 6. Maintenance escalation\n\nSame as T200 section 10 (RCA after three corrective events on the same equipment\nkind within 12 months; report downtime over 14 consecutive days).\n",
+      "path": "fleet/well-types/T350.md"
+    },
+    "src_330aa8bd8455ae32332cb94c": {
+      "id": "src_330aa8bd8455ae32332cb94c",
+      "title": "fleet/well-types/T500.md",
+      "source_kind": "manual",
+      "source_id": "src_330aa8bd8455ae32332cb94c",
+      "excerpt": "# T500 Electric Submersible Pump Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> electric submersible pump (ESP) well practice. Not for real-world operational use.\n\nDocument ID: OM-T500 · Revision 1 · Applies to all wells with `well_type = \"T500\"`\n\n## 1. Scope\n\nThe T500 is a high-rate well lifted by an **electric submersible pump (ESP)** instead of a\npump jack and rod string. There is no surface pumping unit: a variable-speed drive on the\npad powers a motor and multistage pump hung on the tubing deep in the well. The wellhead,\nflowline and optional separator are the same families as on rod-lift wells.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-5000 | Seals the well, carries the power cable penetrator and production valves |\n| ESP (`esp_pump`) | ESP-400 | Downhole motor, seal section and multistage pump, with its surface drive and power cable |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\nA T500 pad has **no pump jack, rod string or rod pump**. There is no visible stroke, so a\ndrone cannot tell from movement alone whether the well is running.\n\n## 3. Production temperature rule\n\nESP wells move more fluid, and the motor adds heat. A T500 well is considered\n**producing (active)** only when its wellhead temperature is at least **25 °C above\nambient** air temperature at the time of the reading. Below 25 °C the well is **not\nproducing** for that reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and check the drive\nand motor within 24 hours.\n\n## 5. Early warning signs\n\nAn ESP runs at a steady speed, so a healthy T500 wellhead stays within a degree or two of\nits usual difference above air. ESP motors usually fail after running hot with too little\nfluid over the pump. In the weeks before a failure, the wellhead-to-air difference typically\n**falls steadily** while the well is still producing.\n\n- If the wellhead-to-air difference is **lower than at the inspection before, three\n  inspections in a row** (four readings, each lower than the last) **and has fallen by\n  3 °C or more in total** over those four readings, schedule an ESP drive and insulation\n  check within **14 days** of the third drop.\n- A ground fault or repeated trips on the drive must be treated as a failure, not reset.\n\n## 6. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 7. Maintenance escalation\n\n- **Two or more** corrective maintenance events on the **ESP** in the 12 months before the\n  current date require a root-cause analysis (RCA) before the next repair is closed.\n  (ESP pulls need a workover rig and cost far more than rod-lift repairs.)\n- For all other equipment, follow T200 section 10 (three events in 12 months).\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n",
+      "path": "fleet/well-types/T500.md"
+    },
+    "memory:2388cd76-a257-47f0-bf54-32aa83cec09f": {
+      "id": "memory:2388cd76-a257-47f0-bf54-32aa83cec09f",
+      "title": "Work_Context reported by Olivia Grant",
+      "source_kind": "private_memory",
+      "source_id": "memory:2388cd76-a257-47f0-bf54-32aa83cec09f",
+      "excerpt": "The recalled pump on WELL-0577 was swapped as reported by Nathan. [attributed]",
+      "author": "Olivia Grant",
+      "source_time": "2026-10-17T12:09:22.624774+00:00"
+    },
+    "chunk_93a9c8f4a299e532d2dfd922": {
+      "id": "chunk_93a9c8f4a299e532d2dfd922",
+      "title": "Maintenance Report — MNT-0577-028",
+      "source_kind": "report",
+      "source_id": "src_b94f3fb94d5d1496e2d01785",
+      "asset_id": "WELL-0577",
+      "excerpt": "**Asset:** WELL-0577 (SE-32 Well 577, T200, Southeast Block 32)\n**Equipment:** downhole pump\n**Work started:** 31 Jul 2026 08:00 · **Finished:** 11 Aug 2026 12:00 · **Well stopped for this job:** 268 hours\n**Crew lead:** Kevin Price (U-303) · **Crew:** Megan Ward\n**Triggered by:** inspection INS-0577-0187 on 2026-07-30\n**Report written:** 11 Aug 2026",
+      "path": "assets/WELL-0577/maintenance-reports/MNT-0577-028.md"
+    },
+    "chunk_0fd6a8fa4f1bed91dba0129c": {
+      "id": "chunk_0fd6a8fa4f1bed91dba0129c",
+      "title": "Maintenance Report — MNT-0577-023",
+      "source_kind": "report",
+      "source_id": "src_3f43220a9519374014e8cc02",
+      "asset_id": "WELL-0577",
+      "excerpt": "**Asset:** WELL-0577 (SE-32 Well 577, T200, Southeast Block 32)\n**Equipment:** pump jack\n**Work started:** 14 Mar 2026 08:00 · **Finished:** 07 Apr 2026 20:00 · **Well stopped for this job:** 588 hours\n**Crew lead:** Megan Ward (U-305) · **Crew:** Daniel Foster, Kevin Price\n**Triggered by:** inspection INS-0577-0167 on 2026-03-12\n**Report written:** 08 Apr 2026",
+      "path": "assets/WELL-0577/maintenance-reports/MNT-0577-023.md"
+    },
+    "chunk_38506d22cd0458f62adc1868": {
+      "id": "chunk_38506d22cd0458f62adc1868",
+      "title": "Maintenance Report — MNT-0577-032",
+      "source_kind": "report",
+      "source_id": "src_2c9f9d322c4670bd6fc1bfc1",
+      "asset_id": "WELL-0577",
+      "excerpt": "**Asset:** WELL-0577 (SE-32 Well 577, T200, Southeast Block 32)\n**Equipment:** pump jack\n**Work started:** 21 Nov 2026 08:00 · **Finished:** 01 Dec 2026 19:00 · **Well stopped for this job:** 251 hours\n**Crew lead:** Brian Coleman (U-304) · **Crew:** Daniel Foster, Megan Ward · **Contractor:** Coyote Ridge Well Services\n**Triggered by:** inspection INS-0577-0203 on 2026-11-19\n**Report written:** 01 Dec 2026",
+      "path": "assets/WELL-0577/maintenance-reports/MNT-0577-032.md"
+    },
+    "chunk_a11b3f78f6c72a0f1800375b": {
+      "id": "chunk_a11b3f78f6c72a0f1800375b",
+      "title": "Maintenance Report — MNT-0577-007",
+      "source_kind": "report",
+      "source_id": "src_c3daf23a7f4276f6d2cd4510",
+      "asset_id": "WELL-0577",
+      "excerpt": "**Asset:** WELL-0577 (SE-32 Well 577, T200, Southeast Block 32)\n**Equipment:** pump jack\n**Work started:** 25 Nov 2023 08:00 · **Finished:** 29 Nov 2023 20:00 · **Well stopped for this job:** 108 hours\n**Crew lead:** Brian Coleman (U-304) · **Crew:** Kevin Price, Daniel Foster · **Contractor:** Coyote Ridge Well Services\n**Triggered by:** inspection INS-0577-0048 on 2023-11-23\n**Report written:** 01 Dec 2023",
+      "path": "assets/WELL-0577/maintenance-reports/MNT-0577-007.md"
+    }
+  },
+  "warnings": [
+    "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+    "Physical inventory and operational count are separate: explicit direct attributed replacement instruction changes operational count with unverified-work-order flag; hearsay does not. No claim becomes inspected physical evidence.",
+    "Installation cost is recorded total job cost, not pump-only price or paid expenditure.",
+    "Ranked lexical retrieval cannot prove a fleet total or source absence",
+    "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification"
+  ],
+  "sample": false,
+  "claims": [
+    {
+      "text": "WELL-0577 is producing in Southeast Block 32.",
+      "kind": "fact",
+      "evidence_ids": [
+        "ev_fbd4b7b4e99379f1f849327c",
+        "ev_33881d2e0f89e2a1ae009719",
+        "src_b94f3fb94d5d1496e2d01785"
+      ],
+      "value_refs": [
+        {
+          "result_set_id": "result_9bfbad8f5f5d4eb59d13bf198e72dd70",
+          "row_index": 0,
+          "column": "producing"
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "status": "complete",
+    "model": "gemini-3.5-flash-lite",
+    "calls": [
+      {
+        "stage": "planner",
+        "usage": {
+          "input_tokens": 3094,
+          "output_tokens": 357,
+          "total_tokens": 3451,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 419,
+        "live": true
+      },
+      {
+        "stage": "maker",
+        "usage": {
+          "input_tokens": 3327,
+          "output_tokens": 458,
+          "total_tokens": 3785,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 424,
+        "live": true
+      }
+    ],
+    "provider": "google",
+    "foreground_attempts": 2,
+    "live": true
+  },
+  "budget": {
+    "method": "google_sdk_countTokens",
+    "long_term": 176,
+    "long_term_cap": 2000,
+    "long_term_byte_cap": 8000,
+    "short_term": 49,
+    "short_term_cap": 1000,
+    "omitted_private": 1,
+    "omitted_shared": 0,
+    "omitted_dialogue": 0,
+    "omitted_reference_handles": 0,
+    "slot_measurements": {
+      "long_term": {
+        "count": 176,
+        "cap": 2000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      },
+      "short_term": {
+        "count": 49,
+        "cap": 1000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      }
+    },
+    "retrieved_context": 1757,
+    "retrieved_cap": 2000,
+    "candidate_byte_cap": 8000,
+    "omitted_evidence_or_rows": 16,
+    "partial_evidence": true,
+    "token_fit_omitted": 3,
+    "content_cap": 5000,
+    "instructions_and_catalog_bytes": 13513,
+    "current_request_bytes_separate": 95,
+    "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+  }
+}

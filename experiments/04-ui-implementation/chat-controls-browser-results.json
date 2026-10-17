@@ -1,0 +1,696 @@
+{
+  "passed": true,
+  "sample_only": true,
+  "model_generation_calls": 0,
+  "checks": [
+    "cancel keeps original",
+    "edit old turn creates branch",
+    "original history preserved",
+    "branch survives reload",
+    "view original",
+    "complete retry forks without duplicate user",
+    "mobile actions accessible"
+  ],
+  "commands": [
+    {
+      "args": [
+        "open",
+        "http://localhost:5192"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Asset Intelligence \u00b7 Copilot\n  http://localhost:5192/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "Object.keys(localStorage).filter(k=>k.startsWith('asset-intelligence')).forEach(k=>localStorage.removeItem(k));void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "reload"
+      ],
+      "exit": 0,
+      "stdout": "http://localhost:5192/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.welcome')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Message Asset Copilot\"]",
+        "Show sample fleet overview"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "wait",
+        "button[aria-label=\"Send message\"]:not(:disabled)"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Message Asset Copilot\"]",
+        "Show sample temperature trends"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "wait",
+        "button[aria-label=\"Send message\"]:not(:disabled)"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        "button[aria-label=\"Send message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!document.querySelector('button[aria-label=\"Stop response\"]') && !!document.querySelector('.message-actions')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId"
+      ],
+      "exit": 0,
+      "stdout": "\"1255151e-be45-4f30-bca6-f629f2805705\"\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".chat-message.user:first-child button[aria-label=\"Edit message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Edit message text\"]",
+        "This edit is cancelled"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "[...document.querySelectorAll('.user-edit-form button')].find(b=>b.textContent==='Cancel').click();void 0"
+      ],
+      "exit": 0,
+      "stdout": "null\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===2 && !document.querySelector('.user-edit-form')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".chat-message.user:first-child button[aria-label=\"Edit message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Edit message text\"]",
+        "Show sample asset locations"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".user-edit-form button[type=submit]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner') && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId"
+      ],
+      "exit": 0,
+      "stdout": "\"65806348-bbb9-460f-948f-a1b0673774fc\"\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "JSON.parse(localStorage.getItem('asset-intelligence.sessions.v1')).find(s=>s.id==='1255151e-be45-4f30-bca6-f629f2805705').messages.filter(m=>m.role==='user').length===2"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "reload"
+      ],
+      "exit": 0,
+      "stdout": "http://localhost:5192/\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "!!document.querySelector('.conversation-branch-banner')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".conversation-branch-banner button"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId==='1255151e-be45-4f30-bca6-f629f2805705'"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===2"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".chat-message.assistant button[aria-label=\"Retry response\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='1255151e-be45-4f30-bca6-f629f2805705' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===6"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1 && document.querySelector('.conversation-branch-banner').textContent.includes('New response')"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId"
+      ],
+      "exit": 0,
+      "stdout": "\"e7486a82-e1da-4042-b731-f29128b2b838\"\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".chat-message.user:first-child button[aria-label=\"Edit message\"]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "fill",
+        "textarea[aria-label=\"Edit message text\"]",
+        "Show sample asset locations"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "click",
+        ".user-edit-form button[type=submit]"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "false\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelector('[data-session-id]').dataset.sessionId!=='e7486a82-e1da-4042-b731-f29128b2b838' && !document.querySelector('button[aria-label=\"Stop response\"]') && document.querySelectorAll('[data-panel]').length===3"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "document.querySelectorAll('.chat-message.user').length===1"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "set",
+        "viewport",
+        "390",
+        "844"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Done\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "eval",
+        "getComputedStyle(document.querySelector('.user-actions')).opacity==='1' && document.documentElement.scrollWidth<=innerWidth"
+      ],
+      "exit": 0,
+      "stdout": "true\n",
+      "stderr": ""
+    },
+    {
+      "args": [
+        "screenshot",
+        "/home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/chat-controls-mobile.png"
+      ],
+      "exit": 0,
+      "stdout": "\u2713 Screenshot saved to /home/harshsanghavi/orca/projects/asset-copilot-hackathon/experiments/04-ui-implementation/chat-controls-mobile.png\n",
+      "stderr": ""
+    }
+  ]
+}

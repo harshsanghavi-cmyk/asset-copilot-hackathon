@@ -1,0 +1,44 @@
+[
+  {
+    "candidate": "ui-agui",
+    "branch": "experiment/ui-agui",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/ui-agui",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "ui-copilotkit",
+    "branch": "experiment/ui-copilotkit",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/ui-copilotkit",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "retrieval-fts",
+    "branch": "experiment/retrieval-fts",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/retrieval-fts",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "retrieval-hybrid",
+    "branch": "experiment/retrieval-hybrid",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/retrieval-hybrid",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "memory-explicit",
+    "branch": "experiment/memory-explicit",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/memory-explicit",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "memory-langgraph",
+    "branch": "experiment/memory-langgraph",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/memory-langgraph",
+    "base_commit": "2a64795"
+  },
+  {
+    "candidate": "memory-gbrain",
+    "branch": "experiment/memory-gbrain",
+    "path": "/home/harshsanghavi/orca/projects/asset-copilot-experiments/memory-gbrain",
+    "base_commit": "2a64795"
+  }
+]

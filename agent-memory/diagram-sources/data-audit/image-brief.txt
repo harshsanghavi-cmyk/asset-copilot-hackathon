@@ -1,0 +1,40 @@
+Produce two enterprise-quality PNG diagrams, using the accompanying Mermaid and
+data-audit-inventory.json as the authoritative content. Coordinator owns final
+placement: diagrams/ must be flat and contain only final PNG files. No worker
+should place source files or subfolders there.
+
+1. Data overview (01-data-overview.mmd): wide landscape, white or very light
+background, legible dark type, restrained blue/teal for source groups, amber for
+integrity findings. Upper band shows actual filesystem sources and measured
+counts; lower band is explicitly marked proposed storage mapping, not existing
+implementation. Show linked Markdown reports and agency events as first-class
+evidence. Include 39567 inspections, 5665 jobs, 1509 reports, 141 notes, 90 agency
+events, 200 wells, 1094 equipment items. 79805 image paths are references only;
+photo bytes were not supplied, which is documented and not data corruption.
+Never imply an existing SQL database or a completed copilot.
+
+2. Key/relationship view (02-keys-and-relations.mmd): larger landscape technical
+reference, readable PK/FK fields and direction/cardinality labels. Group directory
+entities left, assets/observations center, reports/regulatory/context evidence
+right. This is a logical mapping of JSON/JSONL/Markdown, not implemented tables.
+Clearly distinguish asset_id, inspection_id, maintenance_id and user_id. Keep
+report_file as an actual asset-relative path, not an inferred filename. Mark
+ordinary note inspection references as prose-only unless formal correction.
+
+Cardinality footnote: observed sample has 50 wells per area; 5-6 equipment per
+well; 77-209 inspections, 9-38 maintenance, 0-3 notes and 0-10 regulator events per
+well. 1509 maintenance triggers are unique in this sample, but future ingestion
+must allow multiple repairs per inspection. 90 regulator events span 36 incident
+inspections, maximum four events per inspection. All 1509 corrective jobs have
+one linked report; 4156 scheduled jobs have no linked report in this sample.
+
+Integrity callout: 27 opposed shutdown accounts (note-to-job association inferred
+by same asset/discovery date), 30 potentially compatible delay explanations,
+21 stale stored statuses, 56 formal false-positive corrections, nine interim
+repairs and six late-but-closed agency verifications. Do not label these all as
+corrupt data or claim any source was definitively disproved. Measured counts are
+facts; effective-view/private-memory boxes are proposed architecture.
+
+Source Mermaid is authoritative for relationships; if image generation cannot
+render every field legibly, simplify decorative treatment rather than inventing
+or dropping key semantics. Preserve a separate rendered technical ER PNG.

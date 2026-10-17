@@ -1,0 +1,125 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 30,
+      "incomplete": 2,
+      "passes": 30,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=axeAPI",
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute.",
+            "html": "<div class=\"map-legend\" aria-label=\"Production status legend\"><span><i class=\"positive\"></i>Producing</span><span><i class=\"warning\"></i>Not producing</span></div>",
+            "target": [
+              ".span-2.analytic-panel[aria-label=\"Asset Coordinates\"] > .panel-content > .asset-map-wrap > .map-legend[aria-label=\"Production status legend\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute.",
+            "html": "<div class=\"map-legend\" aria-label=\"Production status legend\"><span><i class=\"positive\"></i>Producing</span><span><i class=\"warning\"></i>Not producing</span></div>",
+            "target": [
+              ".span-1.analytic-panel[aria-label=\"Asset Coordinates\"] > .panel-content > .asset-map-wrap > .map-legend[aria-label=\"Production status legend\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ]
+      },
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 6,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<strong>hello</strong>",
+            "target": [
+              ".header-leading > strong"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>There are 200 total assets [result_7ccd3de9db9a452fa43294d7c146ac2b]. The following table displays the recorded status and location for the available asset records [app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3].</p>",
+            "target": [
+              ".assistant:nth-child(4) > .assistant-body > .answer-narrative > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span>As of 2026-10-16</span>",
+            "target": [
+              ".assistant:nth-child(4) > .assistant-body > .answer-dashboard[data-knowledge-revision=\"0\"] > .answer-scope > .scope-stamps > span:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span title=\"This answer is pinned to this knowledge revision. Ask again to refresh.\">Snapshot \u00b7 knowledge v0</span>",
+            "target": [
+              ".assistant:nth-child(4) > .assistant-body > .answer-dashboard[data-knowledge-revision=\"0\"] > .answer-scope > .scope-stamps > span:nth-child(3)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined because it is overlapped by another element",
+            "html": "<div class=\"ant-select-content ant-select-content-has-value\" title=\"All returned assets\">",
+            "target": [
+              ".assistant:nth-child(4) > .assistant-body > .answer-dashboard[data-knowledge-revision=\"0\"] > .answer-scope > .ant-select.ant-select-outlined.asset-filter > .ant-select-content.ant-select-content-has-value[title=\"All returned assets\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<div class=\"composer-footnote\">Verify important decisions against the cited source records.<span>Shift + Enter for a new line</span></div>",
+            "target": [
+              ".composer-footnote"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 16228916338243421459
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:5192/",
+    "violations": []
+  },
+  "error": null
+}

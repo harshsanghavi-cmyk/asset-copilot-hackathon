@@ -1,0 +1,8 @@
+%% Proposed contingency only; not the primary user-requested protocol direction.
+flowchart LR
+  P[Python chain and exact tools] --> D[Immutable ResultSets and evidence]
+  D --> V[Validated multi-block AnswerEnvelope]
+  V --> S[Application-owned POST SSE frames]
+  S --> R[Custom stream reducer and replay]
+  R --> UI[Typed React multi-panel renderer]
+  N[Contingency requires explicit selection after compatibility findings] -. scope .-> S

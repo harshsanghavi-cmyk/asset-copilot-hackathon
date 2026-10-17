@@ -1,0 +1,394 @@
+{
+  "scenario": 1,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "1d8d9b1b-44e8-4909-b5da-efc01217b0ee",
+  "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+  "message_id": "29464ebc-c6f7-467c-9a7f-e0526a823ec9",
+  "question": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+  "started_at": "2026-10-17T12:31:36.812314+00:00",
+  "status": "complete",
+  "file": "Q01-01.json",
+  "answer_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+  "error": null,
+  "panels": [],
+  "narrative": "The requested reservoir pressure mapping cannot be completed because no pressure data or results were provided in the evidence pack. Equipment ratings and pressure tests cannot answer measured reservoir pressure.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+    "thread_id": "1d8d9b1b-44e8-4909-b5da-efc01217b0ee",
+    "user_id": "U-201",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 4,
+    "reference_date": "2027-01-15",
+    "narrative": "The requested reservoir pressure mapping cannot be completed because no pressure data or results were provided in the evidence pack. Equipment ratings and pressure tests cannot answer measured reservoir pressure.",
+    "blocks": [],
+    "results": {},
+    "evidence": {
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "One or more requested visual kinds could not be validated; verified data remains available"
+    ],
+    "sample": false,
+    "claims": [
+      {
+        "text": "The requested reservoir pressure mapping cannot be completed because no pressure data or results were provided in the evidence pack.",
+        "kind": "inference",
+        "evidence_ids": [],
+        "value_refs": []
+      }
+    ],
+    "generation": {
+      "status": "complete",
+      "model": "gemini-3.5-flash-lite",
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 4053,
+            "output_tokens": 132,
+            "total_tokens": 4185,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 531,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 1989,
+            "output_tokens": 81,
+            "total_tokens": 2070,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 536,
+          "live": true
+        }
+      ],
+      "provider": "google",
+      "foreground_attempts": 2,
+      "live": true
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 619,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 10,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 619,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 10,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 16,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 0,
+      "partial_evidence": false,
+      "token_fit_omitted": 0,
+      "content_cap": 5000,
+      "instructions_and_catalog_bytes": 14763,
+      "current_request_bytes_separate": 101,
+      "output_reserve": "Local bounded JSON/field limits; provider output limit unverified, observed usage recorded"
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:31:53.686212+00:00",
+  "stages": [
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "ca0cde1c-3d50-477d-85a0-9d83f2040ac9",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:36.843764+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "ca0cde1c-3d50-477d-85a0-9d83f2040ac9",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:36.861522+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "f442bf58-fcc7-4747-a685-d5de1dd8b47d",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:37.312183+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:527",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:37.327260+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:37.345467+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:527",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:37.438211+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:37.438180+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:531",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:45.150263+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:46.106392+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:531",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:46.110178+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:46.110163+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "f442bf58-fcc7-4747-a685-d5de1dd8b47d",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:48.161535+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "38354f03-bb84-4d28-822f-402dc1064ccd",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:48.180384+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:535",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:48.191751+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:48.690205+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:535",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:48.693508+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:49.190678+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:535",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:49.193992+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:49.193973+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:536",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "started",
+      "timestamp": "2026-10-17T12:31:49.555784+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:31:51.391087+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "quota:536",
+      "stage": "quota_wait",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:31:51.394484+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:31:51.394471+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "38354f03-bb84-4d28-822f-402dc1064ccd",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:53.142099+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "4fb37f95-f2c8-4d11-8113-41e85740e70f",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:53.152928+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "4fb37f95-f2c8-4d11-8113-41e85740e70f",
+      "stage": "validation",
+      "status": "completed",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:53.157950+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation completed"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "ff9ee2d1-1214-4d6c-882e-4a0b6fb4f21d",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:53.163964+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "stage_id": "ff9ee2d1-1214-4d6c-882e-4a0b6fb4f21d",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "timestamp": "2026-10-17T12:31:53.173292+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

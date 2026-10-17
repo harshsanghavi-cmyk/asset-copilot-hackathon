@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "answer_id": "dc304f14-7688-47a2-bdb6-aaa24893946f",
+  "thread_id": "ff3266aa-22ab-4b26-a5e7-300798eeec78",
+  "user_id": "U-201",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "knowledge_revision": 1,
+  "reference_date": "2027-01-15",
+  "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+  "blocks": [],
+  "results": {},
+  "evidence": {},
+  "warnings": [
+    "Private reference absent"
+  ],
+  "sample": false
+}

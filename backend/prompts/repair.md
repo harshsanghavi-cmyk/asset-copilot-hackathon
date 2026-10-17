@@ -1,0 +1,3 @@
+The expected_schema input is the authoritative output schema. Invalid output and validation_errors are in memory.short_term; long-term facts and fresh evidence remain in their original capped slots. Repair only the listed schema/format errors. Return one JSON object conforming to the requested schema. Reuse the same exact result/evidence IDs and values. Do not query, write, invent sources, expand permissions or change numerical facts. No prose outside JSON. If a block cannot refer to supplied fields, remove it and state the limitation in narrative.
+
+If repair_fields is supplied, return only those corrected top-level fields. Valid fields remain unchanged server-side; do not rewrite them. expected_schema then describes that field patch.

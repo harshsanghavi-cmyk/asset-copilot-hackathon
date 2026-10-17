@@ -1,0 +1,19 @@
+%% Proposed AG-UI lifecycle. Block payload kinds are namespaced CUSTOM data.
+sequenceDiagram
+  participant UI as AG-UI client and React reducer
+  participant API as Python AG-UI answer service
+  participant TOOLS as Exact tools and evidence
+  participant MODEL as Gemma via OpenRouter
+  UI->>API: Start run with trusted user and request ID
+  API-->>UI: RUN_STARTED and safe progress events
+  API->>TOOLS: Read one dataset and knowledge revision
+  TOOLS-->>API: Immutable ResultSets and EvidenceRefs
+  API->>MODEL: Small result receipts and view catalog
+  MODEL-->>API: JSON view plan and claim references
+  API->>API: Validate structure, columns, claims and references
+  API-->>UI: CUSTOM block_validated with stable IDs and revisions
+  API-->>UI: More CUSTOM validated blocks for same message
+  API-->>UI: CUSTOM answer_complete then RUN_FINISHED
+  UI->>API: Reconnect with last event cursor
+  API-->>UI: Authorized snapshot or replay after cursor
+  Note over UI,API: Duplicate events are idempotent; EOF without terminal event is interrupted

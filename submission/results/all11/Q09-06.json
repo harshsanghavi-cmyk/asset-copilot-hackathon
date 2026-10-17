@@ -1,0 +1,574 @@
+{
+  "question": "Of all the wells we've talked about today, which one would you deal with first, and why?",
+  "user": "Robert Hayes",
+  "session_id": "3e4ffac7-1777-4011-b479-a004261ff08d",
+  "status": "partial",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "c11bbe93-4548-42f8-8f8b-45feb7be5fdd",
+    "thread_id": "3e4ffac7-1777-4011-b479-a004261ff08d",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 6,
+    "reference_date": "2027-01-15",
+    "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+    "blocks": [
+      {
+        "id": "c11bbe93-4548-42f8-8f8b-45feb7be5fdd:verified:0",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_50249fe45b2a4079805f37620e9d85ad",
+        "evidence_ids": [
+          "ev_038c94ae2102a687f08dd299",
+          "ev_9e6d0aae585dddeb66499ce0",
+          "ev_b81e2161baeb581a10f44d03",
+          "ev_36f2b2dc10b914ab17e6f607",
+          "ev_b883809bc32b7bf9199bab55",
+          "ev_42ce85f613d83110733422fd",
+          "ev_edfc23f92558a2ee31e5ae6e",
+          "ev_206d45edd557b98a1a58e3b7"
+        ],
+        "encoding": {},
+        "span": 2
+      }
+    ],
+    "results": {
+      "result_50249fe45b2a4079805f37620e9d85ad": {
+        "result_set_id": "result_50249fe45b2a4079805f37620e9d85ad",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 6,
+        "columns": [
+          {
+            "key": "asset_id",
+            "label": "Asset Id"
+          },
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "latest_note_at",
+            "label": "Latest Note At"
+          },
+          {
+            "key": "latest_note_quote",
+            "label": "Latest Note Quote"
+          },
+          {
+            "key": "other_warning_signs",
+            "label": "Other Warning Signs"
+          },
+          {
+            "key": "recent_readings",
+            "label": "Recent Readings"
+          },
+          {
+            "key": "thermal_warning",
+            "label": "Thermal Warning"
+          },
+          {
+            "key": "operator_notes",
+            "label": "Operator Notes"
+          },
+          {
+            "key": "warning_note_count",
+            "label": "Warning Note Count"
+          },
+          {
+            "key": "last_repair_id",
+            "label": "Last Repair Id"
+          },
+          {
+            "key": "last_repair_at",
+            "label": "Last Repair At"
+          },
+          {
+            "key": "producing",
+            "label": "Producing"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          },
+          {
+            "key": "priority_score",
+            "label": "Priority Score"
+          },
+          {
+            "key": "ranking_basis",
+            "label": "Ranking Basis"
+          },
+          {
+            "key": "rank",
+            "label": "Rank"
+          }
+        ],
+        "rows": [
+          {
+            "area_name": "Southwest Block 23",
+            "asset_id": "WELL-0263",
+            "priority_score": 4,
+            "latest_note_at": "2027-01-14T10:45:00Z",
+            "ranking_basis": "Unrepaired symptom-note count +2 if currently not producing +3 for an unreconciled supplied ESP four-reading declining-delta warning in the note window; heuristic, not a calibrated 90-day forecast",
+            "warning_note_count": 2,
+            "thermal_warning": null,
+            "latest_note_quote": "Rod squeal at WELL-0263 stuffing box, greased the polished rod.",
+            "recent_readings": "[{\"inspection_id\": \"INS-0263-0216\", \"inspected_at\": \"2026-12-24T11:15:00Z\", \"well_type\": \"T350\", \"delta_c\": 36.5, \"delta_milli\": 36500, \"producing\": true}, {\"inspection_id\": \"INS-0263-0217\", \"inspected_at\": \"2026-12-31T13:00:00Z\", \"well_type\": \"T350\", \"delta_c\": 34.5, \"delta_milli\": 34500, \"producing\": true}, {\"inspection_id\": \"INS-0263-0218\", \"inspected_at\": \"2027-01-07T12:45:00Z\", \"well_type\": \"T350\", \"delta_c\": 8.2, \"delta_milli\": 8200, \"producing\": false}, {\"inspection_id\": \"INS-0263-0219\", \"inspected_at\": \"2027-01-14T10:45:00Z\", \"well_type\": \"T350\", \"delta_c\": 4.0, \"delta_milli\": 4000, \"producing\": false}]",
+            "producing": false,
+            "last_repair_at": "2027-01-09T08:00:00Z",
+            "last_repair_id": "MNT-0263-035",
+            "assessment": "candidate",
+            "operator_notes": "[{\"note_id\": \"CTX-0263-004\", \"date\": \"2027-01-11T07:20:00Z\", \"quote\": \"Heard fluid pound on WELL-0263, unit still running.\"}, {\"note_id\": \"CTX-0263-005\", \"date\": \"2027-01-14T10:45:00Z\", \"quote\": \"Rod squeal at WELL-0263 stuffing box, greased the polished rod.\"}]",
+            "rank": 1,
+            "other_warning_signs": "Currently not producing",
+            "area_id": "SW-23"
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "asset_id": "WELL-0428",
+            "priority_score": 2,
+            "latest_note_at": "2027-01-06T11:10:00Z",
+            "ranking_basis": "Unrepaired symptom-note count +2 if currently not producing +3 for an unreconciled supplied ESP four-reading declining-delta warning in the note window; heuristic, not a calibrated 90-day forecast",
+            "warning_note_count": 2,
+            "thermal_warning": null,
+            "latest_note_quote": "Heard fluid pound on WELL-0428, unit still running.",
+            "recent_readings": "[{\"inspection_id\": \"INS-0428-0215\", \"inspected_at\": \"2026-12-24T10:00:00Z\", \"well_type\": \"T200\", \"delta_c\": 31.8, \"delta_milli\": 31800, \"producing\": true}, {\"inspection_id\": \"INS-0428-0216\", \"inspected_at\": \"2026-12-31T13:30:00Z\", \"well_type\": \"T200\", \"delta_c\": 30.5, \"delta_milli\": 30500, \"producing\": true}, {\"inspection_id\": \"INS-0428-0217\", \"inspected_at\": \"2027-01-07T13:45:00Z\", \"well_type\": \"T200\", \"delta_c\": 32.2, \"delta_milli\": 32200, \"producing\": true}, {\"inspection_id\": \"INS-0428-0218\", \"inspected_at\": \"2027-01-14T15:15:00Z\", \"well_type\": \"T200\", \"delta_c\": 24.3, \"delta_milli\": 24300, \"producing\": true}]",
+            "producing": true,
+            "last_repair_at": "2026-03-07T08:00:00Z",
+            "last_repair_id": "MNT-0428-022",
+            "assessment": "candidate",
+            "operator_notes": "[{\"note_id\": \"CTX-0428-002\", \"date\": \"2027-01-01T16:55:00Z\", \"quote\": \"Heard fluid pound on WELL-0428, unit still running.\"}, {\"note_id\": \"CTX-0428-003\", \"date\": \"2027-01-06T11:10:00Z\", \"quote\": \"Heard fluid pound on WELL-0428, unit still running.\"}]",
+            "rank": 2,
+            "other_warning_signs": "No additional deterministic warning established",
+            "area_id": "NW-12"
+          },
+          {
+            "area_name": "Northwest Block 12",
+            "asset_id": "WELL-0305",
+            "priority_score": 1,
+            "latest_note_at": "2027-01-11T15:20:00Z",
+            "ranking_basis": "Unrepaired symptom-note count +2 if currently not producing +3 for an unreconciled supplied ESP four-reading declining-delta warning in the note window; heuristic, not a calibrated 90-day forecast",
+            "warning_note_count": 1,
+            "thermal_warning": null,
+            "latest_note_quote": "Pumper reports rattling at WELL-0305 pump jack, keep an eye on it.",
+            "recent_readings": "[{\"inspection_id\": \"INS-0305-0213\", \"inspected_at\": \"2026-12-17T07:30:00Z\", \"well_type\": \"T200\", \"delta_c\": 32.4, \"delta_milli\": 32400, \"producing\": true}, {\"inspection_id\": \"INS-0305-0214\", \"inspected_at\": \"2026-12-24T07:45:00Z\", \"well_type\": \"T200\", \"delta_c\": 24.4, \"delta_milli\": 24400, \"producing\": true}, {\"inspection_id\": \"INS-0305-0215\", \"inspected_at\": \"2026-12-31T08:30:00Z\", \"well_type\": \"T200\", \"delta_c\": 25.8, \"delta_milli\": 25800, \"producing\": true}, {\"inspection_id\": \"INS-0305-0216\", \"inspected_at\": \"2027-01-14T09:45:00Z\", \"well_type\": \"T200\", \"delta_c\": 26.7, \"delta_milli\": 26700, \"producing\": true}]",
+            "producing": true,
+            "last_repair_at": "2026-10-16T08:00:00Z",
+            "last_repair_id": "MNT-0305-032",
+            "assessment": "candidate",
+            "operator_notes": "[{\"note_id\": \"CTX-0305-004\", \"date\": \"2027-01-11T15:20:00Z\", \"quote\": \"Pumper reports rattling at WELL-0305 pump jack, keep an eye on it.\"}]",
+            "rank": 3,
+            "other_warning_signs": "No additional deterministic warning established",
+            "area_id": "NW-12"
+          }
+        ],
+        "evidence_ids": [
+          "ev_038c94ae2102a687f08dd299",
+          "ev_9e6d0aae585dddeb66499ce0",
+          "ev_b81e2161baeb581a10f44d03",
+          "ev_36f2b2dc10b914ab17e6f607",
+          "ev_b883809bc32b7bf9199bab55",
+          "ev_42ce85f613d83110733422fd",
+          "ev_edfc23f92558a2ee31e5ae6e",
+          "ev_206d45edd557b98a1a58e3b7",
+          "result_50249fe45b2a4079805f37620e9d85ad",
+          "ev_aecf97d98f933acd7a482eef",
+          "ev_c9b8d1ebd59b5d3a69529e84",
+          "ev_cb3aed5c2ece074989dbcc6e",
+          "ev_0d5517c9853842c8024013e4",
+          "ev_0a1b8121548a64d88c0ea2b2",
+          "ev_6a859e63d109c3d0f0e03741",
+          "ev_799ceffd75291e63b7dc0b05",
+          "ev_08270ebc000df4f1f5db64f1",
+          "ev_a4f4cbab2ed8a1770afbcf5b",
+          "ev_01bee50ad442b51e6cf7ce16",
+          "ev_18b1580940f38e53e7490b80",
+          "ev_67e77baa0500a5c92027e0fd",
+          "ev_c19075f5e8c39360ddd0bbfc",
+          "ev_23995bcdffc8d7c1fcfbca3a",
+          "ev_7cabe3fb75e0c725bfc05296"
+        ],
+        "provider_coverage": {
+          "unit": "repair_candidates",
+          "matching": 3,
+          "evaluated": 3,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 3,
+          "output_rows": 3,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_f2ebaf7c9e9f42648c67ed2bd85729a2",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented."
+        ],
+        "bounds": {
+          "start": null,
+          "end": null,
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "maintenance",
+          "metric": "repair_candidates"
+        },
+        "summary": {
+          "total_matching": 3,
+          "assessment_counts": {
+            "candidate": 3
+          },
+          "area_counts": {
+            "Southwest Block 23": 1,
+            "Northwest Block 12": 2
+          }
+        },
+        "assessment_counts": {
+          "candidate": 3
+        },
+        "coverage": {
+          "matching": 3,
+          "evaluated": 3,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_038c94ae2102a687f08dd299": {
+        "id": "ev_038c94ae2102a687f08dd299",
+        "title": "WELL-0263",
+        "source_kind": "metadata",
+        "source_id": "src_1c75a10d9e027c44ad0cfe8c",
+        "excerpt": "{\"area_id\": \"SW-23\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0263\", \"equipment\": [{\"equipment_id\": \"WELL-0263-WH\", \"kind\": \"wellhead\", \"model\": \"WH-5000\"}, {\"equipment_id\": \"WELL-0263-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-456\"}, {\"equipment_id\": \"WELL-0263-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0263-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0263-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}], \"in_charge_user_id\": \"U-101\", \"installed_on\": \"2012-01-09\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T10:45:00Z\", \"inspection_id\": \"INS-0263-0219\", \"inspector_user_id\": \"U-103\"}, \"location\": {\"lat\": 31.8333, \"lon\": -102.53894}, \"name\": \"SW-23 Well 263\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-SW\", \"well_type\": \"T350\"}",
+        "path": "assets/WELL-0263/metadata.json"
+      },
+      "ev_9e6d0aae585dddeb66499ce0": {
+        "id": "ev_9e6d0aae585dddeb66499ce0",
+        "title": "CTX-0263-004",
+        "source_kind": "context",
+        "source_id": "src_600ec0476f3bd90a4d20f3e7",
+        "excerpt": "{\"asset_id\": \"WELL-0263\", \"author_user_id\": \"U-104\", \"created_at\": \"2027-01-11T07:20:00Z\", \"note_id\": \"CTX-0263-004\", \"note_type\": \"operator_note\", \"text\": \"Heard fluid pound on WELL-0263, unit still running.\", \"valid_from\": \"2027-01-11\", \"valid_to\": null}",
+        "path": "assets/WELL-0263/context.jsonl"
+      },
+      "ev_b81e2161baeb581a10f44d03": {
+        "id": "ev_b81e2161baeb581a10f44d03",
+        "title": "CTX-0263-005",
+        "source_kind": "context",
+        "source_id": "src_600ec0476f3bd90a4d20f3e7",
+        "excerpt": "{\"asset_id\": \"WELL-0263\", \"author_user_id\": \"U-104\", \"created_at\": \"2027-01-14T10:45:00Z\", \"note_id\": \"CTX-0263-005\", \"note_type\": \"operator_note\", \"text\": \"Rod squeal at WELL-0263 stuffing box, greased the polished rod.\", \"valid_from\": \"2027-01-14\", \"valid_to\": null}",
+        "path": "assets/WELL-0263/context.jsonl"
+      },
+      "ev_36f2b2dc10b914ab17e6f607": {
+        "id": "ev_36f2b2dc10b914ab17e6f607",
+        "title": "MNT-0263-035",
+        "source_kind": "maintenance",
+        "source_id": "src_eb2bcbf0705db2f921b7a262",
+        "excerpt": "{\"action_taken\": \"Cut out and replaced the corroded flowline section\", \"asset_id\": \"WELL-0263\", \"completed_at\": \"2027-01-19T07:00:00Z\", \"contractor\": \"Tumbleweed Flowline Co.\", \"cost_usd\": {\"labor\": 2833, \"parts\": 3865, \"total\": 6698}, \"downtime_hours\": 239, \"equipment_kind\": \"flowline\", \"issue\": \"Flowline corrosion pinhole leak\", \"maintenance_id\": \"MNT-0263-035\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0263-035.md\", \"started_at\": \"2027-01-09T08:00:00Z\", \"technician_user_id\": \"U-303\", \"triggered_by_inspection_id\": \"INS-0263-0218\"}",
+        "path": "assets/WELL-0263/maintenance.jsonl"
+      },
+      "ev_b883809bc32b7bf9199bab55": {
+        "id": "ev_b883809bc32b7bf9199bab55",
+        "title": "INS-0263-0216",
+        "source_kind": "inspections",
+        "source_id": "src_4905a07485ed996443163eac",
+        "excerpt": "{\"ambient_temp_c\": 12.4, \"asset_id\": \"WELL-0263\", \"evidence_images\": [\"evidence/WELL-0263/2026-12-24_rgb.jpg\", \"evidence/WELL-0263/2026-12-24_thermal.jpg\"], \"inspected_at\": \"2026-12-24T11:15:00Z\", \"inspection_id\": \"INS-0263-0216\", \"inspector_user_id\": \"U-102\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.9}",
+        "path": "assets/WELL-0263/inspections.jsonl"
+      },
+      "ev_42ce85f613d83110733422fd": {
+        "id": "ev_42ce85f613d83110733422fd",
+        "title": "INS-0263-0217",
+        "source_kind": "inspections",
+        "source_id": "src_4905a07485ed996443163eac",
+        "excerpt": "{\"ambient_temp_c\": 9.6, \"asset_id\": \"WELL-0263\", \"evidence_images\": [\"evidence/WELL-0263/2026-12-31_rgb.jpg\", \"evidence/WELL-0263/2026-12-31_thermal.jpg\", \"evidence/WELL-0263/2026-12-31_spill_closeup.jpg\"], \"inspected_at\": \"2026-12-31T13:00:00Z\", \"inspection_id\": \"INS-0263-0217\", \"inspector_user_id\": \"U-102\", \"method\": \"drone\", \"notes\": \"Pooled fluid near flowline.\", \"spill_area_pct\": 1.7, \"spill_detected\": true, \"spill_est_volume_bbl\": 0.8, \"wellhead_temp_c\": 44.1}",
+        "path": "assets/WELL-0263/inspections.jsonl"
+      },
+      "ev_edfc23f92558a2ee31e5ae6e": {
+        "id": "ev_edfc23f92558a2ee31e5ae6e",
+        "title": "INS-0263-0218",
+        "source_kind": "inspections",
+        "source_id": "src_4905a07485ed996443163eac",
+        "excerpt": "{\"ambient_temp_c\": 11.7, \"asset_id\": \"WELL-0263\", \"evidence_images\": [\"evidence/WELL-0263/2027-01-07_rgb.jpg\", \"evidence/WELL-0263/2027-01-07_thermal.jpg\"], \"inspected_at\": \"2027-01-07T12:45:00Z\", \"inspection_id\": \"INS-0263-0218\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"Pump jack not moving.\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 19.9}",
+        "path": "assets/WELL-0263/inspections.jsonl"
+      },
+      "ev_206d45edd557b98a1a58e3b7": {
+        "id": "ev_206d45edd557b98a1a58e3b7",
+        "title": "INS-0263-0219",
+        "source_kind": "inspections",
+        "source_id": "src_4905a07485ed996443163eac",
+        "excerpt": "{\"ambient_temp_c\": 8.4, \"asset_id\": \"WELL-0263\", \"evidence_images\": [\"evidence/WELL-0263/2027-01-14_rgb.jpg\", \"evidence/WELL-0263/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T10:45:00Z\", \"inspection_id\": \"INS-0263-0219\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 12.4}",
+        "path": "assets/WELL-0263/inspections.jsonl"
+      },
+      "result_50249fe45b2a4079805f37620e9d85ad": {
+        "id": "result_50249fe45b2a4079805f37620e9d85ad",
+        "title": "result_50249fe45b2a4079805f37620e9d85ad",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_50249fe45b2a4079805f37620e9d85ad"
+      },
+      "ev_aecf97d98f933acd7a482eef": {
+        "id": "ev_aecf97d98f933acd7a482eef",
+        "title": "WELL-0428",
+        "source_kind": "metadata",
+        "source_id": "src_0a4c0beadb992dd4a0ff3647",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0428\", \"equipment\": [{\"equipment_id\": \"WELL-0428-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0428-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0428-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0428-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0428-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0428-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2014-08-23\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T15:15:00Z\", \"inspection_id\": \"INS-0428-0218\", \"inspector_user_id\": \"U-603\"}, \"location\": {\"lat\": 32.18661, \"lon\": -102.60426}, \"name\": \"NW-12 Well 428\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0428/metadata.json"
+      },
+      "ev_c9b8d1ebd59b5d3a69529e84": {
+        "id": "ev_c9b8d1ebd59b5d3a69529e84",
+        "title": "CTX-0428-002",
+        "source_kind": "context",
+        "source_id": "src_2ce67ed44a5d5993f93a9f3c",
+        "excerpt": "{\"asset_id\": \"WELL-0428\", \"author_user_id\": \"U-604\", \"created_at\": \"2027-01-01T16:55:00Z\", \"note_id\": \"CTX-0428-002\", \"note_type\": \"operator_note\", \"text\": \"Heard fluid pound on WELL-0428, unit still running.\", \"valid_from\": \"2027-01-01\", \"valid_to\": null}",
+        "path": "assets/WELL-0428/context.jsonl"
+      },
+      "ev_cb3aed5c2ece074989dbcc6e": {
+        "id": "ev_cb3aed5c2ece074989dbcc6e",
+        "title": "CTX-0428-003",
+        "source_kind": "context",
+        "source_id": "src_2ce67ed44a5d5993f93a9f3c",
+        "excerpt": "{\"asset_id\": \"WELL-0428\", \"author_user_id\": \"U-605\", \"created_at\": \"2027-01-06T11:10:00Z\", \"note_id\": \"CTX-0428-003\", \"note_type\": \"operator_note\", \"text\": \"Heard fluid pound on WELL-0428, unit still running.\", \"valid_from\": \"2027-01-06\", \"valid_to\": null}",
+        "path": "assets/WELL-0428/context.jsonl"
+      },
+      "ev_0d5517c9853842c8024013e4": {
+        "id": "ev_0d5517c9853842c8024013e4",
+        "title": "MNT-0428-022",
+        "source_kind": "maintenance",
+        "source_id": "src_fc86426bce84bc0b1d3106f7",
+        "excerpt": "{\"action_taken\": \"Pulled and replaced downhole pump\", \"asset_id\": \"WELL-0428\", \"completed_at\": \"2026-03-17T11:00:00Z\", \"contractor\": \"Sandstone Rod & Pump\", \"cost_usd\": {\"labor\": 9232, \"parts\": 17842, \"total\": 27074}, \"downtime_hours\": 243, \"equipment_kind\": \"downhole_pump\", \"issue\": \"Downhole pump stuck\", \"maintenance_id\": \"MNT-0428-022\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0428-022.md\", \"started_at\": \"2026-03-07T08:00:00Z\", \"technician_user_id\": \"U-302\", \"triggered_by_inspection_id\": \"INS-0428-0173\"}",
+        "path": "assets/WELL-0428/maintenance.jsonl"
+      },
+      "ev_0a1b8121548a64d88c0ea2b2": {
+        "id": "ev_0a1b8121548a64d88c0ea2b2",
+        "title": "INS-0428-0215",
+        "source_kind": "inspections",
+        "source_id": "src_30292896a9c5fb7a37cf99c8",
+        "excerpt": "{\"ambient_temp_c\": 11.8, \"asset_id\": \"WELL-0428\", \"evidence_images\": [\"evidence/WELL-0428/2026-12-24_rgb.jpg\", \"evidence/WELL-0428/2026-12-24_thermal.jpg\"], \"inspected_at\": \"2026-12-24T10:00:00Z\", \"inspection_id\": \"INS-0428-0215\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.6}",
+        "path": "assets/WELL-0428/inspections.jsonl"
+      },
+      "ev_6a859e63d109c3d0f0e03741": {
+        "id": "ev_6a859e63d109c3d0f0e03741",
+        "title": "INS-0428-0216",
+        "source_kind": "inspections",
+        "source_id": "src_30292896a9c5fb7a37cf99c8",
+        "excerpt": "{\"ambient_temp_c\": 6.2, \"asset_id\": \"WELL-0428\", \"evidence_images\": [\"evidence/WELL-0428/2026-12-31_rgb.jpg\", \"evidence/WELL-0428/2026-12-31_thermal.jpg\"], \"inspected_at\": \"2026-12-31T13:30:00Z\", \"inspection_id\": \"INS-0428-0216\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 36.7}",
+        "path": "assets/WELL-0428/inspections.jsonl"
+      },
+      "ev_799ceffd75291e63b7dc0b05": {
+        "id": "ev_799ceffd75291e63b7dc0b05",
+        "title": "INS-0428-0217",
+        "source_kind": "inspections",
+        "source_id": "src_30292896a9c5fb7a37cf99c8",
+        "excerpt": "{\"ambient_temp_c\": 6.3, \"asset_id\": \"WELL-0428\", \"evidence_images\": [\"evidence/WELL-0428/2027-01-07_rgb.jpg\", \"evidence/WELL-0428/2027-01-07_thermal.jpg\"], \"inspected_at\": \"2027-01-07T13:45:00Z\", \"inspection_id\": \"INS-0428-0217\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 38.5}",
+        "path": "assets/WELL-0428/inspections.jsonl"
+      },
+      "ev_08270ebc000df4f1f5db64f1": {
+        "id": "ev_08270ebc000df4f1f5db64f1",
+        "title": "INS-0428-0218",
+        "source_kind": "inspections",
+        "source_id": "src_30292896a9c5fb7a37cf99c8",
+        "excerpt": "{\"ambient_temp_c\": 6.6, \"asset_id\": \"WELL-0428\", \"evidence_images\": [\"evidence/WELL-0428/2027-01-14_rgb.jpg\", \"evidence/WELL-0428/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T15:15:00Z\", \"inspection_id\": \"INS-0428-0218\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 30.9}",
+        "path": "assets/WELL-0428/inspections.jsonl"
+      },
+      "ev_a4f4cbab2ed8a1770afbcf5b": {
+        "id": "ev_a4f4cbab2ed8a1770afbcf5b",
+        "title": "WELL-0305",
+        "source_kind": "metadata",
+        "source_id": "src_827164e72660ecb0547d8285",
+        "excerpt": "{\"area_id\": \"NW-12\", \"asset_category\": \"oil_well\", \"asset_id\": \"WELL-0305\", \"equipment\": [{\"equipment_id\": \"WELL-0305-WH\", \"kind\": \"wellhead\", \"model\": \"WH-3000\"}, {\"equipment_id\": \"WELL-0305-PJ\", \"kind\": \"pump_jack\", \"model\": \"PJ-228\"}, {\"equipment_id\": \"WELL-0305-RS\", \"kind\": \"rod_string\", \"model\": \"API Grade D 7/8 in\"}, {\"equipment_id\": \"WELL-0305-DP\", \"kind\": \"downhole_pump\", \"model\": \"Insert rod pump 1.75 in\"}, {\"equipment_id\": \"WELL-0305-FL\", \"kind\": \"flowline\", \"model\": \"3 in carbon steel\"}, {\"equipment_id\": \"WELL-0305-SP\", \"kind\": \"separator\", \"model\": \"2-phase vertical 24 in\"}], \"in_charge_user_id\": \"U-601\", \"installed_on\": \"2013-04-10\", \"last_inspection\": {\"inspected_at\": \"2027-01-14T09:45:00Z\", \"inspection_id\": \"INS-0305-0216\", \"inspector_user_id\": \"U-604\"}, \"location\": {\"lat\": 32.24355, \"lon\": -102.61501}, \"name\": \"NW-12 Well 305\", \"recorded_status\": \"active\", \"team_id\": \"TEAM-NW\", \"well_type\": \"T200\"}",
+        "path": "assets/WELL-0305/metadata.json"
+      },
+      "ev_01bee50ad442b51e6cf7ce16": {
+        "id": "ev_01bee50ad442b51e6cf7ce16",
+        "title": "CTX-0305-004",
+        "source_kind": "context",
+        "source_id": "src_f5a9fd97d067c429605d6b49",
+        "excerpt": "{\"asset_id\": \"WELL-0305\", \"author_user_id\": \"U-606\", \"created_at\": \"2027-01-11T15:20:00Z\", \"note_id\": \"CTX-0305-004\", \"note_type\": \"operator_note\", \"text\": \"Pumper reports rattling at WELL-0305 pump jack, keep an eye on it.\", \"valid_from\": \"2027-01-11\", \"valid_to\": null}",
+        "path": "assets/WELL-0305/context.jsonl"
+      },
+      "ev_18b1580940f38e53e7490b80": {
+        "id": "ev_18b1580940f38e53e7490b80",
+        "title": "MNT-0305-032",
+        "source_kind": "maintenance",
+        "source_id": "src_7df4d484c15db67e4cf5e8e4",
+        "excerpt": "{\"action_taken\": \"Pulled and replaced downhole pump\", \"asset_id\": \"WELL-0305\", \"completed_at\": \"2026-10-21T14:00:00Z\", \"contractor\": null, \"cost_usd\": {\"labor\": 7487, \"parts\": 17041, \"total\": 24528}, \"downtime_hours\": 126, \"equipment_kind\": \"downhole_pump\", \"issue\": \"Downhole pump stuck\", \"maintenance_id\": \"MNT-0305-032\", \"maintenance_type\": \"corrective\", \"report_file\": \"maintenance-reports/MNT-0305-032.md\", \"started_at\": \"2026-10-16T08:00:00Z\", \"technician_user_id\": \"U-303\", \"triggered_by_inspection_id\": \"INS-0305-0205\"}",
+        "path": "assets/WELL-0305/maintenance.jsonl"
+      },
+      "ev_67e77baa0500a5c92027e0fd": {
+        "id": "ev_67e77baa0500a5c92027e0fd",
+        "title": "INS-0305-0213",
+        "source_kind": "inspections",
+        "source_id": "src_f309ea7447e5255e291364b7",
+        "excerpt": "{\"ambient_temp_c\": 13.7, \"asset_id\": \"WELL-0305\", \"evidence_images\": [\"evidence/WELL-0305/2026-12-17_rgb.jpg\", \"evidence/WELL-0305/2026-12-17_thermal.jpg\"], \"inspected_at\": \"2026-12-17T07:30:00Z\", \"inspection_id\": \"INS-0305-0213\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 46.1}",
+        "path": "assets/WELL-0305/inspections.jsonl"
+      },
+      "ev_c19075f5e8c39360ddd0bbfc": {
+        "id": "ev_c19075f5e8c39360ddd0bbfc",
+        "title": "INS-0305-0214",
+        "source_kind": "inspections",
+        "source_id": "src_f309ea7447e5255e291364b7",
+        "excerpt": "{\"ambient_temp_c\": 11.4, \"asset_id\": \"WELL-0305\", \"evidence_images\": [\"evidence/WELL-0305/2026-12-24_rgb.jpg\", \"evidence/WELL-0305/2026-12-24_thermal.jpg\"], \"inspected_at\": \"2026-12-24T07:45:00Z\", \"inspection_id\": \"INS-0305-0214\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 35.8}",
+        "path": "assets/WELL-0305/inspections.jsonl"
+      },
+      "ev_23995bcdffc8d7c1fcfbca3a": {
+        "id": "ev_23995bcdffc8d7c1fcfbca3a",
+        "title": "INS-0305-0215",
+        "source_kind": "inspections",
+        "source_id": "src_f309ea7447e5255e291364b7",
+        "excerpt": "{\"ambient_temp_c\": 9.6, \"asset_id\": \"WELL-0305\", \"evidence_images\": [\"evidence/WELL-0305/2026-12-31_rgb.jpg\", \"evidence/WELL-0305/2026-12-31_thermal.jpg\"], \"inspected_at\": \"2026-12-31T08:30:00Z\", \"inspection_id\": \"INS-0305-0215\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 35.4}",
+        "path": "assets/WELL-0305/inspections.jsonl"
+      },
+      "ev_7cabe3fb75e0c725bfc05296": {
+        "id": "ev_7cabe3fb75e0c725bfc05296",
+        "title": "INS-0305-0216",
+        "source_kind": "inspections",
+        "source_id": "src_f309ea7447e5255e291364b7",
+        "excerpt": "{\"ambient_temp_c\": 10.1, \"asset_id\": \"WELL-0305\", \"evidence_images\": [\"evidence/WELL-0305/2027-01-14_rgb.jpg\", \"evidence/WELL-0305/2027-01-14_thermal.jpg\"], \"inspected_at\": \"2027-01-14T09:45:00Z\", \"inspection_id\": \"INS-0305-0216\", \"inspector_user_id\": \"U-604\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 36.8}",
+        "path": "assets/WELL-0305/inspections.jsonl"
+      },
+      "memory:cd9ad363-6ee1-4e24-ab7c-a9d6012222b3": {
+        "id": "memory:cd9ad363-6ee1-4e24-ab7c-a9d6012222b3",
+        "title": "Observation reported by Olivia Grant",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:cd9ad363-6ee1-4e24-ab7c-a9d6012222b3",
+        "excerpt": "The recalled pump on WELL-0577 was swapped as reported by Nathan, though physical inventory and official replacement records remain subject to documented maintenance closure rules. [unconfirmed]",
+        "author": "Olivia Grant",
+        "source_time": "2026-10-17T12:42:16.138600+00:00"
+      },
+      "memory:ea233e6c-8168-431d-99f3-840cdbc32f54": {
+        "id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:ea233e6c-8168-431d-99f3-840cdbc32f54",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:41:18.023296+00:00"
+      },
+      "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+        "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+        "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T12:08:59.713096+00:00"
+      },
+      "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+        "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "title": "Observation reported by Robert Hayes",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+        "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+        "author": "Robert Hayes",
+        "source_time": "2026-10-17T12:10:03.801319+00:00"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented.",
+      "The explanation is incomplete; the panels contain verified records."
+    ],
+    "sample": false,
+    "generation": {
+      "status": "partial",
+      "model": "gemini-3.5-flash-lite",
+      "live": false,
+      "verified_tool_data": true,
+      "explanation_error_code": "invalid_evidence_reference",
+      "retry_after": null,
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 5870,
+            "output_tokens": 366,
+            "total_tokens": 6236,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 814,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 5942,
+            "output_tokens": 1733,
+            "total_tokens": 7675,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 818,
+          "live": true
+        },
+        {
+          "stage": "grounding_repair",
+          "usage": {
+            "input_tokens": 5098,
+            "output_tokens": 261,
+            "total_tokens": 5359,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 821,
+          "live": true
+        }
+      ]
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 1428,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 822,
+      "short_term_cap": 1000,
+      "omitted_private": 0,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 1428,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 822,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1833,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 1,
+      "partial_evidence": true,
+      "token_fit_omitted": 6,
+      "content_cap": 5000
+    }
+  }
+}

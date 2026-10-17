@@ -1,0 +1,6 @@
+{
+  "cause": "Browser mock route replacement retained the first running response handler; explicit unroute required before terminal fixture registration.",
+  "observed": "Direct browser fetch still returned run_status running after adding a second handler. Running UI remained truthful with no false interruption.",
+  "model_generation_calls": 0,
+  "fix": "Test harness removes the exact old mock route before registering the terminal receipt."
+}

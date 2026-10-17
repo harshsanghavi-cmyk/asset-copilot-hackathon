@@ -1,0 +1,18 @@
+%% Proposed alternative only. Do not mix current Agent SDK and legacy V1 APIs.
+flowchart LR
+  U[Trusted user] --> R[Per-user stateful agent routing]
+  R --> A[Letta style agent loop<br/>bounded by application]
+  CORE[Always-loaded core<br/>read-only persona and policy] --> A
+  A <-->|selective reads| MEM[(Private archive and entity receipts)]
+  A --> TOOLS[Domain tool gateway]
+  TOOLS --> D[(Immutable records and documents)]
+  TOOLS --> K[(Shared correction and rule ledger)]
+  TOOLS --> S[Exact result sets and provenance]
+  S --> A
+  A --> VAL[Local answer validation]
+  VAL --> UI[Inline narrative and panels]
+  A --> BG[Optional background memory consolidation]
+  BG --> MEM
+  NOTE[Current SDK uses MemFS system files<br/>legacy V1 uses memory blocks and archive] -.-> CORE
+  NOTE -.-> MEM
+  WARN[Asset truth changes only through<br/>validated ledger writes] -.-> TOOLS

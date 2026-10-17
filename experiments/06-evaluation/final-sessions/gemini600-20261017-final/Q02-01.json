@@ -1,0 +1,170 @@
+{
+  "scenario": 2,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "4d3f7f21-b687-43a9-96dd-983476c53870",
+  "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+  "message_id": "e74e5f2b-1ac3-4205-909c-57f38a74f9ac",
+  "question": "Which well produced the most oil in 2026?",
+  "started_at": "2026-10-17T12:07:33.351217+00:00",
+  "status": "complete",
+  "file": "Q02-01.json",
+  "answer_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+  "error": null,
+  "panels": [],
+  "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+    "thread_id": "4d3f7f21-b687-43a9-96dd-983476c53870",
+    "user_id": "U-301",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 1,
+    "reference_date": "2027-01-15",
+    "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+    "blocks": [],
+    "results": {},
+    "evidence": {},
+    "warnings": [
+      "Private reference absent"
+    ],
+    "sample": false
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:07:41.081435+00:00",
+  "stages": [
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "06660439-d088-4104-b38e-757b99c2eac0",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "timestamp": "2026-10-17T12:07:33.452895+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "06660439-d088-4104-b38e-757b99c2eac0",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "timestamp": "2026-10-17T12:07:33.470272+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "431b6604-0722-47a3-a00d-c6d467d67bc7",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "timestamp": "2026-10-17T12:07:34.405903+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:351",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "started",
+      "timestamp": "2026-10-17T12:07:34.416621+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:07:34.915057+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:351",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "started",
+      "timestamp": "2026-10-17T12:07:34.919001+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:07:35.416094+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:351",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "started",
+      "timestamp": "2026-10-17T12:07:35.921505+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:07:36.418112+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:351",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:07:36.422024+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:07:36.422012+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:352",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "started",
+      "timestamp": "2026-10-17T12:07:36.687093+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:07:38.619222+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "quota:352",
+      "stage": "quota_wait",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:07:38.638970+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:07:38.638959+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "stage_id": "431b6604-0722-47a3-a00d-c6d467d67bc7",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "728f99b5-3614-4524-9acf-c285bb70b935",
+      "timestamp": "2026-10-17T12:07:40.569535+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    }
+  ]
+}

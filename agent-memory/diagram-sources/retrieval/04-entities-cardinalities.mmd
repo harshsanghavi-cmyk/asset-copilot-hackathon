@@ -1,0 +1,67 @@
+%% Proposed logical ER model; counts describe measured sample, not hardcoded schema limits.
+erDiagram
+    TEAM ||--o{ AREA : owns
+    TEAM ||--o{ PERSON : includes
+    AREA ||--o{ ASSET : contains
+    WELL_TYPE ||--o{ ASSET : classifies
+    PERSON ||--o{ ASSET : in_charge
+    ASSET ||--o{ EQUIPMENT : contains
+    ASSET ||--o{ INSPECTION : observed
+    ASSET ||--o{ MAINTENANCE : repaired
+    ASSET ||--o{ REGULATORY_EVENT : regulated
+    ASSET ||--o{ CONTEXT_NOTE : annotated
+    PERSON ||--o{ INSPECTION : inspected
+    PERSON ||--o{ MAINTENANCE : technician
+    PERSON ||--o{ CONTEXT_NOTE : authored
+    INSPECTION o|--o{ MAINTENANCE : triggers
+    INSPECTION o|--o{ REGULATORY_EVENT : related
+    INSPECTION o|--o{ CONTEXT_NOTE : correction_target
+    MAINTENANCE }o--o| SOURCE_DOCUMENT : report_link
+    SOURCE_DOCUMENT ||--o{ SOURCE_SPAN : contains
+    SOURCE_SPAN }o--o{ REPORT_FACT : supports
+    SOURCE_SPAN }o--o{ RULE_DEFINITION : supports
+    WELL_TYPE }o--o{ RULE_DEFINITION : applies_or_inherits
+    PERSON ||--o{ KNOWLEDGE_EVENT : authors
+    KNOWLEDGE_EVENT }o--o{ INSPECTION : corrects
+    KNOWLEDGE_EVENT }o--o{ RULE_DEFINITION : overrides_scoped_predicate
+    KNOWLEDGE_EVENT ||--o{ EFFECTIVE_FIELD : projects
+    INSPECTION ||--o{ EFFECTIVE_FIELD : resolves
+    IMPORT_BATCH ||--o{ SOURCE_DOCUMENT : versions
+    IMPORT_BATCH ||--o{ SOURCE_RECORD : versions
+    ASSET {
+        string asset_id PK
+        string well_type FK
+        string area_id FK
+        string team_id FK
+        string in_charge_user_id FK
+    }
+    INSPECTION {
+        string inspection_id PK
+        string asset_id FK
+        timestamp inspected_at
+        decimal raw_thermal_values
+        boolean raw_spill_detection
+    }
+    MAINTENANCE {
+        string maintenance_id PK
+        string asset_id FK
+        string triggered_inspection_id FK
+        string report_file
+        timestamp started_at
+        decimal cost
+    }
+    SOURCE_SPAN {
+        string source_hash
+        string section_or_record_id
+        int byte_start
+        int byte_end
+    }
+    KNOWLEDGE_EVENT {
+        string event_id PK
+        int knowledge_revision
+        string target_field_or_rule
+        string author_id FK
+        timestamp recorded_at
+        string validity_and_scope
+        string reason_and_status
+    }

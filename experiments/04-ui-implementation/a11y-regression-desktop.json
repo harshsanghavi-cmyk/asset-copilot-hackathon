@@ -1,0 +1,121 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 32,
+      "incomplete": 1,
+      "passes": 28,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 27,
+        "nodes": [
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<strong>Evidence, connected.</strong>",
+            "target": [
+              "aside > .sidebar-bottom > .workspace-note > strong"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>Records, rules, and context.<br>One clear view of your assets.</p>",
+            "target": [
+              "aside > .sidebar-bottom > .workspace-note > p"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span class=\"header-breadcrumb\">Workspace<span>/</span></span>",
+            "target": [
+              ".header-breadcrumb"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<strong>North field review</strong>",
+            "target": [
+              ".header-leading > strong"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<strong>Asset Copilot</strong>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-heading > strong"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span>Sample workspace</span>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-heading > span:nth-child(3)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>Here is a sample view of the latest asset observations, with the supporting records connected to every panel.</p>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-body > .answer-narrative > p:nth-child(1)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<p>Two sample assets meet the illustrative operating threshold. One is below it, and one has no temperature measurement. Missing evidence stays unknown rather than becoming zero.</p>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-body > .answer-narrative > p:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span>As of 2026-10-16</span>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-body > .answer-dashboard[data-knowledge-revision=\"1\"] > .answer-scope > .scope-stamps > span:nth-child(2)"
+            ]
+          },
+          {
+            "failureSummary": "Fix any of the following:\n  Element's background color could not be determined due to a background gradient",
+            "html": "<span title=\"This answer is pinned to this knowledge revision. Ask again to refresh.\">Snapshot \u00b7 knowledge v1</span>",
+            "target": [
+              ".assistant:nth-child(2) > .assistant-body > .answer-dashboard[data-knowledge-revision=\"1\"] > .answer-scope > .scope-stamps > span:nth-child(3)"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 16228916338243421459
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:5190/",
+    "violations": []
+  },
+  "error": null
+}

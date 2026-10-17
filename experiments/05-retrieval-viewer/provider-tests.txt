@@ -1,0 +1,24 @@
+test_actual_walkthrough_values_are_source_backed (backend.retrieval.test_provider.FullSampleTests.test_actual_walkthrough_values_are_source_backed) ... ok
+test_complete_containment_and_unknowns (backend.retrieval.test_provider.FullSampleTests.test_complete_containment_and_unknowns) ... ok
+test_compliance_deadlines_and_corrected_classification (backend.retrieval.test_provider.FullSampleTests.test_compliance_deadlines_and_corrected_classification) ... ok
+test_exact_downtime_and_spill_corrections (backend.retrieval.test_provider.FullSampleTests.test_exact_downtime_and_spill_corrections) ... ok
+test_lexical_search_preserves_spans_and_caps (backend.retrieval.test_provider.FullSampleTests.test_lexical_search_preserves_spans_and_caps) ... ok
+test_original_source_cardinalities_and_links (backend.retrieval.test_provider.FullSampleTests.test_original_source_cardinalities_and_links) ... ok
+test_rankings_heatmap_and_costs_use_complete_population (backend.retrieval.test_provider.FullSampleTests.test_rankings_heatmap_and_costs_use_complete_population) ... ok
+test_requested_temperature_and_map_columns_are_bindable (backend.retrieval.test_provider.FullSampleTests.test_requested_temperature_and_map_columns_are_bindable) ... ok
+test_scoped_rca_override_and_temperature_correction (backend.retrieval.test_provider.FullSampleTests.test_scoped_rca_override_and_temperature_correction) ... ok
+test_zero_bins_breach_filter_and_user_report_query (backend.retrieval.test_provider.FullSampleTests.test_zero_bins_breach_filter_and_user_report_query) ... ok
+test_canonical_correction_changes_effective_not_original (backend.retrieval.test_provider.ProviderContractTests.test_canonical_correction_changes_effective_not_original) ... ok
+test_collection_count_semantics_do_not_substitute_inspection_rows (backend.retrieval.test_provider.ProviderContractTests.test_collection_count_semantics_do_not_substitute_inspection_rows) ... ok
+test_cross_asset_correction_is_quarantined (backend.retrieval.test_provider.ProviderContractTests.test_cross_asset_correction_is_quarantined) ... ok
+test_indexed_citation_lookup_and_durable_lineage (backend.retrieval.test_provider.ProviderContractTests.test_indexed_citation_lookup_and_durable_lineage) ... ok
+test_limits_scope_and_raw_sql_are_rejected (backend.retrieval.test_provider.ProviderContractTests.test_limits_scope_and_raw_sql_are_rejected) ... ok
+test_missing_required_spill_volume_is_unknown_not_complete (backend.retrieval.test_provider.ProviderContractTests.test_missing_required_spill_volume_is_unknown_not_complete) ... ok
+test_ordinary_claim_does_not_change_measurement (backend.retrieval.test_provider.ProviderContractTests.test_ordinary_claim_does_not_change_measurement) ... ok
+test_same_source_import_is_idempotent (backend.retrieval.test_provider.ProviderContractTests.test_same_source_import_is_idempotent) ... ok
+test_unknown_outside_presentation_page_remains_partial (backend.retrieval.test_provider.ProviderContractTests.test_unknown_outside_presentation_page_remains_partial) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 4.594s
+
+OK

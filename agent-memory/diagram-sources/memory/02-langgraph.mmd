@@ -1,0 +1,21 @@
+%% Proposed alternative only. LangGraph does not create authorization by itself.
+flowchart LR
+  U[Trusted user and thread owner] --> L[Load scoped context]
+  L --> P[Plan node]
+  P --> T[Typed tools node]
+  T --> C[Compose node]
+  C --> V[Validate node]
+  V --> O[Validated response blocks]
+  V -->|one formatting retry| C
+  CP[(Durable thread checkpoints)] -.-> L
+  T -.-> CP
+  O --> CP
+  NS[(User-scoped long-term store<br/>entity receipts and useful facts)] --> L
+  O --> NS
+  T --> X[Exact data and evidence gateway]
+  K[(Shared structured ledger<br/>corrections claims type rules)] --> X
+  O --> S[Compaction node<br/>10 exchanges or overflow]
+  S --> CP
+  B[Server authorization<br/>step caps and idempotency] -.-> L
+  B -.-> T
+  B -.-> NS

@@ -1,0 +1,38 @@
+%% Proposed sequence. Explicit saves are synchronous; optional indexes may lag.
+sequenceDiagram
+  actor A as User A / Jake
+  participant GW as Trusted knowledge gateway
+  participant SQL as Canonical ledger and source registry
+  participant IDX as Optional shared index
+  actor B as User B / Michael
+  participant QA as Bounded question workflow
+  participant UI as Inline answer
+
+  A->>GW: Remember WELL-0007 planned work from 17 Oct for about ten days
+  GW->>GW: Resolve subject, shared audience, plan kind, source and approximate period
+  Note over GW,SQL: Preserve only the minimal domain assertion; private chat stays private
+  GW->>SQL: Validate and commit claim, receipt, revision R+1 and outbox atomically
+  SQL-->>GW: Durable claim ID and R+1
+  GW-->>A: Saved shared plan with author and period
+  SQL-->>IDX: Outbox projects sourced claim asynchronously
+
+  B->>QA: Is any downtime planned for WELL-0007?
+  QA->>GW: Trusted B context, subject and explicit reference date
+  GW->>SQL: Read committed head R+1, exact shared subject plans and conflicts
+  GW->>SQL: Load only B private capsule and entity receipts
+  SQL-->>GW: Jake plan, applicable evidence and B own memory
+  opt Semantic expansion is useful
+    GW->>IDX: Authorized search with source scope and watermark
+    IDX-->>GW: Candidates plus indexed-through revision
+    GW->>SQL: Revalidate claims and union canonical deltas if index lags
+  end
+  GW-->>QA: B own context plus shared plan and evidence at R+1
+  QA->>SQL: Persist one validated answer snapshot
+  QA-->>UI: About ten days from 17 Oct, according to Jake
+  Note over A,B: The shared claim is read once from shared storage, never copied from A private memory
+
+  B->>QA: The three wells we discussed yesterday?
+  QA->>GW: Resolve exact entity sets owned by B
+  GW->>SQL: B history only; no fallback to A history
+  SQL-->>GW: Absent if B has no such conversation
+  QA-->>UI: Request the well IDs; do not inherit A discussion set

@@ -1,0 +1,130 @@
+{
+  "scenario": 9,
+  "turn": 1,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "9de55a02-caa5-41fb-b98e-4d3e6211066b",
+  "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+  "question": "How many recalled pumps are still in the ground, and in which areas?",
+  "started_at": "2026-10-17T12:00:53.599711+00:00",
+  "status": "error",
+  "file": "Q09-01.json",
+  "answer_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+  "error": {
+    "code": "provider_error",
+    "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+  },
+  "panels": [],
+  "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:01:14.825215+00:00",
+  "stages": [
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "2663dd50-0c90-46ef-826c-ce2f0af12447",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "timestamp": "2026-10-17T12:00:53.615942+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "2663dd50-0c90-46ef-826c-ce2f0af12447",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "timestamp": "2026-10-17T12:00:53.631638+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "a4a4b6cd-b7d2-410b-84a5-b81907728485",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "timestamp": "2026-10-17T12:00:53.643553+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "quota:328",
+      "stage": "quota_wait",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "status": "started",
+      "timestamp": "2026-10-17T12:00:53.652587+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:00:54.343516+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "quota:328",
+      "stage": "quota_wait",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:00:54.347555+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:00:54.347538+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "quota:329",
+      "stage": "quota_wait",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "status": "started",
+      "timestamp": "2026-10-17T12:00:54.617353+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:01:13.263863+00:00",
+      "reason": "input_token_limit",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "quota:329",
+      "stage": "quota_wait",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:01:13.270516+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:01:13.270476+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "stage_id": "a4a4b6cd-b7d2-410b-84a5-b81907728485",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "timestamp": "2026-10-17T12:01:14.312169+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "success": true,
+  "data": {
+    "axeVersion": "4.12.1",
+    "counts": {
+      "inapplicable": 30,
+      "incomplete": 2,
+      "passes": 29,
+      "violations": 0
+    },
+    "incomplete": [
+      {
+        "help": "Elements must only use permitted ARIA attributes",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/aria-prohibited-attr?application=axeAPI",
+        "id": "aria-prohibited-attr",
+        "impact": "serious",
+        "nodeCount": 2,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute.",
+            "html": "<div class=\"map-legend\" aria-label=\"Production status legend\"><span><i class=\"positive\"></i>Producing</span><span><i class=\"warning\"></i>Not producing</span></div>",
+            "target": [
+              ".span-2.analytic-panel[aria-label=\"Asset Coordinates\"] > .panel-content > .asset-map-wrap > .map-legend[aria-label=\"Production status legend\"]"
+            ]
+          },
+          {
+            "failureSummary": "Fix all of the following:\n  aria-label attribute is not well supported on a div with no valid role attribute.",
+            "html": "<div class=\"map-legend\" aria-label=\"Production status legend\"><span><i class=\"positive\"></i>Producing</span><span><i class=\"warning\"></i>Not producing</span></div>",
+            "target": [
+              ".span-1.analytic-panel[aria-label=\"Asset Coordinates\"] > .panel-content > .asset-map-wrap > .map-legend[aria-label=\"Production status legend\"]"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag412",
+          "EN-301-549",
+          "EN-9.4.1.2",
+          "RGAAv4",
+          "RGAA-7.1.1"
+        ]
+      },
+      {
+        "help": "Elements must meet minimum color contrast ratio thresholds",
+        "helpUrl": "https://dequeuniversity.com/rules/axe/4.12/color-contrast?application=axeAPI",
+        "id": "color-contrast",
+        "impact": "serious",
+        "nodeCount": 1,
+        "nodes": [
+          {
+            "failureSummary": "Fix all of the following:\n  Axe encountered an error; test the page for this type of problem manually",
+            "html": "<span>Asset Id</span>",
+            "target": [
+              ".span-2.analytic-panel[aria-label=\"Asset Status and Location\"] > .panel-content > .result-table > .ant-table-wrapper.ant-table-css-var.css-var-_r_0_ > .ant-spin.css-var-_r_0_[aria-live=\"polite\"] > .ant-spin-container > .ant-table.ant-table-small.ant-table-fix-start-shadow > .ant-table-container > .ant-table-content > table > thead > tr > th:nth-child(1) > .ant-table-column-sorters > .ant-table-column-title > span"
+            ]
+          }
+        ],
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143",
+          "TTv5",
+          "TT13.c",
+          "EN-301-549",
+          "EN-9.1.4.3",
+          "ACT",
+          "RGAAv4",
+          "RGAA-3.2.1"
+        ]
+      }
+    ],
+    "lifecycle": {
+      "effectiveLaunch": {
+        "browserLaunched": true,
+        "engine": "chrome",
+        "launchHash": 16228916338243421459
+      },
+      "launched": false,
+      "relaunchedBrowser": false,
+      "restartedBackground": false,
+      "restoreStatus": "not_configured",
+      "reused": true,
+      "saveStatus": "not_attempted"
+    },
+    "url": "http://localhost:5192/",
+    "violations": []
+  },
+  "error": null
+}

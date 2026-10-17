@@ -1,0 +1,12 @@
+{
+  "run": "all11-final-accepted",
+  "scenarios": 11,
+  "replies": 21,
+  "sessions": 14,
+  "delivery": {
+    "complete": 10,
+    "partial": 11
+  },
+  "fatal_request_errors": 0,
+  "semantic_accuracy": "Not established for the complete final batch; partials remain visible."
+}

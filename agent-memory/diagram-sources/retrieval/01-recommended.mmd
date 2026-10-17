@@ -1,0 +1,36 @@
+%% Current Gemma-4-31B-only proposal; main app not implemented. No alternate embeddings/rerankers.
+flowchart TB
+    subgraph Import["Proposed import — sample and held-out roots"]
+        Raw["Immutable JSON / JSONL / Markdown + source revision"] --> Validate["Validate schema, IDs, joins, duplicate hashes and report links"]
+        Validate --> Facts["SQLite normalized raw records + source spans"]
+        Validate --> Docs["Original report / manual / SOP sections"]
+        Docs --> Extract["Deterministic typed extraction; ambiguity stays visible"]
+        Extract --> ReportFacts["Versioned report facts + verification + exact spans"]
+        Docs --> FTS["FTS5 lexical section index"]
+        Extract -. "Unresolved prose only; proposed and unmeasured" .-> LLMExtract["Gemma 4 31B extraction candidate + local span validation"]
+        LLMExtract --> ReportFacts
+    end
+    Ledger["Shared corrections, attributed claims and scoped rules"] --> Effective["Effective values at pinned dataset / knowledge revision"]
+    Facts --> Effective
+    Rules["Typed rules citing original manuals / SOPs and inheritance"] --> Effective
+    Request["Trusted scope + explicit date bounds + typed query plan"] --> Gateway["Validated domain-tool gateway"]
+    Gateway --> Exact["Exact calculations over every matching effective row"]
+    Effective --> Exact
+    ReportFacts --> Exact
+    Gateway --> Retrieve["Direct record / report joins, rule lookup, then FTS"]
+    FTS --> Check["Deterministic lexical ranking + current-source validation"]
+    Check --> Retrieve
+    Request -. "Optional, proposed and unmeasured" .-> Expand["Gemma 4 31B query expansion; preserve exact filters"]
+    Expand --> FTS
+    Docs --> Retrieve
+    Exact --> Result["Immutable ResultSet + EvidenceRef + coverage"]
+    Retrieve --> Result
+    Result --> Context["Bounded evidence pack; full lineage available by ID"]
+    Context --> Compose["Gemma 4 31B explains and selects approved visual blocks"]
+    Budget["Temporary Google compatible route; shared maximum 30 RPM; local validation"] -. "All model calls" .-> Compose
+    Budget -.-> Expand
+    Budget -.-> LLMExtract
+    Result --> UI["UI reads exact result-set columns"]
+    Compose --> UI
+    Ledger --> Revision["Atomic knowledge revision + cache invalidation"]
+    Revision -. "Refresh affected answers and visual data" .-> Result

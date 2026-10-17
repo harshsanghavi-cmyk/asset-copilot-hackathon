@@ -1,0 +1,57 @@
+{
+  "model": "gemini-3.5-flash-lite",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "evaluation_status": "draft_target_not_met",
+  "turns": [
+    {
+      "turn": "Q01-01",
+      "profile": "Michael Turner",
+      "session_id": "1d8d9b1b-44e8-4909-b5da-efc01217b0ee",
+      "status": "complete",
+      "json": "Q01-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q02-01",
+      "profile": "Robert Hayes",
+      "session_id": "ce37909d-91df-4ec7-8ccb-aea2d92a6ea4",
+      "status": "complete",
+      "json": "Q02-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q03-01",
+      "profile": "Laura Simmons",
+      "session_id": "a37f0580-1ab8-4198-ac8a-3b14bb583bd1",
+      "status": "complete",
+      "json": "Q03-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q04-01",
+      "profile": "Chris Dalton",
+      "session_id": "06fe7239-225e-4eef-bec0-ba27d998ac2f",
+      "status": "complete",
+      "json": "Q04-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q05-01",
+      "profile": "Michael Turner",
+      "session_id": "ec106afe-423c-4c91-950b-331cfde9e8af",
+      "status": "complete",
+      "json": "Q05-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q06-01",
+      "profile": "Nathan Pierce",
+      "session_id": "6b1f6be6-b48d-45ee-aba1-2a68a8126264",
+      "status": "complete",
+      "json": "Q06-01-ui-envelope.json"
+    },
+    {
+      "turn": "Q07-01",
+      "profile": "Robert Hayes",
+      "session_id": "1fe696d9-a1b9-4a04-b6e2-831390deebfb",
+      "status": "complete",
+      "json": "Q07-01-ui-envelope.json"
+    }
+  ]
+}

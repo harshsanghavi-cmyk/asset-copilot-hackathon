@@ -1,0 +1,105 @@
+{
+  "scenario": 10,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "4a88133f-1446-44ea-abc2-bf71a5d0c50a",
+  "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+  "message_id": "2243d4b5-f895-42b0-ac7f-d2b12e797822",
+  "question": "When a well stays shut in longer than the repair itself, what are we usually waiting on: parts, crews, contractors or weather? Break it down by area for jobs started in 2026, with the typical number of extra days, and tell me if any area stands out.",
+  "started_at": "2026-10-17T12:13:50.701856+00:00",
+  "status": "error",
+  "file": "Q10-01.json",
+  "answer_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+  "error": {
+    "code": "provider_error",
+    "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  "panels": [],
+  "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:13:55.391768+00:00",
+  "stages": [
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "5bac8307-546c-462c-8573-8b2ec0b078f6",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "timestamp": "2026-10-17T12:13:50.723505+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "5bac8307-546c-462c-8573-8b2ec0b078f6",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "timestamp": "2026-10-17T12:13:50.743400+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "fafc6bac-f004-4408-91bb-bdd15938e994",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "timestamp": "2026-10-17T12:13:50.762768+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "quota:495",
+      "stage": "quota_wait",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:51.052987+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:52.975966+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "quota:495",
+      "stage": "quota_wait",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:13:52.979044+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:13:52.979028+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "stage_id": "fafc6bac-f004-4408-91bb-bdd15938e994",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "19f212bb-64fc-4205-8cd1-c8d4f855dedc",
+      "timestamp": "2026-10-17T12:13:54.873907+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

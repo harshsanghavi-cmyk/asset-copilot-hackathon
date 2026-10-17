@@ -1,0 +1,9 @@
+input:
+  required:
+  - request
+  - trusted_context
+  - memory
+  - provider_catalog
+  - retrieved_context
+  optional: []
+prompt: planner.md

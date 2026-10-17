@@ -1,0 +1,17 @@
+{
+  "error_retry_without_duplicate_user": {
+    "passed": true
+  },
+  "honest_empty_results": {
+    "passed": true
+  },
+  "explicit_stop_no_late_facts": {
+    "passed": true
+  },
+  "bar_chart_renderer": {
+    "passed": true
+  },
+  "recorded_text_and_evidence_only": {
+    "passed": true
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "session_id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+  "user_id": "U-201",
+  "question": "Hello",
+  "sent_at_utc": "2026-10-17T10:27:08.310Z",
+  "observed_terminal_utc": "2026-10-17T10:28:05.462011+00:00",
+  "health": {
+    "model": "gemma-4-26b-a4b-it",
+    "model_provider": "google",
+    "model_generation_enabled": true
+  },
+  "observations": [
+    {
+      "header": "Asset CopilotResponse",
+      "origin": 1792232827088.3,
+      "stages": [
+        "Reading memory22 ms",
+        "Preparing response2.4 s",
+        "Receiving answer2 ms"
+      ],
+      "stop": false,
+      "text": "Hey Michael, good to see you. Which well or asset are we looking at today?"
+    }
+  ],
+  "final": {
+    "header": "Asset CopilotResponse",
+    "origin": 1792232827088.3,
+    "stages": [
+      "Reading memory22 ms",
+      "Preparing response2.4 s",
+      "Receiving answer2 ms"
+    ],
+    "stop": false,
+    "stored": {
+      "createdAt": "2026-10-17T10:27:08.315425+00:00",
+      "id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+      "messages": [
+        {
+          "createdAt": "2026-10-17T10:27:08.398459+00:00",
+          "id": "58ca9bea-509c-4af7-a618-0593cfa0a8fa",
+          "role": "user",
+          "runId": "a638610d-f000-47fc-b002-e77c0bf06066",
+          "runStatus": "complete",
+          "stages": [
+            {
+              "operation": "read_context",
+              "stage": "read_context",
+              "stage_id": "6650492e-7c0a-4f3e-a81c-01a2a6c6b519",
+              "started_at": "2026-10-17T10:27:08.418461+00:00",
+              "status": "completed",
+              "timestamp": "2026-10-17T10:27:08.440438+00:00",
+              "tool_name": "read_context"
+            },
+            {
+              "operation": "greeting",
+              "stage": "greeting",
+              "stage_id": "abfe0669-fd54-48a5-be78-18f81f5f6e50",
+              "started_at": "2026-10-17T10:27:08.449787+00:00",
+              "status": "completed",
+              "timestamp": "2026-10-17T10:27:10.800818+00:00"
+            }
+          ],
+          "status": "complete",
+          "text": "Hello"
+        },
+        {
+          "answer": {
+            "answer_id": "a638610d-f000-47fc-b002-e77c0bf06066",
+            "blocks": [],
+            "dataset_namespace": "asset-field",
+            "dataset_revision": "73efe30ac34f41cac36c031a3656e4b928bee4f2539eaee27e0ffb3329f3005e",
+            "evidence": {},
+            "knowledge_revision": 0,
+            "narrative": "Hey Michael, good to see you. Which well or asset are we looking at today?",
+            "reference_date": "2026-10-16",
+            "results": {},
+            "sample": false,
+            "schema_version": "1.0",
+            "thread_id": "b947223d-d4a6-49e9-8af2-3b6c45846100",
+            "user_id": "U-201",
+            "warnings": []
+          },
+          "createdAt": "2026-10-17T10:27:10.810626+00:00",
+          "id": "a638610d-f000-47fc-b002-e77c0bf06066:assistant",
+          "role": "assistant",
+          "runId": "a638610d-f000-47fc-b002-e77c0bf06066",
+          "stages": [
+            {
+              "operation": "read_context",
+              "stage": "read_context",
+              "stage_id": "6650492e-7c0a-4f3e-a81c-01a2a6c6b519",
+              "started_at": "2026-10-17T10:27:08.418461+00:00",
+              "status": "completed",
+              "timestamp": "2026-10-17T10:27:08.440438+00:00",
+              "tool_name": "read_context"
+            },
+            {
+              "operation": "greeting",
+              "stage": "greeting",
+              "stage_id": "abfe0669-fd54-48a5-be78-18f81f5f6e50",
+              "started_at": "2026-10-17T10:27:08.449787+00:00",
+              "status": "completed",
+              "timestamp": "2026-10-17T10:27:10.800818+00:00"
+            },
+            {
+              "stage": "receive_components",
+              "stage_id": "client-receive-a638610d-f000-47fc-b002-e77c0bf06066:dashboard",
+              "started_at": "2026-10-17T10:27:11.328Z",
+              "status": "completed",
+              "timestamp": "2026-10-17T10:27:11.330Z",
+              "tool_name": "answer_dashboard"
+            }
+          ],
+          "status": "complete",
+          "text": "Hey Michael, good to see you. Which well or asset are we looking at today?"
+        }
+      ],
+      "mode": "live",
+      "ownerId": "U-201",
+      "title": "Hello",
+      "titleSource": "server",
+      "updatedAt": "2026-10-17T10:27:10.810626+00:00"
+    },
+    "text": "Hey Michael, good to see you. Which well or asset are we looking at today?"
+  },
+  "automatic_retries": 0
+}

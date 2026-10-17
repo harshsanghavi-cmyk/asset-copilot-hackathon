@@ -1,0 +1,38 @@
+# Local configuration and generated files
+.env
+.env.*
+!.env.example
+__pycache__/
+.pytest_cache/
+.venv/
+*.egg-info/
+node_modules/
+dist/
+*.tsbuildinfo
+runtime/
+# Independent upstream clone; reproduce using scripts/clone-dataset.sh
+dataset/
+# Credentials, browser auth and runtime diagnostics
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.db
+*.log
+*.pid
+*.pem
+*.key
+.DS_Store
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.agent-browser/
+**/storage-state*.json
+**/auth-state*.json
+# Local provider/browser traces can contain private conversational metadata
+experiments/**/*network*.json
+experiments/**/*history*.json
+# Original organizer attachment stays local; source acquisition is documented
+/FlytBase AHC SWE Hackathon\#17Oct.docx

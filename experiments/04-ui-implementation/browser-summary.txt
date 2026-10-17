@@ -1,0 +1,26 @@
+{
+  "automatic_title_and_six_panels": {
+    "passed": true
+  },
+  "coordinated_selection_and_evidence": {
+    "passed": true
+  },
+  "map_keyboard_selection_and_evidence": {
+    "passed": true
+  },
+  "new_switch_reload": {
+    "passed": true
+  },
+  "history_search_and_rename": {
+    "passed": true
+  },
+  "confirmed_delete": {
+    "passed": true
+  },
+  "user_switch_cancels_and_isolates": {
+    "passed": true
+  },
+  "mobile_keyboard_and_reduced_motion": {
+    "passed": true
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "scenario": 4,
+  "turn": 1,
+  "user": "Chris Dalton",
+  "user_id": "U-402",
+  "session_id": "e6551f28-9ed2-4a4a-86a9-47db802527ea",
+  "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+  "message_id": "b1cb41d2-0e19-422f-8d2f-4708d56983d8",
+  "question": "Across all areas, which temporary flowline bypasses are in place right now, and is each one allowed? Also list any bypass, past or present, that stayed in after its approval ran out or was never approved at all.",
+  "started_at": "2026-10-17T12:13:38.524739+00:00",
+  "status": "error",
+  "file": "Q04-01.json",
+  "answer_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+  "error": {
+    "code": "provider_error",
+    "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  "panels": [],
+  "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:13:45.586525+00:00",
+  "stages": [
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "28e7d2e1-336f-4be6-a528-520b75d20036",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "timestamp": "2026-10-17T12:13:38.549670+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "28e7d2e1-336f-4be6-a528-520b75d20036",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "timestamp": "2026-10-17T12:13:38.571412+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "quota:482",
+      "stage": "quota_wait",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:38.593595+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:39.089685+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "quota:482",
+      "stage": "quota_wait",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:39.596535+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:40.092732+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "quota:482",
+      "stage": "quota_wait",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:13:40.096435+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:13:40.096404+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "10165b6f-c134-4975-915f-b35720dbed2b",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "timestamp": "2026-10-17T12:13:40.637796+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "quota:485",
+      "stage": "quota_wait",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "status": "started",
+      "timestamp": "2026-10-17T12:13:40.936041+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:13:42.846583+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "quota:485",
+      "stage": "quota_wait",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:13:42.850599+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:13:42.850586+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "stage_id": "10165b6f-c134-4975-915f-b35720dbed2b",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "9c81f008-95b7-4302-8473-ef8d2701daeb",
+      "timestamp": "2026-10-17T12:13:45.068713+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

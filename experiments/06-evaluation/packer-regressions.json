@@ -1,0 +1,95 @@
+{
+  "Q1": {
+    "candidate_bytes": 7941,
+    "catalogs": 2,
+    "previews": [
+      [
+        1,
+        1
+      ],
+      [
+        10,
+        50
+      ]
+    ],
+    "sources": 9,
+    "protocols": []
+  },
+  "Q2": {
+    "candidate_bytes": 7970,
+    "catalogs": 1,
+    "previews": [
+      [
+        4,
+        4
+      ]
+    ],
+    "sources": 3,
+    "protocols": []
+  },
+  "Q3": {
+    "candidate_bytes": 7979,
+    "catalogs": 3,
+    "previews": [
+      [
+        7,
+        12
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        6,
+        32
+      ]
+    ],
+    "sources": 8,
+    "protocols": []
+  },
+  "Q9": {
+    "candidate_bytes": 5624,
+    "catalogs": 1,
+    "previews": [
+      [
+        5,
+        5
+      ]
+    ],
+    "sources": 11,
+    "protocols": [
+      "RC-04",
+      "SR-01",
+      "SR-02",
+      "SR-03"
+    ]
+  },
+  "Q12": {
+    "candidate_bytes": 7996,
+    "catalogs": 2,
+    "previews": [
+      [
+        3,
+        3
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "sources": 6,
+    "protocols": []
+  },
+  "Q18": {
+    "candidate_bytes": 7937,
+    "catalogs": 1,
+    "previews": [
+      [
+        1,
+        1
+      ]
+    ],
+    "sources": 4,
+    "protocols": []
+  }
+}

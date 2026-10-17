@@ -1,0 +1,463 @@
+{
+  "run_tag": "final600-20261017-1153",
+  "started_at": "2026-10-17T11:52:43.690590+00:00",
+  "status": "stopped_for_user_model_switch",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "parallel_chains": 2,
+  "sessions": [
+    {
+      "scenario": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Final Q01 \u00b7 Reservoir pressure",
+      "session_id": "98d7dc1f-bbdd-4ec6-ab81-0f1c89975f05"
+    },
+    {
+      "scenario": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Final Q02 \u00b7 Best producer",
+      "session_id": "5e51f1d0-3586-4196-afe8-27a2ee81b9ad"
+    },
+    {
+      "scenario": 3,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "title": "Final Q03 \u00b7 Gas reports",
+      "session_id": "75061a8f-126a-4cc9-a278-0b196d3c8eaa"
+    },
+    {
+      "scenario": 4,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "title": "Final Q04 \u00b7 Temporary bypasses",
+      "session_id": "81d85122-dc15-4196-a2d0-1630e40650e2"
+    },
+    {
+      "scenario": 5,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Final Q05 \u00b7 Regulator letter",
+      "session_id": "975ca51d-ac6b-4f23-bd20-382cf704bd82"
+    },
+    {
+      "scenario": 6,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Final Q06 \u00b7 Conflicting status",
+      "session_id": "771eb4eb-1c2f-4945-9383-2d118896a405"
+    },
+    {
+      "scenario": 7,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Final Q07 \u00b7 Repair priorities",
+      "session_id": "c41116c6-1ef7-4fd1-92dc-23a96aa4e5a5"
+    },
+    {
+      "scenario": 8,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Final Q08 \u00b7 Recall and attribution \u00b7 nathan-1",
+      "session_id": "5950834b-b688-4bb7-aff1-390aca097050"
+    },
+    {
+      "scenario": 8,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Final Q08 \u00b7 Recall and attribution \u00b7 robert",
+      "session_id": "9c239354-5b77-4abd-85c8-36de52d35c9f"
+    },
+    {
+      "scenario": 8,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "title": "Final Q08 \u00b7 Recall and attribution \u00b7 olivia",
+      "session_id": "ddeb8daf-e812-4abe-9c1c-8b4c38167c75"
+    },
+    {
+      "scenario": 8,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Final Q08 \u00b7 Recall and attribution \u00b7 nathan-2",
+      "session_id": "f212db3a-7ed4-4baf-9444-17e6cf78b968"
+    },
+    {
+      "scenario": 9,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Final Q09 \u00b7 Several topics",
+      "session_id": "9de55a02-caa5-41fb-b98e-4d3e6211066b"
+    },
+    {
+      "scenario": 10,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Final Q10 \u00b7 Repair waiting time",
+      "session_id": "efd9b382-28dd-42ff-9715-f77a9a284297"
+    },
+    {
+      "scenario": 11,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "title": "Final Q11 \u00b7 Hotter regions",
+      "session_id": "87cf49c7-6166-479f-9efd-31f61bb6abd1"
+    }
+  ],
+  "turns": [
+    {
+      "scenario": 1,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "98d7dc1f-bbdd-4ec6-ab81-0f1c89975f05",
+      "run_id": "2cce4474-695b-4dcd-a1ac-55cbda8f5190",
+      "question": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+      "started_at": "2026-10-17T11:52:46.398594+00:00",
+      "status": "complete",
+      "file": "Q01-01.json",
+      "answer_id": "2cce4474-695b-4dcd-a1ac-55cbda8f5190",
+      "error": null,
+      "panels": [],
+      "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:53:07.497118+00:00"
+    },
+    {
+      "scenario": 2,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "5e51f1d0-3586-4196-afe8-27a2ee81b9ad",
+      "run_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "question": "Which well produced the most oil in 2026?",
+      "started_at": "2026-10-17T11:52:46.399482+00:00",
+      "status": "complete",
+      "file": "Q02-01.json",
+      "answer_id": "7341b92f-c109-40a6-8a7f-5439ae654d58",
+      "error": null,
+      "panels": [],
+      "narrative": "I could not produce a supported data answer. Query unavailable: unsupported_operation: Latest status uses an as-of end date; use temperature_series for a period",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:53:09.337017+00:00"
+    },
+    {
+      "scenario": 3,
+      "turn": 1,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "session_id": "75061a8f-126a-4cc9-a278-0b196d3c8eaa",
+      "run_id": "f58a38ae-d8df-476a-9e72-84b9b9c0f9c7",
+      "question": "Since 1 Nov 2026, every time an operator note reports gas at a well, did we get someone out to that well in time under our operating procedures? List every report and whether the response met the deadline.",
+      "started_at": "2026-10-17T11:53:07.497932+00:00",
+      "status": "error",
+      "file": "Q03-01.json",
+      "answer_id": "f58a38ae-d8df-476a-9e72-84b9b9c0f9c7",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:54:28.766782+00:00"
+    },
+    {
+      "scenario": 4,
+      "turn": 1,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "session_id": "81d85122-dc15-4196-a2d0-1630e40650e2",
+      "run_id": "c6fdc9d1-cb78-45a2-a854-135a17dcb913",
+      "question": "Across all areas, which temporary flowline bypasses are in place right now, and is each one allowed? Also list any bypass, past or present, that stayed in after its approval ran out or was never approved at all.",
+      "started_at": "2026-10-17T11:53:09.338057+00:00",
+      "status": "error",
+      "file": "Q04-01.json",
+      "answer_id": "c6fdc9d1-cb78-45a2-a854-135a17dcb913",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:53:19.166740+00:00"
+    },
+    {
+      "scenario": 5,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "975ca51d-ac6b-4f23-bd20-382cf704bd82",
+      "run_id": "2cdcff67-4384-47f5-a6ee-324524478b6e",
+      "question": "The State Oil & Gas Commission wrote to us in November 2026 about spills. Which of our spills does the letter cover, and on which ones are we not compliant? Show me a table.",
+      "started_at": "2026-10-17T11:53:19.167516+00:00",
+      "status": "error",
+      "file": "Q05-01.json",
+      "answer_id": "2cdcff67-4384-47f5-a6ee-324524478b6e",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:53:23.710265+00:00"
+    },
+    {
+      "scenario": 6,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "771eb4eb-1c2f-4945-9383-2d118896a405",
+      "run_id": "60a17a58-6074-4502-83cf-6f672182233f",
+      "question": "Across the whole field, not just my area, for which wells do the latest inspection and the operator notes disagree about whether the well is producing oil? For each one, what is its real status right now, and why?",
+      "started_at": "2026-10-17T11:53:23.712227+00:00",
+      "status": "complete",
+      "file": "Q06-01.json",
+      "answer_id": "60a17a58-6074-4502-83cf-6f672182233f",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Two wells in the field show a disagreement between the latest inspection data and the recorded operator status regarding oil production [app:pages:4568154c-e6e4-4fc5-b4b0-4a06141d0605]. WELL-0010 is recorded as 'active' but the inspection found it is not producing (producing: false) [app:pages:4568154c-e6e4-4fc5-b4b0-4a06141d0605, row_index: 1]. WELL-0018 is recorded as 'down' but the inspection found it is producing (producing: true) [app:pages:4568154c-e6e4-4fc5-b4b0-4a06141d0605, row_index: 4]. The specific reasons for these status discrepancies are not recorded in the provided inspection notes [app:pages:4568154c-e6e4-4fc5-b4b0-4a06141d0605].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:55:35.232529+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "c41116c6-1ef7-4fd1-92dc-23a96aa4e5a5",
+      "run_id": "a3488dc3-faf8-4ffc-85d9-b19fca822f3c",
+      "question": "Over the last month the operators have written notes about wells that sound or behave wrong. Which of those wells haven't had a repair since? Rank the 10 most likely to need a repair in the next 90 days, other than a spill clean-up, and quote the notes as evidence.",
+      "started_at": "2026-10-17T11:54:28.769510+00:00",
+      "status": "error",
+      "file": "Q07-01.json",
+      "answer_id": "a3488dc3-faf8-4ffc-85d9-b19fca822f3c",
+      "error": {
+        "code": "run_failed",
+        "message": "The backend run failed; inspect server diagnostics without exposing credentials"
+      },
+      "panels": [],
+      "narrative": "'str' object has no attribute 'get'",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:55:51.682113+00:00"
+    },
+    {
+      "scenario": 10,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "efd9b382-28dd-42ff-9715-f77a9a284297",
+      "run_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "question": "When a well stays shut in longer than the repair itself, what are we usually waiting on: parts, crews, contractors or weather? Break it down by area for jobs started in 2026, with the typical number of extra days, and tell me if any area stands out.",
+      "started_at": "2026-10-17T11:55:35.258510+00:00",
+      "status": "error",
+      "file": "Q10-01.json",
+      "answer_id": "880d9d7c-6f70-45e6-a18d-116319b6f20b",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:55:38.972423+00:00"
+    },
+    {
+      "scenario": 11,
+      "turn": 1,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "session_id": "87cf49c7-6166-479f-9efd-31f61bb6abd1",
+      "run_id": "73c43d3c-eab0-4279-8c6f-bb73551019c4",
+      "question": "Which region of the field consistently runs hotter?",
+      "started_at": "2026-10-17T11:55:38.973396+00:00",
+      "status": "partial",
+      "file": "Q11-01.json",
+      "answer_id": "73c43d3c-eab0-4279-8c6f-bb73551019c4",
+      "error": null,
+      "panels": [
+        "table",
+        "table"
+      ],
+      "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:58:07.955182+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "c41116c6-1ef7-4fd1-92dc-23a96aa4e5a5",
+      "run_id": "7bdd074d-4075-4ebb-9ba6-60e2a1254c70",
+      "question": "Which three would you send a crew to first this week, and why?",
+      "started_at": "2026-10-17T11:55:51.683749+00:00",
+      "status": "complete",
+      "file": "Q07-02.json",
+      "answer_id": "7bdd074d-4075-4ebb-9ba6-60e2a1254c70",
+      "error": null,
+      "panels": [],
+      "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:56:48.623018+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "5950834b-b688-4bb7-aff1-390aca097050",
+      "run_id": "b883dbe1-42dc-43f8-969f-f111581940ef",
+      "question": "WELL-0333's recalled pump was swapped out yesterday. The work order isn't in the system yet. Please count it as replaced from now on.",
+      "started_at": "2026-10-17T11:56:48.624362+00:00",
+      "status": "partial",
+      "file": "Q08-01.json",
+      "answer_id": "b883dbe1-42dc-43f8-969f-f111581940ef",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:58:00.112463+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 2,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "5950834b-b688-4bb7-aff1-390aca097050",
+      "run_id": "461edf91-0ab6-4c75-a7a7-bc90dc1a14c6",
+      "question": "Also, just for me: whenever you list wells, sort them by area and then by well ID, and show costs in thousands of dollars.",
+      "started_at": "2026-10-17T11:58:00.115522+00:00",
+      "status": "complete",
+      "file": "Q08-02.json",
+      "answer_id": "461edf91-0ab6-4c75-a7a7-bc90dc1a14c6",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "The inspection results for Southwest Block 23 include 6 assets from the provided preview [result_23fd61c148404183b4219388a0775c9a]. Note that WELL-0002 is recorded as 'down' despite being marked as producing [result_23fd61c148404183b4219388a0775c9a]. An observation of pooled fluid near the flowline was recorded for WELL-0006 [result_23fd61c148404183b4219388a0775c9a]. Per user preference [memory:2868c56a-d0b7-408c-a839-e5bbbd01c829], wells are listed by area and ID; however, cost data is not present in the provided dataset and cannot be displayed in thousands of dollars.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T11:59:34.321576+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 3,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "9c239354-5b77-4abd-85c8-36de52d35c9f",
+      "run_id": "6c5b7f92-5af0-4dca-b009-d785b3c6fd41",
+      "question": "Which recalled pumps are still in the ground right now?",
+      "started_at": "2026-10-17T11:59:34.331190+00:00",
+      "status": "error",
+      "file": "Q08-03.json",
+      "answer_id": "6c5b7f92-5af0-4dca-b009-d785b3c6fd41",
+      "error": {
+        "code": "unsupported_narrative_number",
+        "message": "Narrative includes a numeric value absent from its visible evidence"
+      },
+      "panels": [],
+      "narrative": "Narrative includes a numeric value absent from its visible evidence",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:00:06.591443+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 4,
+      "user": "Olivia Grant",
+      "user_id": "U-501",
+      "session_id": "ddeb8daf-e812-4abe-9c1c-8b4c38167c75",
+      "run_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "question": "Nathan told me the recalled pump on WELL-0577 was swapped as well. Take it off the recall list.",
+      "started_at": "2026-10-17T12:00:06.592526+00:00",
+      "status": "error",
+      "file": "Q08-04.json",
+      "answer_id": "e77b57dc-47db-4076-a3f5-1f97e677e8ba",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:00:14.791702+00:00"
+    },
+    {
+      "scenario": 8,
+      "turn": 5,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "f212db3a-7ed4-4baf-9444-17e6cf78b968",
+      "run_id": "10c942a0-f17f-4777-b414-0b045fc075a9",
+      "question": "Show me the recalled pumps that are still in the ground in my area, and what it cost to install each one.",
+      "started_at": "2026-10-17T12:00:14.792805+00:00",
+      "status": "partial",
+      "file": "Q08-05.json",
+      "answer_id": "10c942a0-f17f-4777-b414-0b045fc075a9",
+      "error": null,
+      "panels": [],
+      "narrative": "I could not establish data for this selection. Please confirm the well and date range.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:00:53.597890+00:00"
+    },
+    {
+      "scenario": 9,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "9de55a02-caa5-41fb-b98e-4d3e6211066b",
+      "run_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "question": "How many recalled pumps are still in the ground, and in which areas?",
+      "started_at": "2026-10-17T12:00:53.599711+00:00",
+      "status": "error",
+      "file": "Q09-01.json",
+      "answer_id": "029179f7-c0a9-4b5b-831f-f039eeebc504",
+      "error": {
+        "code": "provider_error",
+        "message": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}"
+      },
+      "panels": [],
+      "narrative": "Gemma Google SDK request failed HTTP 500: 500 INTERNAL. {'error': {'code': 500, 'message': 'Internal error encountered.', 'status': 'INTERNAL'}}",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:01:14.825215+00:00"
+    },
+    {
+      "scenario": 9,
+      "turn": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "9de55a02-caa5-41fb-b98e-4d3e6211066b",
+      "run_id": "3caebee7-00b4-49e7-b983-f2f0567d43cf",
+      "question": "Different topic. Who leads Northwest Production, and how many wells does that team run?",
+      "started_at": "2026-10-17T12:01:14.826250+00:00",
+      "status": "interrupted_for_model_switch",
+      "file": "Q09-02.json"
+    }
+  ],
+  "boundary": "Actual serving API and app database; delivery is separate from semantic correctness.",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "stopped_at": "2026-10-17T12:01:47.335177+00:00",
+  "stop_reason": "User explicitly selected Gemini3.5FlashLite; no further Gemma batch turns authorized"
+}

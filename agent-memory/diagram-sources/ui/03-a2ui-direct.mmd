@@ -1,0 +1,12 @@
+%% Proposed alternative. A2UI describes UI; application still owns transport.
+flowchart LR
+  PY[Python chain and exact tools] --> RS[ResultSets and EvidenceRefs]
+  RS --> VP[Validated domain view plan]
+  VP --> A[Server A2UI v0.9.1 adapter]
+  A --> S[Application-owned SSE transport]
+  S --> L[Surface lifecycle and binding state]
+  L --> R[React A2UI renderer]
+  CAT[Bundled allowlisted domain catalog] --> R
+  R --> UI[Multi-panel surface with narrative and citations]
+  UI -->|allowlisted action intent| PY
+  CAT -. charts maps and citations require custom wrappers .-> VP

@@ -1,0 +1,270 @@
+{
+  "schema_version": "1.0",
+  "answer_id": "f1a1c8a8-2432-48ce-a4ad-314fd7ac284c",
+  "thread_id": "bc7841cb-e9d3-4d05-bbcd-3db33212d6c5",
+  "user_id": "U-301",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "knowledge_revision": 4,
+  "reference_date": "2027-01-15",
+  "narrative": "I could not establish data for this selection. Please confirm the well and date range.",
+  "blocks": [],
+  "results": {
+    "result_b34134dd0d324c3a95cd33a33f5d34c3": {
+      "result_set_id": "result_b34134dd0d324c3a95cd33a33f5d34c3",
+      "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+      "knowledge_revision": 4,
+      "columns": [
+        {
+          "key": "hours_to_response",
+          "label": "Hours To Response",
+          "unit": "hour"
+        },
+        {
+          "key": "deadline_hours",
+          "label": "Deadline Hours",
+          "unit": "hour"
+        },
+        {
+          "key": "installation_cost_usd",
+          "label": "Installation Cost Usd",
+          "unit": "USD"
+        },
+        {
+          "key": "spill_volume_bbl",
+          "label": "Spill Volume Bbl",
+          "unit": "bbl"
+        },
+        {
+          "key": "median_extra_days",
+          "label": "Median Extra Days",
+          "unit": "day"
+        },
+        {
+          "key": "share",
+          "label": "Share",
+          "unit": "fraction"
+        }
+      ],
+      "rows": [],
+      "evidence_ids": [],
+      "provider_coverage": {
+        "unit": "repair_candidates",
+        "matching": 0,
+        "evaluated": 0,
+        "unknown": 0,
+        "import_issues": 0,
+        "status": "complete",
+        "displayed_rows": 0,
+        "output_rows": 0,
+        "display_truncated": false,
+        "aggregation_input_truncated": false
+      },
+      "trace_id": "trace_2a8841bb6e774953a94fc955aab8c903",
+      "warnings": [
+        "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+        "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented."
+      ],
+      "bounds": {
+        "start": "2026-12-15",
+        "end": "2027-01-15",
+        "closure": "both"
+      },
+      "operation": {
+        "collection": "maintenance",
+        "metric": "repair_candidates"
+      },
+      "summary": {
+        "total_matching": 0,
+        "assessment_counts": {},
+        "area_counts": {}
+      },
+      "assessment_counts": {},
+      "coverage": {
+        "matching": 0,
+        "evaluated": 0,
+        "unknown": 0
+      }
+    }
+  },
+  "evidence": {
+    "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765": {
+      "id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+      "title": "Observation reported by Nathan Pierce",
+      "source_kind": "shared_knowledge",
+      "source_id": "memory:6f72ff2e-f14e-4db1-9d26-6e5b1f30b765",
+      "excerpt": "The recalled pump for WELL-0333 was swapped out on 2027-01-14, pending formal system documentation, and should be counted as replaced from now on. [unconfirmed]",
+      "author": "Nathan Pierce",
+      "source_time": "2026-10-17T12:08:59.713096+00:00"
+    },
+    "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba": {
+      "id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+      "title": "Observation reported by Robert Hayes",
+      "source_kind": "shared_knowledge",
+      "source_id": "memory:c6e55d28-edbf-4149-8dc8-f381d41eadba",
+      "excerpt": "An operator reported a gas smell at WELL-0332 on 3 Dec. [attributed]",
+      "author": "Robert Hayes",
+      "source_time": "2026-10-17T12:10:03.801319+00:00"
+    },
+    "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+      "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+      "title": "Observation reported by Nathan Pierce",
+      "source_kind": "shared_knowledge",
+      "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+      "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+      "author": "Nathan Pierce",
+      "source_time": "2026-10-17T11:57:27.997895+00:00"
+    },
+    "chunk_5b4a0db26231c41d176d66ec": {
+      "id": "chunk_5b4a0db26231c41d176d66ec",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_c42cf9bf86260c3066da8dbd",
+      "asset_id": "WELL-0001",
+      "excerpt": "- Check motor cooling on all pump jacks in this area before next summer.\n- Remind operators that a hot wellhead on a hot day does not mean the well is producing; compare with the air temperature.",
+      "path": "assets/WELL-0001/maintenance-reports/MNT-0001-july-2025-prime-mover.md"
+    },
+    "chunk_04f4ee612a7785630a0b8157": {
+      "id": "chunk_04f4ee612a7785630a0b8157",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_8cf5d28f396db06c9fdc8901",
+      "asset_id": "WELL-0578",
+      "excerpt": "- Add the separator controller to the quarterly checklist.",
+      "path": "assets/WELL-0578/maintenance-reports/MNT-0578-029.md"
+    },
+    "chunk_06354c4f1fb2627d00a04b17": {
+      "id": "chunk_06354c4f1fb2627d00a04b17",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_dd31ec6534dedd7c026ea63c",
+      "asset_id": "WELL-0247",
+      "excerpt": "- Check the penetrator at the next wellhead service.",
+      "path": "assets/WELL-0247/maintenance-reports/MNT-0247-030.md"
+    },
+    "chunk_06ce5714f2792fb454d1adab": {
+      "id": "chunk_06ce5714f2792fb454d1adab",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_10e3b04623306f993b30a945",
+      "asset_id": "WELL-0020",
+      "excerpt": "- Add the separator controller to the quarterly checklist.",
+      "path": "assets/WELL-0020/maintenance-reports/MNT-0020-018.md"
+    },
+    "chunk_06e6d4ab865b265b166770a5": {
+      "id": "chunk_06e6d4ab865b265b166770a5",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_d7e9f4eb8391a9c752282387",
+      "asset_id": "WELL-0546",
+      "excerpt": "- Check the penetrator at the next wellhead service.",
+      "path": "assets/WELL-0546/maintenance-reports/MNT-0546-024.md"
+    },
+    "chunk_0711b9af3dab9dc1b3029d3f": {
+      "id": "chunk_0711b9af3dab9dc1b3029d3f",
+      "title": "Notes and recommendations",
+      "source_kind": "report",
+      "source_id": "src_73e6cdba9c1192d08497a698",
+      "asset_id": "WELL-0498",
+      "excerpt": "- Check the penetrator at the next wellhead service.",
+      "path": "assets/WELL-0498/maintenance-reports/MNT-0498-022.md"
+    }
+  },
+  "warnings": [
+    "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+    "Candidate ranking is an explicit heuristic, not a predicted probability. Absence of a later recorded corrective repair does not prove no field action occurred; targeted manual warning checks are not exhaustively implemented.",
+    "Ranked lexical retrieval cannot prove a fleet total or source absence",
+    "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification",
+    "The explanation is incomplete; the panels contain verified records."
+  ],
+  "sample": false,
+  "data_state": "unknown",
+  "generation": {
+    "status": "partial",
+    "model": "gemini-3.5-flash-lite",
+    "live": false,
+    "verified_tool_data": false,
+    "explanation_error_code": "invalid_narrative_citation",
+    "retry_after": null,
+    "calls": [
+      {
+        "stage": "planner",
+        "usage": {
+          "input_tokens": 4793,
+          "output_tokens": 203,
+          "total_tokens": 4996,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 673,
+        "live": true
+      },
+      {
+        "stage": "maker",
+        "usage": {
+          "input_tokens": 3580,
+          "output_tokens": 351,
+          "total_tokens": 3931,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 680,
+        "live": true
+      },
+      {
+        "stage": "grounding_repair",
+        "usage": {
+          "input_tokens": 3471,
+          "output_tokens": 380,
+          "total_tokens": 3851,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 687,
+        "live": true
+      }
+    ]
+  },
+  "budget": {
+    "method": "google_sdk_countTokens",
+    "long_term": 1016,
+    "long_term_cap": 2000,
+    "long_term_byte_cap": 8000,
+    "short_term": 201,
+    "short_term_cap": 1000,
+    "omitted_private": 0,
+    "omitted_shared": 0,
+    "omitted_dialogue": 0,
+    "omitted_reference_handles": 0,
+    "slot_measurements": {
+      "long_term": {
+        "count": 1016,
+        "cap": 2000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      },
+      "short_term": {
+        "count": 201,
+        "cap": 1000,
+        "method": "google_sdk_countTokens",
+        "omitted_items": 0
+      }
+    },
+    "retrieved_context": 708,
+    "retrieved_cap": 2000,
+    "candidate_byte_cap": 8000,
+    "omitted_evidence_or_rows": 1,
+    "partial_evidence": true,
+    "token_fit_omitted": 0,
+    "content_cap": 5000
+  }
+}

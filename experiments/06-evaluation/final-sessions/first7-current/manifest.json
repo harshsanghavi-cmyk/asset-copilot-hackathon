@@ -1,0 +1,238 @@
+{
+  "run_tag": "first7-current",
+  "started_at": "2026-10-17T12:31:33.948991+00:00",
+  "status": "finished",
+  "dataset_namespace": "asset-field-test-2027-01-15",
+  "reference_date": "2027-01-15",
+  "expected_model": "gemini-3.5-flash-lite",
+  "parallel_chains": 2,
+  "sessions": [
+    {
+      "scenario": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Current Q01 · Reservoir pressure",
+      "session_id": "1d8d9b1b-44e8-4909-b5da-efc01217b0ee"
+    },
+    {
+      "scenario": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Current Q02 · Best producer",
+      "session_id": "ce37909d-91df-4ec7-8ccb-aea2d92a6ea4"
+    },
+    {
+      "scenario": 3,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "title": "Current Q03 · Gas reports",
+      "session_id": "a37f0580-1ab8-4198-ac8a-3b14bb583bd1"
+    },
+    {
+      "scenario": 4,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "title": "Current Q04 · Temporary bypasses",
+      "session_id": "06fe7239-225e-4eef-bec0-ba27d998ac2f"
+    },
+    {
+      "scenario": 5,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "title": "Current Q05 · Regulator letter",
+      "session_id": "ec106afe-423c-4c91-950b-331cfde9e8af"
+    },
+    {
+      "scenario": 6,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "title": "Current Q06 · Conflicting status",
+      "session_id": "6b1f6be6-b48d-45ee-aba1-2a68a8126264"
+    },
+    {
+      "scenario": 7,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "title": "Current Q07 · Repair priorities",
+      "session_id": "1fe696d9-a1b9-4a04-b6e2-831390deebfb"
+    }
+  ],
+  "turns": [
+    {
+      "scenario": 1,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "1d8d9b1b-44e8-4909-b5da-efc01217b0ee",
+      "run_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "message_id": "29464ebc-c6f7-467c-9a7f-e0526a823ec9",
+      "question": "All our wells feed one reservoir. Map the reservoir pressure across the field from the pressure data.",
+      "started_at": "2026-10-17T12:31:36.812314+00:00",
+      "status": "complete",
+      "file": "Q01-01.json",
+      "answer_id": "c2237832-3b1f-445c-b5b5-bf812e8c2a4d",
+      "error": null,
+      "panels": [],
+      "narrative": "The requested reservoir pressure mapping cannot be completed because no pressure data or results were provided in the evidence pack. Equipment ratings and pressure tests cannot answer measured reservoir pressure.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:31:53.686212+00:00"
+    },
+    {
+      "scenario": 2,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "ce37909d-91df-4ec7-8ccb-aea2d92a6ea4",
+      "run_id": "52d52457-6fe5-4435-add6-d2cb93a0b30b",
+      "message_id": "075a44d8-fe58-4540-96a6-351a0eaba3a2",
+      "question": "Which well produced the most oil in 2026?",
+      "started_at": "2026-10-17T12:31:36.812932+00:00",
+      "status": "complete",
+      "file": "Q02-01.json",
+      "answer_id": "52d52457-6fe5-4435-add6-d2cb93a0b30b",
+      "error": null,
+      "panels": [],
+      "narrative": "No production data or result catalog was provided in the evidence pack to determine which well produced the most oil in the requested annual period.",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:31:51.034182+00:00"
+    },
+    {
+      "scenario": 3,
+      "turn": 1,
+      "user": "Laura Simmons",
+      "user_id": "U-401",
+      "session_id": "a37f0580-1ab8-4198-ac8a-3b14bb583bd1",
+      "run_id": "872ea163-54ce-42e0-ac2f-68fb7097f4e4",
+      "message_id": "d5a57c30-06bf-486b-bf0d-004e898dc0c4",
+      "question": "Since 1 Nov 2026, every time an operator note reports gas at a well, did we get someone out to that well in time under our operating procedures? List every report and whether the response met the deadline.",
+      "started_at": "2026-10-17T12:31:51.035260+00:00",
+      "status": "complete",
+      "file": "Q03-01.json",
+      "answer_id": "872ea163-54ce-42e0-ac2f-68fb7097f4e4",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Since November 1, 2026, there are 26 total reported gas incidents across the field [result_f24b0e84af9b40c0881836654e739aa1]. Out of these, the response deadlines were met 17 times and missed 9 times [result_f24b0e84af9b40c0881836654e739aa1]. The preview displays the first 6 reports, such as WELL-0163 where the response was missed [result_f24b0e84af9b40c0881836654e739aa1] (row 0), and WELL-0149 where the response was met [result_f24b0e84af9b40c0881836654e739aa1] (row 1).",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:32:09.744500+00:00"
+    },
+    {
+      "scenario": 4,
+      "turn": 1,
+      "user": "Chris Dalton",
+      "user_id": "U-402",
+      "session_id": "06fe7239-225e-4eef-bec0-ba27d998ac2f",
+      "run_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "message_id": "0e9acab8-6765-443e-97db-02740b98493e",
+      "question": "Across all areas, which temporary flowline bypasses are in place right now, and is each one allowed? Also list any bypass, past or present, that stayed in after its approval ran out or was never approved at all.",
+      "started_at": "2026-10-17T12:31:53.687073+00:00",
+      "status": "complete",
+      "file": "Q04-01.json",
+      "answer_id": "5f32a15c-38a7-4eda-8367-49a0c843d58a",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Across all areas, there are 3 temporary flowline bypasses currently in place (out of 12 total past or present records) [result_a949c27d3c85431484d3eafce5a0c209]. For the currently active bypasses, WELL-0249 in Southeast Block 31 has an expired bypass assessment (MOC-2026-036 expired on 2026-12-15) and is counted as a violation [result_a949c27d3c85431484d3eafce5a0c209, src_b225e00c275a47ecd7c4ed16]. WELL-0405 in Northwest Block 12 is currently in place with no approval and is marked as not allowed / a violation [result_a949c27d3c85431484d3eafce5a0c209]. WELL-0248 in Southeast Block 31 is currently in place and allowed under MOC-2026-031 with extension MOC-2026-044 valid until 2027-02-28 [result_a949c27d3c85431484d3eafce5a0c209]. Additionally, past or present bypasses that stayed in after approval ran out or were never approved include WELL-0249, WELL-0405, WELL-0087, WELL-0158, and WELL-0561, all flagged with violations [result_a949c27d3c85431484d3eafce5a0c209]. The preview displays 6 of the 12 total matching records [result_a949c27d3c85431484d3eafce5a0c209].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:32:09.855411+00:00"
+    },
+    {
+      "scenario": 5,
+      "turn": 1,
+      "user": "Michael Turner",
+      "user_id": "U-201",
+      "session_id": "ec106afe-423c-4c91-950b-331cfde9e8af",
+      "run_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "message_id": "5430e9e7-b3a5-4469-840f-15042a8e8c15",
+      "question": "The State Oil & Gas Commission wrote to us in November 2026 about spills. Which of our spills does the letter cover, and on which ones are we not compliant? Show me a table.",
+      "started_at": "2026-10-17T12:32:09.748787+00:00",
+      "status": "complete",
+      "file": "Q05-01.json",
+      "answer_id": "14bce70f-09ea-49bc-8082-497157c8099e",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "The State Oil & Gas Commission letter dated 20 Nov 2026 covers reportable spills (5 bbl or more) in Northeast Block 7 and Northeast Block 8 since 1 Jun 2026 [src_71ddc6a00e486f4dff8c2f6c]. The single covered spill for WELL-0119 in Northeast Block 7 is assessed as compliant [result_ee0099adee4c4c30b5811d6242fdf6b0].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:32:28.317049+00:00"
+    },
+    {
+      "scenario": 6,
+      "turn": 1,
+      "user": "Nathan Pierce",
+      "user_id": "U-601",
+      "session_id": "6b1f6be6-b48d-45ee-aba1-2a68a8126264",
+      "run_id": "9c3d45f8-0d83-4c5f-ab9f-7ae17a0d0772",
+      "message_id": "c2c9d2ab-404f-47d5-bce7-8ffef3787e1a",
+      "question": "Across the whole field, not just my area, for which wells do the latest inspection and the operator notes disagree about whether the well is producing oil? For each one, what is its real status right now, and why?",
+      "started_at": "2026-10-17T12:32:09.858939+00:00",
+      "status": "complete",
+      "file": "Q06-01.json",
+      "answer_id": "9c3d45f8-0d83-4c5f-ab9f-7ae17a0d0772",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Across the field, 29 wells were evaluated for inspection and operator note disagreements regarding oil production status [result_096032fffee8499886ac938356950588]. The result preview displays the first rows, but full coverage indicates a larger population [result_096032fffee8499886ac938356950588]. The missing rows from the preview are detailed in the complete table result [result_096032fffee8499886ac938356950588].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:32:49.276583+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 1,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "1fe696d9-a1b9-4a04-b6e2-831390deebfb",
+      "run_id": "961ec78e-f827-4ab1-8546-a2df5354dfa6",
+      "message_id": "79007fb4-67a9-4b4b-bff6-ff5f04a1d319",
+      "question": "Over the last month the operators have written notes about wells that sound or behave wrong. Which of those wells haven't had a repair since? Rank the 10 most likely to need a repair in the next 90 days, other than a spill clean-up, and quote the notes as evidence.",
+      "started_at": "2026-10-17T12:32:28.318676+00:00",
+      "status": "complete",
+      "file": "Q07-01.json",
+      "answer_id": "961ec78e-f827-4ab1-8546-a2df5354dfa6",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Based on the asset intelligence ranking for wells with sound or behavior issues over the last month that have not had a repair since [ev_99ce61fe5b653f23708a7034], WELL-0010 is ranked first with a priority score of 5 [result_2b900e8cef354a4dbb624086fce358b4]. The tool result preview shows WELL-0010 in Southwest Block 23 with the latest note quote: \"Heard fluid pound on WELL-0010, unit still running.\" [result_2b900e8cef354a4dbb624086fce358b4]. The provider summary indicates a total of 133 matching candidate wells in the full population [result_2b900e8cef354a4dbb624086fce358b4].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:32:47.532128+00:00"
+    },
+    {
+      "scenario": 7,
+      "turn": 2,
+      "user": "Robert Hayes",
+      "user_id": "U-301",
+      "session_id": "1fe696d9-a1b9-4a04-b6e2-831390deebfb",
+      "run_id": "d75f9dfa-346a-4def-959a-a673d57141ab",
+      "message_id": "1ddd54d8-32f2-4a95-861a-343c5df0beba",
+      "question": "Which three would you send a crew to first this week, and why?",
+      "started_at": "2026-10-17T12:32:47.536527+00:00",
+      "status": "complete",
+      "file": "Q07-02.json",
+      "answer_id": "d75f9dfa-346a-4def-959a-a673d57141ab",
+      "error": null,
+      "panels": [
+        "table"
+      ],
+      "narrative": "Based on asset intelligence ranking for wells with sound or behavior issues over the last month that have not had a repair since [ev_99ce61fe5b653f23708a7034], WELL-0010 is ranked first with a priority score of 5 [result_4dc00940fc10409da130977ff29c40f0]. WELL-0010 is located in Southwest Block 23, is currently not producing [result_4dc00940fc10409da130977ff29c40f0], and has latest note quote: \"Heard fluid pound on WELL-0010, unit still running.\" [result_4dc00940fc10409da130977ff29c40f0]. The preview also shows maintenance activity for WELL-0010 involving a flowline leak spill clean-up [result_37605ecddd584cf7a1a3b63e26fb8819] and for WELL-0197 with a parted sucker rod [result_37605ecddd584cf7a1a3b63e26fb8819]. The full provider summary shows 133 matching candidate wells [result_4dc00940fc10409da130977ff29c40f0].",
+      "saved_user_message": true,
+      "saved_assistant_message": true,
+      "finished_at": "2026-10-17T12:33:10.810440+00:00"
+    }
+  ],
+  "boundary": "Actual serving API and app database; delivery is separate from semantic correctness.",
+  "model": "gemini-3.5-flash-lite",
+  "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+  "finished_at": "2026-10-17T12:33:10.883059+00:00"
+}

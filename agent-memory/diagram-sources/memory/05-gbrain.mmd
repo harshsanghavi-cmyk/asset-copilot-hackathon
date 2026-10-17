@@ -1,0 +1,19 @@
+%% Proposed alternative only. Reference was inspected read-only; no brain was opened.
+flowchart LR
+  U[Trusted request identity] --> R[Application-owned scope router]
+  R --> P[Private memory lookup]
+  R --> S[Shared domain knowledge lookup]
+  P --> PB[(Private brain or enforced user scope<br/>sourced facts and conversation pointers)]
+  S --> SB[(Shared asset knowledge source<br/>sourced pages and claims)]
+  PB --> C[Bounded context pack]
+  SB --> C
+  C --> A[Specialist Q and A workflow]
+  A --> G[Typed domain gateway]
+  G --> K[(Application-owned formal ledger<br/>effective data and exact calculations)]
+  K --> E[Revisioned results and evidence]
+  E --> A
+  A --> V[Local validation and inline response]
+  V --> T[(Private transcript and entity receipts)]
+  T --> PB
+  N[Source labels and federation switches<br/>are not sufficient authorization] -.-> R
+  W[Do not adopt user-statements-always-win<br/>for ordinary asset claims] -.-> G

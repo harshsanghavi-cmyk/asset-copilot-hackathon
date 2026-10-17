@@ -1,0 +1,105 @@
+{
+  "scenario": 8,
+  "turn": 3,
+  "user": "Robert Hayes",
+  "user_id": "U-301",
+  "session_id": "774c220f-d903-4364-8136-c225cf02408b",
+  "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+  "message_id": "84fd81b7-d553-4a68-a942-f1e7e2e6404c",
+  "question": "Which recalled pumps are still in the ground right now?",
+  "started_at": "2026-10-17T12:14:26.571616+00:00",
+  "status": "error",
+  "file": "Q08-03.json",
+  "answer_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+  "error": {
+    "code": "provider_error",
+    "message": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}"
+  },
+  "panels": [],
+  "narrative": "Google SDK request failed HTTP 400: Error calling model 'gemini-3.5-flash-lite' (INVALID_ARGUMENT): 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Request contains an invalid argument.', 'status': 'INVALID_ARGUMENT'}}",
+  "answer": null,
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:14:31.607945+00:00",
+  "stages": [
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "4b3ba5f9-2c34-41d2-9b1f-f76b87e40201",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "timestamp": "2026-10-17T12:14:26.592415+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "4b3ba5f9-2c34-41d2-9b1f-f76b87e40201",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "timestamp": "2026-10-17T12:14:26.614580+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "c4b13cd4-d693-43b2-aa63-6babc390f65d",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "timestamp": "2026-10-17T12:14:26.629502+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "quota:511",
+      "stage": "quota_wait",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "status": "started",
+      "timestamp": "2026-10-17T12:14:27.177278+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:14:28.839869+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "quota:511",
+      "stage": "quota_wait",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:14:28.844905+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:14:28.844891+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "stage_id": "c4b13cd4-d693-43b2-aa63-6babc390f65d",
+      "stage": "planner",
+      "status": "failed",
+      "attempt_id": "0ddc50cc-7740-49aa-8327-042f1cad3819",
+      "timestamp": "2026-10-17T12:14:31.095020+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner failed",
+      "error_code": "provider_error"
+    }
+  ]
+}

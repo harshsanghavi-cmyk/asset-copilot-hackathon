@@ -1,0 +1,12 @@
+[
+  {
+    "file": "Q07-01.json",
+    "answer_id": "f1a1c8a8-2432-48ce-a4ad-314fd7ac284c",
+    "reason": "Removed empty unverified result objects; no factual or generation status change. Previous envelope retained in answer_revisions."
+  },
+  {
+    "file": "Q08-01.json",
+    "answer_id": "082cd538-69e9-4bb9-bc64-101ec66b48b8",
+    "reason": "Removed empty unverified result objects; no factual or generation status change. Previous envelope retained in answer_revisions."
+  }
+]

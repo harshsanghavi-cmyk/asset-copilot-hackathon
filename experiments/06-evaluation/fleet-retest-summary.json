@@ -1,0 +1,158 @@
+{
+  "answer_id": "6008d885-f48d-40dc-9e98-d75184b3a514",
+  "generation": {
+    "status": "complete",
+    "model": "gemma-4-26b-a4b-it",
+    "calls": [
+      {
+        "stage": "planner",
+        "usage": {
+          "input_tokens": 2466,
+          "output_tokens": 208,
+          "total_tokens": 2674,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 114,
+        "live": true
+      },
+      {
+        "stage": "maker",
+        "usage": {
+          "input_tokens": 2176,
+          "output_tokens": 715,
+          "total_tokens": 2891,
+          "input_token_details": {
+            "cache_read": 0
+          },
+          "adapter": "langchain-google-genai",
+          "finish_reason": "STOP"
+        },
+        "call_id": 117,
+        "live": true
+      }
+    ],
+    "provider": "google",
+    "foreground_attempts": 2,
+    "live": true
+  },
+  "narrative": "There are 200 total assets [result_7ccd3de9db9a452fa43294d7c146ac2b]. The following table displays the recorded status and location for the available asset records [app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3].",
+  "blocks": [
+    {
+      "id": "6008d885-f48d-40dc-9e98-d75184b3a514:block:0",
+      "type": "status",
+      "title": "Total Asset Count",
+      "result_set_id": "result_7ccd3de9db9a452fa43294d7c146ac2b",
+      "evidence_ids": [
+        "result_7ccd3de9db9a452fa43294d7c146ac2b"
+      ],
+      "encoding": {
+        "label": "count",
+        "value": "count"
+      },
+      "span": 2
+    },
+    {
+      "id": "6008d885-f48d-40dc-9e98-d75184b3a514:block:1",
+      "type": "table",
+      "title": "Asset Status and Location",
+      "result_set_id": "app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3",
+      "evidence_ids": [
+        "app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3"
+      ],
+      "encoding": {},
+      "span": 2
+    },
+    {
+      "id": "6008d885-f48d-40dc-9e98-d75184b3a514:block:2",
+      "type": "map",
+      "title": "Asset Coordinates",
+      "result_set_id": "app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3",
+      "evidence_ids": [
+        "app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3"
+      ],
+      "encoding": {
+        "latitude": "lat",
+        "longitude": "lon",
+        "label": "asset_id",
+        "value": "producing"
+      },
+      "span": 2
+    }
+  ],
+  "results": {
+    "result_7ccd3de9db9a452fa43294d7c146ac2b": {
+      "rows": 1,
+      "columns": [
+        "count"
+      ],
+      "coverage": {
+        "matching": 200,
+        "evaluated": 200,
+        "unknown": 0
+      },
+      "first_row": {
+        "count": 200
+      }
+    },
+    "app:pages:16d3a5fa-321e-40dc-863c-3f1c812612d3": {
+      "rows": 200,
+      "columns": [
+        "asset_id",
+        "well_type",
+        "area_id",
+        "area_name",
+        "recorded_status",
+        "lat",
+        "lon",
+        "inspection_id",
+        "inspected_at",
+        "inspector_name",
+        "method",
+        "ambient_temp_c",
+        "wellhead_temp_c",
+        "delta_c",
+        "threshold_c",
+        "producing",
+        "spill_detected",
+        "spill_est_volume_bbl",
+        "notes",
+        "unknown_count"
+      ],
+      "coverage": {
+        "matching": 200,
+        "evaluated": 200,
+        "unknown": 0
+      },
+      "first_row": {
+        "inspection_id": "INS-0001-0203",
+        "notes": "Pump jack not moving.",
+        "producing": false,
+        "delta_c": 3.2,
+        "method": "drone",
+        "well_type": "T200",
+        "lat": 31.85425,
+        "spill_est_volume_bbl": null,
+        "wellhead_temp_c": 25.6,
+        "lon": -102.50232,
+        "ambient_temp_c": 22.4,
+        "area_name": "Southwest Block 23",
+        "unknown_count": 0,
+        "asset_id": "WELL-0001",
+        "spill_detected": false,
+        "inspected_at": "2026-10-15T09:45:00Z",
+        "threshold_c": 15.0,
+        "area_id": "SW-23",
+        "inspector_name": "Ryan Brooks",
+        "recorded_status": "active"
+      }
+    }
+  },
+  "evidence_count": 207,
+  "warnings": [
+    "One or more requested visual kinds could not be validated; verified data remains available"
+  ]
+}

@@ -1,0 +1,28 @@
+%% Proposed compaction semantics. Raw transcripts and ledger records are never deleted.
+sequenceDiagram
+  participant U as User
+  participant Q as Bounded Q and A
+  participant DB as Durable scoped store
+  participant J as Summary job
+  U->>Q: User message with stable exchange ID
+  Q->>DB: Resolve own entity references and current ledger revision
+  Q->>DB: Commit explicit correction or remembered fact when requested
+  Q->>Q: Exact tools then validated answer
+  Q->>DB: Persist final answer, entity receipt, completed counter
+  Q-->>U: Final answer and durable save receipt
+  alt Completed count is 10, 20, 30 or later multiple
+    DB->>J: Idempotent job keyed by thread and batch
+    J->>DB: Read prior summary and newly covered raw exchanges
+    Note over J,DB: At count 10 cover 1 to 7; retain 8 to 10 raw
+    Note over J,DB: At count 20 cover 1 to 17; retain 18 to 20 raw
+    J->>J: Summarize with exact entity and correction pointers
+    J->>DB: Validate owner, coverage, references; compare-and-swap version
+  end
+  U->>Q: Next user message
+  Q->>DB: Load accepted summary, recent tail and relevant archive
+  Q->>Q: Enforce 3000 token memory cap and full input ceiling
+  opt Overflow before next count trigger
+    Q->>J: Early compaction without resetting periodic counter
+    Note over Q,J: If job fails, use compact receipts and exact scoped retrieval
+  end
+  Note over DB: Raw originals, entity receipts and formal corrections remain durable

@@ -1,0 +1,2 @@
+import { defineConfig } from 'vite';
+export default defineConfig({server:{host:'127.0.0.1',port:5190,proxy:{'/api/local-admin':'http://127.0.0.1:4190','/api/copilotkit':'http://127.0.0.1:4190','/api':process.env.VITE_BACKEND_URL||'http://127.0.0.1:8000'}},preview:{host:'127.0.0.1',port:5190,proxy:{'/api/local-admin':'http://127.0.0.1:4190','/api/copilotkit':'http://127.0.0.1:4190','/api':process.env.VITE_BACKEND_URL||'http://127.0.0.1:8000'}},build:{rollupOptions:{input:{main:'index.html',admin:'admin.html'}}}});

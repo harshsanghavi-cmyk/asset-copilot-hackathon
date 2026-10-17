@@ -1,0 +1,40 @@
+{
+  "question": "Is WELL-0001 producing oil right now? Show its status card.",
+  "user_id": "U-201",
+  "session_id": "33738091-a2a8-4612-a611-49af9c89de96",
+  "run_id": "c7f91a4b-2b2b-4828-8ba4-e551fb7d755f",
+  "sent_at_utc": "2026-10-17T09:12:35Z",
+  "path": "Browser CopilotKit headless -> self-hosted runtime4190 -> AG-UI HttpAgent -> Python8000 -> Gemma",
+  "backend_owner_verified_failure": "planner HTTP400 after one generation attempt; RUN_ERROR emitted",
+  "completed_envelope": false,
+  "rendered_panels": 0,
+  "automatic_ui_retries": 0,
+  "local_session_cache_cleared": true,
+  "idle_runtime4190_restarted": true,
+  "durable_reload_preserved_user_session_and_visible_interruption": true,
+  "synthetic_fallback": false,
+  "live_read_only_checks": {
+    "history_search_WELL_0001": {
+      "passed": true,
+      "matching_sessions": 1
+    },
+    "profile_switch_Michael_Turner_to_Emily_Carter": {
+      "passed": true,
+      "original_user_question_visible": false,
+      "panels": 0
+    },
+    "switch_back_restores_original_failed_session": {
+      "passed": true,
+      "session_id": "33738091-a2a8-4612-a611-49af9c89de96"
+    }
+  },
+  "actual_updated_failure_history_verified": {
+    "backend_error_code": "provider_error",
+    "http_status": 400,
+    "heading": "Model service error",
+    "user_messages": 1,
+    "assistant_messages": 1,
+    "after_reload": true,
+    "misleading_evidence_heading": false
+  }
+}

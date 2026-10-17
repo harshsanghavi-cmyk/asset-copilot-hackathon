@@ -1,0 +1,17 @@
+flowchart LR
+  F["Fleet directories: areas, teams, users"] --> A["Asset metadata and equipment"]
+  A --> I["Inspections: thermal readings, spills, image references"]
+  A --> M["Maintenance jobs"]
+  I --> M
+  M --> R["Linked free-text reports"]
+  I --> G["Regulatory events"]
+  I --> C["Human notes and formal corrections"]
+  D["Type manuals and SOPs"] --> V["Read-only integrity review"]
+  F --> V
+  A --> V
+  I --> V
+  M --> V
+  R --> V
+  G --> V
+  C --> V
+  V --> O["Measured inventory, material conflicts, unknown evidence"]

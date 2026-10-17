@@ -1,0 +1,118 @@
+{
+  "scenario": 10,
+  "turn": 1,
+  "user": "Michael Turner",
+  "user_id": "U-201",
+  "session_id": "9aa91073-c66b-48d7-aafb-619e581cb0e5",
+  "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+  "message_id": "51540358-e1b4-4b1d-80d7-fc0f5bfbc0f7",
+  "question": "When a well stays shut in longer than the repair itself, what are we usually waiting on: parts, crews, contractors or weather? Break it down by area for jobs started in 2026, with the typical number of extra days, and tell me if any area stands out.",
+  "started_at": "2026-10-17T12:08:25.151574+00:00",
+  "status": "complete",
+  "file": "Q10-01.json",
+  "answer_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+  "error": null,
+  "panels": [],
+  "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+    "thread_id": "9aa91073-c66b-48d7-aafb-619e581cb0e5",
+    "user_id": "U-201",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 1,
+    "reference_date": "2027-01-15",
+    "narrative": "I do not have a unique earlier well/incident reference for your user. Please name the well or incident.",
+    "blocks": [],
+    "results": {},
+    "evidence": {},
+    "warnings": [
+      "Private reference absent"
+    ],
+    "sample": false
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:08:32.484946+00:00",
+  "stages": [
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "1d861c6d-ac37-47ed-9acd-7dbaa3bc8f3b",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "timestamp": "2026-10-17T12:08:27.880406+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "1d861c6d-ac37-47ed-9acd-7dbaa3bc8f3b",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "timestamp": "2026-10-17T12:08:27.899894+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "8d33c72d-8c1e-4025-97c1-c14e37573d1c",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "timestamp": "2026-10-17T12:08:27.942663+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "quota:387",
+      "stage": "quota_wait",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:28.526262+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:30.154099+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "quota:387",
+      "stage": "quota_wait",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:08:30.157830+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:08:30.157815+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "stage_id": "8d33c72d-8c1e-4025-97c1-c14e37573d1c",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "9199f2de-0a7c-4bea-933d-d38a6b729480",
+      "timestamp": "2026-10-17T12:08:31.972911+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    }
+  ]
+}

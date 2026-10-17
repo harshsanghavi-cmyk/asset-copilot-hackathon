@@ -1,0 +1,2297 @@
+{
+  "scenario": 11,
+  "turn": 1,
+  "user": "Olivia Grant",
+  "user_id": "U-501",
+  "session_id": "012e0650-0e68-4c0c-add2-422c7f667cf8",
+  "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+  "message_id": "b5236532-c6c2-4a3a-b15a-8e98341d85c1",
+  "question": "Which region of the field consistently runs hotter?",
+  "started_at": "2026-10-17T12:08:32.485846+00:00",
+  "status": "partial",
+  "file": "Q11-01.json",
+  "answer_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+  "error": null,
+  "panels": [
+    "table"
+  ],
+  "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+  "answer": {
+    "schema_version": "1.0",
+    "answer_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+    "thread_id": "012e0650-0e68-4c0c-add2-422c7f667cf8",
+    "user_id": "U-501",
+    "dataset_namespace": "asset-field-test-2027-01-15",
+    "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+    "knowledge_revision": 1,
+    "reference_date": "2027-01-15",
+    "narrative": "Partial answer: verified data is shown below. The explanation could not be completed because the generated response did not complete or pass its evidence checks.",
+    "blocks": [
+      {
+        "id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588:verified:0",
+        "type": "table",
+        "title": "Verified data — explanation incomplete",
+        "result_set_id": "result_7014b9622c3c4f399f0a26dc5f2d7569",
+        "evidence_ids": [
+          "ev_af4250d4640feb890f60dfa0",
+          "ev_9b6850280e80130c8f44b63f",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c",
+          "result_7014b9622c3c4f399f0a26dc5f2d7569",
+          "ev_38346914ba485a6862cc98bb",
+          "ev_ec08d9968e609d5ed7a37ae8"
+        ],
+        "encoding": {},
+        "span": 2
+      }
+    ],
+    "results": {
+      "result_7014b9622c3c4f399f0a26dc5f2d7569": {
+        "result_set_id": "result_7014b9622c3c4f399f0a26dc5f2d7569",
+        "dataset_revision": "687ade729fe09c4d15c18a94ae102fcbcf8f4868fda89eaeb140ce54a7756716",
+        "knowledge_revision": 1,
+        "columns": [
+          {
+            "key": "area_id",
+            "label": "Area Id"
+          },
+          {
+            "key": "area_name",
+            "label": "Area Name"
+          },
+          {
+            "key": "well_type",
+            "label": "Well Type"
+          },
+          {
+            "key": "inspection_count",
+            "label": "Inspection Count"
+          },
+          {
+            "key": "valid_temperature_count",
+            "label": "Valid Temperature Count"
+          },
+          {
+            "key": "well_count",
+            "label": "Well Count"
+          },
+          {
+            "key": "mean_wellhead_c",
+            "label": "Mean Wellhead C"
+          },
+          {
+            "key": "mean_ambient_c",
+            "label": "Mean Ambient C"
+          },
+          {
+            "key": "mean_delta_c",
+            "label": "Mean Delta C"
+          },
+          {
+            "key": "producing_inspection_count",
+            "label": "Producing Inspection Count"
+          },
+          {
+            "key": "mean_producing_delta_c",
+            "label": "Mean Producing Delta C"
+          },
+          {
+            "key": "months_measured",
+            "label": "Months Measured"
+          },
+          {
+            "key": "comparable_months_with_other_areas_same_type",
+            "label": "Comparable Months With Other Areas Same Type"
+          },
+          {
+            "key": "months_highest_producing_delta_same_type",
+            "label": "Months Highest Producing Delta Same Type"
+          },
+          {
+            "key": "unknown_count",
+            "label": "Unknown Count"
+          },
+          {
+            "key": "assessment",
+            "label": "Assessment"
+          }
+        ],
+        "rows": [
+          {
+            "months_highest_producing_delta_same_type": 2,
+            "unknown_count": 0,
+            "producing_inspection_count": 1691,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.927675931401538,
+            "mean_delta_c": 24.73705783267827,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 7",
+            "area_id": "NE-07",
+            "mean_wellhead_c": 46.03975294778215,
+            "valid_temperature_count": 1781,
+            "inspection_count": 1781,
+            "assessment": "measured",
+            "well_count": 33,
+            "mean_ambient_c": 21.302695115103873
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1420,
+            "well_type": "T350",
+            "mean_producing_delta_c": 30.87781690140845,
+            "mean_delta_c": 29.396151293961513,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 7",
+            "area_id": "NE-07",
+            "mean_wellhead_c": 50.574120769741214,
+            "valid_temperature_count": 1507,
+            "inspection_count": 1507,
+            "assessment": "measured",
+            "well_count": 28,
+            "mean_ambient_c": 21.177969475779694
+          },
+          {
+            "months_highest_producing_delta_same_type": 2,
+            "unknown_count": 0,
+            "producing_inspection_count": 54,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.483333333333334,
+            "mean_delta_c": 35.87636363636364,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 7",
+            "area_id": "NE-07",
+            "mean_wellhead_c": 56.77272727272727,
+            "valid_temperature_count": 55,
+            "inspection_count": 55,
+            "assessment": "measured",
+            "well_count": 1,
+            "mean_ambient_c": 20.896363636363635
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1911,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.79220303506018,
+            "mean_delta_c": 24.2680684596577,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 8",
+            "area_id": "NE-08",
+            "mean_wellhead_c": 45.62591687041565,
+            "valid_temperature_count": 2045,
+            "inspection_count": 2045,
+            "assessment": "measured",
+            "well_count": 38,
+            "mean_ambient_c": 21.357848410757946
+          },
+          {
+            "months_highest_producing_delta_same_type": 4,
+            "unknown_count": 0,
+            "producing_inspection_count": 1169,
+            "well_type": "T350",
+            "mean_producing_delta_c": 31.104362703165098,
+            "mean_delta_c": 29.55631536604988,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 8",
+            "area_id": "NE-08",
+            "mean_wellhead_c": 50.88736926790024,
+            "valid_temperature_count": 1243,
+            "inspection_count": 1243,
+            "assessment": "measured",
+            "well_count": 23,
+            "mean_ambient_c": 21.331053901850364
+          },
+          {
+            "months_highest_producing_delta_same_type": 5,
+            "unknown_count": 0,
+            "producing_inspection_count": 52,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.74423076923077,
+            "mean_delta_c": 36.74423076923077,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northeast Block 8",
+            "area_id": "NE-08",
+            "mean_wellhead_c": 58.675,
+            "valid_temperature_count": 52,
+            "inspection_count": 52,
+            "assessment": "measured",
+            "well_count": 1,
+            "mean_ambient_c": 21.93076923076923
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 3633,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.8644921552436,
+            "mean_delta_c": 24.662470618960565,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northwest Block 12",
+            "area_id": "NW-12",
+            "mean_wellhead_c": 45.97396186993993,
+            "valid_temperature_count": 3829,
+            "inspection_count": 3829,
+            "assessment": "measured",
+            "well_count": 71,
+            "mean_ambient_c": 21.31149125097937
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 2294,
+            "well_type": "T350",
+            "mean_producing_delta_c": 30.86839581517001,
+            "mean_delta_c": 29.432578253706755,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northwest Block 12",
+            "area_id": "NW-12",
+            "mean_wellhead_c": 50.6837726523888,
+            "valid_temperature_count": 2428,
+            "inspection_count": 2428,
+            "assessment": "measured",
+            "well_count": 45,
+            "mean_ambient_c": 21.251194398682046
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1722,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.102380952380955,
+            "mean_delta_c": 34.29635473340588,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Northwest Block 12",
+            "area_id": "NW-12",
+            "mean_wellhead_c": 55.58563656147987,
+            "valid_temperature_count": 1838,
+            "inspection_count": 1838,
+            "assessment": "measured",
+            "well_count": 34,
+            "mean_ambient_c": 21.289281828073992
+          },
+          {
+            "months_highest_producing_delta_same_type": 4,
+            "unknown_count": 0,
+            "producing_inspection_count": 667,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.835382308845574,
+            "mean_delta_c": 24.44338028169014,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 31",
+            "area_id": "SE-31",
+            "mean_wellhead_c": 45.511971830985914,
+            "valid_temperature_count": 710,
+            "inspection_count": 710,
+            "assessment": "measured",
+            "well_count": 14,
+            "mean_ambient_c": 21.068591549295775
+          },
+          {
+            "months_highest_producing_delta_same_type": 3,
+            "unknown_count": 0,
+            "producing_inspection_count": 367,
+            "well_type": "T350",
+            "mean_producing_delta_c": 31.16294277929155,
+            "mean_delta_c": 30.433068783068784,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 31",
+            "area_id": "SE-31",
+            "mean_wellhead_c": 51.660846560846565,
+            "valid_temperature_count": 378,
+            "inspection_count": 378,
+            "assessment": "measured",
+            "well_count": 7,
+            "mean_ambient_c": 21.227777777777778
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1418,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.25930888575458,
+            "mean_delta_c": 35.17388059701493,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 31",
+            "area_id": "SE-31",
+            "mean_wellhead_c": 56.2174355495251,
+            "valid_temperature_count": 1474,
+            "inspection_count": 1474,
+            "assessment": "measured",
+            "well_count": 29,
+            "mean_ambient_c": 21.043554952510178
+          },
+          {
+            "months_highest_producing_delta_same_type": 4,
+            "unknown_count": 0,
+            "producing_inspection_count": 3172,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.982313997477934,
+            "mean_delta_c": 24.715031315240086,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 32",
+            "area_id": "SE-32",
+            "mean_wellhead_c": 45.96415150611393,
+            "valid_temperature_count": 3353,
+            "inspection_count": 3353,
+            "assessment": "measured",
+            "well_count": 62,
+            "mean_ambient_c": 21.249120190873843
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 2634,
+            "well_type": "T350",
+            "mean_producing_delta_c": 30.807137433561124,
+            "mean_delta_c": 29.743647615580635,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 32",
+            "area_id": "SE-32",
+            "mean_wellhead_c": 50.955624317437206,
+            "valid_temperature_count": 2747,
+            "inspection_count": 2747,
+            "assessment": "measured",
+            "well_count": 51,
+            "mean_ambient_c": 21.21197670185657
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1865,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.266863270777485,
+            "mean_delta_c": 34.48707893413776,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southeast Block 32",
+            "area_id": "SE-32",
+            "mean_wellhead_c": 55.67390648567119,
+            "valid_temperature_count": 1989,
+            "inspection_count": 1989,
+            "assessment": "measured",
+            "well_count": 37,
+            "mean_ambient_c": 21.186827551533437
+          },
+          {
+            "months_highest_producing_delta_same_type": 0,
+            "unknown_count": 0,
+            "producing_inspection_count": 1816,
+            "well_type": "T200",
+            "mean_producing_delta_c": 25.830286343612332,
+            "mean_delta_c": 24.317722823286964,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southwest Block 23",
+            "area_id": "SW-23",
+            "mean_wellhead_c": 45.73925811437403,
+            "valid_temperature_count": 1941,
+            "inspection_count": 1941,
+            "assessment": "measured",
+            "well_count": 36,
+            "mean_ambient_c": 21.421535291087068
+          },
+          {
+            "months_highest_producing_delta_same_type": 5,
+            "unknown_count": 0,
+            "producing_inspection_count": 1179,
+            "well_type": "T350",
+            "mean_producing_delta_c": 31.156743002544527,
+            "mean_delta_c": 29.6927374301676,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southwest Block 23",
+            "area_id": "SW-23",
+            "mean_wellhead_c": 50.854668794892255,
+            "valid_temperature_count": 1253,
+            "inspection_count": 1253,
+            "assessment": "measured",
+            "well_count": 24,
+            "mean_ambient_c": 21.16193136472466
+          },
+          {
+            "months_highest_producing_delta_same_type": 6,
+            "unknown_count": 0,
+            "producing_inspection_count": 207,
+            "well_type": "T500",
+            "mean_producing_delta_c": 36.5743961352657,
+            "mean_delta_c": 35.338425925925925,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southwest Block 23",
+            "area_id": "SW-23",
+            "mean_wellhead_c": 56.76111111111111,
+            "valid_temperature_count": 216,
+            "inspection_count": 216,
+            "assessment": "measured",
+            "well_count": 4,
+            "mean_ambient_c": 21.422685185185188
+          },
+          {
+            "months_highest_producing_delta_same_type": 3,
+            "unknown_count": 0,
+            "producing_inspection_count": 2041,
+            "well_type": "T200",
+            "mean_producing_delta_c": 26.065556099951007,
+            "mean_delta_c": 24.853020446096657,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southwest Block 24",
+            "area_id": "SW-24",
+            "mean_wellhead_c": 46.16635687732342,
+            "valid_temperature_count": 2152,
+            "inspection_count": 2152,
+            "assessment": "measured",
+            "well_count": 40,
+            "mean_ambient_c": 21.313336431226766
+          },
+          {
+            "months_highest_producing_delta_same_type": 1,
+            "unknown_count": 0,
+            "producing_inspection_count": 1170,
+            "well_type": "T350",
+            "mean_producing_delta_c": 30.933333333333334,
+            "mean_delta_c": 29.58905996758509,
+            "comparable_months_with_other_areas_same_type": 13,
+            "months_measured": 13,
+            "area_name": "Southwest Block 24",
+            "area_id": "SW-24",
+            "mean_wellhead_c": 50.90842787682334,
+            "valid_temperature_count": 1234,
+            "inspection_count": 1234,
+            "assessment": "measured",
+            "well_count": 23,
+            "mean_ambient_c": 21.31936790923825
+          }
+        ],
+        "evidence_ids": [
+          "ev_af4250d4640feb890f60dfa0",
+          "ev_9b6850280e80130c8f44b63f",
+          "src_215c78036f52b5303b330fe0",
+          "src_0b27ec48fd9b0f16a6cd84c6",
+          "src_330aa8bd8455ae32332cb94c",
+          "result_7014b9622c3c4f399f0a26dc5f2d7569",
+          "ev_38346914ba485a6862cc98bb",
+          "ev_ec08d9968e609d5ed7a37ae8",
+          "ev_033f495baa9b627340538e54",
+          "ev_e0421b738ac629f77d110218",
+          "ev_74c13982f5768c894f64084f",
+          "ev_a58c6ddfe39ebc80f7c18d15",
+          "ev_01f8d97f94b6d01cb14e20c6",
+          "ev_3e4bed0c14051ff6b1260ff6",
+          "ev_5ae80d2f45b3c568ca6ef371",
+          "ev_9ddc8eb817b7fde5e0d4b400",
+          "ev_9fdf0bf3c9e7898cabe2e7dc",
+          "ev_a3c28b0fc559c7696aa1ca27",
+          "ev_a76c0df8919b9e9621c5ca39",
+          "ev_39e72aa09f24f7ba4ebe844f",
+          "ev_400361dc1cffbcf0093a838a",
+          "ev_81aaff3e02d112eed16c4c77",
+          "ev_fdd88926553f0bd7a4261a23",
+          "ev_856d240435984b46a9c51b39",
+          "ev_4eb245c31426f6856861d6cb",
+          "ev_3e569704f8ed806d26f33c24",
+          "ev_0f1c94cba895c4577752254a",
+          "ev_a82203696f87cc845efe9e67",
+          "ev_ab89ebd3d256cfcf054889b2",
+          "ev_3968421021e068d4cf56868f",
+          "ev_47b80a05537256e4a0464718",
+          "ev_8ba2ff37264af0afc9f4606a",
+          "ev_93832ff8a6f8e40e20237d25",
+          "ev_33f5fe6aa09df7db05b7b3ee",
+          "ev_03b28cb65fce09ac6783f526",
+          "ev_c4ca0376f69f184af85f5ff2",
+          "ev_4868da4527f209d688b0e0bf",
+          "ev_6173cf8cc99a3287fe4e57f4",
+          "ev_11fbb570b57e08842b91b0ad",
+          "ev_d0150cda7388501537477326",
+          "ev_315805fc66282d3bbb0c9f80",
+          "ev_0224291272ab05b1859e284f",
+          "ev_aaa2d588695167569a36e4b6",
+          "ev_f110897c6d8716c40a66e243"
+        ],
+        "provider_coverage": {
+          "unit": "temperature_profile",
+          "matching": 20,
+          "evaluated": 20,
+          "unknown": 0,
+          "import_issues": 0,
+          "status": "complete",
+          "displayed_rows": 20,
+          "output_rows": 20,
+          "display_truncated": false,
+          "aggregation_input_truncated": false
+        },
+        "trace_id": "trace_bc0d5ef40b1d4fb0832c66ed8d1c20d8",
+        "warnings": [
+          "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+          "Means are inspection-weighted observed temperatures, not flow volumes or reservoir pressure. Compare same type and producing state; absolute wellhead heat also reflects ambient weather. Monthly hottest counts allow ties and use only months with another area of that type; unmatched type/area coverage is not field-wide consistency."
+        ],
+        "bounds": {
+          "start": "2026-01-01",
+          "end": "2027-01-15",
+          "closure": "both"
+        },
+        "operation": {
+          "collection": "inspections",
+          "metric": "temperature_profile"
+        },
+        "coverage": {
+          "matching": 20,
+          "evaluated": 20,
+          "unknown": 0
+        }
+      }
+    },
+    "evidence": {
+      "ev_af4250d4640feb890f60dfa0": {
+        "id": "ev_af4250d4640feb890f60dfa0",
+        "title": "INS-0289-0165",
+        "source_kind": "inspections",
+        "source_id": "src_474b484dd50f0736f1c6d0e9",
+        "excerpt": "{\"ambient_temp_c\": 7.1, \"asset_id\": \"WELL-0289\", \"evidence_images\": [\"evidence/WELL-0289/2026-01-01_rgb.jpg\", \"evidence/WELL-0289/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0289-0165\", \"inspector_user_id\": \"U-204\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 39.5}",
+        "path": "assets/WELL-0289/inspections.jsonl"
+      },
+      "ev_9b6850280e80130c8f44b63f": {
+        "id": "ev_9b6850280e80130c8f44b63f",
+        "title": "INS-0147-0164",
+        "source_kind": "inspections",
+        "source_id": "src_be722811d0afe9a24f44c34e",
+        "excerpt": "{\"ambient_temp_c\": 8.7, \"asset_id\": \"WELL-0147\", \"evidence_images\": [\"evidence/WELL-0147/2026-01-01_rgb.jpg\", \"evidence/WELL-0147/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0147-0164\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 32.4}",
+        "path": "assets/WELL-0147/inspections.jsonl"
+      },
+      "src_215c78036f52b5303b330fe0": {
+        "id": "src_215c78036f52b5303b330fe0",
+        "title": "fleet/well-types/T200.md",
+        "source_kind": "manual",
+        "source_id": "src_215c78036f52b5303b330fe0",
+        "excerpt": "# T200 Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> sucker-rod (beam pump) well practice. Not for real-world operational use.\n\nDocument ID: OM-T200 · Revision 4 · Applies to all wells with `well_type = \"T200\"`\n\n## 1. Scope\n\nThis manual covers the T200 class of onshore rod-lift (beam pump) oil wells: a\nconventional wellhead, a surface pump jack (walking-beam pumping unit), a sucker\nrod string, an insert downhole pump and a 3-inch carbon-steel flowline to the\narea gathering line. Some T200 pads also carry a two-phase vertical separator.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-3000 | Seals the well, holds the stuffing box and production valves |\n| Pump jack | PJ-228 | Converts motor rotation to reciprocating rod motion |\n| Rod string | API Grade D 7/8 in | Transmits motion from the pump jack to the downhole pump |\n| Downhole pump | Insert rod pump 1.75 in | Lifts fluid from the reservoir |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\n## 3. Normal operation\n\nA producing T200 well cycles continuously at 6–9 strokes per minute. Produced\nfluid leaves the reservoir warmer than the surface air, so a producing wellhead\nruns noticeably warmer than ambient. When the pump stops, the\nwellhead cools to near ambient within a few hours.\n\nOperators should expect daily and seasonal variation. On hot summer afternoons\nthe steel of an idle wellhead can read well above 45 °C from solar heating alone.\n**Never judge production from absolute wellhead temperature.**\n\n## 4. Start-up and shut-in\n\n1. Confirm the flowline valve is open and the separator (if fitted) is at operating level.\n2. Release the pump jack brake and start the prime mover.\n3. Confirm stroke rate within 6–9 spm and check the stuffing box for leaks.\n4. For a planned shut-in, stop the prime mover at the bottom of the stroke, set the brake,\n   close the wing valve and record the shut-in in the maintenance system before work starts.\n\n## 5. Routine inspection checklist\n\n- Visual check of pad, cellar and flowline route for staining or pooled fluid.\n- Thermal reading of the wellhead (drone or handheld).\n- Stuffing box leakage, belt condition and gearbox oil level.\n- Separator level and dump valve operation (if fitted).\n\n## 6. Lubrication schedule\n\n| Item | Interval |\n|---|---|\n| Saddle and tail bearings | 90 days |\n| Gearbox oil level check | 30 days |\n| Gearbox oil change | 12 months |\n| Belt tension | 60 days |\n\n## 7. Common failure modes\n\n| Symptom | Likely cause | First action |\n|---|---|---|\n| Unit running, wellhead cold | Rod parted or pump stuck | Shut in, call rod/pump crew |\n| Unit stopped, motor hot | Prime mover overload | Reset overload, check cooling |\n| Oil on gearbox base | Seal failure | Replace seals |\n| Staining along flowline | Corrosion pinhole or coupling failure | Shut in, contain, report per SOP SR |\n| Stuffing box weeping | Worn packing | Replace packing |\n\n## 8. Spill response on the pad\n\nAny crude release must be handled under the company Spill Response SOP\n(`sops/spill-response-sop.md`). In short: stop the source, contain, estimate the\nvolume, and report within the deadline set by the SOP.\n\n## 9. Engineering limits\n\n### 9.1 Pressure\nMaximum allowable wellhead working pressure: 3,000 psi.\n\n### 9.2 Stroke\nMaximum stroke rate: 10 spm. Maximum polished-rod load: 22,800 lb.\n\n### 9.3 Production temperature rule\nA T200 well is considered **producing (active)** when its wellhead temperature is\nat least **15 °C above ambient** air temperature at the time of the reading. A\ndifference below 15 °C means the well is **not producing** for that reading,\nwhatever the absolute temperature.\n\n### 9.4 Temperature alarm\nThe wellhead must stay **at or below 85 °C**. Any reading above 85 °C requires the\noperator to shut in and inspect the stuffing box and rod string within 24 hours.\n\n### 9.5 Spill-related shut-in\nIf a spill covers **more than 5 % of the pad area**, shut in the well immediately and\nkeep it shut in until the source is repaired.\n\n## 10. Maintenance escalation\n\n- Three or more **corrective** maintenance events on the same equipment kind in the\n  12 months before the current date require a root-cause analysis (RCA) before the next repair is closed.\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n\n## 11. Records\n\nEvery inspection, maintenance job and shut-in must be recorded. Human notes that\nexplain an abnormal reading (for example a planned shut-in) are valid context and\nshould be considered alongside the sensor data.\n",
+        "path": "fleet/well-types/T200.md"
+      },
+      "src_0b27ec48fd9b0f16a6cd84c6": {
+        "id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "title": "fleet/well-types/T350.md",
+        "source_kind": "manual",
+        "source_id": "src_0b27ec48fd9b0f16a6cd84c6",
+        "excerpt": "# T350 Deep Rod-Lift Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Not for real-world use.\n\nDocument ID: OM-T350 · Revision 2 · Applies to all wells with `well_type = \"T350\"`\n\n## 1. Scope\n\nThe T350 is a deeper, higher-rate version of the T200 rod-lift well. It uses a\nWH-5000 wellhead, a PJ-456 pump jack and the same rod, pump and\nflowline families as the T200. Procedures not listed here follow the T200 manual.\n\n## 2. Differences from T200\n\n| Item | T200 | T350 |\n|---|---|---|\n| Wellhead rating | 3,000 psi | 5,000 psi |\n| Pump jack | PJ-228 | PJ-456 |\n| Normal stroke rate | 6–9 spm | 5–8 spm |\n| Max polished-rod load | 22,800 lb | 45,600 lb |\n\n## 3. Production temperature rule\n\nBecause T350 fluid comes from a deeper, hotter zone, a T350 well is considered\n**producing (active)** only when its wellhead temperature is at least **20 °C above\nambient** air temperature at the time of the reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and inspect within 24 hours.\n\n## 5. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 6. Maintenance escalation\n\nSame as T200 section 10 (RCA after three corrective events on the same equipment\nkind within 12 months; report downtime over 14 consecutive days).\n",
+        "path": "fleet/well-types/T350.md"
+      },
+      "src_330aa8bd8455ae32332cb94c": {
+        "id": "src_330aa8bd8455ae32332cb94c",
+        "title": "fleet/well-types/T500.md",
+        "source_kind": "manual",
+        "source_id": "src_330aa8bd8455ae32332cb94c",
+        "excerpt": "# T500 Electric Submersible Pump Oil Well — Operating & Maintenance Manual\n\n> Fictional manual written for the FlytBase Asset Copilot hackathon. Modelled on typical\n> electric submersible pump (ESP) well practice. Not for real-world operational use.\n\nDocument ID: OM-T500 · Revision 1 · Applies to all wells with `well_type = \"T500\"`\n\n## 1. Scope\n\nThe T500 is a high-rate well lifted by an **electric submersible pump (ESP)** instead of a\npump jack and rod string. There is no surface pumping unit: a variable-speed drive on the\npad powers a motor and multistage pump hung on the tubing deep in the well. The wellhead,\nflowline and optional separator are the same families as on rod-lift wells.\n\n## 2. Equipment overview\n\n| Equipment | Typical model | Function |\n|---|---|---|\n| Wellhead | WH-5000 | Seals the well, carries the power cable penetrator and production valves |\n| ESP (`esp_pump`) | ESP-400 | Downhole motor, seal section and multistage pump, with its surface drive and power cable |\n| Flowline | 3 in carbon steel | Carries produced fluid to the gathering line |\n| Separator (optional) | 2-phase vertical 24 in | Separates gas from liquid on the pad |\n\nA T500 pad has **no pump jack, rod string or rod pump**. There is no visible stroke, so a\ndrone cannot tell from movement alone whether the well is running.\n\n## 3. Production temperature rule\n\nESP wells move more fluid, and the motor adds heat. A T500 well is considered\n**producing (active)** only when its wellhead temperature is at least **25 °C above\nambient** air temperature at the time of the reading. Below 25 °C the well is **not\nproducing** for that reading.\n\n## 4. Temperature alarm\n\nThe wellhead must stay **at or below 95 °C**. Above 95 °C, shut in and check the drive\nand motor within 24 hours.\n\n## 5. Early warning signs\n\nAn ESP runs at a steady speed, so a healthy T500 wellhead stays within a degree or two of\nits usual difference above air. ESP motors usually fail after running hot with too little\nfluid over the pump. In the weeks before a failure, the wellhead-to-air difference typically\n**falls steadily** while the well is still producing.\n\n- If the wellhead-to-air difference is **lower than at the inspection before, three\n  inspections in a row** (four readings, each lower than the last) **and has fallen by\n  3 °C or more in total** over those four readings, schedule an ESP drive and insulation\n  check within **14 days** of the third drop.\n- A ground fault or repeated trips on the drive must be treated as a failure, not reset.\n\n## 6. Spill-related shut-in\n\nSame as T200: a spill covering more than 5 % of the pad area requires immediate shut-in.\n\n## 7. Maintenance escalation\n\n- **Two or more** corrective maintenance events on the **ESP** in the 12 months before the\n  current date require a root-cause analysis (RCA) before the next repair is closed.\n  (ESP pulls need a workover rig and cost far more than rod-lift repairs.)\n- For all other equipment, follow T200 section 10 (three events in 12 months).\n- Downtime of more than 14 consecutive days must be reported to the area production supervisor.\n- An annual flowline integrity test is mandatory (see Regulatory Compliance SOP, RC-02).\n",
+        "path": "fleet/well-types/T500.md"
+      },
+      "result_7014b9622c3c4f399f0a26dc5f2d7569": {
+        "id": "result_7014b9622c3c4f399f0a26dc5f2d7569",
+        "title": "result_7014b9622c3c4f399f0a26dc5f2d7569",
+        "source_kind": "aggregate_lineage",
+        "source_id": "result_7014b9622c3c4f399f0a26dc5f2d7569"
+      },
+      "ev_38346914ba485a6862cc98bb": {
+        "id": "ev_38346914ba485a6862cc98bb",
+        "title": "INS-0137-0165",
+        "source_kind": "inspections",
+        "source_id": "src_0bc878d5e3741080a833ee74",
+        "excerpt": "{\"ambient_temp_c\": 11.9, \"asset_id\": \"WELL-0137\", \"evidence_images\": [\"evidence/WELL-0137/2026-01-01_rgb.jpg\", \"evidence/WELL-0137/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0137-0165\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 49.3}",
+        "path": "assets/WELL-0137/inspections.jsonl"
+      },
+      "ev_ec08d9968e609d5ed7a37ae8": {
+        "id": "ev_ec08d9968e609d5ed7a37ae8",
+        "title": "INS-0125-0164",
+        "source_kind": "inspections",
+        "source_id": "src_88f320e4a512c0abaf8ff57b",
+        "excerpt": "{\"ambient_temp_c\": 11.3, \"asset_id\": \"WELL-0125\", \"evidence_images\": [\"evidence/WELL-0125/2026-01-01_rgb.jpg\", \"evidence/WELL-0125/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0125-0164\", \"inspector_user_id\": \"U-204\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.1}",
+        "path": "assets/WELL-0125/inspections.jsonl"
+      },
+      "ev_033f495baa9b627340538e54": {
+        "id": "ev_033f495baa9b627340538e54",
+        "title": "INS-0285-0166",
+        "source_kind": "inspections",
+        "source_id": "src_5415f019b67b2c9ca8b582b1",
+        "excerpt": "{\"ambient_temp_c\": 6.5, \"asset_id\": \"WELL-0285\", \"evidence_images\": [\"evidence/WELL-0285/2026-01-01_rgb.jpg\", \"evidence/WELL-0285/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T15:00:00Z\", \"inspection_id\": \"INS-0285-0166\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 42.0}",
+        "path": "assets/WELL-0285/inspections.jsonl"
+      },
+      "ev_e0421b738ac629f77d110218": {
+        "id": "ev_e0421b738ac629f77d110218",
+        "title": "INS-0285-0167",
+        "source_kind": "inspections",
+        "source_id": "src_5415f019b67b2c9ca8b582b1",
+        "excerpt": "{\"ambient_temp_c\": 7.6, \"asset_id\": \"WELL-0285\", \"evidence_images\": [\"evidence/WELL-0285/2026-01-08_rgb.jpg\", \"evidence/WELL-0285/2026-01-08_thermal.jpg\"], \"inspected_at\": \"2026-01-08T13:15:00Z\", \"inspection_id\": \"INS-0285-0167\", \"inspector_user_id\": \"U-204\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 44.9}",
+        "path": "assets/WELL-0285/inspections.jsonl"
+      },
+      "ev_74c13982f5768c894f64084f": {
+        "id": "ev_74c13982f5768c894f64084f",
+        "title": "INS-0155-0163",
+        "source_kind": "inspections",
+        "source_id": "src_717a964e33dc7a20be7832d5",
+        "excerpt": "{\"ambient_temp_c\": 9.4, \"asset_id\": \"WELL-0155\", \"evidence_images\": [\"evidence/WELL-0155/2026-01-01_rgb.jpg\", \"evidence/WELL-0155/2026-01-01_thermal.jpg\", \"evidence/WELL-0155/2026-01-01_spill_closeup.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0155-0163\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"Dark staining on pad.\", \"spill_area_pct\": 9.0, \"spill_detected\": true, \"spill_est_volume_bbl\": 3.3, \"wellhead_temp_c\": 36.2}",
+        "path": "assets/WELL-0155/inspections.jsonl"
+      },
+      "ev_a58c6ddfe39ebc80f7c18d15": {
+        "id": "ev_a58c6ddfe39ebc80f7c18d15",
+        "title": "INS-0179-0167",
+        "source_kind": "inspections",
+        "source_id": "src_f05e47b819f9a01da966600d",
+        "excerpt": "{\"ambient_temp_c\": 11.5, \"asset_id\": \"WELL-0179\", \"evidence_images\": [\"evidence/WELL-0179/2026-01-01_rgb.jpg\", \"evidence/WELL-0179/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0179-0167\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.4}",
+        "path": "assets/WELL-0179/inspections.jsonl"
+      },
+      "ev_01f8d97f94b6d01cb14e20c6": {
+        "id": "ev_01f8d97f94b6d01cb14e20c6",
+        "title": "INS-0163-0121",
+        "source_kind": "inspections",
+        "source_id": "src_9b92d4f01c392f7ba0ec81f8",
+        "excerpt": "{\"ambient_temp_c\": 9.7, \"asset_id\": \"WELL-0163\", \"evidence_images\": [\"evidence/WELL-0163/2026-01-01_rgb.jpg\", \"evidence/WELL-0163/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0163-0121\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 41.0}",
+        "path": "assets/WELL-0163/inspections.jsonl"
+      },
+      "ev_3e4bed0c14051ff6b1260ff6": {
+        "id": "ev_3e4bed0c14051ff6b1260ff6",
+        "title": "INS-0192-0162",
+        "source_kind": "inspections",
+        "source_id": "src_d4f2a7561415734d44bd4894",
+        "excerpt": "{\"ambient_temp_c\": 10.7, \"asset_id\": \"WELL-0192\", \"evidence_images\": [\"evidence/WELL-0192/2026-01-01_rgb.jpg\", \"evidence/WELL-0192/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0192-0162\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"Pump jack not moving.\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 14.9}",
+        "path": "assets/WELL-0192/inspections.jsonl"
+      },
+      "ev_5ae80d2f45b3c568ca6ef371": {
+        "id": "ev_5ae80d2f45b3c568ca6ef371",
+        "title": "INS-0282-0167",
+        "source_kind": "inspections",
+        "source_id": "src_7b548555ab6bb8c0b985a29d",
+        "excerpt": "{\"ambient_temp_c\": 8.3, \"asset_id\": \"WELL-0282\", \"evidence_images\": [\"evidence/WELL-0282/2026-01-01_rgb.jpg\", \"evidence/WELL-0282/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T12:45:00Z\", \"inspection_id\": \"INS-0282-0167\", \"inspector_user_id\": \"U-202\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.3}",
+        "path": "assets/WELL-0282/inspections.jsonl"
+      },
+      "ev_9ddc8eb817b7fde5e0d4b400": {
+        "id": "ev_9ddc8eb817b7fde5e0d4b400",
+        "title": "INS-0282-0168",
+        "source_kind": "inspections",
+        "source_id": "src_7b548555ab6bb8c0b985a29d",
+        "excerpt": "{\"ambient_temp_c\": 5.5, \"asset_id\": \"WELL-0282\", \"evidence_images\": [\"evidence/WELL-0282/2026-01-08_rgb.jpg\", \"evidence/WELL-0282/2026-01-08_thermal.jpg\"], \"inspected_at\": \"2026-01-08T10:30:00Z\", \"inspection_id\": \"INS-0282-0168\", \"inspector_user_id\": \"U-203\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 42.9}",
+        "path": "assets/WELL-0282/inspections.jsonl"
+      },
+      "ev_9fdf0bf3c9e7898cabe2e7dc": {
+        "id": "ev_9fdf0bf3c9e7898cabe2e7dc",
+        "title": "INS-0328-0164",
+        "source_kind": "inspections",
+        "source_id": "src_97afe029a2a2019bd7792f34",
+        "excerpt": "{\"ambient_temp_c\": 5.6, \"asset_id\": \"WELL-0328\", \"evidence_images\": [\"evidence/WELL-0328/2026-01-01_rgb.jpg\", \"evidence/WELL-0328/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0328-0164\", \"inspector_user_id\": \"U-603\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 24.7}",
+        "path": "assets/WELL-0328/inspections.jsonl"
+      },
+      "ev_a3c28b0fc559c7696aa1ca27": {
+        "id": "ev_a3c28b0fc559c7696aa1ca27",
+        "title": "INS-0362-0161",
+        "source_kind": "inspections",
+        "source_id": "src_ec10823673c74b05c9139d61",
+        "excerpt": "{\"ambient_temp_c\": 7.4, \"asset_id\": \"WELL-0362\", \"evidence_images\": [\"evidence/WELL-0362/2026-01-01_rgb.jpg\", \"evidence/WELL-0362/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0362-0161\", \"inspector_user_id\": \"U-603\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 27.6}",
+        "path": "assets/WELL-0362/inspections.jsonl"
+      },
+      "ev_a76c0df8919b9e9621c5ca39": {
+        "id": "ev_a76c0df8919b9e9621c5ca39",
+        "title": "INS-0345-0164",
+        "source_kind": "inspections",
+        "source_id": "src_6aed90db3ab741408fe28922",
+        "excerpt": "{\"ambient_temp_c\": 7.2, \"asset_id\": \"WELL-0345\", \"evidence_images\": [\"evidence/WELL-0345/2026-01-01_rgb.jpg\", \"evidence/WELL-0345/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0345-0164\", \"inspector_user_id\": \"U-604\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 33.0}",
+        "path": "assets/WELL-0345/inspections.jsonl"
+      },
+      "ev_39e72aa09f24f7ba4ebe844f": {
+        "id": "ev_39e72aa09f24f7ba4ebe844f",
+        "title": "INS-0302-0163",
+        "source_kind": "inspections",
+        "source_id": "src_3b994f3197f4ff1f99ac78a5",
+        "excerpt": "{\"ambient_temp_c\": 11.7, \"asset_id\": \"WELL-0302\", \"evidence_images\": [\"evidence/WELL-0302/2026-01-01_rgb.jpg\", \"evidence/WELL-0302/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0302-0163\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 42.1}",
+        "path": "assets/WELL-0302/inspections.jsonl"
+      },
+      "ev_400361dc1cffbcf0093a838a": {
+        "id": "ev_400361dc1cffbcf0093a838a",
+        "title": "INS-0412-0163",
+        "source_kind": "inspections",
+        "source_id": "src_020977e598b041b32ea9b34f",
+        "excerpt": "{\"ambient_temp_c\": 4.4, \"asset_id\": \"WELL-0412\", \"evidence_images\": [\"evidence/WELL-0412/2026-01-01_rgb.jpg\", \"evidence/WELL-0412/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0412-0163\", \"inspector_user_id\": \"U-604\", \"method\": \"manual\", \"notes\": \"Wellhead cold to touch.\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 11.5}",
+        "path": "assets/WELL-0412/inspections.jsonl"
+      },
+      "ev_81aaff3e02d112eed16c4c77": {
+        "id": "ev_81aaff3e02d112eed16c4c77",
+        "title": "INS-0314-0167",
+        "source_kind": "inspections",
+        "source_id": "src_0045e91b50d7892a84e94880",
+        "excerpt": "{\"ambient_temp_c\": 9.7, \"asset_id\": \"WELL-0314\", \"evidence_images\": [\"evidence/WELL-0314/2026-01-01_rgb.jpg\", \"evidence/WELL-0314/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:45:00Z\", \"inspection_id\": \"INS-0314-0167\", \"inspector_user_id\": \"U-602\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 46.0}",
+        "path": "assets/WELL-0314/inspections.jsonl"
+      },
+      "ev_fdd88926553f0bd7a4261a23": {
+        "id": "ev_fdd88926553f0bd7a4261a23",
+        "title": "INS-0210-0139",
+        "source_kind": "inspections",
+        "source_id": "src_7173aaecaff9d2299c88a7cd",
+        "excerpt": "{\"ambient_temp_c\": 5.2, \"asset_id\": \"WELL-0210\", \"evidence_images\": [\"evidence/WELL-0210/2026-01-01_rgb.jpg\", \"evidence/WELL-0210/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0210-0139\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 35.1}",
+        "path": "assets/WELL-0210/inspections.jsonl"
+      },
+      "ev_856d240435984b46a9c51b39": {
+        "id": "ev_856d240435984b46a9c51b39",
+        "title": "INS-0244-0140",
+        "source_kind": "inspections",
+        "source_id": "src_b69c9eb0f5a682f15ed4ae58",
+        "excerpt": "{\"ambient_temp_c\": 7.1, \"asset_id\": \"WELL-0244\", \"evidence_images\": [\"evidence/WELL-0244/2026-01-01_rgb.jpg\", \"evidence/WELL-0244/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0244-0140\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 35.4}",
+        "path": "assets/WELL-0244/inspections.jsonl"
+      },
+      "ev_4eb245c31426f6856861d6cb": {
+        "id": "ev_4eb245c31426f6856861d6cb",
+        "title": "INS-0207-0164",
+        "source_kind": "inspections",
+        "source_id": "src_26531149c51d7aa3ddf13518",
+        "excerpt": "{\"ambient_temp_c\": 4.5, \"asset_id\": \"WELL-0207\", \"evidence_images\": [\"evidence/WELL-0207/2026-01-01_rgb.jpg\", \"evidence/WELL-0207/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0207-0164\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 36.7}",
+        "path": "assets/WELL-0207/inspections.jsonl"
+      },
+      "ev_3e569704f8ed806d26f33c24": {
+        "id": "ev_3e569704f8ed806d26f33c24",
+        "title": "INS-0224-0167",
+        "source_kind": "inspections",
+        "source_id": "src_f0107b688584498e38d3a354",
+        "excerpt": "{\"ambient_temp_c\": 7.6, \"asset_id\": \"WELL-0224\", \"evidence_images\": [\"evidence/WELL-0224/2026-01-01_rgb.jpg\", \"evidence/WELL-0224/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0224-0167\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 40.9}",
+        "path": "assets/WELL-0224/inspections.jsonl"
+      },
+      "ev_0f1c94cba895c4577752254a": {
+        "id": "ev_0f1c94cba895c4577752254a",
+        "title": "INS-0237-0165",
+        "source_kind": "inspections",
+        "source_id": "src_30315b81d66f34dc5077280a",
+        "excerpt": "{\"ambient_temp_c\": 10.7, \"asset_id\": \"WELL-0237\", \"evidence_images\": [\"evidence/WELL-0237/2026-01-01_rgb.jpg\", \"evidence/WELL-0237/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0237-0165\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 46.7}",
+        "path": "assets/WELL-0237/inspections.jsonl"
+      },
+      "ev_a82203696f87cc845efe9e67": {
+        "id": "ev_a82203696f87cc845efe9e67",
+        "title": "INS-0205-0162",
+        "source_kind": "inspections",
+        "source_id": "src_afbcfa80492ecd551ff3c30e",
+        "excerpt": "{\"ambient_temp_c\": 10.2, \"asset_id\": \"WELL-0205\", \"evidence_images\": [\"evidence/WELL-0205/2026-01-01_rgb.jpg\", \"evidence/WELL-0205/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:45:00Z\", \"inspection_id\": \"INS-0205-0162\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.9}",
+        "path": "assets/WELL-0205/inspections.jsonl"
+      },
+      "ev_ab89ebd3d256cfcf054889b2": {
+        "id": "ev_ab89ebd3d256cfcf054889b2",
+        "title": "INS-0585-0166",
+        "source_kind": "inspections",
+        "source_id": "src_1befd44e4c46cfec5623d84f",
+        "excerpt": "{\"ambient_temp_c\": 5.1, \"asset_id\": \"WELL-0585\", \"evidence_images\": [\"evidence/WELL-0585/2026-01-01_rgb.jpg\", \"evidence/WELL-0585/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0585-0166\", \"inspector_user_id\": \"U-504\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 28.9}",
+        "path": "assets/WELL-0585/inspections.jsonl"
+      },
+      "ev_3968421021e068d4cf56868f": {
+        "id": "ev_3968421021e068d4cf56868f",
+        "title": "INS-0494-0163",
+        "source_kind": "inspections",
+        "source_id": "src_c11dc12ca6de98ee86893040",
+        "excerpt": "{\"ambient_temp_c\": 11.8, \"asset_id\": \"WELL-0494\", \"evidence_images\": [\"evidence/WELL-0494/2026-01-01_rgb.jpg\", \"evidence/WELL-0494/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0494-0163\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.8}",
+        "path": "assets/WELL-0494/inspections.jsonl"
+      },
+      "ev_47b80a05537256e4a0464718": {
+        "id": "ev_47b80a05537256e4a0464718",
+        "title": "INS-0497-0047",
+        "source_kind": "inspections",
+        "source_id": "src_c0ed775dbfd262cc80f2e4f3",
+        "excerpt": "{\"ambient_temp_c\": 7.3, \"asset_id\": \"WELL-0497\", \"evidence_images\": [\"evidence/WELL-0497/2026-01-01_rgb.jpg\", \"evidence/WELL-0497/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0497-0047\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 37.8}",
+        "path": "assets/WELL-0497/inspections.jsonl"
+      },
+      "ev_8ba2ff37264af0afc9f4606a": {
+        "id": "ev_8ba2ff37264af0afc9f4606a",
+        "title": "INS-0549-0114",
+        "source_kind": "inspections",
+        "source_id": "src_44a6a2788f2c42a04d11ba2d",
+        "excerpt": "{\"ambient_temp_c\": 10.8, \"asset_id\": \"WELL-0549\", \"evidence_images\": [\"evidence/WELL-0549/2026-01-01_rgb.jpg\", \"evidence/WELL-0549/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0549-0114\", \"inspector_user_id\": \"U-502\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 44.2}",
+        "path": "assets/WELL-0549/inspections.jsonl"
+      },
+      "ev_93832ff8a6f8e40e20237d25": {
+        "id": "ev_93832ff8a6f8e40e20237d25",
+        "title": "INS-0597-0164",
+        "source_kind": "inspections",
+        "source_id": "src_97ea4f48b1f6bea2f308c9dd",
+        "excerpt": "{\"ambient_temp_c\": 5.0, \"asset_id\": \"WELL-0597\", \"evidence_images\": [\"evidence/WELL-0597/2026-01-01_rgb.jpg\", \"evidence/WELL-0597/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0597-0164\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 40.6}",
+        "path": "assets/WELL-0597/inspections.jsonl"
+      },
+      "ev_33f5fe6aa09df7db05b7b3ee": {
+        "id": "ev_33f5fe6aa09df7db05b7b3ee",
+        "title": "INS-0488-0165",
+        "source_kind": "inspections",
+        "source_id": "src_3fb14401e6893a17857823ba",
+        "excerpt": "{\"ambient_temp_c\": 7.5, \"asset_id\": \"WELL-0488\", \"evidence_images\": [\"evidence/WELL-0488/2026-01-01_rgb.jpg\", \"evidence/WELL-0488/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0488-0165\", \"inspector_user_id\": \"U-503\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.9}",
+        "path": "assets/WELL-0488/inspections.jsonl"
+      },
+      "ev_03b28cb65fce09ac6783f526": {
+        "id": "ev_03b28cb65fce09ac6783f526",
+        "title": "INS-0010-0165",
+        "source_kind": "inspections",
+        "source_id": "src_01c73e126de581aa042d7bc5",
+        "excerpt": "{\"ambient_temp_c\": 11.8, \"asset_id\": \"WELL-0010\", \"evidence_images\": [\"evidence/WELL-0010/2026-01-01_rgb.jpg\", \"evidence/WELL-0010/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0010-0165\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 34.4}",
+        "path": "assets/WELL-0010/inspections.jsonl"
+      },
+      "ev_c4ca0376f69f184af85f5ff2": {
+        "id": "ev_c4ca0376f69f184af85f5ff2",
+        "title": "INS-0015-0165",
+        "source_kind": "inspections",
+        "source_id": "src_fb0fa9bd28ea3db96f619c82",
+        "excerpt": "{\"ambient_temp_c\": 9.6, \"asset_id\": \"WELL-0015\", \"evidence_images\": [\"evidence/WELL-0015/2026-01-01_rgb.jpg\", \"evidence/WELL-0015/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0015-0165\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 39.1}",
+        "path": "assets/WELL-0015/inspections.jsonl"
+      },
+      "ev_4868da4527f209d688b0e0bf": {
+        "id": "ev_4868da4527f209d688b0e0bf",
+        "title": "INS-0021-0167",
+        "source_kind": "inspections",
+        "source_id": "src_54e0eccac8dadde98db84b5b",
+        "excerpt": "{\"ambient_temp_c\": 12.3, \"asset_id\": \"WELL-0021\", \"evidence_images\": [\"evidence/WELL-0021/2026-01-01_rgb.jpg\", \"evidence/WELL-0021/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0021-0167\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 42.5}",
+        "path": "assets/WELL-0021/inspections.jsonl"
+      },
+      "ev_6173cf8cc99a3287fe4e57f4": {
+        "id": "ev_6173cf8cc99a3287fe4e57f4",
+        "title": "INS-0009-0164",
+        "source_kind": "inspections",
+        "source_id": "src_1fc6519f63808ee6fdb62837",
+        "excerpt": "{\"ambient_temp_c\": 11.9, \"asset_id\": \"WELL-0009\", \"evidence_images\": [\"evidence/WELL-0009/2026-01-01_rgb.jpg\", \"evidence/WELL-0009/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T08:00:00Z\", \"inspection_id\": \"INS-0009-0164\", \"inspector_user_id\": \"U-102\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 43.3}",
+        "path": "assets/WELL-0009/inspections.jsonl"
+      },
+      "ev_11fbb570b57e08842b91b0ad": {
+        "id": "ev_11fbb570b57e08842b91b0ad",
+        "title": "INS-0299-0165",
+        "source_kind": "inspections",
+        "source_id": "src_15e93f092a33685440275717",
+        "excerpt": "{\"ambient_temp_c\": 10.5, \"asset_id\": \"WELL-0299\", \"evidence_images\": [\"evidence/WELL-0299/2026-01-01_rgb.jpg\", \"evidence/WELL-0299/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:00:00Z\", \"inspection_id\": \"INS-0299-0165\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 46.1}",
+        "path": "assets/WELL-0299/inspections.jsonl"
+      },
+      "ev_d0150cda7388501537477326": {
+        "id": "ev_d0150cda7388501537477326",
+        "title": "INS-0287-0164",
+        "source_kind": "inspections",
+        "source_id": "src_965ec61eed61fef3b002fee7",
+        "excerpt": "{\"ambient_temp_c\": 8.7, \"asset_id\": \"WELL-0287\", \"evidence_images\": [\"evidence/WELL-0287/2026-01-01_rgb.jpg\", \"evidence/WELL-0287/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T09:15:00Z\", \"inspection_id\": \"INS-0287-0164\", \"inspector_user_id\": \"U-102\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 45.5}",
+        "path": "assets/WELL-0287/inspections.jsonl"
+      },
+      "ev_315805fc66282d3bbb0c9f80": {
+        "id": "ev_315805fc66282d3bbb0c9f80",
+        "title": "INS-0082-0163",
+        "source_kind": "inspections",
+        "source_id": "src_13c4696b101ec81c01e31977",
+        "excerpt": "{\"ambient_temp_c\": 6.6, \"asset_id\": \"WELL-0082\", \"evidence_images\": [\"evidence/WELL-0082/2026-01-01_rgb.jpg\", \"evidence/WELL-0082/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0082-0163\", \"inspector_user_id\": \"U-104\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 29.4}",
+        "path": "assets/WELL-0082/inspections.jsonl"
+      },
+      "ev_0224291272ab05b1859e284f": {
+        "id": "ev_0224291272ab05b1859e284f",
+        "title": "INS-0051-0164",
+        "source_kind": "inspections",
+        "source_id": "src_d8f2c7b9d854edf4f49e7976",
+        "excerpt": "{\"ambient_temp_c\": 9.3, \"asset_id\": \"WELL-0051\", \"evidence_images\": [\"evidence/WELL-0051/2026-01-01_rgb.jpg\", \"evidence/WELL-0051/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:45:00Z\", \"inspection_id\": \"INS-0051-0164\", \"inspector_user_id\": \"U-102\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 41.9}",
+        "path": "assets/WELL-0051/inspections.jsonl"
+      },
+      "ev_aaa2d588695167569a36e4b6": {
+        "id": "ev_aaa2d588695167569a36e4b6",
+        "title": "INS-0054-0165",
+        "source_kind": "inspections",
+        "source_id": "src_883d9e506e136584ebd2acf1",
+        "excerpt": "{\"ambient_temp_c\": 10.8, \"asset_id\": \"WELL-0054\", \"evidence_images\": [\"evidence/WELL-0054/2026-01-01_rgb.jpg\", \"evidence/WELL-0054/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:15:00Z\", \"inspection_id\": \"INS-0054-0165\", \"inspector_user_id\": \"U-104\", \"method\": \"manual\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 48.3}",
+        "path": "assets/WELL-0054/inspections.jsonl"
+      },
+      "ev_f110897c6d8716c40a66e243": {
+        "id": "ev_f110897c6d8716c40a66e243",
+        "title": "INS-0093-0163",
+        "source_kind": "inspections",
+        "source_id": "src_267104dbffd3beeed9c28fb9",
+        "excerpt": "{\"ambient_temp_c\": 10.7, \"asset_id\": \"WELL-0093\", \"evidence_images\": [\"evidence/WELL-0093/2026-01-01_rgb.jpg\", \"evidence/WELL-0093/2026-01-01_thermal.jpg\"], \"inspected_at\": \"2026-01-01T07:30:00Z\", \"inspection_id\": \"INS-0093-0163\", \"inspector_user_id\": \"U-103\", \"method\": \"drone\", \"notes\": \"\", \"spill_area_pct\": null, \"spill_detected\": false, \"spill_est_volume_bbl\": null, \"wellhead_temp_c\": 35.8}",
+        "path": "assets/WELL-0093/inspections.jsonl"
+      },
+      "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca": {
+        "id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "title": "Observation reported by Nathan Pierce",
+        "source_kind": "shared_knowledge",
+        "source_id": "memory:f8da1d07-fc0c-4989-93c7-24de35ec18ca",
+        "excerpt": "A pump replacement was performed on 2027-01-14, pending system documentation. [attributed]",
+        "author": "Nathan Pierce",
+        "source_time": "2026-10-17T11:57:27.997895+00:00"
+      },
+      "chunk_ab6b6c89f5ca6e4f94906b14": {
+        "id": "chunk_ab6b6c89f5ca6e4f94906b14",
+        "title": "1. Purpose",
+        "source_kind": "sop",
+        "source_id": "src_d4003588cbb9d4d2cb89c135",
+        "excerpt": "Defines how maintenance crews prepare for, carry out, test and close out work on a well:\nthe pump jack, rod string, downhole pump, wellhead, flowline and separator. Every\nmaintenance report must include a compliance check against the protocols below.",
+        "path": "fleet/sops/field-work-sop.md"
+      },
+      "chunk_d8887e08405f02f4d3fbe6ee": {
+        "id": "chunk_d8887e08405f02f4d3fbe6ee",
+        "title": "4. Typical work by equipment",
+        "source_kind": "sop",
+        "source_id": "src_d4003588cbb9d4d2cb89c135",
+        "excerpt": "| Equipment | Usual problems | Usual work |\n|---|---|---|\n| Pump jack | Bearing wear, gearbox oil leaks, prime mover (electric motor) trips or failure, belt wear | Replace bearings or seals, change gearbox oil, rewind or replace motor, re-tension belts, check counterbalance |\n| Rod string | Parted (broken) sucker rod | Workover rig pulls rods, fishing tool recovers the broken part, damaged rods replaced |\n| Downhole pump | Stuck or worn pump | Workover rig pulls rods and pump, pump replaced, well tested |\n| Wellhead | Stuffing box packing leak, valve wear | Replace packing, service or replace valves, pressure test |\n| Flowline | Corrosion pinhole leaks, coupling failures | Clamp or replace the",
+        "path": "fleet/sops/field-work-sop.md"
+      },
+      "chunk_c27b0520d50c6a2350c19e03": {
+        "id": "chunk_c27b0520d50c6a2350c19e03",
+        "title": "3. Protocols",
+        "source_kind": "sop",
+        "source_id": "src_d4003588cbb9d4d2cb89c135",
+        "excerpt": "| Protocol ID | Requirement |\n|---|---|\n| **WS-01** | Hold and record a **pre-job safety meeting** (job safety analysis) with the whole crew before any work starts. |\n| **WS-02** | **Isolate energy** before touching moving or pressurised equipment. Stop the prime mover at the bottom of the stroke, set and chain the brake, lock and tag the motor disconnect, close and tag the wellhead wing valve, and bleed trapped pressure. Remove locks only after the crew lead confirms everyone is clear. |\n| **WS-03** | Every crew member wears a **personal H2S monitor**, bump-tested that day. If any monitor reads **10 ppm or more**, stop work, move upwind, and do not return until readings are below 10 ppm",
+        "path": "fleet/sops/field-work-sop.md"
+      }
+    },
+    "warnings": [
+      "Missing records do not independently prove real-world inaction; calendar reference date supplies no time of day.",
+      "Means are inspection-weighted observed temperatures, not flow volumes or reservoir pressure. Compare same type and producing state; absolute wellhead heat also reflects ambient weather. Monthly hottest counts allow ties and use only months with another area of that type; unmatched type/area coverage is not field-wide consistency.",
+      "Ranked lexical retrieval cannot prove a fleet total or source absence",
+      "Report prose may predate corrections; a lexical hit does not confirm effective spill detection or current classification",
+      "The explanation is incomplete; the panels contain verified records."
+    ],
+    "sample": false,
+    "generation": {
+      "status": "partial",
+      "model": "gemini-3.5-flash-lite",
+      "live": false,
+      "verified_tool_data": true,
+      "explanation_error_code": "unsupported_narrative_number",
+      "retry_after": null,
+      "calls": [
+        {
+          "stage": "planner",
+          "usage": {
+            "input_tokens": 3204,
+            "output_tokens": 293,
+            "total_tokens": 3497,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 394,
+          "live": true
+        },
+        {
+          "stage": "maker",
+          "usage": {
+            "input_tokens": 3276,
+            "output_tokens": 903,
+            "total_tokens": 4179,
+            "input_token_details": {
+              "cache_read": 0
+            },
+            "adapter": "langchain-google-genai",
+            "finish_reason": "STOP"
+          },
+          "call_id": 402,
+          "live": true
+        }
+      ]
+    },
+    "budget": {
+      "method": "google_sdk_countTokens",
+      "long_term": 179,
+      "long_term_cap": 2000,
+      "long_term_byte_cap": 8000,
+      "short_term": 49,
+      "short_term_cap": 1000,
+      "omitted_private": 1,
+      "omitted_shared": 0,
+      "omitted_dialogue": 0,
+      "omitted_reference_handles": 0,
+      "slot_measurements": {
+        "long_term": {
+          "count": 179,
+          "cap": 2000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        },
+        "short_term": {
+          "count": 49,
+          "cap": 1000,
+          "method": "google_sdk_countTokens",
+          "omitted_items": 0
+        }
+      },
+      "retrieved_context": 1604,
+      "retrieved_cap": 2000,
+      "candidate_byte_cap": 8000,
+      "omitted_evidence_or_rows": 55,
+      "partial_evidence": true,
+      "token_fit_omitted": 10,
+      "content_cap": 5000
+    }
+  },
+  "saved_user_message": true,
+  "saved_assistant_message": true,
+  "finished_at": "2026-10-17T12:09:04.057993+00:00",
+  "stages": [
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "message": "Loading your conversation references and current shared knowledge"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4b2a5582-2fae-4395-99ef-0e28b1e92446",
+      "stage": "read_context",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:32.503506+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4b2a5582-2fae-4395-99ef-0e28b1e92446",
+      "stage": "read_context",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:32.523378+00:00",
+      "operation": "read_context",
+      "tool_name": "read_context",
+      "message": "Read Context completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:392",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:32.542954+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:33.040690+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:392",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:33.544403+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:34.041593+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:392",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:34.545939+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:35.043002+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:392",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:35.546748+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:36.044694+00:00",
+      "reason": "higher_priority_or_earlier_request",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:392",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:08:36.548801+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:08:36.548785+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "message": "Planning scoped data queries and checking useful remembered facts"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "abb6d1d2-e546-436f-932f-84f40dd01924",
+      "stage": "planner",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:36.811403+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:394",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:37.117707+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:08:39.019301+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:394",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:08:53.990647+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:08:53.990625+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "abb6d1d2-e546-436f-932f-84f40dd01924",
+      "stage": "planner",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:55.797356+00:00",
+      "operation": "planner",
+      "tool_name": null,
+      "message": "Planner completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "492168b2-f4dc-473b-9ed5-bb7ca2233bfd",
+      "stage": "query_records",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:55.816602+00:00",
+      "operation": "inspections.temperature_profile",
+      "tool_name": "query_records",
+      "message": "Query Records started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "492168b2-f4dc-473b-9ed5-bb7ca2233bfd",
+      "stage": "query_records",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.385176+00:00",
+      "operation": "inspections.temperature_profile",
+      "tool_name": "query_records",
+      "message": "Query Records completed",
+      "asset_ids": [
+        "WELL-0001",
+        "WELL-0002",
+        "WELL-0003",
+        "WELL-0004",
+        "WELL-0005"
+      ],
+      "result_count": 20
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "message": "Calculating complete effective results and resolving their sources"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "350c3a85-be78-4608-914e-b340b5c9ea52",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.399264+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "350c3a85-be78-4608-914e-b340b5c9ea52",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.404469+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "454a4f96-df1c-499f-bb98-a0dbe1d70ecd",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.415197+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "454a4f96-df1c-499f-bb98-a0dbe1d70ecd",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.420496+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "cc0bc27b-2150-4ad4-b93b-7a30daf1de67",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.432199+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "cc0bc27b-2150-4ad4-b93b-7a30daf1de67",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.438365+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "0473d8df-6a49-4252-8b5b-8b8f92fb7b6c",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.450103+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "0473d8df-6a49-4252-8b5b-8b8f92fb7b6c",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.455585+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7653a75b-e65f-4a8a-8c0b-457b60204813",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.467476+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7653a75b-e65f-4a8a-8c0b-457b60204813",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.473992+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "377651f2-0696-46de-b583-32c49e7d2983",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.485330+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "377651f2-0696-46de-b583-32c49e7d2983",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.940975+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "34d48850-3903-494a-ac18-bd7381068f95",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.985878+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "34d48850-3903-494a-ac18-bd7381068f95",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:56.995501+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "572724df-bea6-4a2f-b3b1-9097c4aa3527",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.012991+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "572724df-bea6-4a2f-b3b1-9097c4aa3527",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.021331+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "606d7df0-2eb3-4483-bcf2-02a1555dddf4",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.036847+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "606d7df0-2eb3-4483-bcf2-02a1555dddf4",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.043259+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "21ce15d3-7354-4495-8db0-5410dd2aa00d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.059013+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "21ce15d3-7354-4495-8db0-5410dd2aa00d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.065525+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "1b60f0c8-8d80-490f-8e54-0de93d178354",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.079889+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "1b60f0c8-8d80-490f-8e54-0de93d178354",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.086688+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "6569150c-48b5-407d-9be7-b82776f5a716",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.101207+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "6569150c-48b5-407d-9be7-b82776f5a716",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.107864+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4a61c915-3381-482b-84ee-357d961b6058",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.121176+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4a61c915-3381-482b-84ee-357d961b6058",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.126651+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "fb025172-c8fc-40e6-95a4-59f0ba019305",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.138450+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "fb025172-c8fc-40e6-95a4-59f0ba019305",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.143661+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "8c55b318-77cc-4a26-a30e-0ad595a4b45a",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.157007+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "8c55b318-77cc-4a26-a30e-0ad595a4b45a",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.165965+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7e975d2e-4a5b-4b3b-8ab7-431069ae13e7",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.178897+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7e975d2e-4a5b-4b3b-8ab7-431069ae13e7",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.184444+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "f47f7338-530d-441b-a8d0-8b559089543f",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.197466+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "f47f7338-530d-441b-a8d0-8b559089543f",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.203177+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "37eb2912-d6d2-47bf-87aa-d91126ea27fc",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.216946+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "37eb2912-d6d2-47bf-87aa-d91126ea27fc",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.223384+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9cd9d101-5793-4298-91e9-c75ad86c0ccf",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.235456+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9cd9d101-5793-4298-91e9-c75ad86c0ccf",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.241603+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "2882435b-9335-400c-9b43-c5e293f210e9",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.253923+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "2882435b-9335-400c-9b43-c5e293f210e9",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.259595+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "a821c452-c1d9-4c28-8a0f-9b3f679a2ad0",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.273384+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "a821c452-c1d9-4c28-8a0f-9b3f679a2ad0",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.280553+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "2240e5c8-648a-469f-b369-90558a8e60ad",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.297731+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "2240e5c8-648a-469f-b369-90558a8e60ad",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.304872+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "d379462a-1110-46e4-9bd0-17612da3c7a5",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.318499+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "d379462a-1110-46e4-9bd0-17612da3c7a5",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.325363+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7b9eac54-7488-4adf-952a-3034f98fea98",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.340708+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7b9eac54-7488-4adf-952a-3034f98fea98",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.346821+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "99fc1380-d2c1-42bd-ab69-301156056ae3",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.361506+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "99fc1380-d2c1-42bd-ab69-301156056ae3",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.368187+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "144f572e-22d0-4ef0-bcba-904f254018fb",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.383528+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "144f572e-22d0-4ef0-bcba-904f254018fb",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.389052+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "c6080369-9619-4dae-93a7-9979f3ebb57d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.401015+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "c6080369-9619-4dae-93a7-9979f3ebb57d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.406562+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9769d489-44a3-4f0b-a442-a520d4bae64d",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.421485+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9769d489-44a3-4f0b-a442-a520d4bae64d",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.427371+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "f72e5ac7-3f85-4173-9fca-4ebbe8158a28",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.439691+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "f72e5ac7-3f85-4173-9fca-4ebbe8158a28",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.445855+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "487927c0-5e68-4d6a-ac05-18f287f95b48",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.461346+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "487927c0-5e68-4d6a-ac05-18f287f95b48",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.467321+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "278c9546-9bf4-462f-9523-7ccd545ccd7e",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.482925+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "278c9546-9bf4-462f-9523-7ccd545ccd7e",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.488594+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "daabc056-363f-4c4d-9fbc-b79313e3392c",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.503028+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "daabc056-363f-4c4d-9fbc-b79313e3392c",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.509358+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "936f95d6-f01d-4d16-a88a-a59bf0b59d72",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.527537+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "936f95d6-f01d-4d16-a88a-a59bf0b59d72",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.538291+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "10b2eace-d7f7-4450-aece-ee26ff753795",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.555802+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "10b2eace-d7f7-4450-aece-ee26ff753795",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.562335+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4e6bc8eb-9153-4b0c-926d-8d111d19072a",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.577511+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4e6bc8eb-9153-4b0c-926d-8d111d19072a",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.583218+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "cc2f7f9d-c5cd-44d8-ac31-256f0a396721",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.596872+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "cc2f7f9d-c5cd-44d8-ac31-256f0a396721",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.602375+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "a6f3317b-c17e-4de9-868f-6a6782eb1997",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.614171+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "a6f3317b-c17e-4de9-868f-6a6782eb1997",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.620446+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7639117e-7ca9-4092-bd92-1966ffe72be7",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.639389+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "7639117e-7ca9-4092-bd92-1966ffe72be7",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.646055+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9b1e9777-8a27-4562-b2eb-cb8202b7640e",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.660068+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "9b1e9777-8a27-4562-b2eb-cb8202b7640e",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.667369+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "5cc91847-1b08-40d3-a6d9-801970f14aa6",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.694628+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "5cc91847-1b08-40d3-a6d9-801970f14aa6",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.701744+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "67668174-22b8-4ab1-bb69-e28b24fac54c",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.718921+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "67668174-22b8-4ab1-bb69-e28b24fac54c",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.727896+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "ae5be165-1aa4-497d-859e-7a63f6565dd8",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.742536+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "ae5be165-1aa4-497d-859e-7a63f6565dd8",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.748768+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "d89ec951-90a6-483a-ab04-65b8d25821c7",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.762037+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "d89ec951-90a6-483a-ab04-65b8d25821c7",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.770957+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "71015a66-8fef-4bdc-8d8e-fdb370c05bf5",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.782332+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "71015a66-8fef-4bdc-8d8e-fdb370c05bf5",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.787597+00:00",
+      "operation": "read_evidence",
+      "tool_name": "read_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "5fa2b6d0-9871-4c37-9b48-c4cbebb10c6c",
+      "stage": "read_evidence",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.803711+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "5fa2b6d0-9871-4c37-9b48-c4cbebb10c6c",
+      "stage": "read_evidence",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:57.925237+00:00",
+      "operation": "read_evidence",
+      "tool_name": "search_evidence",
+      "message": "Read Evidence completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "message": "Preparing the evidence-grounded answer and inline panels"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "6e814d4f-90fc-4a66-a47d-04d70f37a722",
+      "stage": "maker",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:08:58.531865+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:402",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "started",
+      "timestamp": "2026-10-17T12:08:58.789994+00:00",
+      "queue_state": "queued",
+      "retry_at": "2026-10-17T12:09:00.739829+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Waiting for shared model quota"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "quota:402",
+      "stage": "quota_wait",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "status": "completed",
+      "timestamp": "2026-10-17T12:09:00.745764+00:00",
+      "queue_state": "admitted",
+      "retry_at": "2026-10-17T12:09:00.745718+00:00",
+      "reason": "request_rate",
+      "priority": 0,
+      "message": "Model request admitted"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "6e814d4f-90fc-4a66-a47d-04d70f37a722",
+      "stage": "maker",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:09:03.497899+00:00",
+      "operation": "maker",
+      "tool_name": null,
+      "message": "Maker completed"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4797fbe3-16fc-4371-aca8-f889d035b0e4",
+      "stage": "validation",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:09:03.508835+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "4797fbe3-16fc-4371-aca8-f889d035b0e4",
+      "stage": "validation",
+      "status": "failed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:09:03.514485+00:00",
+      "operation": "validation",
+      "tool_name": null,
+      "message": "Validation failed",
+      "error_code": "unsupported_narrative_number"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "38dd1ea6-b69a-4eaf-a7da-5b3dc40f817f",
+      "stage": "publish",
+      "status": "started",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:09:03.519874+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish started"
+    },
+    {
+      "run_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "stage_id": "38dd1ea6-b69a-4eaf-a7da-5b3dc40f817f",
+      "stage": "publish",
+      "status": "completed",
+      "attempt_id": "39bf4c7a-2162-43c7-a5ba-ee6df0180588",
+      "timestamp": "2026-10-17T12:09:03.532575+00:00",
+      "operation": "publish",
+      "tool_name": null,
+      "message": "Publish completed"
+    }
+  ]
+}

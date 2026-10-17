@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/FlytBaseAILabs/flytbase-ahc-swe-asset-intelligence-dataset",
+  "commit": "009e2b596782150f420021f9472ab37e3a2953ee",
+  "local_path": "dataset",
+  "license": "MIT",
+  "previous_commit": "b8de8c9bd68f40334e5d06922126169e4f3bf3ca",
+  "active_dataset_path": "dataset/test-data/dataset",
+  "sample_dataset_path": "dataset/sample-data",
+  "reference_date": "2027-01-15",
+  "release_notes": "dataset/test-data/README.md",
+  "final_questions": "dataset/test-data/final-questions.md"
+}

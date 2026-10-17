@@ -1,0 +1,12 @@
+%% Proposed alternative. No Intelligence service is required on this TS path.
+flowchart LR
+  U[React CopilotKit chat] --> RT[Self-hosted TypeScript Copilot Runtime]
+  RT -->|AG-UI request| PY[Python AG-UI agent adapter]
+  PY --> C[Bounded chain and exact tools]
+  C --> D[ResultSets and EvidenceRefs]
+  D --> V[Validated AnswerEnvelope]
+  V -->|AG-UI custom or state events| RT
+  RT --> R[Registered AnswerDashboard renderer]
+  R --> B[Narrative plus multiple typed panels]
+  RT -. optional separate product .-> I[CopilotKit Intelligence]
+  NOTE[Current native Python Copilot Runtime requires Intelligence] -. deployment distinction .-> I
